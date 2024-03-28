@@ -17,10 +17,12 @@ return new class extends Migration
             $table->string('description');
             $table->string('image');
             $table->string('highlight_text');
-            $table->string('time_from')->nullable();
-            $table->string('time_to')->nullable();
             $table->string('button_name')->nullable();
             $table->string('button_url')->nullable();
+            $table->timestamp('time_from')->nullable();
+            $table->timestamp('time_to')->nullable();
+            $table->integer('priority')->nullable();
+            $table->boolean('is_visible')->default(0);
             $table->timestamps();
         });
     }
