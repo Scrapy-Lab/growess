@@ -7,11 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('/home/nityanand/project/growess/public/css/header.css') }}" rel="stylesheet">
 </head>
 
 <body>
-
-
     @include('layouts.header')
     @yield('content')
     @include('layouts.footer')
