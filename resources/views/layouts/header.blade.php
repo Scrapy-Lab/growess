@@ -1,7 +1,7 @@
 <div class="page_layout">
     <div class="header">
         <a href="#">
-            <img src="/assets/rozrpay-logo.png" w="5" h="5" alt="logo" class="rozarpay_logo"/>
+            <img src="/assets/rozrpay-logo.jpg" w="5" h="5" alt="logo" class="rozarpay_logo"/>
         </a>
         <div class="navbar">
             <div class="dropdown">
