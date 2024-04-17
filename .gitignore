@@ -6,6 +6,8 @@
 /storage/*.key
 /vendor
 composer.lock
+/public/js/filament/*
+composer.json
 .env
 .env.backup
 .env.production
