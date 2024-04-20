@@ -46,7 +46,7 @@
                         <button class="button">Dynamic website</button>
                         <button class="button">Static website</button>
                     </div>
-                </div>      
+                </div>
             </div>
             <div class="box_1">
                 <img src="/assets/giphy (2).webp" alt="My Logo" w="10" h="10" />
@@ -124,26 +124,26 @@
             <div class="google_container" id="content1">
                 <p class="google_headline">Google Ads gives you many ways to be seen</p>
                 <div class="list_card ">
-                    <div class="menu-bar">
-                        <div class="menu tablinks active" onclick="tab(event, 'tab1')">
+                    <div class="menu_bar">
+                        <div class="menuAds tablinks active" onclick="tab(event, 'tab1')">
                             <img src="/assets/search.png" w="5" h="5" alt="logo"/>
                             <span>Search</span>
                         </div>
-                        <div class="menu tablinks" onclick="tab(event, 'tab2')">
+                        <div class="menuAds tablinks" onclick="tab(event, 'tab2')">
                             <img src="/assets/display.png" w="5" h="5" alt="logo"/>
                             <span>Display</span>
                         </div>
-                        <div class="menu tablinks" onclick="tab(event, 'tab3')">
+                        <div class="menuAds tablinks" onclick="tab(event, 'tab3')">
                             <img src="/assets/shopping.png" w="5" h="5" alt="logo"/>
                                 <span>Shopping</span>
                         </div>
-                        <div class="menu tablinks" onclick="tab(event, 'tab4')">
+                        <div class="menuAds tablinks" onclick="tab(event, 'tab4')">
                             <img src="/assets/video.png" w="5" h="5" alt="logo"/>
-                                <span>Video</span> 
+                                <span>Video</span>
                         </div>
-                        <div class="menu tablinks" onclick="tab(event, 'tab5')">
+                        <div class="menuAds tablinks" onclick="tab(event, 'tab5')">
                             <img src="/assets/app.png" w="5" h="5" alt="logo"/>
-                                <span>App</span> 
+                                <span>App</span>
                         </div>
                     </div>
                     <div class="tab-name" id="tab1">
@@ -220,7 +220,7 @@
                     <ol>&#11088; Projects & Assignments</ol>
                 </ul>
                 <a href="#" class="explore_courses">Explore Courses ↗</a>
-            </div>  
+            </div>
         </div>
-        
+
 @endsection
