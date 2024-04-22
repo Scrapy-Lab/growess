@@ -72,8 +72,38 @@
         var innerPopup = document.getElementById('innerPopup');
         innerPopup.style.display = 'none';
     }
+    document.addEventListener("DOMContentLoaded", function() {
+    var tabNavItems = document.querySelectorAll(".tab_nav li");
+
+    tabNavItems.forEach(function(item) {
+        item.addEventListener("click", function() {
+            var tab = this.getAttribute("data-tab");
+
+            // Remove 'active' class from all tab nav items
+            tabNavItems.forEach(function(navItem) {
+                navItem.classList.remove('show');
+            });
+
+            // Add 'active' class to the clicked tab nav item
+            this.classList.add('show');
+
+            // Remove 'active' class from all content divs
+            var contentDivs = document.querySelectorAll('.contents > div');
+            contentDivs.forEach(function(contentDiv) {
+                contentDiv.classList.remove('show');
+            });
+
+            // Add 'active' class to the content div corresponding to the clicked tab
+            var tabContent = document.querySelector('.contents > div#' + tab);
+            if (tabContent) {
+                tabContent.classList.add('show');
+            }
+        });
+    });
+});
+
   </script>
-<body>
+<body style="background: #f6f9fad4;">
     @include('layouts.header')
     @yield('content')
     @include('layouts.footer')
