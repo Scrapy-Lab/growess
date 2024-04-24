@@ -44,9 +44,13 @@
 
                     <div class="row">
                         @forelse ($sub_services as $sub_service)
-                            <div  class="col-md-6"><button class="button" wire:click="service_products({{ $sub_service->id }})"
+                            <div  class="col-md-6">
+
+                                <button class="button" wire:click="service_products({{ $sub_service->id }})"
                                     data-bs-target="#exampleModalToggle2"
-                                    data-bs-toggle="modal">{{ $sub_service->name }}</button></div>
+                                    data-bs-toggle="modal">{{ $sub_service->name }}</button>
+
+                                </div>
                         @empty
                         @endforelse
                     </div>
