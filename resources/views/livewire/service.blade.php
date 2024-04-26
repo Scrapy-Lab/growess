@@ -31,7 +31,7 @@
         <p class="box_headline">get instant quote</p>
         <button id="openOuterPopupBtn" wire:click="sub_service(4)" data-bs-toggle="modal"
         data-bs-target="#modal_sub_services" class="btn btn-success rounded-pill"
-            onclick="openOuterPopup()"style="background: #288d0c">Click here</button>s
+            onclick="openOuterPopup()"style="background: #288d0c">Click here</button>
     </div>
 
     <x-modal  :sub_services="$sub_services" :modalTitle="$modalTitle" :subModalTitle="$subModalTitle"  :products="$products">

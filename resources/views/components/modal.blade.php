@@ -45,7 +45,7 @@
                     <div class="row">
                         @forelse ($sub_services as $sub_service)
                             <div  class="col-md-6">
-
+                            <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
                                 <button class="button" wire:click="service_products({{ $sub_service->id }})"
                                     data-bs-target="#exampleModalToggle2"
                                     data-bs-toggle="modal">{{ $sub_service->name }}</button>
@@ -77,7 +77,7 @@
                         <div class="row">
                             @forelse ($products as $product)
                             <label for="{{ $product->product_name }}">{{ $product->product_name }}</label>
-                                <input type="checkbox" product_name="{{ $product->product_name }}" id="{{ $product->product_name }}">
+                            <input type="checkbox" product_name="{{ $product->product_name }}" id="{{ $product->product_name }}">
                             @empty
                             @endforelse
                         </div>

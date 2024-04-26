@@ -4,16 +4,13 @@
         <span style="color:rgb(0 0 0);font-size:46px;font-weight:500 !important;line-height:28px">Get Amazing </span>
         <div class="slidingVertical">
            @foreach ($services as $key => $service )
-
-
-            <span style="color: {{$colors[$key]}}">{{strtoupper($service->name)}}</span>
+            <span  style="color: {{$colors[$key]}}">{{strtoupper($service->name)}}</span>
             @endforeach
             {{-- <span>LEAD GENERATION</span>
             <span>DIGITAL MARKETING</span>
             <span>SOFTWARE</span>
             <span>Application</span> --}}
         </div>
-
     </div>
 
     {{-- @dd($services) --}}
