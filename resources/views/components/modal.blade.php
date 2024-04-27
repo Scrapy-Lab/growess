@@ -35,16 +35,15 @@
     aria-labelledby="exampleModalToggleLabel" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header text-capitalize">
                 <h1 class="modal-title fs-5" id="exampleModalToggleLabel">{{ $modalTitle }}</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <div class="container text-center">
-
                     <div class="row">
                         @forelse ($sub_services as $sub_service)
-                            <div  class="col-md-6">
+                            <div class="col-md-6 model_pop_up">
                             <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
                                 <button class="button" wire:click="service_products({{ $sub_service->id }})"
                                     data-bs-target="#exampleModalToggle2"
@@ -67,7 +66,7 @@
     tabindex="-1">
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header text-capitalize">
                 <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">{{ $subModalTitle }}</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
@@ -76,15 +75,15 @@
                     <div class="col-md-6 border-end">
                         <div class="row">
                             @forelse ($products as $product)
-                            <label for="{{ $product->product_name }}">{{ $product->product_name }}</label>
-                            <input type="checkbox" product_name="{{ $product->product_name }}" id="{{ $product->product_name }}">
+                            <div class="form-check check_input">
+                                <input type="checkbox" product_name="{{ $product->product_name }}" id="{{ $product->product_name }}">
+                                <label class="text-capitalize" for="{{ $product->product_name }}">{{ $product->product_name }}</label>
+                                <label for="radio1">&#8377; 400</label>
+                            </div>
                             @empty
                             @endforelse
                         </div>
                     </div>
-                    <div class="col-md-6"></div>
-
-
                 </div>
             </div>
             {{-- <div class="modal-footer">
