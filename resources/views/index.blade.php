@@ -5,7 +5,7 @@
     <!-- Components for button boxes  -->
     @livewire('service')
         <!-- Toggle button -->
-        <div class="gap">
+        <div class="gap" style="background: #f1fffb !important">
             <div class="switches-container">
                 <input type="radio" id="switchMonthly" name="switchPlan" value="Google Ad Preview" checked="checked"
                     onclick="toggleContainers()" />
@@ -23,7 +23,7 @@
         <!-- Google ads -->
             <div id="container1">
                 <div class="google_container" id="content1">
-                    <p class="google_headline">Google Ads gives you many ways to be seen</p>
+                    <!-- <p class="google_headline">Google Ads gives you many ways to be seen</p> -->
                     <div class="list_card ">
                         <div class="menu_bar">
                             <div class="menuAds tablinks active" onclick="tab(event, 'tab1')">
