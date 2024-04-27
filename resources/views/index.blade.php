@@ -537,5 +537,7 @@
                     <div>23 <span style="color: #0d6efd">M+</span><br><span style="font-size: 16px;color: #adadb1;text-transform:capitalize">organisations</span></div>
                     <div>12.4 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;color: #adadb1;text-transform:capitalize">Countries</span></div>
                 </div>
+            </div>
         </div>
+        
     @endsection
