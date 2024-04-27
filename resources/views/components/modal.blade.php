@@ -78,7 +78,7 @@
                             <div class="form-check check_input">
                                 <input type="checkbox" product_name="{{ $product->product_name }}" id="{{ $product->product_name }}">
                                 <label class="text-capitalize" for="{{ $product->product_name }}">{{ $product->product_name }}</label>
-                                <label for="radio1">&#8377; 400</label>
+                                <label for="radio1">&#8377; 400/Mon</label>
                             </div>
                             @empty
                             @endforelse

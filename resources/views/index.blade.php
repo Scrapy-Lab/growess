@@ -121,21 +121,21 @@
                     been looking for </div>
                 <nav>
                     <ul>
-                        <li>With Razorpay, you can:</li>
+                        <li>We Provide Complete:</li>
                         <li>
-                            <div>accept payments</div>
+                            <div style="background: #fbd9dc;color: #d44927;">Digital Marketing</div>
                         </li>
                         <li>
-                            <div>make payments</div>
+                            <div style="background: #c8edc5;color: #42ab1e;">Web Designs</div>
                         </li>
                         <li>
-                            <div>Start business banking</div>
+                            <div style="background: #f6ce9b;color: #e99d47;">Lead Generation</div>
                         </li>
                         <li>
-                            <div>automate payroll</div>
+                            <div style="background: #b6f9f7;color: #0db8d6;">Graphics Designs</div>
                         </li>
                         <li>
-                            <div>get credits & loans</div>
+                            <div style="background: #dfb0ed;color: #b12de9;">Software & Apps</div>
                         </li>
                     </ul>
                 </nav>
