@@ -2,7 +2,7 @@
  <div class="gap">
     <div class="footer_container">
         <div class="footer_contains">
-            <img src="/assets/inquiry.jpeg" w="" h="" alt="logo" >
+            <img src="/assets/inquiry.jpeg" w="10" h="10" alt="logo" >
             <div style="padding: 6px 10px">
                 <h4>Inquiries</h4>
                 <p style="color: #9b9898;text-transform: capitalize;">partnership <br><span style="color: #3480de;">partnership@unstop.com</span></p>
@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="footer_contains">
-            <img src="/assets/inquiry.jpeg" w="" h="" alt="logo" >
+            <img src="/assets/inquiry.jpeg" w="10" h="10" alt="logo" >
             <div style="padding: 6px 10px">
                 <h4>Our Addresses</h4>
                 <p style="color: #9b9898;text-transform: capitalize;">Delhi office - <br><span style="color: #000;"> unstop c/o flive consulting pvt. ltd.6317 Pocket-9 Sector-b Vasant Kunj South West Delhi, India, New Delhi-110070, Delhi, India</span></p>
@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="footer_contains">
-            <img src="/assets/inquiry.jpeg" w="" h="" alt="logo" >
+            <img src="/assets/inquiry.jpeg" w="10" h="10" alt="logo" >
             <div style="padding: 6px 10px">
                 <h4>Company</h4>
                 <p style="color: #9b9898;text-transform: capitalize;">company name -<br><span style="color: #000;text-transform: uppercase;">flive consulting pvt. ltd.</span></p>
@@ -28,5 +28,57 @@
                 <p style="color: #9b9898;text-transform: capitalize;">PAN number -<br><span style="color: #000;text-transform: uppercase;">aadcf7366c</span></p>
             </div>
         </div>
-    </div>                
+    </div>   
+    <div class="footer_container" style="border-bottom:none">
+        <div class="footer_information">
+            <h4>OUR SERVICES</h4>
+            <div style="color: #000;text-transform: capitalize;padding:4px 15px">
+                <p>Digital Marketing</p>
+                <p>Website Designing</p>
+                <p>Software Development</p>
+                <p>Software Development</p>
+                <p>Graphics Designing</p>
+                <p>Leads Generation</p>
+                <p>Mobile App Development</p>
+            </div>
+        </div>
+        <div class="footer_information">
+            <h4>INFORMATION</h4>
+            <div style="color: #000;text-transform: capitalize;padding:4px 15px">
+                <p>About Growess</p>
+                <p>Partners</p>
+                <p>Careers</p>
+                <p>Client’s Feedback</p>
+                <p>Graphics Designing</p>
+                <p>Contact Us</p>
+                <p>Become Our Brand Partner</p>
+            </div>
+        </div>
+        <div class="footer_information">
+            <h4>POLICIES & TERMS</h4>
+            <div style="color: #000;text-transform: capitalize;padding:4px 15px">
+                <p>Privacy Policy</p>
+                <p>Terms & condition</p>
+                <p>Refund & Cancellation</p>
+                <p>Policy</p>
+                <p>Complaint</p>
+            </div>
+            <div class="footer_social_icon">
+                <img src="/assets/facebook.svg" w="20" h="20" alt="logo" >
+                <img src="/assets/instagram.svg" w="20" h="20" alt="logo" >
+                <img src="/assets/linkedin.png" w="20" h="20" alt="logo" >
+                <img src="/assets/youtube.svg" w="20" h="20" alt="logo" >
+            </div>
+        </div>
+        <div class="footer_information">
+            <h4>CarDekho Group Ventures</h4>
+            <div class="footer_brand_logo">
+                <img src="/assets/bikedekho.png" w="20" h="20" alt="logo" >
+                <img src="/assets/rupyy.png" w="20" h="20" alt="logo" >
+                <img src="/assets/zigweels.jpeg" w="20" h="20" alt="logo" >
+                <img src="/assets/insurancedekho.png" w="20" h="20" alt="logo" >
+                <img src="/assets/revv.jpeg" w="20" h="20" alt="logo" >
+            </div>
+        </div>
+    </div>
 </div>

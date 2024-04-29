@@ -6,6 +6,7 @@
     @livewire('service')
         <!-- Toggle button -->
         <div class="gap" style="background: #f1fffb !important">
+            <div class="box_card-title">Get <span style="color:red">100% </span>Qualified Lead through<br>our <span style="color:green">certified partners </span></div>
             <div class="switches-container">
                 <input type="radio" id="switchMonthly" name="switchPlan" value="Google Ad Preview" checked="checked"
                     onclick="toggleContainers()" />
@@ -117,7 +118,7 @@
         <!-- Components for payment section -->
         <div class="gap">
             <div class="payment_card_section">
-                <div class="page_title">the all in one <span style="color: rgb(1, 178, 86)">finance platform</span><br> you've
+                <div class="page_title">the all in one <span style="color: rgb(1, 178, 86)">Digital Marketing</span><br> you've
                     been looking for </div>
                 <nav>
                     <ul>
@@ -491,8 +492,8 @@
                                 <div class="card_payment-title">payment gateway</div>
                                 <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
                                 <div class="card_payment-details">
-                                    <a href="" class="card_sign-up">sign up &#8594;</a>
-                                    <a href="" class="card_know-more">know more </a>
+                                    <a href=" " class="card_sign-up">sign up &#8594;</a>
+                                    <a href=" " class="card_know-more">know more </a>
                                 </div>
                             </div>
                         </div>
@@ -517,6 +518,93 @@
                 </div>
             </div>
         </div>
+        <!-- components for pratice codeing -->
+        <div class="gap">
+            <div class="code_assessment">
+                <div class="code_assessment_box">
+                    <div class="page_title">practice codeing & ace hireing assessments</div>
+                    <p class="code_assessment_headline">level up your coding skills by practicing the hieing assessments of your companies and ace your placement game!<p>
+                </div>
+                <a href=" " class="view_more" >view more &#8599;</a>
+            </div> 
+            <div class="code_assessment_details">
+                <div class="code_assessment_details_box">
+                    <img src="/assets/coding.jpeg" w="10" h="10" alt="logo" style="background: #c8e5f2;">
+                    <h4>code practice</h4>
+                    <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring question</p>
+                    <p>500+ questions &nbsp;&nbsp;&gt;</p>
+                </div>
+                <div class="code_assessment_details_box">
+                    <img src="/assets/interview.png" w="10" h="10" alt="logo" style="background: #f6def8;">
+                    <h4>Interview preparation</h4>
+                    <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring question</p>
+                    <p>200+ companies &nbsp;&nbsp;&gt;</p>
+                </div>
+                <div class="code_assessment_details_box">
+                    <img src="/assets/projects.png" w="10" h="10" alt="logo" style="background: #ccacf5;">
+                    <h4>projects</h4>
+                    <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring question</p>
+                    <p>50+ projects &nbsp;&nbsp;&gt;</p>
+                </div>
+                <div class="code_assessment_details_box">
+                    <img src="/assets/skills.jpeg" w="10" h="10" alt="logo" style="background: #fbdf98;">
+                    <h4>skill assessments</h4>
+                    <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring question</p>
+                    <p>500+ questions &nbsp;&nbsp;&gt;</p>
+                </div>
+            </div>
+        </div>
+        <div class="code_assessment_job">
+            <div>
+                <div class="code_assessment_job_details"><span style="color:#0862ab">browse job/internship</span> <br>that's right for you !</div>
+                <p class="code_assessment_job_details_description">find a role that fits your carrier aspirators.</p>
+                <div class="code_assessment_job_details_box-container">
+                    <ul class="tab_box">
+                        <li class="select select_mode fa fa-search" data-tab="tab01">&nbsp;find job</li>
+                        <li class="select_mode" data-tab="tab02">&nbsp;full-time</li>
+                        <li class="select_mode" data-tab="tab03">&nbsp;part-time</li>
+                        <li class="select_mode fa fa-home " data-tab="tab04">&nbsp;work from home</li>
+                        <li class="select_mode" data-tab="tab05">&nbsp;on-field</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="code_assessment_job_details_box">
+                <div class="job_details">
+                    <h4>jobs</h4>
+                    <img src="/assets/amazone.png" w="10" h="10" alt="logo">
+                </div>
+                <div class="jobs_category">
+                    web developer
+                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                </div>
+                <div class="jobs_category">
+                    data science
+                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                </div>
+                <div class="jobs_category">
+                    digital marketing
+                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                </div>
+            </div>
+            <div class="code_assessment_job_details_box">
+                <div class="job_details">
+                    <h4>jobs</h4>
+                    <img src="/assets/amazone.png" w="10" h="10" alt="logo">
+                </div>
+                <div class="jobs_category">
+                    web developer
+                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                </div>
+                <div class="jobs_category">
+                    data science
+                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                </div>
+                <div class="jobs_category">
+                    digital marketing
+                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                </div>
+            </div>
+        </div>  
         <!-- Components for company logo -->
         <div class="gap">
             <div class="company_banner">

@@ -1,4 +1,3 @@
-<div>
 <div class="Button_box">
     <div class="box_1">
         <img src="/assets/200.webp" alt="My Logo" w="10" h="10" />
@@ -38,6 +37,4 @@
     <x-modal  :sub_services="$sub_services" :modalTitle="$modalTitle" :subModalTitle="$subModalTitle"  :products="$products">
     </x-modal>
 </div>
-    <div class="box_card-title">Get <span style="color:red">100% </span>Qualified Lead through<br>our <span style="color:green">certified partners </span></div>
 
-</div>
