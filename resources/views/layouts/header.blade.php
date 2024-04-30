@@ -1,4 +1,4 @@
-<div class="page_layout">
+<div>
     <div class="header">
         <a href="#">
             <img src="/assets/rozrpay-logo.jpg" w="5" h="5" alt="logo" class="rozarpay_logo"/>

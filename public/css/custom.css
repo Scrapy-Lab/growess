@@ -2,8 +2,8 @@ body { font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helv
 .page_layout { position: relative; margin: 0 auto; /*max-width: 1184px; */ width: 100%; }
 .gap { margin: 40px 0; padding: 5px 0;}
 /* Styles for the login &sign up button */
-.header { background: #fff; display: flex; align-items: center; justify-content: space-between; position: sticky; z-index: 1; top: 0; }
-.rozarpay_logo { width: 220px; height: 120px; }
+.header {padding: 0 20px;background: #e5ebed;padding: 0 20px; display: flex; align-items: center; justify-content: space-between; position: sticky; z-index: 1; top: 0; }
+.rozarpay_logo { width: 220px; height: 80px;margin: 20px; }
 .header_login { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
 .header_log_button { color: rgb(19, 100, 241); min-height: 36px; font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 14px; font-weight: 700; text-decoration-line: none; line-height: 20px; cursor: pointer; padding: 0 20px; align-items: center; display: inline-flex; }
 .header_sign_up { color: rgb(255, 255, 255); font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 16px; font-weight: 700; text-decoration-line: none; line-height: 20px; text-align: center; cursor: pointer; background-color: rgb(19, 100, 241); padding: 10px 20px; }
@@ -173,9 +173,9 @@ li div {cursor: pointer; padding: 8px 18px;border-radius: 20px; font-family: Lat
 .jobs_category_description{color: #a19f9f;font-size: 14px;}
 .jobs_category{border: 1px solid #000;margin: 0 0 10px;text-transform: capitalize;font-size: 16px;background: #f6f1f1;border-radius: 50px;padding: 2px 26px;}
 /* footer */
-.footer_container{display: flex;justify-content:space-between;background-color: #f0f0f0; border-bottom: 2px solid;border-image: linear-gradient(to right, #e73d3d,#78e678,#f5b961,#39b2ea); border-image-slice: 3;}
+.footer_container{display: flex;justify-content:space-between;background-color: #e5ebed; border-bottom: 2px solid;border-image: linear-gradient(to right, #e73d3d,#78e678,#f5b961,#39b2ea); border-image-slice: 3;padding: 0 80px;}
 .footer_contains img{width: 100px;height: 100px;}
-.footer_contains{display: flex;gap:20px;width: 30%;justify-content:space-between;background: #e6ecf5;margin: 14px;}
+.footer_contains{display: flex;gap:20px;width: 30%;justify-content:space-evenly;background: #e6ecf5;margin: 14px;}
 .footer_information{width:20%;padding: 10px 10px;margin: 14px;}
 .footer_social_icon img{width: 55px;height: 50px;}
 .footer_brand_logo  img{width: 115px;height: 90px;padding: 5px;}
