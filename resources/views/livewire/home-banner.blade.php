@@ -1,7 +1,7 @@
-<div class="mid_banner">
+<div class="mid_banner container">
     <div class="left_banner_text">
-        <div><span style="color:rgb(0 0 0);font-size:46px;font-weight:500 !important;line-height:28px">Create budget</span><span style="font-size:46px;font-weight:500 !important;line-height:28px"> &#38;</span> {{--  Best Health--}}</div>
-        <span style="color:rgb(0 0 0);font-size:46px;font-weight:500 !important;line-height:28px">Get Amazing </span>
+        <div class="page_title">Create budget <br>Get Amazing<br>
+        <p class="page_headline">idea is yours, choice is your, price is yours</p></div>
         <div class="slidingVertical wrapper">
             <ul class="dynamic-txts">
                 @foreach ($services as $key => $service )
