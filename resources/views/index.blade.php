@@ -606,24 +606,26 @@
             </div>  
         </div>
         <!-- Components for company logo -->
-        <div class="gap container">
-            <div class="company_banner">
-                <div>
-                    <div class="company_title"><span style="font-weight:100">Our</span> <br>Clientele </div>
-                    <div class="company_headline">Companies who trust us </div>
-                    <a href="" class="contact_button">Contact Us</a>
-                </div>
-                <img src="/assets/company_logo.png" w="100" h="" alt="100"/>
-            </div> 
-            <div class="company_bottom_text">
-                <h2>our Numbers</h2>
-                <div class="company_user_data">
-                    <div>9 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Active Users</span></div>
-                    <div>22.5 <span style="color: #0d6efd">M+</span><br><span style="font-size: 16px;">Assessments</span></div>
-                    <div>120 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Opportunities</span></div>
-                    <div>900 <span style="color: #0d6efd">+</span><br><span style="font-size: 16px;">brands trust us</span></div>
-                    <div>23 <span style="color: #0d6efd">M+</span><br><span style="font-size: 16px;">organisations</span></div>
-                    <div>12.4 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Countries</span></div>
+        <div class="gap" style="background-image: url('/assets/news-left-vector.webp');">>
+            <div class="container">
+                <div class="company_banner">
+                    <div>
+                        <div class="company_title"><span style="font-weight:100">Our</span> <br>Clientele </div>
+                        <div class="company_headline">Companies who trust us </div>
+                        <a href="" class="contact_button">Contact Us</a>
+                    </div>
+                    <img src="/assets/company_logo.png" w="100" h="" alt="100"/>
+                </div> 
+                <div class="company_bottom_text">
+                    <h2>our Numbers</h2>
+                    <div class="company_user_data">
+                        <div>9 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Active Users</span></div>
+                        <div>22.5 <span style="color: #0d6efd">M+</span><br><span style="font-size: 16px;">Assessments</span></div>
+                        <div>120 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Opportunities</span></div>
+                        <div>900 <span style="color: #0d6efd">+</span><br><span style="font-size: 16px;">brands trust us</span></div>
+                        <div>23 <span style="color: #0d6efd">M+</span><br><span style="font-size: 16px;">organisations</span></div>
+                        <div>12.4 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Countries</span></div>
+                    </div>
                 </div>
             </div>
         </div>
