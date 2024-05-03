@@ -614,7 +614,15 @@
                         <div class="company_headline">Companies who trust us </div>
                         <a href="" class="contact_button">Contact Us</a>
                     </div>
-                    <img src="/assets/company_logo.png" w="100" h="" alt="100"/>
+                    <div id="image-container">
+                        <div id="image-wrapper">
+                            <img src="/assets/company_logo.png" w="100" h="" alt="100"/>
+                            <img src="/assets/company_logo.png" w="100" h="" alt="100"/>
+                            <img src="/assets/company_logo.png" w="100" h="" alt="100"/>
+                            <img src="/assets/company_logo.png" w="100" h="" alt="100"/>
+                            <img src="/assets/company_logo.png" w="100" h="" alt="100"/>
+                        </div>
+                    </div>
                 </div> 
                 <div class="company_bottom_text">
                     <h2>our Numbers</h2>
@@ -629,5 +637,6 @@
                 </div>
             </div>
         </div>
+  
         
     @endsection

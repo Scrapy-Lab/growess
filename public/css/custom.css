@@ -151,6 +151,12 @@ li div {cursor: pointer; padding: 8px 18px;border-radius: 20px; font-family: Lat
 .company_user_data{margin-top: 15px; display: flex;justify-content: space-evenly;align-content: center;align-items: center;font-size: 36px;font-weight: 700;}
 .company_user_data div span{color: #adadb1;text-transform:capitalize;position:absolute}
 .company_bottom_text{margin: 60px 0;text-transform:capitalize}
+#image-container {width: 50%;height: 360px;overflow: hidden;position: relative;}
+#image-wrapper {width: 100%; animation: scrollAnimation 14s linear infinite;}
+.image {width: 50%;flex-shrink: 0;}
+@keyframes scrollAnimation {
+  0% { transform: translatey(0); }
+  100% { transform: translatey(-25%); }}
 
 /* pratice codeing  */
 .code_assessment{display: flex;justify-content: space-between;align-items: center;gap: 8px;}
