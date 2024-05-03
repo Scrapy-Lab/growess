@@ -5,7 +5,7 @@
     <!-- Components for button boxes  -->
     @livewire('service')
         <!-- Toggle button -->
-        <div class="gap" style="background: linear-gradient(to right, #eee5ad , #bf86f4); !important">
+        <div class="gap" style="background: linear-gradient(to right, #eee5ad , #c29ce4); !important">
             <div class="container">
                 <div class="page_title">Get <span style="color:red">100% </span>Qualified Lead through<br>our <span style="color:green">certified partners </span></div>
                 <div class="switches-container">
