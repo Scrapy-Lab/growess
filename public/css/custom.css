@@ -133,8 +133,9 @@ li div {cursor: pointer; padding: 8px 18px;border-radius: 20px; font-family: Lat
 .tab_nav li.show { color: rgb(19, 100, 241); border-bottom: 2px solid rgb(19, 100, 241); font-weight: 600; }
 .contents { margin: 10px 10px; }
 .contents > div { display: none; transition: display 1s; }
+.content>div{display: none;}
 .contents > div.show { display: block; }
-
+.content >div.open{display: block;}
 /* level-up-container */
 .level_up_container { display: flex; gap: 80px; align-items: center; background: #ffff0033; border-radius: 60px; }
 .level_up_container img { width: 35%; height: 100%; object-fit: none; border-radius: 60px; }

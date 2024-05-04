@@ -102,8 +102,36 @@
         });
     });
 });
-    
 
+    document.addEventListener("DOMContentLoaded", function() {
+    var tabNavItems = document.querySelectorAll(".tab_card li div");
+
+    tabNavItems.forEach(function(item) {
+        item.addEventListener("click", function() {
+            var tab = this.getAttribute("data-tab");
+
+            // Remove 'active' class from all tab nav items
+            tabNavItems.forEach(function(navItem) {
+                navItem.classList.remove('open');
+            });
+
+            // Add 'active' class to the clicked tab nav item
+            this.classList.add('open');
+
+            // Remove 'active' class from all content divs
+            var contentDivs = document.querySelectorAll('.content > div');
+            contentDivs.forEach(function(contentDiv) {
+                contentDiv.classList.remove('open');
+            });
+
+            // Add 'active' class to the content div corresponding to the clicked tab
+            var tabContent = document.querySelector('.content > div#' + tab);
+            if (tabContent) {
+                tabContent.classList.add('open');
+            }
+        });
+    });
+});
   </script>
 <body style="background: #f6f9fad4;">
     @include('layouts.header')

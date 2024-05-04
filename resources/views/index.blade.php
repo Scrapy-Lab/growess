@@ -120,382 +120,459 @@
                     <div class="page_title">the all in one <span style="color: rgb(1, 178, 86)">Digital Marketing</span><br> you've
                         been looking for </div>
                     <nav>
-                        <ul>
+                        <ul class="tab_card">
                             <li>We Provide Complete:</li>
                             <li>
-                                <div style="background: #fbd9dc;color: #d44927;">Digital Marketing</div>
+                                <div style="background: #fbd9dc;color: #d44927;"class="open" data-tab="tab01">Digital Marketing</div>
                             </li>
                             <li>
-                                <div style="background: #c8edc5;color: #42ab1e;">Web Designs</div>
+                                <div style="background: #c8edc5;color: #42ab1e;" data-tab="tab02">Web Designs</div>
                             </li>
                             <li>
-                                <div style="background: #f6ce9b;color: #e99d47;">Lead Generation</div>
+                                <div style="background: #f6ce9b;color: #e99d47;" data-tab="tab03">Lead Generation</div>
                             </li>
                             <li>
-                                <div style="background: #b6f9f7;color: #0db8d6;">Graphics Designs</div>
+                                <div style="background: #b6f9f7;color: #0db8d6;" data-tab="tab04">Graphics Designs</div>
                             </li>
                             <li>
-                                <div style="background: #dfb0ed;color: #b12de9;">Software & Apps</div>
+                                <div style="background: #dfb0ed;color: #b12de9;" data-tab="tab05">Software & Apps</div>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <div class="payment_mode">
-                    <div class="card_title">accepts payment</div>
-                    <div class="card_mode box-container">
-                        <ul class="tab_nav">
-                            <li class="show button_mode" data-tab="tab01">top products</li>
-                            <li class="button_mode" data-tab="tab02">on website/app</li>
-                            <li class="button_mode" data-tab="tab03">plugins</li>
-                            <li class="button_mode" data-tab="tab04">on social media</li>
-                            <li class="button_mode" data-tab="tab05">in-store</li>
-                            <li class="button_mode" data-tab="tab06">international</li>
-                            <li class="button_mode" data-tab="tab07">with smart add-ons</li>
-                        </ul>
+                <div class="content">
+                    <div id="tab01" class="open payment_mode">
+                        <div class="card_title">Digital Marketing</div>
+                        <div class="card_mode box-container">
+                            <ul class="tab_nav">
+                                <li class="show button_mode" data-tab="tab01">top products</li>
+                                <li class="button_mode" data-tab="tab02">on website/app</li>
+                                <li class="button_mode" data-tab="tab03">plugins</li>
+                                <li class="button_mode" data-tab="tab04">on social media</li>
+                                <li class="button_mode" data-tab="tab05">in-store</li>
+                                <li class="button_mode" data-tab="tab06">international</li>
+                                <li class="button_mode" data-tab="tab07">with smart add-ons</li>
+                            </ul>
+                        </div>
+                        <div class="contents">
+                            <div id="tab01" class="show box_tab">
+                                <div class="card_box_multiple">
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab02" class="box_tab">
+                                <div class="card_box_multiple">
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pg-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pg-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pg-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab03" class="box_tab">
+                                <div class="card_box_multiple">
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab04" class="box_tab">
+                                <div class="card_box_multiple">
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-pages-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-pages-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab05" class="box_tab">
+                                <div class="card_box_multiple">
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab06" class="box_tab">
+                                <div class="card_box_multiple">
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-pages-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab07" class="box_tab">
+                                <div class="card_box_multiple">
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href=" " class="card_sign-up">sign up &#8594;</a>
+                                            <a href=" " class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contents">
-                        <div id="tab01" class="show box_tab">
-                            <div class="card_box_multiple">
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+                <div class="content"> 
+                    <div id="tab02" class="payment_mode">
+                        <div class="card_title">Web Designs</div>
+                        <div class="card_mode box-container">
+                            <ul class="tab_nav">
+                                <li class="show button_mode" data-tab="tab08">products</li>
+                                <li class="button_mode" data-tab="tab09">website/app</li>
+                            </ul>
                         </div>
-                        <div id="tab02" class="box_tab">
-                            <div class="card_box_multiple">
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pg-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pg-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pg-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
+                        <div class="contents">
+                            <div id="tab08" class="box_tab">
+                                <div class="card_box_multiple">
+                                    <div class="card_box1">
+                                        <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div id="tab09" class="box_tab">
+                                <div class="card_box_multiple">
+                                    <div class="card_box1">
+                                        <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
+                                        <div class="card_payment-title">payment gateway</div>
+                                        <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
+                                        <div class="card_payment-details">
+                                            <a href="" class="card_sign-up">sign up &#8594;</a>
+                                            <a href="" class="card_know-more">know more </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <div class="content"> 
+                    <div id="tab03" class="payment_mode">
+                        <div class="card_title">Lead Generation</div>
+                        <div class="card_mode box-container">
+                            <ul class="tab_nav">
+                                <li class="show button_mode" data-tab="tab01">products</li>
+                                <li class="button_mode" data-tab="tab02">website/app</li>
+                                <li class="button_mode" data-tab="tab03">plugins</li>
+                                <li class="button_mode" data-tab="tab04">social media</li>
+                            </ul>
                         </div>
-                        <div id="tab03" class="box_tab">
-                            <div class="card_box_multiple">
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="content"> 
+                    <div id="tab04" class="payment_mode">
+                        <div class="card_title">Graphic Designs</div>
+                        <div class="card_mode box-container">
+                            <ul class="tab_nav">
+                                <li class="show button_mode" data-tab="tab01">products</li>
+                                <li class="button_mode" data-tab="tab02">website/app</li>
+                                <li class="button_mode" data-tab="tab03">plugins</li>
+                            </ul>
                         </div>
-                        <div id="tab04" class="box_tab">
-                            <div class="card_box_multiple">
-                                <div class="card_box1">
-                                    <img src="/assets/payment-pages-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-pages-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab05" class="box_tab">
-                            <div class="card_box_multiple">
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab06" class="box_tab">
-                            <div class="card_box_multiple">
-                                <div class="card_box1">
-                                    <img src="/assets/payment-pages-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab07" class="box_tab">
-                            <div class="card_box_multiple">
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/product-card-pos-image-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href="" class="card_sign-up">sign up &#8594;</a>
-                                        <a href="" class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                                <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
-                                    <div class="card_payment-title">payment gateway</div>
-                                    <p class="card_payment-headline">Offer a seamless payment experience on your website or app</p>
-                                    <div class="card_payment-details">
-                                        <a href=" " class="card_sign-up">sign up &#8594;</a>
-                                        <a href=" " class="card_know-more">know more </a>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="content"> 
+                    <div id="tab05" class="payment_mode">
+                        <div class="card_title">Software & Apps</div>
+                        <div class="card_mode box-container">
+                            <ul class="tab_nav">
+                                <li class="show button_mode" data-tab="tab01">products</li>
+                                <li class="button_mode" data-tab="tab02">website/app</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
