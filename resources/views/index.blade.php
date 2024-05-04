@@ -502,7 +502,7 @@
             </div>
         </div>
         <!-- Components for learn and level up -->
-        <div class="gap" style="background-image: url('/assets/depositpho.jpg');">
+        <div class="gap">
             <div class="level_up_container container">
                 <img src="/assets/upskills.jpeg" w="150" h="150" alt="logo" />
                 <div class="right_container_text">
@@ -624,19 +624,22 @@
                         </div>
                     </div>
                 </div> 
-                <div class="company_bottom_text">
-                    <h2>our Numbers</h2>
-                    <div class="company_user_data">
-                        <div>9 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Active Users</span></div>
-                        <div>22.5 <span style="color: #0d6efd">M+</span><br><span style="font-size: 16px;">Assessments</span></div>
-                        <div>120 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Opportunities</span></div>
-                        <div>900 <span style="color: #0d6efd">+</span><br><span style="font-size: 16px;">brands trust us</span></div>
-                        <div>23 <span style="color: #0d6efd">M+</span><br><span style="font-size: 16px;">organisations</span></div>
-                        <div>12.4 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Countries</span></div>
-                    </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="company_bottom_text">
+                <h2>our Numbers</h2>
+                <div class="company_user_data">
+                    <div>9 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Active Users</span></div>
+                    <div>22.5 <span style="color: #0d6efd">M+</span><br><span style="font-size: 16px;">Assessments</span></div>
+                    <div>120 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Opportunities</span></div>
+                    <div>900 <span style="color: #0d6efd">+</span><br><span style="font-size: 16px;">brands trust us</span></div>
+                    <div>23 <span style="color: #0d6efd">M+</span><br><span style="font-size: 16px;">organisations</span></div>
+                    <div>12.4 <span style="color: #0d6efd">K+</span><br><span style="font-size: 16px;">Countries</span></div>
                 </div>
             </div>
         </div>
+       
   
         
     @endsection

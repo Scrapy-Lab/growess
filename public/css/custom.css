@@ -1,6 +1,6 @@
 body { font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
 .page_layout { position: relative; margin: 0 auto; /*max-width: 1184px; */ width: 100%; }
-.gap { margin: 80px 0; padding: 5px 0;}
+.gap { margin: 120px 0; padding: 5px 0;}
 /* Styles for the login &sign up button */
 .header {padding: 0 20px;background: #e5ebed;padding: 0 20px; display: flex; align-items: center; justify-content: space-between; position: sticky; z-index: 1; top: 0; }
 .rozarpay_logo { width: 220px; height: 80px;margin: 20px; }
@@ -80,11 +80,11 @@ button { cursor: pointer; color: #fff; padding: 4px 8px; font-size: 16px; border
 .list_card { display: flex; align-items: center; gap: 40px;padding: 0 24px; }
 .grid img { width: 436px; height: 480px; }
 .menu_bar { width: 20%; font-size: 16px; font-family: sans-serif; color: #5f6368; }
-.active { border-bottom: none; position: relative; color: #fff; background: #000; }
-.menuAds { display: flex; align-items: center; width: 40%; height: 15%; gap: 12px; cursor: pointer; padding: 10px 20px; margin: 20px 0; font-weight: 400; border: 1px solid #e8eaed; border-radius: 20px; box-sizing: content-box; }
+.active { border-bottom: none; position: relative; color: #fff; background: #000 !important; }
+.menuAds {background: #fff; display: flex; align-items: center; width: 40%; height: 15%; gap: 12px; cursor: pointer; padding: 10px 20px; margin: 20px 0; font-weight: 400; border: 1px solid #e8eaed; border-radius: 20px; box-sizing: content-box; }
 .text-title { width: 30%; }
-.headline { font-size: 36px; line-height: 19px; font-family: Google Sans,Arial,Helvetica,sans-serif; font-weight: 500; letter-spacing: -.25px; }
-.text_paragraph { font-size: 16px; line-height: 24px; font-family: Google Sans,Arial,Helvetica,sans-serif; }
+.headline { font-size: 38px; line-height: 48px; font-weight: 700; }
+.text_paragraph { color: #645858;font-size: 18px;line-height: 28px; }
 .icon_wrapper { display: flex; gap: 10px; align-items: center; text-decoration: none; color: red; font-size: 16px; line-height: 24px; font-family: Google Sans,Arial,Helvetica,sans-serif; }
 .icon_wrapper img { width: 50px; height: 50px; }
 @keyframes draw {
@@ -122,7 +122,7 @@ li div {cursor: pointer; padding: 8px 18px;border-radius: 20px; font-family: Lat
 .card_payment-title{font-size:22px;font-weight: 700;text-decoration-line: none;line-height: 24px;margin: 10px 0;text-transform: capitalize;}
 .card_payment-headline{color: rgb(94, 110, 135);font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-size: 14px;font-weight: 400;font-style: normal;text-decoration-line: none;line-height: 18px;margin: 8px 0px 0px;padding: 0px;}
 .card_know-more{font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size: 16px;text-decoration-line: none;line-height: 20px;text-align: center;cursor: pointer;color: rgb(19, 100, 241);padding: 7px 15px;}
-.card_sign-up{border-radius: 20px;color: rgb(255, 255, 255);font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size: 16px;font-weight: 700;text-decoration-line: none;line-height: 20px;text-align: center;cursor: pointer;background-color: rgb(19, 100, 241);padding: 7px 15px;}
+.card_sign-up{border-radius: 20px;color: rgb(255, 255, 255);font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size: 18px;font-weight: 700;text-decoration-line: none;line-height:28px;text-align: center;cursor: pointer;background-color: rgb(19, 100, 241);padding: 8px 15px;}
 .card_payment-details{ display: flex;justify-content: space-between;margin: 20px 0;align-items: center;}
 .card_box1 img { width: 284px; height: 300px; }
 .card_box_multiple{display: flex;align-items: center;justify-content: space-between;align-content: center;gap: 12px;overflow-x: scroll;overflow: scroll;}
