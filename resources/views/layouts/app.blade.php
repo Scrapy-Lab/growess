@@ -43,58 +43,27 @@
         var div2 = document.getElementById('myDiv2');
         // Check which div was clicked and toggle its active state
         if (divId === 'myDiv1') {
-            div1.classList.add('active');
-            div2.classList.remove('active');
+            div1.classList.add('display');
+            div2.classList.remove('display');
         } else if (divId === 'myDiv2') {
-            div1.classList.remove('active');
-            div2.classList.add('active');
+            div1.classList.remove('display');
+            div2.classList.add('display');
         }
     }
-    // Function to open the outer popup
-    function openOuterPopup() {
-        var outerPopup = document.getElementById('outerPopup');
-        outerPopup.style.display = 'block';
-    }
-
-    // Function to close the outer popup
-    function closeOuterPopup() {
-        var outerPopup = document.getElementById('outerPopup');
-        outerPopup.style.display = 'none';
-    }
-
-    // Function to open the inner popup
-    function openInnerPopup() {
-        var innerPopup = document.getElementById('innerPopup');
-        innerPopup.style.display = 'block';
-    }
-
-    // Function to close the inner popup
-    function closeInnerPopup() {
-        var innerPopup = document.getElementById('innerPopup');
-        innerPopup.style.display = 'none';
-    }
+   
     document.addEventListener("DOMContentLoaded", function() {
     var tabNavItems = document.querySelectorAll(".tab_nav li");
-
     tabNavItems.forEach(function(item) {
         item.addEventListener("click", function() {
             var tab = this.getAttribute("data-tab");
-
-            // Remove 'active' class from all tab nav items
             tabNavItems.forEach(function(navItem) {
                 navItem.classList.remove('show');
             });
-
-            // Add 'active' class to the clicked tab nav item
             this.classList.add('show');
-
-            // Remove 'active' class from all content divs
             var contentDivs = document.querySelectorAll('.contents > div');
             contentDivs.forEach(function(contentDiv) {
                 contentDiv.classList.remove('show');
             });
-
-            // Add 'active' class to the content div corresponding to the clicked tab
             var tabContent = document.querySelector('.contents > div#' + tab);
             if (tabContent) {
                 tabContent.classList.add('show');
@@ -102,29 +71,20 @@
         });
     });
 });
-
     document.addEventListener("DOMContentLoaded", function() {
     var tabNavItems = document.querySelectorAll(".tab_card li div");
 
     tabNavItems.forEach(function(item) {
         item.addEventListener("click", function() {
             var tab = this.getAttribute("data-tab");
-
-            // Remove 'active' class from all tab nav items
             tabNavItems.forEach(function(navItem) {
                 navItem.classList.remove('open');
             });
-
-            // Add 'active' class to the clicked tab nav item
             this.classList.add('open');
-
-            // Remove 'active' class from all content divs
             var contentDivs = document.querySelectorAll('.content > div');
             contentDivs.forEach(function(contentDiv) {
                 contentDiv.classList.remove('open');
             });
-
-            // Add 'active' class to the content div corresponding to the clicked tab
             var tabContent = document.querySelector('.content > div#' + tab);
             if (tabContent) {
                 tabContent.classList.add('open');
@@ -132,6 +92,7 @@
         });
     });
 });
+
   </script>
 <body style="background: #f6f9fad4;">
     @include('layouts.header')
