@@ -67,7 +67,7 @@ button { cursor: pointer; color: #fff; padding: 4px 8px; font-size: 16px; border
 .switches-container input { visibility: hidden; position: absolute; top: 0; }
 .switches-container label { width: 50%; padding: 0; margin: 0; text-align: center; cursor: pointer; color: #fff; font-size: 18px; }
 .switch-wrapper { position: absolute; top: 0; bottom: 0; width: 50%; z-index: 3; transition: transform 1s; }
-.switch { font-size: 18px; background: #f4e909; height: 100%; box-shadow: 3px 1px 26px 12px #4a4a4a;font-weight: 700;}
+.switch { font-size: 18px; background: #f4e909; height: 100%; box-shadow: 3px 1px 26px 12px #a1a0a0;font-weight: 700;}
 .switch div { width: 100%; text-align: center; opacity: 0; display: block; color: #000; transition: opacity .2s cubic-bezier(.77, 0, .175, 1) .125s; will-change: opacity; position: absolute; top: 0; left: 0; }
 .switches-container input:nth-of-type(1):checked~.switch-wrapper { transform: translateX(0); }
 .switches-container input:nth-of-type(2):checked~.switch-wrapper { transform: translateX(100%); }
@@ -80,7 +80,7 @@ button { cursor: pointer; color: #fff; padding: 4px 8px; font-size: 16px; border
 .list_card { display: flex; align-items: center; gap: 40px;padding: 0 24px; }
 .grid img { width: 436px; height: 480px; }
 .menu_bar { width: 20%; font-size: 16px; font-family: sans-serif; color: #5f6368; }
-.active { border-bottom: none; position: relative; color: #fff; background: #000 !important; }
+.active { border-bottom: none; position: relative; color: #fff;background: #000 !important;}
 .menuAds {background: #fff; display: flex; align-items: center; width: 40%; height: 15%; gap: 12px; cursor: pointer; padding: 10px 20px; margin: 20px 0; font-weight: 400; border: 1px solid #e8eaed; border-radius: 20px; box-sizing: content-box; }
 .text-title { width: 30%; }
 .headline { font-size: 38px; line-height: 48px; font-weight: 700; }
@@ -102,7 +102,7 @@ h4{text-transform: capitalize;}
 .right_container { width: 40%; height: 160px; position: relative; }
 .photo_ads_title { font-size: 22px; line-height: 40px; font-weight: 100; color: #000; font-family: Raleway,sans-serif; }
 .photo_ads_headline { font-size: 14px; line-height: 20px; font-weight: 100; color: #000; font-family: Raleway,sans-serif; text-transform: capitalize; }
-.photo_ads.active { content: ""; width: 100%; height: 60%; border-left: 2px solid rgb(19 100 241); padding-left: 20px; background: #e3e0e0; }
+.display { content: ""; width: 100%; height: 60%; border-left: 2px solid rgb(19 100 241); padding-left: 20px; background: #e3e0e0; }
 
 /* Basic CSS styles for navigation */
 .payment_card_section { margin: 20px 60px; }
@@ -163,17 +163,21 @@ li div {cursor: pointer; padding: 8px 18px;border-radius: 20px; font-family: Lat
 .code_assessment{display: flex;justify-content: space-between;align-items: center;gap: 8px;}
 .code_assessment_headline{color: #a19f9f;font-size: 20px;}
 .code_assessment_box{width: 85%;}
-.code_assessment_details_box:hover{ transform: scale(1.0);  width: 35%;height:auto;background: linear-gradient(to right, #8c8c8d, #3137f4);color: #fff;font-weight: 600;}
+#box_1:hover{background: linear-gradient(to right, #e6e6e6, #f29900)}
+#box_2:hover{background: linear-gradient(to right, #e6e6e6, #1e8e3e)}
+#box_3:hover{background: linear-gradient(to right, #e6e6e6, #1667d0)}
+#box_4:hover{background: linear-gradient(to right, #e6e6e6, #c7241d)}
+.code_assessment_details_box:hover{ color:#fff;transform: scale(1.0); width: 35%;height:auto;font-weight: 600}
 .view_more{font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";color: #2196f3;font-size: 20px;text-decoration: none;}
 .code_assessment_details{display: flex;justify-content: space-between;align-items: center;gap: 10px;margin: 20px 0;}
-.code_assessment_details_box{ transition: all 0.9s ease; width: 22%;padding: 12px;background: #e6f0f9;border-radius: 10px;cursor: pointer;}
-.code_assessment_details_box_description{color: #a19f9f;font-size: 16px;padding: 0 0 20px;}
+.code_assessment_details_box{background: #ecf4fa; transition: all 0.9s ease; width: 22%;padding: 12px;border-radius: 10px;cursor: pointer;}
+.code_assessment_details_box_description{color: #535252;font-size: 16px;padding: 0 0 20px;}
 .code_assessment_details_box img{width: 75px;height: 75px;padding: 8px;border-radius: 50%;margin-bottom: 20px}
 .code_assessment_job_details_box-container{width: 65%;font-size: 16px;}
 .code_assessment_job{display: flex;justify-content: space-between;align-items: center;}
 .code_assessment_job_details{font-size: 47px;line-height: 67px;font-weight: 600;font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";text-transform: capitalize;}
 .code_assessment_job_details_description{color: #a19f9f;font-size: 16px;padding:20px 0;}
-.code_assessment_job_details_box{width: 20%;padding: 12px;background: #e6f0f9;border-radius: 10px;cursor: pointer;}
+.code_assessment_job_details_box{ width: 20%;padding: 12px;border-radius: 10px;cursor: pointer;}
 .select_mode{cursor:pointer;margin:8px;font-size: 16px;font-weight: 400;text-decoration-line: none;line-height: 24px;position: relative;padding: 20px;border-radius: 30px;color: #000;background:#f0ebeb;}
 .select{background: #0862ab;color: #fff;}
 .job_details img{width: 159px;height: 55px;border-radius: 20px;}

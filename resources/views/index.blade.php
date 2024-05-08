@@ -98,7 +98,7 @@
                     <div class="instagram_container">
                         <img src="/assets/twitter.jpeg" w="100" h="" alt="100" />
                         <div class="right_container">
-                            <div id="myDiv1" class="active photo_ads" onclick="toggleActive('myDiv1')">
+                            <div id="myDiv1" class="display photo_ads" onclick="toggleActive('myDiv1')">
                                 <div class="photo_ads_title">Photos ads</div>
                                 <p class="photo_ads_headline">tell your story through a clean,sample and beautiful creative
                                     canvas.photos can be square,landscape and portriot.</p>
@@ -605,25 +605,25 @@
                 <a href=" " class="view_more" >view more &#8599;</a>
             </div> 
             <div class="code_assessment_details">
-                <div class="code_assessment_details_box">
+                <div class="code_assessment_details_box" id="box_1">
                     <img src="/assets/coding.jpeg" w="10" h="10" alt="logo" style="background: #c8e5f2;">
                     <h4>code practice</h4>
                     <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring question</p>
                     <p>500+ questions &nbsp;&nbsp;&gt;</p>
                 </div>
-                <div class="code_assessment_details_box">
+                <div class="code_assessment_details_box" id="box_2">
                     <img src="/assets/interview.png" w="10" h="10" alt="logo" style="background: #f6def8;">
                     <h4>Interview preparation</h4>
                     <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring question</p>
                     <p>200+ companies &nbsp;&nbsp;&gt;</p>
                 </div>
-                <div class="code_assessment_details_box">
+                <div class="code_assessment_details_box" id="box_3">
                     <img src="/assets/projects.png" w="10" h="10" alt="logo" style="background: #ccacf5;">
                     <h4>projects</h4>
                     <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring question</p>
                     <p>50+ projects &nbsp;&nbsp;&gt;</p>
                 </div>
-                <div class="code_assessment_details_box">
+                <div class="code_assessment_details_box" id="box_4">
                     <img src="/assets/skills.jpeg" w="10" h="10" alt="logo" style="background: #fbdf98;">
                     <h4>skill assessments</h4>
                     <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring question</p>
