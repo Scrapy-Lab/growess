@@ -51,28 +51,32 @@
             </div>
             <div class="modal-body">
                 <div class="container pop_up_box">
-                    <div class="col-md-6 model_pop_up">
+                    <div class="col-md-6 model_pop_up"  data-bs-target="#exampleModalToggle2_website"
+                    data-bs-toggle="modal">
                         <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
                         <button class="button" wire:click="service_products(1)"
-                            data-bs-target="#exampleModalToggle2"
+                            data-bs-target="#exampleModalToggle2_website"
                             data-bs-toggle="modal">static</button>
                     </div>
-                    <div class="col-md-6 model_pop_up">
+                    <div class="col-md-6 model_pop_up"  data-bs-target="#exampleModalToggle2_website"
+                    data-bs-toggle="modal">
                         <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
                         <button class="button" wire:click="service_products(1)"
-                            data-bs-target="#exampleModalToggle2"
+                            data-bs-target="#exampleModalToggle2_website"
                             data-bs-toggle="modal">Brochere</button>
                     </div>
-                    <div class="col-md-6 model_pop_up">
+                    <div class="col-md-6 model_pop_up"  data-bs-target="#exampleModalToggle2_website"
+                    data-bs-toggle="modal">
                         <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
                         <button class="button" wire:click="service_products(1)"
-                            data-bs-target="#exampleModalToggle2"
+                            data-bs-target="#exampleModalToggle2_website"
                             data-bs-toggle="modal">Dynamic</button>
                     </div>
-                    <div class="col-md-6 model_pop_up">
+                    <div class="col-md-6 model_pop_up"  data-bs-target="#exampleModalToggle2_website"
+                    data-bs-toggle="modal">
                         <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
                         <button class="button" wire:click="service_products(1)"
-                            data-bs-target="#exampleModalToggle2"
+                            data-bs-target="#exampleModalToggle2_website"
                             data-bs-toggle="modal">E-Commerce</button>
                     </div>
                 </div>
@@ -87,8 +91,9 @@
     tabindex="-1">
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
-            <div class="modal-header text-capitalize">
-                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">{{ $subModalTitle }}</h1>
+            <div class="modal-header text-capitalize"  data-bs-target="#exampleModalToggle2_website"
+            data-bs-toggle="modal">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2"> WebSite 2{{ $subModalTitle }}</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -116,10 +121,13 @@
             </div>
             <div class="modal-body">
                 <div class="container pop_up_box">
-                   <div class="col-md-6 model_pop_up">
+
+                   <div class="col-md-6 model_pop_up" data-bs-target="#exampleModalToggle2_lead"
+                   data-bs-toggle="modal">
                         <img src="/assets/google.jpeg" alt="My Logo" w="10" h="10" />
                     </div>
-                    <div class="col-md-6 model_pop_up">
+                    <div class="col-md-6 model_pop_up" data-bs-target="#exampleModalToggle2_lead"
+                    data-bs-toggle="modal">
                         <img src="/assets/meta.jpeg" alt="My Logo" w="10" h="10" />
                     </div>
 
@@ -136,7 +144,7 @@
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
             <div class="modal-header text-capitalize">
-                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">{{ $subModalTitle }}</h1>
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Lead 2 {{ $subModalTitle }}</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
