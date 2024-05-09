@@ -44,14 +44,14 @@
         </div>
         <div class="footer_information">
             <h4>INFORMATION</h4>
-            <div style="color: #000;text-transform: capitalize;padding:4px 15px">
-                <p>About Growess</p>
-                <p>Partners</p>
-                <p>Careers</p>
-                <p>Client’s Feedback</p>
-                <p>Graphics Designing</p>
-                <p>Contact Us</p>
-                <p>Become Our Brand Partner</p>
+            <div style="text-transform: capitalize;padding:4px 15px;display: flex;flex-direction: column;">
+                <a href="about-us" style="text-decoration:none;color: #000;margin-bottom:16px">About Growess</a>
+                <a href="" style="text-decoration:none;color: #000;margin-bottom:16px">Partners</a>
+                <a href="" style="text-decoration:none;color: #000;margin-bottom:16px">Careers</a>
+                <a href="" style="text-decoration:none;color: #000;margin-bottom:16px">Client’s Feedback</a>
+                <a href="" style="text-decoration:none;color: #000;margin-bottom:16px">Graphics Designing</a>
+                <a href="contact-us" style="text-decoration:none;color: #000;margin-bottom:16px">Contact Us</a>
+                <a href="" style="text-decoration:none;color: #000;margin-bottom:16px">Become Our Brand Partner</a>
             </div>
         </div>
         <div class="footer_information">

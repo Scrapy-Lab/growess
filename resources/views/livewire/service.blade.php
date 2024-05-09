@@ -12,27 +12,27 @@
             <img src="/assets/giphy (2).webp" alt="My Logo" w="10" h="10" />
             <div class="box_title">Lead Generation</div>
             <p class="box_headline">get instant quote</p>
-            <button id="openOuterPopupBtn" wire:click="sub_service(2)" data-bs-toggle="modal"
+            <button  wire:click="sub_service(2)" data-bs-toggle="modal"
             data-bs-target="#modal_sub_services_lead" class="btn btn-danger rounded-pill"
-                onclick="openOuterPopup()"style="background: #e31b09">Click here</button>
+            style="background: #e31b09">Click here</button>
 
         </div>
         <div class="box_1">
             <img src="/assets/giphy (1).webp" alt="My Logo" w="10" h="10" />
             <div class="box_title">Digital Marketing</div>
             <p class="box_headline">get instant quote</p>
-            <button id="openOuterPopupBtn" wire:click="sub_service(3)" data-bs-toggle="modal"
+            <button  wire:click="sub_service(3)" data-bs-toggle="modal"
             data-bs-target="#modal_sub_services_digital" class="btn btn-warning rounded-pill"
-                onclick="openOuterPopup()"style="background: #f49317">Click here</button>
+                style="background: #f49317">Click here</button>
 
         </div>
         <div class="box_1">
             <img src="/assets/giphy.webp" alt="My Logo" w="10" h="10" />
             <div class="box_title">Software & Apps</div>
             <p class="box_headline">get instant quote</p>
-            <button id="openOuterPopupBtn" wire:click="sub_service(4)" data-bs-toggle="modal"
+            <button  wire:click="sub_service(4)" data-bs-toggle="modal"
             data-bs-target="#modal_sub_services_soft" class="btn btn-success rounded-pill"
-                onclick="openOuterPopup()"style="background: #288d0c">Click here</button>
+                style="background: #288d0c">Click here</button>
         </div>
 
         {{-- <x-modal  :sub_services="$sub_services" :modalTitle="$modalTitle" :subModalTitle="$subModalTitle"  :products="$products">
@@ -50,9 +50,31 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="container">
-
-
+                <div class="container pop_up_box">
+                    <div class="col-md-6 model_pop_up">
+                        <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
+                        <button class="button" wire:click="service_products(1)"
+                            data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">static</button>
+                    </div>
+                    <div class="col-md-6 model_pop_up">
+                        <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
+                        <button class="button" wire:click="service_products(1)"
+                            data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">Brochere</button>
+                    </div>
+                    <div class="col-md-6 model_pop_up">
+                        <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
+                        <button class="button" wire:click="service_products(1)"
+                            data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">Dynamic</button>
+                    </div>
+                    <div class="col-md-6 model_pop_up">
+                        <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
+                        <button class="button" wire:click="service_products(1)"
+                            data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">E-Commerce</button>
+                    </div>
                 </div>
             </div>
             {{-- <div class="modal-footer">
@@ -89,12 +111,17 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Select your {{ $modalTitle }} :-asdasd</h1>
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Select your {{ $modalTitle }} :-</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="container">
-
+                <div class="container pop_up_box">
+                   <div class="col-md-6 model_pop_up">
+                        <img src="/assets/google.jpeg" alt="My Logo" w="10" h="10" />
+                    </div>
+                    <div class="col-md-6 model_pop_up">
+                        <img src="/assets/meta.jpeg" alt="My Logo" w="10" h="10" />
+                    </div>
 
                 </div>
             </div>
