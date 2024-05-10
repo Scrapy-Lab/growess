@@ -178,7 +178,7 @@ div#box_4 {
     border-bottom-right-radius: 10px;
 }
 /* .code_assessment_details_box:hover{ color:#fff;transform: scale(1.0); width: 38% !important;height:auto;font-weight: 600} */
-.code_assessment_details_box_active{ color:#fff;transform: scale(1.0); width: 38% !important;height:auto;font-weight: 600}
+.code_assessment_details_box_active{ color:#fff;transform: scale(1.0); width: 40% !important;height:auto;font-weight: 600}
 .view_more{font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";color: #2196f3;font-size: 20px;text-decoration: none;}
 .code_assessment_details{display: flex;align-items: center;margin: 20px 0;}
 .code_assessment_details_box:nth-child(1){background:#f29900;color:#fff;transform: scale(1.0); width: 38%;height:auto;font-weight: 600;right: 0;}
