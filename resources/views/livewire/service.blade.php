@@ -41,7 +41,7 @@
 
 {{-- modal website --}}
 
-    <div class="modal fade" wire:ignore.self id="modal_sub_services_website" aria-hidden="true"
+    <div class="modal fade modal-lg" wire:ignore.self id="modal_sub_services_website" aria-hidden="true"
     aria-labelledby="exampleModalToggleLabel" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -144,12 +144,53 @@
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
             <div class="modal-header text-capitalize">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Lead 3{{ $subModalTitle }}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="container pop_up_box">
+
+                        <div class="col-md-6 model_pop_up" data-bs-target="#exampleModalToggle3_lead"
+                        data-bs-toggle="modal">
+                             <img src="/assets/google.jpeg" alt="My Logo" w="10" h="10" />
+                         </div>
+                         <div class="col-md-6 model_pop_up" data-bs-target="#exampleModalToggle3_lead"
+                         data-bs-toggle="modal">
+                             <img src="/assets/meta.jpeg" alt="My Logo" w="10" h="10" />
+                         </div>
+
+                     </div>
+                </div>
+            </div>
+            {{-- <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
+                    first</button>
+            </div> --}}
+        </div>
+    </div>
+</div>
+
+<div class="modal fade"   wire:ignore.self id="exampleModalToggle3_lead" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header text-capitalize">
                 <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Lead 2 {{ $subModalTitle }}</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <div class="container">
+                    <div class="container pop_up_box">
 
+                        <div class="col-md-6 model_pop_up" data-bs-target="#exampleModalToggle3_lead"
+                        data-bs-toggle="modal">
+                             <img src="/assets/google.jpeg" alt="My Logo" w="10" h="10" />
+                         </div>
+
+
+
+                     </div>
                 </div>
             </div>
             {{-- <div class="modal-footer">
