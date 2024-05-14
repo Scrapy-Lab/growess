@@ -91,23 +91,67 @@
                 </div>
             </div>
             <div id="container2" style="display: none;">
-                <h2>What types of ads can you run on instagram?</h2>
-                <p class="intagram_headline">Instagrams offers inspiring and seamless ways to tell your story.No matter what
-                    types
-                    of business you are.
-                    there's anad format that can help you <span styles="color:blues">reach your marketing goals.</span>
-                <div class="instagram_container">
-                    <img src="/assets/twitter.jpeg" w="100" h="" alt="100" />
-                    <div class="right_container">
-                        <div id="myDiv1" class="display photo_ads" onclick="toggleActive('myDiv1')">
-                            <div class="photo_ads_title">Photos ads</div>
-                            <p class="photo_ads_headline">tell your story through a clean,sample and beautiful creative
-                                canvas.photos can be square,landscape and portriot.</p>
+                <div class="google_container" id="content1">
+                    <div class="list_card ">
+                        <div class="menu_bar">
+                            <div class="menuAds tab-links active" onclick="tabb(event, 'tab01')">
+                                <span class="fa fa-search" style="font-size:20px">&nbsp;Search</span>
+                            </div>
+                            <div class="menuAds tab-links" onclick="tabb(event, 'tab02')">
+                                <span class=" fa fa-desktop" style="font-size:20px">&nbsp; Display</span>
+
+                            </div>
+                            <div class="menuAds tab-links" onclick="tabb(event, 'tab03')">
+                                <span class="fa fa-shopping-cart" style="font-size:20px">&nbsp;Shopping</span>
+
+                            </div>
+                            <div class="menuAds tab-links" onclick="tabb(event, 'tab04')">
+                                <span class="fa fa-play-circle-o" style="font-size:20px">&nbsp; Video</span>
+                            </div>
+                            <div class="menuAds tab-links" onclick="tabb(event, 'tab05')">
+                                <span class="fa fa-qrcode" style="font-size:20px">&nbsp; App</span>
+                            </div>
                         </div>
-                        <div class="photo_ads" id="myDiv2" onclick="toggleActive('myDiv2')">
-                            <div class="photo_ads_title">Video ads</div>
-                            <p class="photo_ads_headline">tell your story through a clean,sample and beautiful creative
-                                canvas.photos can be square,landscape and portriot.</p>
+                        <div class="tab_name" id="tab01">
+                            <section class="grid">
+                                <img src="/assets/google.webp" w="10" h="10" alt="" />
+                            </section>
+                        </div>
+                        <div class="tab_name" id="tab02" style="display:none">
+                            <section class="grid">
+                                <img src="/assets/display.webp" w="10" h="10" alt="" />
+                            </section>
+                        </div>
+                        <div class="tab_name" id="tab03" style="display:none">
+                            <section class="grid">
+                                <img src="/assets/shopping_1.webp" w="10" h="10" alt="" />
+                            </section>
+                        </div>
+                        <div class="tab_name" id="tab04" style="display:none">
+                            <section class="grid">
+                                <img src="/assets/youtube.webp" w="10" h="10" alt="" />
+                            </section>
+                        </div>
+                        <div class="tab_name" id="tab05" style="display:none">
+                            <section class="grid">
+                                <img src="/assets/apps.webp" w="10" h="10" alt="" />
+                            </section>
+                        </div>
+                        <div class="text-title">
+                            <h3 class="headline">
+                                Start with search
+                            </h3>
+                            <p class="text_paragraph">
+                                Help drive sales, leads or site traffic by getting your
+                                business in front of people who are actively searching Google
+                                for products or services you offer.
+                            </p>
+                            <div class="icon_wrapper">
+                                <a href=" " target=_blank class="icon_wrapper">
+                                    <img src="/assets/10009356.png" w="10" h="10" alt="logo" />
+                                    <span>Explore Search Ads</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

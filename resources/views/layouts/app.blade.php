@@ -28,6 +28,19 @@
         document.getElementById(tabName).style.display = "block";
         evt.currentTarget.className += " active";
     }
+    function tabb(evt,tabName) {
+        var i,  tablinks;
+        var x = document.getElementsByClassName("tab_name");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tab-links");
+        for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
     function toggleContainers() {
         var container1 = document.getElementById("container1");
         var container2 = document.getElementById("container2");
@@ -40,19 +53,6 @@
             container2.style.display = "block";
         }
     }
-    function toggleActive(divId) {
-        var div1 = document.getElementById('myDiv1');
-        var div2 = document.getElementById('myDiv2');
-        // Check which div was clicked and toggle its active state
-        if (divId === 'myDiv1') {
-            div1.classList.add('display');
-            div2.classList.remove('display');
-        } else if (divId === 'myDiv2') {
-            div1.classList.remove('display');
-            div2.classList.add('display');
-        }
-    }
-
     document.addEventListener("DOMContentLoaded", function() {
     var tabNavItems = document.querySelectorAll(".tab_nav li");
     tabNavItems.forEach(function(item) {

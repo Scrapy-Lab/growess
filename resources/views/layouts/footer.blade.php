@@ -1,5 +1,5 @@
  <!-- Components for footer -->
- <div class="gap" style="background: #e5ebed;">
+ <div class="gap">
     <div class="footer_container container">
         <div class="footer_contains">
             <img src="/assets/inquiries-icon.webp" w="10" h="10" alt="logo" >
@@ -29,7 +29,7 @@
             </div>
         </div>
     </div>  
-    <div class="footer_container container-fluid" style="border-bottom:none">
+    <div class="footer_container container-fluid" style="border-bottom:none;background: #e5ebed;">
         <div class="footer_information">
             <h4>OUR SERVICES</h4>
             <div style="color: #000;text-transform: capitalize;padding:4px 15px">
