@@ -95,14 +95,14 @@
                     <div class="list_card ">
                         <div class="menu_bar">
                             <div class="menuAds tab-links active" onclick="tabb(event, 'tab01')">
-                                <span class="fa fa-search" style="font-size:20px">&nbsp;Search</span>
+                                <span class="fa fa-search" style="font-size:20px">&nbsp;Website</span>
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab02')">
                                 <span class=" fa fa-desktop" style="font-size:20px">&nbsp; Display</span>
 
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab03')">
-                                <span class="fa fa-shopping-cart" style="font-size:20px">&nbsp;Shopping</span>
+                                <span class="fa fa-shopping-cart" style="font-size:20px">&nbsp;Lead</span>
 
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab04')">
@@ -682,8 +682,6 @@
     <!-- components for pratice codeing -->
     <div class="gap " style="background: linear-gradient(86deg, #fff0fa 1.71%, #FFFCEF 99.56%); !important; padding:60px">
        <div class="container">
-
-
         <div class="code_assessment">
             <div class="code_assessment_box">
                 <div class="page_title">practice codeing & ace hireing assessments</div>
