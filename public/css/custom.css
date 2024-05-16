@@ -150,11 +150,11 @@ li div { cursor: pointer; padding: 8px 18px; border-radius: 20px; font-family: L
 .content >div.open { display: block; }
 /* level-up-container */
 .level_up_container { display: flex; gap: 80px; align-items: center; background: #ffff0033; border-radius: 60px; }
-.level_up_container img { width: 35%; height: 100%; object-fit: none; border-radius: 60px; }
+.level_up_container img { width: 35%; height: 100%; padding: 20px; }
 .right_container_text { width: 46%; height: 270px; }
 .level_up_title { display: flex; flex-wrap: wrap; font-size: 47px; line-height: 67px; font-weight: 600; font-family: Raleway,sans-serif; text-transform: capitalize; }
 .level_up_headlne { font-size: 18px; line-height: 20px; font-weight: 100; color: #747272; font-family: Raleway,sans-serif; }
-.level_up_category { padding-left: 0; color: #5a4b4b; display: flex; font-size: 16px; line-height: 20px; gap: 20px; font-weight: 100; margin: 20px 0; justify-content: space-between; }
+.level_up_category { padding-left: 0; color: #5a4b4b; display: flex; font-size: 16px; line-height: 20px; gap: 20px; font-weight: 100; margin: 20px 0; justify-content: space-between;font-weight: 700; }
 .explore_courses { text-decoration: none; font-size: 19px; line-height: 32px; font-weight: 100; color: #fff; background: #283299; opacity: .7; padding: 10px 20px; border-radius: 20px; font-family: Raleway,sans-serif; }
 /* company logo */
 .company_banner { display: flex; align-items: center; justify-content: space-around; }
@@ -176,10 +176,6 @@ li div { cursor: pointer; padding: 8px 18px; border-radius: 20px; font-family: L
 .code_assessment { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
 .code_assessment_headline { color: #a19f9f; font-size: 20px; }
 .code_assessment_box { width: 85%; }
-/* #box_1:hover{background:#f29900}
-#box_2:hover{background: #1e8e3e}
-#box_3:hover{background: #1667d0}
-#box_4:hover{background: #c7241d} */
 div#box_1 { border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
 div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .code_assessment_details_box:nth-child(1).remove-styles { background: #fff; color: initial; transform: scale(1.0); width: 28%; height: auto; font-weight: 600; right: 0; }

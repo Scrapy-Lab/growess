@@ -665,17 +665,17 @@
     <!-- Components for learn and level up -->
     <div class="gap">
         <div class="level_up_container container">
-            <img src="/assets/upskills.jpeg" w="150" h="150" alt="logo" />
+            <img src="/assets/Group-807.png" w="150" h="150" alt="logo" />
             <div class="right_container_text">
-                <div class="level_up_title">Learn & <span style="color: #283299;opacity: .7;">Level up your skills<span>
+                <div class="level_up_title">Start your journey to <span style="color: #283299;opacity: .7;">digital success!<span>
                 </div>
-                <p class="level_up_headlne">slect from a wide range of courses to upskills and advance your carrier !</p>
+                <p class="level_up_headlne">Unlock your digital potential today and soar above the competition! Let's revolutionize your brand together.</p>
                 <ul class="level_up_category">
-                    <ol>&#11088; 50+ courses</ol>
-                    <ol>&#11088; Certificates</ol>
-                    <ol>&#11088; Projects & Assignments</ol>
+                    <ol>&#11088; 50+ Cities</ol>
+                    <ol>&#11088; 5+ Countries</ol>
+                    <ol>&#11088; 3200+ Clients</ol>
                 </ul>
-                <a href="#" class="explore_courses">Explore Courses ↗</a>
+                <a href="#" class="explore_courses">Start Digital Journey ↗</a>
             </div>
         </div>
     </div>
