@@ -39,7 +39,7 @@
 
     {{-- modal website --}}
 
-    <div class="modal fade modal-sm" wire:ignore.self id="modal_sub_services_website" aria-hidden="true"
+    <div class="modal fade" wire:ignore.self id="modal_sub_services_website" aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -81,15 +81,391 @@
     <div class="modal fade" wire:ignore.self id="exampleModalToggle2_website" aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
+            <div class="modal-content bg-color">
                 <div class="modal-header text-capitalize">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Select your {{ $modalTitle }} :-</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Select your Static Website Feature
+                        {{ $modalTitle }} :-
+                    </h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="container">
                         <div class="container pop_up_box">
-                            hello website
+                            <div class="checkbox_card">
+                                <div class="checkboxes__item">
+                                    <label class="checkbox style-a">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">Domain
+                                            <div class="tooltip"
+                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                                &nbsp;&#9432;
+                                                <span class="tooltiptext">Hello Tooltip text </span>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div style="margin-left: 52px;">
+                                    <select name="month" id="month" class="select_month">
+                                        <option value="placeholder" selected>&nbsp;Select</option>
+                                        <option value="option">1 months</option>
+                                        <option value="option">2 months</option>
+                                        <option value="option">3 months</option>
+                                        <option value="option">4 months</option>
+                                        <option value="option">5 months</option>
+                                        <option value="option">6 months</option>
+                                        <option value="option">7 months</option>
+                                        <option value="option">8 months</option>
+                                        <option value="option">9 months</option>
+                                        <option value="option">10 months</option>
+                                        <option value="option">11 months</option>
+                                        <option value="option">12 months</option>
+                                        <option value="option">13 months</option>
+                                        <option value="option">14 months</option>
+                                        <option value="option">15 months</option>
+                                        <option value="option">16 months</option>
+                                        <option value="option">17 months</option>
+                                        <option value="option">18 months</option>
+                                        <option value="option">19 months</option>
+                                        <option value="option">20 months</option>
+                                        <option value="option">21 months</option>
+                                        <option value="option">22 months</option>
+                                        <option value="option">23 months</option>
+                                        <option value="option">24 months</option>
+                                        <option value="option">25 months</option>
+                                        <option value="option">25 months</option>
+                                        <option value="option">27 months</option>
+                                        <option value="option">28 months</option>
+                                        <option value="option">29 months</option>
+                                        <option value="option">30 months</option>
+                                        <option value="option">31 months</option>
+                                        <option value="option">32 months</option>
+                                        <option value="option">33 months</option>
+                                        <option value="option">34 months</option>
+                                        <option value="option">35 months</option>
+                                        <option value="option">36 months</option>
+                                        <option value="option">37 months</option>
+                                        <option value="option">38 months</option>
+                                        <option value="option">39 months</option>
+                                        <option value="option">40 months</option>
+                                        <option value="option">41 months</option>
+                                        <option value="option">42 months</option>
+                                        <option value="option">43 months</option>
+                                        <option value="option">44 months</option>
+                                        <option value="option">45 months</option>
+                                        <option value="option">46 months</option>
+                                        <option value="option">47 months</option>
+                                        <option value="option">48 months</option>
+                                        <option value="option">49 months</option>
+                                        <option value="option">50 months</option>
+                                        <option value="option">51 months</option>
+                                        <option value="option">52 months</option>
+                                        <option value="option">53 months</option>
+                                        <option value="option">54 months</option>
+                                        <option value="option">55 months</option>
+                                        <option value="option">56 months</option>
+                                        <option value="option">57 months</option>
+                                        <option value="option">58 months</option>
+                                        <option value="option">59 months</option>
+                                        <option value="option">60 months</option>
+                                        <option value="option">61 months</option>
+                                        <option value="option">62 months</option>
+                                        <option value="option">63 months</option>
+                                        <option value="option">64 months</option>
+                                        <option value="option">65 months</option>
+                                        <option value="option">66 months</option>
+                                        <option value="option">67 months</option>
+                                        <option value="option">68 months</option>
+                                        <option value="option">69 months</option>
+                                        <option value="option">70 months</option>
+                                        <option value="option">71 months</option>
+                                        <option value="option">72 months</option>
+                                        <option value="option">73 months</option>
+                                        <option value="option">74 months</option>
+                                        <option value="option">75 months</option>
+                                        <option value="option">76 months</option>
+                                        <option value="option">77 months</option>
+                                        <option value="option">78 months</option>
+                                        <option value="option">79 months</option>
+                                        <option value="option">80 months</option>
+                                        <option value="option">81 months</option>
+                                        <option value="option">82 months</option>
+                                        <option value="option">83 months</option>
+                                        <option value="option">84 months</option>
+                                        <option value="option">85 months</option>
+                                        <option value="option">86 months</option>
+                                        <option value="option">87 months</option>
+                                        <option value="option">88 months</option>
+                                        <option value="option">89 months</option>
+                                        <option value="option">90 months</option>
+                                        <option value="option">91 months</option>
+                                        <option value="option">92 months</option>
+                                        <option value="option">93 months</option>
+                                        <option value="option">94 months</option>
+                                        <option value="option">95 months</option>
+                                        <option value="option">96 months</option>
+                                        <option value="option">97 months</option>
+                                        <option value="option">99 months</option>
+                                        <option value="option">99 months</option>
+                                        <option value="option">100 months</option>
+                                        <option value="option">101 months</option>
+                                        <option value="option">102 months</option>
+                                        <option value="option">103 months</option>
+                                        <option value="option">104 months</option>
+                                        <option value="option">105 months</option>
+                                        <option value="option">106 months</option>
+                                        <option value="option">107 months</option>
+                                        <option value="option">108 months</option>
+                                    </select>
+                                </div>
+                                <div class="check_price">Rs.1600/-</div>
+                            </div>
+                            <div class="checkbox_card">
+                                <div class="checkboxes__item">
+                                    <label class="checkbox style-a">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">Web Hosting
+                                            <div class="tooltip"
+                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                                &nbsp;&#9432;
+                                                <span class="tooltiptext">Hello Tooltip text </span>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div style="margin-left: 48px;">
+                                    <select name="months" id="months" class="select_month">
+                                        <option value="placeholder" selected>&nbsp;Select</option>
+                                        <option value="option">1 months</option>
+                                        <option value="option">2 months</option>
+                                        <option value="option">3 months</option>
+                                        <option value="option">4 months</option>
+                                        <option value="option">5 months</option>
+                                        <option value="option">6 months</option>
+                                        <option value="option">7 months</option>
+                                        <option value="option">8 months</option>
+                                        <option value="option">9 months</option>
+                                        <option value="option">10 months</option>
+                                        <option value="option">11 months</option>
+                                        <option value="option">12 months</option>
+                                        <option value="option">13 months</option>
+                                        <option value="option">14 months</option>
+                                        <option value="option">15 months</option>
+                                        <option value="option">16 months</option>
+                                        <option value="option">17 months</option>
+                                        <option value="option">18 months</option>
+                                        <option value="option">19 months</option>
+                                        <option value="option">20 months</option>
+                                        <option value="option">21 months</option>
+                                        <option value="option">22 months</option>
+                                        <option value="option">23 months</option>
+                                        <option value="option">24 months</option>
+                                        <option value="option">25 months</option>
+                                        <option value="option">25 months</option>
+                                        <option value="option">27 months</option>
+                                        <option value="option">28 months</option>
+                                        <option value="option">29 months</option>
+                                        <option value="option">30 months</option>
+                                        <option value="option">31 months</option>
+                                        <option value="option">32 months</option>
+                                        <option value="option">33 months</option>
+                                        <option value="option">34 months</option>
+                                        <option value="option">35 months</option>
+                                        <option value="option">36 months</option>
+                                        <option value="option">37 months</option>
+                                        <option value="option">38 months</option>
+                                        <option value="option">39 months</option>
+                                        <option value="option">40 months</option>
+                                        <option value="option">41 months</option>
+                                        <option value="option">42 months</option>
+                                        <option value="option">43 months</option>
+                                        <option value="option">44 months</option>
+                                        <option value="option">45 months</option>
+                                        <option value="option">46 months</option>
+                                        <option value="option">47 months</option>
+                                        <option value="option">48 months</option>
+                                        <option value="option">49 months</option>
+                                        <option value="option">50 months</option>
+                                        <option value="option">51 months</option>
+                                        <option value="option">52 months</option>
+                                        <option value="option">53 months</option>
+                                        <option value="option">54 months</option>
+                                        <option value="option">55 months</option>
+                                        <option value="option">56 months</option>
+                                        <option value="option">57 months</option>
+                                        <option value="option">58 months</option>
+                                        <option value="option">59 months</option>
+                                        <option value="option">60 months</option>
+                                        <option value="option">61 months</option>
+                                        <option value="option">62 months</option>
+                                        <option value="option">63 months</option>
+                                        <option value="option">64 months</option>
+                                        <option value="option">65 months</option>
+                                        <option value="option">66 months</option>
+                                        <option value="option">67 months</option>
+                                        <option value="option">68 months</option>
+                                        <option value="option">69 months</option>
+                                        <option value="option">70 months</option>
+                                        <option value="option">71 months</option>
+                                        <option value="option">72 months</option>
+                                        <option value="option">73 months</option>
+                                        <option value="option">74 months</option>
+                                        <option value="option">75 months</option>
+                                        <option value="option">76 months</option>
+                                        <option value="option">77 months</option>
+                                        <option value="option">78 months</option>
+                                        <option value="option">79 months</option>
+                                        <option value="option">80 months</option>
+                                        <option value="option">81 months</option>
+                                        <option value="option">82 months</option>
+                                        <option value="option">83 months</option>
+                                        <option value="option">84 months</option>
+                                        <option value="option">85 months</option>
+                                        <option value="option">86 months</option>
+                                        <option value="option">87 months</option>
+                                        <option value="option">88 months</option>
+                                        <option value="option">89 months</option>
+                                        <option value="option">90 months</option>
+                                        <option value="option">91 months</option>
+                                        <option value="option">92 months</option>
+                                        <option value="option">93 months</option>
+                                        <option value="option">94 months</option>
+                                        <option value="option">95 months</option>
+                                        <option value="option">96 months</option>
+                                        <option value="option">97 months</option>
+                                        <option value="option">99 months</option>
+                                        <option value="option">99 months</option>
+                                        <option value="option">100 months</option>
+                                        <option value="option">101 months</option>
+                                        <option value="option">102 months</option>
+                                        <option value="option">103 months</option>
+                                        <option value="option">104 months</option>
+                                        <option value="option">105 months</option>
+                                        <option value="option">106 months</option>
+                                        <option value="option">107 months</option>
+                                        <option value="option">108 months</option>
+                                    </select>
+                                    <div style="font-size:16px;color:#000;font-weight:500">(Rs.220 p/month)</div>
+                                </div>
+                                <div class="check_price">Rs.200/-</div>
+                            </div>
+                            <div class="checkbox_card">
+                                <div class="checkboxes__item">
+                                    <label class="checkbox style-a">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">Web Pages
+                                            <div class="tooltip"
+                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                                &nbsp;&#9432;
+                                                <span class="tooltiptext">Hello Tooltip text </span>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div style="margin-left: 60px;">
+                                    <form>
+                                        <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                            value="Decrease Value">-</div>
+                                        <input type="number" id="number" value="0" />
+                                        <div class="value-button" id="increase" onclick="increaseValue()"
+                                            value="Increase Value">+</div>
+                                    </form>
+                                    <div style="font-size:16px;color:#000;font-weight:500">(Rs.300 p/page)</div>
+                                </div>
+                                <div class="check_price">Rs.4000/-</div>
+                            </div>
+                            <div class="checkbox_card">
+                                <div class="checkboxes__item">
+                                    <label class="checkbox style-a">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">E-mails
+                                            <div class="tooltip"
+                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                                &nbsp;&#9432;
+                                                <span class="tooltiptext">Hello Tooltip text </span>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div style="margin-left: 60px;">
+                                    <form>
+                                        <div class="value-button" id="decrease" onclick="decreaseValues()"
+                                            value="Decrease Value">-</div>
+                                        <input type="number" id="numbers" value="0" />
+                                        <div class="value-button" id="increase" onclick="increaseValues()"
+                                            value="Increase Value">+</div>
+                                    </form>
+                                    <div style="font-size:16px;color:#000;font-weight:500">(Rs.800 p/page)</div>
+                                </div>
+                                <div class="check_price">Rs.4000/-</div>
+                            </div>
+                            <div class="checkbox_card">
+                                <div class="checkboxes__item">
+                                    <label class="checkbox style-a">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">SSL Certificate(1 Year)</div>
+                                    </label>
+                                </div>
+                                <div class="check_price">Rs.700/-</div>
+                            </div>
+                            <div class="checkbox_card">
+                                <div class="checkboxes__item">
+                                    <label class="checkbox style-a">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">Inquiry Form</div>
+                                    </label>
+                                </div>
+                                <div class="check_price">Rs.700/-</div>
+                            </div>
+
+                            <div class="checkbox_card">
+                                <div class="checkboxes__item">
+                                    <label class="checkbox style-a">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">Security & Backup</div>
+                                    </label>
+                                </div>
+                                <div class="check_price">Rs.700/-</div>
+                            </div>
+                            <div class="checkbox_card">
+                                <div class="checkboxes__item">
+                                    <label class="checkbox style-a">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">HD Quality Images
+                                            <div class="tooltip"
+                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                                &nbsp;&#9432;
+                                                <span class="tooltiptext">Hello Tooltip text </span>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="check_price">Rs.700/-</div>
+                            </div>
+
+                            <div class="checkbox_card">
+                                <div class="checkboxes__item">
+                                    <label class="checkbox style-a">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">Content Writing
+                                            <div class="tooltip"
+                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                                &nbsp;&#9432;
+                                                <span class="tooltiptext">Hello Tooltip text </span>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="check_price">Rs.700/-</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -249,7 +625,8 @@
                                             style="border: 4px solid #44c011; border-radius: 12px; width: 179px; height: 88px;text-align: center; ">
                                             <div style="font-size:14px;color: #0091ff;font-weight:500;">Recommended for
                                                 you<div class="tooltip"
-                                                    style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">&nbsp;&#9432;
+                                                    style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                                    &nbsp;&#9432;
                                                     <span class="tooltiptext">Hello Tooltip text </span>
                                                 </div>
                                             </div>
@@ -296,7 +673,8 @@
                                             style="border: 4px solid #44c011; border-radius: 12px; width: 180px; height: 88px;text-align: center; ">
                                             <div style="font-size:14px;color: #0091ff;font-weight:500;">Recommended for
                                                 you<div class="tooltip"
-                                                    style="display:contents; color: #e90d12;font-size: 12px;font-weight:700">&nbsp;&#9432;
+                                                    style="display:contents; color: #e90d12;font-size: 12px;font-weight:700">
+                                                    &nbsp;&#9432;
                                                     <span class="tooltiptext">Hello Tooltip text </span>
                                                 </div>
                                             </div>
