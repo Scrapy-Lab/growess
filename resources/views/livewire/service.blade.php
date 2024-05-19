@@ -613,7 +613,7 @@
                                 <div class="modal_title">Choose your daily budget</div>
                                 <div>
                                     <div style="display: flex;justify-content: space-between;gap:12px">
-                                        <div
+                                        <div  wire:click="fixedAmount(200)"
                                             style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px;padding: 20px 10px;text-align: center;">
                                             <div
                                                 style="color: #000; font-size: 26px; font-weight: 700;text-align:center">
@@ -621,7 +621,7 @@
                                             <div style="font-size:14px;color:#000;font-weight:500;">Rs,6000 monthly max
                                             </div>
                                         </div>
-                                        <div
+                                        <div wire:click="fixedAmount(300)"
                                             style="border: 4px solid #44c011; border-radius: 12px; width: 179px; height: 88px;text-align: center; ">
                                             <div style="font-size:14px;color: #0091ff;font-weight:500;">Recommended for
                                                 you<div class="tooltip"
@@ -635,7 +635,7 @@
                                             <div style="font-size:14px;color:#000;font-weight:500;">Rs.9,000 monthly max
                                             </div>
                                         </div>
-                                        <div
+                                        <div wire:click="fixedAmount(350)"
                                             style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px; padding: 20px 5px;text-align: center; ">
                                             <div style="color: #000; font-size: 26px; font-weight: 700;">
                                                 Rs.350 </div>
@@ -649,7 +649,7 @@
                                                 style="border: 4px solid #10a3ec; border-radius: 12px; width: 155px; height: 63px; ">
                                                 <div
                                                     style="color: #000; font-size: 26px; font-weight: 700;padding: 6px 10px; background: none;">
-                                                    Rs. <span><input type="text" placeholder=""
+                                                    Rs. <span><input type="text" wire:change="customAmount" placeholder="" wire:model="amount"
                                                             style="border: none;width: 63%;font-size: 26px;font-weight: 700;border: none;outline: none;" />
                                                     </span></div>
                                             </div>
@@ -661,7 +661,7 @@
                                 <div class="modal_title">Select your Day</div>
                                 <div>
                                     <div style="display: flex;justify-content: space-between;gap:12px">
-                                        <div
+                                        <div wire:click="fixedDays(10)"
                                             style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px;padding: 20px 10px;text-align: center;">
                                             <div
                                                 style="color: #000; font-size: 26px; font-weight: 700;text-align:center">
@@ -669,7 +669,7 @@
                                             <div style="font-size:14px;color:#000;font-weight:500;">Rs,6000 monthly max
                                             </div>
                                         </div>
-                                        <div
+                                        <div wire:click="fixedDays(30)"
                                             style="border: 4px solid #44c011; border-radius: 12px; width: 180px; height: 88px;text-align: center; ">
                                             <div style="font-size:14px;color: #0091ff;font-weight:500;">Recommended for
                                                 you<div class="tooltip"
@@ -683,7 +683,7 @@
                                             <div style="font-size:14px;color:#000;font-weight:500;">Rs.9,000 monthly max
                                             </div>
                                         </div>
-                                        <div
+                                        <div wire:click="fixedDays(15)"
                                             style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px;    padding: 20px 5px;text-align: center; ">
                                             <div style="color: #000; font-size: 26px; font-weight: 700;">
                                                 15 Days </div>
@@ -696,7 +696,7 @@
                                             <div
                                                 style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 63px; ">
                                                 <div class="input-container" id="date-picker-container">
-                                                    <input type="date" id="date-checkin" class="date-field"
+                                                    <input type="date" id="date-checkin" class="date-field"  wire:change="customDate" wire:model="custom_date"
                                                         name"date-from" />
                                                 </div>
                                             </div>
@@ -710,7 +710,7 @@
                                     <div
                                         style="border: 4px solid #10a3ec; border-radius: 12px; width: 320px; height: 88px;padding: 8px 10px;text-align: center;">
                                         <div style="color: #000; font-size: 42px; font-weight: 700;text-align:center">
-                                            30 Days </div>
+                                            {{$day}} Days </div>
                                     </div>
                                 </div>
                                 <div>
@@ -718,14 +718,35 @@
                                     <div
                                         style="border: 4px solid #10a3ec; border-radius: 12px; width: 320px; height: 88px;padding: 8px 10px;text-align: center;">
                                         <div style="color: #000; font-size: 22px; font-weight: 700;text-align:center">
-                                            <span>Sub Total.&nbsp;&nbsp;&nbsp;:-&nbsp;<input type="text" placeholder=""
-                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
+                                            <span>Total Amount.&nbsp;&nbsp;&nbsp;:-&nbsp;
+                                                {{-- <input type="text" placeholder=""
+                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" /> --}}
+
+                                                    {{$amount}}
+                                            </span>
+                                        </div>
+                                        <div style="color: #000; font-size: 18px; font-weight: 700;text-align:center">
+                                            <span>Sub Total.&nbsp;&nbsp;&nbsp;:-&nbsp;
+                                                {{-- <input type="text" placeholder=""
+                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" /> --}}
+
+                                                    ₹{{$amount}} x {{$day}}D : {{$amount * $day}}
                                             </span>
                                         </div>
                                         <div style="font-size:16px;color:#000;font-weight:700;">Service
-                                            Charge&nbsp;:-&nbsp;<span><input type="text" placeholder=""
-                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
-                                            </span></div>
+                                            Charge&nbsp;:-&nbsp;<span>
+                                                {{-- <input type="text" placeholder=""
+                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" /> --}}
+                                                    @if ($day)
+                                                    ₹{{$service_charge * $day}}
+
+                                                    @else
+
+                                                    ₹{{$service_charge}}
+                                                    @endif
+                                            </span>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -740,6 +761,7 @@
                                     Total<span style="font-size:16px">&nbsp;(Incl.Service charge)&nbsp;</span>:-
                                     <span><input type="text" placeholder=""
                                             style="border: none;width: 35%;font-size: 42px;font-weight: 700;border: none;outline: none;" />
+                                            ₹{{$grand_total + ($service_charge * $day)}}
                                     </span>
                                 </div>
                             </div>
