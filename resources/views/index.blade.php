@@ -662,126 +662,84 @@
             </div>
         </div>
     </div>
-    <!-- Components for learn and level up -->
-    <div class="gap">
-        <div class="level_up_container container">
-            <img src="/assets/Group-807.png" w="150" h="150" alt="logo" />
-            <div class="right_container_text">
-                <div class="level_up_title">Start your journey to <span style="color: #283299;opacity: .7;">digital success!<span>
-                </div>
-                <p class="level_up_headlne">Unlock your digital potential today and soar above the competition! Let's revolutionize your brand together.</p>
-                <ul class="level_up_category">
-                    <ol>&#11088; 50+ Cities</ol>
-                    <ol>&#11088; 5+ Countries</ol>
-                    <ol>&#11088; 3200+ Clients</ol>
-                </ul>
-                <a href="#" class="explore_courses">Start Digital Journey ↗</a>
-            </div>
-        </div>
-    </div>
+
     <!-- components for pratice codeing -->
-    <div class="gap " style="background: linear-gradient(86deg, #fff0fa 1.71%, #FFFCEF 99.56%); !important; padding:60px">
-       <div class="container">
-        <div class="code_assessment">
-            <div class="code_assessment_box">
-                <div class="page_title">practice codeing & ace hireing assessments</div>
-                <p class="code_assessment_headline">level up your coding skills by practicing the hieing assessments of
-                    your companies and ace your placement game!
-                <p>
-            </div>
-            <a href=" " class="view_more">view more &#8599;</a>
-        </div>
-        <div class="code_assessment_details">
-            <div class="code_assessment_details_box code_assessment_details_box_active" id="box_1">
-                <img src="/assets/coding.jpeg" w="10" h="10" alt="logo" style="background: #c8e5f2;">
-                <h4>code practice</h4>
-                <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring
-                    question</p>
-                <p>500+ questions &nbsp;&nbsp;&gt;</p>
-            </div>
-            <div class="code_assessment_details_box" id="box_2">
-                <img src="/assets/interview.png" w="10" h="10" alt="logo" style="background: #f6def8;">
-                <h4>Interview preparation</h4>
-                <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring
-                    question</p>
-                <p>200+ companies &nbsp;&nbsp;&gt;</p>
-            </div>
-            <div class="code_assessment_details_box" id="box_3">
-                <img src="/assets/projects.png" w="10" h="10" alt="logo" style="background: #ccacf5;">
-                <h4>projects</h4>
-                <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring
-                    question</p>
-                <p>50+ projects &nbsp;&nbsp;&gt;</p>
-            </div>
-            <div class="code_assessment_details_box" id="box_4">
-                <img src="/assets/skills.jpeg" w="10" h="10" alt="logo" style="background: #fbdf98;">
-                <h4>skill assessments</h4>
-                <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring
-                    question</p>
-                <p>500+ questions &nbsp;&nbsp;&gt;</p>
-            </div>
-        </div>
-    </div>
-
-    </div>
-
-    <div class="gap container">
-        <div class="code_assessment_job">
-            <div>
-                <div class="code_assessment_job_details"><span style="color:#0862ab">browse job/internship</span>
-                    <br>that's right for you !
+    <div class="gap "
+        style="background: linear-gradient(86deg, #fff0fa 1.71%, #FFFCEF 99.56%); !important; padding:60px">
+        <div class="container">
+            <div class="code_assessment">
+                <div class="code_assessment_box">
+                    <div class="page_title">practice codeing & ace hireing assessments</div>
+                    <p class="code_assessment_headline">level up your coding skills by practicing the hieing assessments of
+                        your companies and ace your placement game!
+                    <p>
                 </div>
-                <p class="code_assessment_job_details_description">find a role that fits your carrier aspirators.</p>
-                <div class="code_assessment_job_details_box-container">
-                    <ul class="tab_box">
-                        <li class="select select_mode fa fa-search" data-tab="tab01">&nbsp;find job</li>
-                        <li class="select_mode" data-tab="tab02">&nbsp;full-time</li>
-                        <li class="select_mode" data-tab="tab03">&nbsp;part-time</li>
-                        <li class="select_mode fa fa-home " data-tab="tab04">&nbsp;work from home</li>
-                        <li class="select_mode" data-tab="tab05">&nbsp;on-field</li>
+                <a href=" " class="view_more">view more &#8599;</a>
+            </div>
+            <div class="code_assessment_details">
+                <div class="code_assessment_details_box code_assessment_details_box_active" id="box_1">
+                    <img src="/assets/coding.jpeg" w="10" h="10" alt="logo" style="background: #c8e5f2;">
+                    <h4>code practice</h4>
+                    <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring
+                        question</p>
+                    <p>500+ questions &nbsp;&nbsp;&gt;</p>
+                </div>
+                <div class="code_assessment_details_box" id="box_2">
+                    <img src="/assets/interview.png" w="10" h="10" alt="logo" style="background: #f6def8;">
+                    <h4>Interview preparation</h4>
+                    <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring
+                        question</p>
+                    <p>200+ companies &nbsp;&nbsp;&gt;</p>
+                </div>
+                <div class="code_assessment_details_box" id="box_3">
+                    <img src="/assets/projects.png" w="10" h="10" alt="logo" style="background: #ccacf5;">
+                    <h4>projects</h4>
+                    <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring
+                        question</p>
+                    <p>50+ projects &nbsp;&nbsp;&gt;</p>
+                </div>
+                <div class="code_assessment_details_box" id="box_4">
+                    <img src="/assets/skills.jpeg" w="10" h="10" alt="logo" style="background: #fbdf98;">
+                    <h4>skill assessments</h4>
+                    <p class="code_assessment_details_box_description">let us our coding skills by practicing the hiring
+                        question</p>
+                    <p>500+ questions &nbsp;&nbsp;&gt;</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- Components for learn and level up -->
+        <div class="gap">
+            <div class="level_up_container container">
+                <img src="/assets/Group-807.png" w="150" h="150" alt="logo" />
+                <div class="right_container_text">
+                    <div class="level_up_title">Start your journey to <span style="color: #283299;opacity: .7;">digital
+                            success!<span>
+                    </div>
+                    <p class="level_up_headlne">Unlock your digital potential today and soar above the competition! Let's
+                        revolutionize your brand together.</p>
+                    <ul class="level_up_category">
+                        <ol>&#11088; 50+ Cities</ol>
+                        <ol>&#11088; 5+ Countries</ol>
+                        <ol>&#11088; 3200+ Clients</ol>
                     </ul>
-                </div>
-            </div>
-            <div class="code_assessment_job_details_box">
-                <div class="job_details">
-                    <h4>jobs</h4>
-                    <img src="/assets/amazone.png" w="10" h="10" alt="logo">
-                </div>
-                <div class="jobs_category">
-                    web developer
-                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    data science
-                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    digital marketing
-                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
-                </div>
-            </div>
-            <div class="code_assessment_job_details_box">
-                <div class="job_details">
-                    <h4>jobs</h4>
-                    <img src="/assets/amazone.png" w="10" h="10" alt="logo">
-                </div>
-                <div class="jobs_category">
-                    web developer
-                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    data science
-                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    digital marketing
-                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                    <a href="#" class="explore_courses">Start Digital Journey ↗</a>
                 </div>
             </div>
         </div>
+
+    <div class="gap" style="background: linear-gradient(to right, #f9f8ef, #faf4ff); !important; padding:60px">
+        <div class="container">
+
+            @livewire('sample-web-design')
+        </div>
     </div>
+
+
     <!-- Components for company logo -->
-    <div class="gap" style="background-image: url('/assets/news-left-vector.webp');">>
+    <div class="gap" style="background-image: url('/assets/news-left-vector.webp');">
         <div class="container">
             <div class="company_banner">
                 <div>

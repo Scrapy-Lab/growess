@@ -225,12 +225,12 @@ div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .code_assessment_job_details { font-size: 47px; line-height: 67px; font-weight: 600; font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; text-transform: capitalize; }
 .code_assessment_job_details_description { color: #a19f9f; font-size: 16px; padding: 20px 0; }
 .code_assessment_job_details_box { width: 20%; padding: 12px; border-radius: 10px; cursor: pointer; }
-.select_mode { cursor: pointer; margin: 8px; font-size: 16px; font-weight: 400; text-decoration-line: none; line-height: 24px; position: relative; padding: 20px; border-radius: 30px; color: #000; background: #f0ebeb; }
+.select_mode { cursor: pointer; margin: 8px; font-size: 16px; font-weight: 400; text-decoration-line: none; line-height: 24px; position: relative; padding: 20px; border-radius: 30px; color: #000; background: #ffffff;; }
 .select { background: #0862ab; color: #fff; }
 .job_details img { width: 159px; height: 55px; border-radius: 20px; }
 .job_details { display: flex; justify-content: space-between; align-items: center; margin: 20px 0; }
 .jobs_category_description { color: #a19f9f; font-size: 14px; }
-.jobs_category { border: 1px solid #000; margin: 0 0 10px; text-transform: capitalize; font-size: 16px; background: #f6f1f1; border-radius: 50px; padding: 2px 26px; }
+.jobs_category { border: 1px solid #000; margin: 0 0 10px; text-transform: capitalize; font-size: 16px; background: #ffffff;; border-radius: 50px; padding: 2px 26px; }
 /* footer */
 .footer_container { display: flex; justify-content: space-evenly; border-bottom: 4px solid; border-image: linear-gradient(to right, #e73d3d,#78e678,#f5b961,#39b2ea); border-image-slice: 3; padding: 0 80px; margin: 20px 0; }
 .footer_contains img { width: 100px; height: 100px; }
