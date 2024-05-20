@@ -227,7 +227,10 @@ div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .code_assessment_job_details_box { width: 20%; padding: 12px; border-radius: 10px; cursor: pointer; }
 .select_mode { cursor: pointer; margin: 8px; font-size: 16px; font-weight: 400; text-decoration-line: none; line-height: 24px; position: relative; padding: 20px; border-radius: 30px; color: #000; background: #ffffff;; }
 .select { background: #0862ab; color: #fff; }
-.job_details img { width: 159px; height: 55px; border-radius: 20px; }
+.job_details img {width: 500px;
+    height: 55px;
+    /* border-radius: 20px;  */
+}
 .job_details { display: flex; justify-content: space-between; align-items: center; margin: 20px 0; }
 .jobs_category_description { color: #a19f9f; font-size: 14px; }
 .jobs_category { border: 1px solid #000; margin: 0 0 10px; text-transform: capitalize; font-size: 16px; background: #ffffff;; border-radius: 50px; padding: 2px 26px; }
