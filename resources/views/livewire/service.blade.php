@@ -708,7 +708,7 @@
                                 <div>
                                     <div class="modal_title">Total Selected Days</div>
                                     <div
-                                        style="border: 4px solid #10a3ec; border-radius: 12px; width: 320px; height: 88px;padding: 8px 10px;text-align: center;">
+                                        style="border: 4px solid #10a3ec; border-radius: 12px; width: 320px; height: 105px;padding: 12px 10px;text-align: center;">
                                         <div style="color: #000; font-size: 42px; font-weight: 700;text-align:center">
                                             30 Days </div>
                                     </div>
@@ -716,8 +716,9 @@
                                 <div>
                                     <div class="modal_title">Total Amount</div>
                                     <div
-                                        style="border: 4px solid #10a3ec; border-radius: 12px; width: 320px; height: 88px;padding: 8px 10px;text-align: center;">
-                                        <div style="color: #000; font-size: 22px; font-weight: 700;text-align:center">
+                                        style="border: 4px solid #10a3ec; border-radius: 12px; width: 320px; height: 105
+                                        px;padding: 8px 10px;">
+                                        <div style="color: #000; font-size: 22px; font-weight: 700;">
                                             <span>Sub Total.&nbsp;&nbsp;&nbsp;:-&nbsp;<input type="text" placeholder=""
                                                     style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
                                             </span>
@@ -736,10 +737,10 @@
                             </div>
                             <div style="width:100%;border:4px solid #000;"></div>
                             <div style="margin-bottom:40px">
-                                <div style="color: #000;font-size: 42px;font-weight: 700;text-align:center">Grand
+                                <div style="color: #000;font-size: 40px;font-weight: 700;text-align:center">Grand
                                     Total<span style="font-size:16px">&nbsp;(Incl.Service charge)&nbsp;</span>:-
                                     <span><input type="text" placeholder=""
-                                            style="border: none;width: 35%;font-size: 42px;font-weight: 700;border: none;outline: none;" />
+                                            style="border: none;width: 10%;font-size: 40px;font-weight: 700;border: none;outline: none;" />
                                     </span>
                                 </div>
                             </div>
