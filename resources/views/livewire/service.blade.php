@@ -80,7 +80,7 @@
     </div>
     <div class="modal fade" wire:ignore.self id="exampleModalToggle2_website" aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-lg ">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content bg-color">
                 <div class="modal-header text-capitalize">
                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Select your Static Website Feature
@@ -96,16 +96,16 @@
                                     <label class="checkbox style-a">
                                         <input type="checkbox" />
                                         <div class="checkbox__checkmark"></div>
-                                        <div class="checkbox__body">Domain
-                                            <div class="tooltip"
-                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
-                                                &nbsp;&#9432;
-                                                <span class="tooltiptext">Hello Tooltip text </span>
-                                            </div>
-                                        </div>
                                     </label>
                                 </div>
-                                <div style="margin-left: 48px;">
+                                <div class="checkbox__body">Domain
+                                    <div class="tooltip"
+                                        style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                        &nbsp;&#9432;
+                                        <span class="tooltiptext">Hello Tooltip text </span>
+                                    </div>
+                                </div>
+                                <div>
                                     <select name="Year" id="Year" class="select_month">
                                         <option value="placeholder" selected>&nbsp;Select</option>
                                         <option value="option">1 Year</option>
@@ -114,10 +114,10 @@
                                     </select>
                                 </div>
                                 <div class="check_price">Rs.1600/-</div>
-                                <div style="color: #000; font-size: 20px;margin-left:32px">
+                                <div style="color: #000; font-size: 28px;margin-left:32px">
                                     <span>Total Amount.&nbsp;:-&nbsp;
                                         <input type="text" placeholder=""
-                                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" />
+                                            style="border: none;width: 38%;font-size: 28px;border: none;outline: none;background:none" />
                                     </span>
                                 </div>
                             </div>
@@ -126,29 +126,29 @@
                                     <label class="checkbox style-a">
                                         <input type="checkbox" />
                                         <div class="checkbox__checkmark"></div>
-                                        <div class="checkbox__body">Web Hosting
-                                            <div class="tooltip"
-                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
-                                                &nbsp;&#9432;
-                                                <span class="tooltiptext">Hello Tooltip text </span>
-                                            </div>
-                                        </div>
                                     </label>
                                 </div>
-                                <div style="margin-left: 48px;">
+                                <div class="checkbox__body">Web Hosting
+                                    <div class="tooltip"
+                                        style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                        &nbsp;&#9432;
+                                        <span class="tooltiptext">Hello Tooltip text </span>
+                                    </div>
+                                </div>
+                                <div>
                                     <select name="Year" id="Year" class="select_month">
                                         <option value="placeholder" selected>&nbsp;Select</option>
                                         <option value="option">1 Year</option>
                                         <option value="option">2 Year</option>
                                         <option value="option">3 Year</option>
                                     </select>
-                                    <div style="font-size:14px;color:#000;width:110px">(Rs.220 p/month)</div>
+                                    <div>(Rs.220 p/month)</div>
                                 </div>
                                 <div class="check_price">Rs.200/-</div>
-                                <div style="color: #000; font-size: 20px;margin-left:42px">
+                                <div style="color: #000; font-size: 28px;margin-left:42px">
                                     <span>Total Amount.&nbsp;:-&nbsp;
                                         <input type="text" placeholder=""
-                                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" />
+                                            style="border: none;width: 38%;font-size: 28px;border: none;outline: none;background:none" />
                                     </span>
                                 </div>
                             </div>
@@ -157,16 +157,16 @@
                                     <label class="checkbox style-a">
                                         <input type="checkbox" />
                                         <div class="checkbox__checkmark"></div>
-                                        <div class="checkbox__body">Web Pages
-                                            <div class="tooltip"
-                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
-                                                &nbsp;&#9432;
-                                                <span class="tooltiptext">Hello Tooltip text </span>
-                                            </div>
-                                        </div>
                                     </label>
                                 </div>
-                                <div style="margin-left: 42px;">
+                                <div class="checkbox__body">Web Pages
+                                    <div class="tooltip"
+                                        style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                        &nbsp;&#9432;
+                                        <span class="tooltiptext">Hello Tooltip text </span>
+                                    </div>
+                                </div>
+                                <div style="margin-left: 6px;">
                                     <form>
                                         <div class="value-button" id="decrease" onclick="decreaseValue()"
                                             value="Decrease Value">-</div>
@@ -174,13 +174,13 @@
                                         <div class="value-button" id="increase" onclick="increaseValue()"
                                             value="Increase Value">+</div>
                                     </form>
-                                    <div style="font-size:14px;color:#000;width:110px">(Rs.300 p/page)</div>
+                                    <div>(Rs.300 p/page)</div>
                                 </div>
                                 <div class="check_price">Rs.4000/-</div>
-                                <div style="color: #000; font-size: 20px;margin-left:32px">
+                                <div style="color: #000; font-size: 28px;margin-left:32px">
                                     <span>Total Amount.&nbsp;:-&nbsp;
                                         <input type="text" placeholder=""
-                                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" />
+                                            style="border: none;width: 38%;font-size: 28px;border: none;outline: none;background:none" />
                                     </span>
                                 </div>
                             </div>
@@ -189,16 +189,16 @@
                                     <label class="checkbox style-a">
                                         <input type="checkbox" />
                                         <div class="checkbox__checkmark"></div>
-                                        <div class="checkbox__body">E-mails
-                                            <div class="tooltip"
-                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
-                                                &nbsp;&#9432;
-                                                <span class="tooltiptext">Hello Tooltip text </span>
-                                            </div>
-                                        </div>
                                     </label>
                                 </div>
-                                <div style="margin-left: 42px;">
+                                <div class="checkbox__body">E-mails
+                                    <div class="tooltip"
+                                        style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                        &nbsp;&#9432;
+                                        <span class="tooltiptext">Hello Tooltip text </span>
+                                    </div>
+                                </div>
+                                <div>
                                     <form>
                                         <div class="value-button" id="decrease" onclick="decreaseValues()"
                                             value="Decrease Value">-</div>
@@ -206,13 +206,13 @@
                                         <div class="value-button" id="increase" onclick="increaseValues()"
                                             value="Increase Value">+</div>
                                     </form>
-                                    <div style="font-size:14px;color:#000;width:110px">(Rs.800 p/page)</div>
+                                    <div>(Rs.800 p/page)</div>
                                 </div>
                                 <div class="check_price">Rs.4000/-</div>
-                                <div style="color: #000; font-size: 20px;margin-left:32px">
+                                <div style="color: #000; font-size: 28px;margin-left:32px">
                                     <span>Total Amount.&nbsp;:-&nbsp;
                                         <input type="text" placeholder=""
-                                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" />
+                                            style="border: none;width: 38%;font-size: 28px;border: none;outline: none;background:none" />
                                     </span>
                                 </div>
                             </div>
@@ -221,14 +221,14 @@
                                     <label class="checkbox style-a">
                                         <input type="checkbox" />
                                         <div class="checkbox__checkmark"></div>
-                                        <div class="checkbox__body">SSL Certificate (1 Yr)</div>
                                     </label>
                                 </div>
-                                <div class="check_price"  style="margin-left: 183px!important;">Rs.700/-</div>
-                                <div style="color: #000; font-size: 20px;margin-left:52px">
+                                <div class="checkbox__body">SSL Certificate (1 Yr)</div>
+                                <div class="check_price" style="margin-left: 183px!important;">Rs.700/-</div>
+                                <div style="color: #000; font-size: 28px;margin-left:52px">
                                     <span>Total Amount.&nbsp;:-&nbsp;
                                         <input type="text" placeholder=""
-                                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" />
+                                            style="border: none;width: 38%;font-size: 28px;border: none;outline: none;background:none" />
                                     </span>
                                 </div>
                             </div>
@@ -237,31 +237,31 @@
                                     <label class="checkbox style-a">
                                         <input type="checkbox" />
                                         <div class="checkbox__checkmark"></div>
-                                        <div class="checkbox__body">Inquiry Form</div>
                                     </label>
                                 </div>
-                                <div class="check_price"  style="margin-left: 183px!important;">Rs.700/-</div>
-                                <div style="color: #000; font-size: 20px;margin-left:52px">
+                                <div class="checkbox__body">Inquiry Form</div>
+                                <div class="check_price" style="margin-left: 183px!important;">Rs.700/-</div>
+                                <div style="color: #000; font-size: 28px;margin-left:52px">
                                     <span>Total Amount.&nbsp;:-&nbsp;
                                         <input type="text" placeholder=""
-                                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" />
+                                            style="border: none;width: 38%;font-size: 28px;border: none;outline: none;background:none" />
                                     </span>
                                 </div>
                             </div>
 
-                            <div class="checkbox_card">
+                            <div class="checkbox_card" 19px>
                                 <div class="checkboxes__item">
                                     <label class="checkbox style-a">
                                         <input type="checkbox" />
                                         <div class="checkbox__checkmark"></div>
-                                        <div class="checkbox__body">Security & Backup</div>
                                     </label>
                                 </div>
+                                <div class="checkbox__body">Security & Backup</div>
                                 <div class="check_price" style="margin-left: 183px!important;">Rs.700/-</div>
-                                <div style="color: #000; font-size: 20px;margin-left:52px">
+                                <div style="color: #000; font-size: 28px;margin-left:52px">
                                     <span>Total Amount.&nbsp;:-&nbsp;
                                         <input type="text" placeholder=""
-                                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" />
+                                            style="border: none;width: 38%;font-size: 28px;border: none;outline: none;background:none" />
                                     </span>
                                 </div>
                             </div>
@@ -270,44 +270,73 @@
                                     <label class="checkbox style-a">
                                         <input type="checkbox" />
                                         <div class="checkbox__checkmark"></div>
-                                        <div class="checkbox__body">HD Quality Images
-                                            <div class="tooltip"
-                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
-                                                &nbsp;&#9432;
-                                                <span class="tooltiptext">Hello Tooltip text </span>
-                                            </div>
-                                        </div>
                                     </label>
                                 </div>
-                                <div class="check_price"  style="margin-left: 183px!important;">Rs.700/-</div>
-                                <div style="color: #000; font-size: 20px;margin-left:52px">
+                                <div class="checkbox__body">HD Quality Images
+                                    <div class="tooltip"
+                                        style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                        &nbsp;&#9432;
+                                        <span class="tooltiptext">Hello Tooltip text </span>
+                                    </div>
+                                </div>
+                                <div class="check_price" style="margin-left: 183px!important;">Rs.700/-</div>
+                                <div style="color: #000; font-size: 28px;margin-left:52px">
                                     <span>Total Amount.&nbsp;:-&nbsp;
                                         <input type="text" placeholder=""
-                                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" />
+                                            style="border: none;width: 38%;font-size: 28px;border: none;outline: none;background:none" />
                                     </span>
                                 </div>
                             </div>
-
                             <div class="checkbox_card">
                                 <div class="checkboxes__item">
                                     <label class="checkbox style-a">
                                         <input type="checkbox" />
                                         <div class="checkbox__checkmark"></div>
-                                        <div class="checkbox__body">Content Writing
-                                            <div class="tooltip"
-                                                style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
-                                                &nbsp;&#9432;
-                                                <span class="tooltiptext">Hello Tooltip text </span>
-                                            </div>
-                                        </div>
                                     </label>
                                 </div>
+                                <div class="checkbox__body">Content Writing
+                                    <div class="tooltip"
+                                        style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                        &nbsp;&#9432;
+                                        <span class="tooltiptext">Hello Tooltip text </span>
+                                    </div>
+                                </div>
                                 <div class="check_price" style="margin-left: 183px!important;">Rs.700/-</div>
-                                <div style="color: #000; font-size: 20px;margin-left:52px">
+                                <div style="color: #000; font-size: 28px;margin-left:52px">
                                     <span>Total Amount.&nbsp;:-&nbsp;
                                         <input type="text" placeholder=""
-                                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" />
+                                            style="border: none;width: 38%;font-size: 28px;border: none;outline: none;background:none" />
                                     </span>
+                                </div>
+                            </div>
+                            <div style="margin:10px 20px;display:flex;justify-content:space-between;gap:20px;width:100%">
+                                <div style="font-size: 40px;font-weight:800;">Price Details :-</div>
+                                <div>
+                                    <div style="font-size: 24px;">
+                                        <span>Sub Amount.&nbsp;:-&nbsp;
+                                            <input type="text" placeholder=""
+                                                style="border: none;font-size: 24px;border: none;outline: none;background:none" />
+                                        </span>
+                                    </div>
+                                    <div style=" font-size: 22px">
+                                        <span>Special Price.&nbsp;&nbsp;&nbsp;:-&nbsp;
+                                            <input type="text" placeholder=""
+                                                style="border: none;font-size: 22px;border: none;outline: none;background:none" />
+                                        </span>
+                                    </div>
+                                    <div style="font-size: 20px;">
+                                        <span>Extra Discout.&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;
+                                            <input type="text" placeholder=""
+                                                style="border: none;font-size: 20px;border: none;outline: none;background:none" />
+                                        </span>
+                                    </div>
+                                    <div style="border:4px solid #000;width:70%"></div>
+                                    <div style="font-size: 28px;font-weight:700">
+                                        <span>Final Amount&nbsp;:-&nbsp;
+                                            <input type="text" placeholder=""
+                                                style="width:30%;border: none;font-weight:700;font-size: 28px;border: none;outline: none;background:none" />
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -344,6 +373,11 @@
                             <img src="/assets/meta.png" alt="My Logo" w="10" h="10" />
                             <h5 style="margin-top: 10px;text-transform: capitalize;">Meta</h5>
                         </div>
+                        <div class="col-md-6 pop_up" data-bs-target="#exampleModalToggle2_lead_3"
+                            data-bs-toggle="modal">
+                            <img src="/assets/linkdin_ad.png" alt="My Logo" w="10" h="10" />
+                            <h5 style="margin-top: 10px;text-transform: capitalize;">Linkdin</h5>
+                        </div>
 
                     </div>
                 </div>
@@ -378,7 +412,7 @@
                             </div>
                             <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_lead"
                                 data-bs-toggle="modal" style="background:#f5a9ad82;">
-                                <img src="/assets/shopping_icon.png" alt="My Logo" w="10" h="10" />
+                                <img src="/assets/shoppin209pxg_icon.png" alt="My Logo" w="10" h="10" />
                                 <h5 style="margin-top: 10px;text-transform: capitalize;">Shopping-Ad</h5>
                             </div>
                             <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_lead"
@@ -439,10 +473,32 @@
             </div>
         </div>
     </div>
-
+    <div class="modal fade" wire:ignore.self id="exampleModalToggle2_lead_3" aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header text-capitalize">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Select Your Linkdin Ad
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="container pop_up_box">
+                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_lead"
+                                data-bs-toggle="modal" style=" background:#f2d0b8b8;">
+                                <img src="/assets/search_icon.png" alt="My Logo" w="10" h="10" />
+                                <h5 style="margin-top: 10px;text-transform: capitalize;">Search</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="modal fade" wire:ignore.self id="exampleModalToggle3_lead" aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-header text-capitalize">
                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">lets plan your ad campaign :
@@ -452,50 +508,50 @@
                 </div>
                 <div class="modal-body">
                     <div class="container">
-                        <div class="container lg">
+                        <div class="container">
                             <div style="margin-bottom:40px">
                                 <div class="modal_title">Choose your daily budget</div>
                                 <div>
-                                    <div style="display: flex;justify-content: space-between;gap:12px">
+                                    <div style="display: flex;justify-content: space-around;gap:12px">
                                         <div wire:click="fixedAmount(200)"
-                                            style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px;padding: 20px 10px;text-align: center;">
+                                            style="box-shadow: 3px 5px 0px 7px #d4eefb;border-radius: 12px; width: 210px; height: 98px;padding: 20px 10px;text-align: center;">
                                             <div
-                                                style="color: #000; font-size: 26px; font-weight: 700;text-align:center">
+                                                style="color: #000; font-size: 32px; font-weight: 700;text-align:center">
                                                 Rs.200 </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs,6000 monthly max
+                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs,6000 monthly max
                                             </div>
                                         </div>
                                         <div wire:click="fixedAmount(300)"
-                                            style="border: 4px solid #44c011; border-radius: 12px; width: 179px; height: 88px;text-align: center; ">
-                                            <div style="font-size:14px;color: #0091ff;font-weight:500;">Recommended for
+                                            style="box-shadow: 3px 5px 0px 7px #44c011; border-radius: 12px; width: 210px; height: 98px;text-align: center; ">
+                                            <div style="font-size:16px;color: #0091ff;font-weight:500;">Recommended for
                                                 you<div class="tooltip"
-                                                    style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                                    style="display:contents; color: #e90d12;font-size: 12px;font-weight: 700;">
                                                     &nbsp;&#9432;
                                                     <span class="tooltiptext">Hello Tooltip text </span>
                                                 </div>
                                             </div>
-                                            <div style="color: #000; font-size: 26px; font-weight: 700;">
+                                            <div style="color: #000; font-size: 32px; font-weight: 700;">
                                                 Rs.300 </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs.9,000 monthly max
+                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.9,000 monthly max
                                             </div>
                                         </div>
                                         <div wire:click="fixedAmount(350)"
-                                            style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px; padding: 20px 5px;text-align: center; ">
-                                            <div style="color: #000; font-size: 26px; font-weight: 700;">
+                                            style="box-shadow: 3px 5px 0px 7px #d4eefb;border-radius: 12px; width: 210px; height: 98px; padding: 20px 5px;text-align: center; ">
+                                            <div style="color: #000; font-size: 32px; font-weight: 700;">
                                                 Rs.350 </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs.10,500 monthly
+                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.10,500 monthly
                                                 max
                                             </div>
                                         </div>
                                         <div>
-                                            <div style="font-size: 16px;font-weight: 600;">Enter your budget</div>
+                                            <div style="font-size: 20px;font-weight: 600;">Enter your budget</div>
                                             <div
-                                                style="border: 4px solid #10a3ec; border-radius: 12px; width: 155px; height: 63px; ">
+                                                style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 210px; height: 63px;margin-top:5px">
                                                 <div
-                                                    style="color: #000; font-size: 26px; font-weight: 700;padding: 6px 10px; background: none;">
+                                                    style="color: #000; font-size: 32px; font-weight: 700;padding: 6px 10px; background: none;">
                                                     Rs. <span><input type="text" wire:change="customAmount"
                                                             placeholder="" wire:model="amount"
-                                                            style="border: none;width: 63%;font-size: 26px;font-weight: 700;border: none;outline: none;" />
+                                                            style="border: none;width: 63%;font-size: 32px;font-weight: 700;border: none;outline: none;" />
                                                     </span></div>
                                             </div>
                                         </div>
@@ -505,41 +561,41 @@
                             <div style="margin-bottom:40px">
                                 <div class="modal_title">Select your Day</div>
                                 <div>
-                                    <div style="display: flex;justify-content: space-between;gap:12px">
+                                    <div style="display: flex;justify-content: space-around;gap:12px">
                                         <div wire:click="fixedDays(10)"
-                                            style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px;padding: 20px 10px;text-align: center;">
+                                            style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 210px; height: 98px;padding: 20px 10px;text-align: center;">
                                             <div
-                                                style="color: #000; font-size: 26px; font-weight: 700;text-align:center">
+                                                style="color: #000; font-size: 32px; font-weight: 700;text-align:center">
                                                 10 Days </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs,6000 monthly max
+                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs,6000 monthly max
                                             </div>
                                         </div>
                                         <div wire:click="fixedDays(30)"
-                                            style="border: 4px solid #44c011; border-radius: 12px; width: 180px; height: 88px;text-align: center; ">
-                                            <div style="font-size:14px;color: #0091ff;font-weight:500;">Recommended for
+                                            style="box-shadow: 3px 5px 0px 7px #44c011; border-radius: 12px; width: 210px; height: 98px;text-align: center; ">
+                                            <div style="font-size:16px;color: #0091ff;font-weight:500;">Recommended for
                                                 you<div class="tooltip"
                                                     style="display:contents; color: #e90d12;font-size: 12px;font-weight:700">
                                                     &nbsp;&#9432;
                                                     <span class="tooltiptext">Hello Tooltip text </span>
                                                 </div>
                                             </div>
-                                            <div style="color: #000; font-size: 26px; font-weight: 700;">
+                                            <div style="color: #000; font-size: 32px; font-weight: 700;">
                                                 30 Days </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs.9,000 monthly max
+                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.9,000 monthly max
                                             </div>
                                         </div>
                                         <div wire:click="fixedDays(15)"
-                                            style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px;    padding: 20px 5px;text-align: center; ">
-                                            <div style="color: #000; font-size: 26px; font-weight: 700;">
+                                            style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 210px; height: 98px;padding: 20px 5px;text-align: center; ">
+                                            <div style="color: #000; font-size: 32px; font-weight: 700;">
                                                 15 Days </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs.10,500 monthly
+                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.10,500 monthly
                                                 max
                                             </div>
                                         </div>
                                         <div>
-                                            <div style="font-size: 14px;font-weight: 600;">Choose your custom date</div>
+                                            <div style="font-size: 18px;font-weight: 600;">Choose your custom date</div>
                                             <div
-                                                style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 63px; ">
+                                                style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 210px; height: 67px;margin-top:5px; ">
                                                 <div class="input-container" id="date-picker-container">
                                                     <input type="date" id="date-checkin" class="date-field"
                                                         wire:change="customDate" wire:model="custom_date"
@@ -550,11 +606,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div style="display: flex;justify-content: space-between;gap:12px;margin-bottom:40px">
+                            <div style="display: flex;justify-content: space-around;gap:12px;margin-bottom:40px">
                                 <div>
                                     <div class="modal_title">Total Selected Days</div>
                                     <div
-                                        style="border: 4px solid #10a3ec; border-radius: 12px; width: 320px; height: 105px;padding: 12px 10px;text-align: center;">
+                                        style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 320px; height: 121px;padding: 28px 10px;text-align: center;">
                                         <div style="color: #000; font-size: 42px; font-weight: 700;text-align:center">
                                             {{$day}} Days
                                         </div>
@@ -563,8 +619,8 @@
                                 <div>
                                     <div class="modal_title">Total Amount</div>
                                     <div
-                                        style="border: 4px solid #10a3ec; border-radius: 12px; width: 370px; height: 105px;padding: 8px 10px;">
-                                        <div style="color: #000; font-size: 22px; font-weight: 700;">
+                                        style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 370px; height: 121px;padding: 10px 10px;">
+                                        <div style="color: #000; font-size: 32px; font-weight: 700;">
                                             <span>Total Amount.&nbsp;:-&nbsp;
                                                 {{-- <input type="text" placeholder=""
                                                     style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
@@ -573,7 +629,7 @@
                                                 {{$amount}}
                                             </span>
                                         </div>
-                                        <div style="color: #000; font-size: 18px; font-weight: 700;">
+                                        <div style="color: #000; font-size: 20px; font-weight: 700;">
                                             <span>Sub
                                                 Total.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;
                                                 {{-- <input type="text" placeholder=""
@@ -583,7 +639,7 @@
                                                 ₹{{$amount}} x {{$day}}D : {{$amount * $day}}
                                             </span>
                                         </div>
-                                        <div style="font-size:16px;color:#000;font-weight:700;">Service
+                                        <div style="font-size:18px;color:#000;font-weight:700;">Service
                                             Charge&nbsp;&nbsp;&nbsp;:-&nbsp;<span>
                                                 {{-- <input type="text" placeholder=""
                                                     style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
@@ -603,7 +659,7 @@
                             </div>
                             <div style="margin-bottom:40px">
                                 <div
-                                    style="background: #10a3ec;color: #fff;padding: 15px;border-radius: 40px;width: 58%;font-size: 23px;font-weight: 700;">
+                                    style="background: #aee0f8;color: #fff;padding: 15px;border-radius: 40px;width: 58%;font-size: 28px;font-weight: 700;">
                                     Our Service Charge (Rs.135p/day)</div>
                             </div>
                             <div style="width:100%;border:4px solid #000;"></div>
