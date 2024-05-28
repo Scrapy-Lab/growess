@@ -86,7 +86,7 @@ input#numbers { background: #eba8a8; text-align: center; width: 35px; border: 1p
 input#number { background: #eba8a8; text-align: center; width: 35px; border: 1px solid #ea5656; height: 35px; }
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
 input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
-.select_month {cursor: pointer; width: 126px; padding: 4px; height: 40px; font-size: 22px; background: none; outline: none; opacity: 0.6; border-radius: 5px; }
+.select_month { width: 110px;padding: 4px; height: 40px; font-size: 18px; background: none; outline: none; opacity: 1.0; border-radius: 5px; }
 .model_pop_up:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .model_pop-up:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .model_pop-up { transition: transform 0.8s; box-shadow: 2px 2px 10px 5px rgb(212, 213, 213); display: grid; padding: 12px 0; margin: 15px; width: 28%!important; justify-items: center; cursor: pointer; height: 208px; border-radius: 20px; }
