@@ -80,7 +80,7 @@
     </div>
     <div class="modal fade" wire:ignore.self id="exampleModalToggle2_website" aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content bg-color">
                 <div class="modal-header text-capitalize">
                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Select your Static Website Feature
@@ -89,7 +89,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                        @livewire('website')
+                    @livewire('website')
                 </div>
                 {{-- <div class="modal-footer">
                     <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
