@@ -18,11 +18,10 @@
     </div>
 {{-- Static type --}}
         <div class="code_assessment_job_details_box">
-            <div>
-                <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap,wordpress,django"
-                        w="10" h="10" alt="logo">
-                    {{-- <h4>jobs</h4> --}}
-                    {{-- <img src="{{asset('assets/logo/logo_web_type.png')}}" w="10" h="10" alt="logo"> --}}
+            <div style="display:flex;align-items: center;justify-content: space-evenly;">
+                    <div class="jobs">jobs</div>
+                    <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap,wordpress,django"
+                        w="10" h="10" alt="logo" class="image_logo">
             </div>
         @if ($static)
         {{-- <div class="web_type_static"> --}}

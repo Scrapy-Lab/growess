@@ -729,7 +729,7 @@
                 </div>
             </div>
         </div>
-
+<!-- Components for job/internship -->
     <div class="gap" style="background: linear-gradient(to right, #f9f8ef, #faf4ff); !important; padding:60px">
         <div class="container">
 
