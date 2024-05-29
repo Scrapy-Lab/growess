@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" wire:ignore.self id="exampleModalToggle2_website" aria-hidden="true"
+    <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" wire:ignore.self id="exampleModalToggle2_website" aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content bg-color">

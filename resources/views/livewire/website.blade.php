@@ -90,10 +90,10 @@
                         <div class="value-button" id="increase" wire:click="increment_webPage" value="Increase Value">+
                         </div>
                     </form>
-                    <div style="font-size:14px;color:#000;text-align: center;">(&#8377;{{ $website->web_page }} p/page)
-                    </div>
+                    {{-- <div style="font-size:14px;color:#000;text-align: center;">(&#8377;{{ $website->web_page }} p/page)
+                    </div> --}}
                 </div>
-                <div class="check_price">&#8377;{{ $website->web_page }} /-</div>
+                <div class="check_price">&#8377;{{ $website->web_page }} / Page</div>
                 <div class="total_price">
                     {{-- <span>Total&nbsp;:&nbsp;&#8377;
                         {{ $webPage_amount ?? 0 }}
@@ -125,10 +125,10 @@
                         <div class="value-button" id="increase" wire:click="increment_email" value="Increase Value">
                             +</div>
                     </form>
-                    <div style="font-size:14px;color:#000;text-align: center;">(&#8377;{{ $website->email }}/Email)
-                    </div>
+                    {{-- <div style="font-size:14px;color:#000;text-align: center;">(&#8377;{{ $website->email }}/Email)
+                    </div> --}}
                 </div>
-                <div class="check_price">&#8377;{{ $website->email }} /-</div>
+                <div class="check_price">&#8377;{{ $website->email }} / Email</div>
                 <div class="total_price">
                     {{-- <span>Total&nbsp;:&nbsp;&#8377;
                         {{ $email_amount ?? 0 }}
@@ -395,7 +395,7 @@
                         $totalAmount = $domain_amount + $webHost_amount + $webPage_amount + $email_amount + $ssl_amount + $enquiry_form_amount + $security_backup_amount + $image_quality_amount + $content_writting_amount;
 
                         @endphp
-                        {{$domain_amount + $webHost_amount + $webPage_amount + $email_amount + $ssl_amount + $enquiry_form_amount + $security_backup_amount + $image_quality_amount + $content_writting_amount}}
+                        {{number_format($totalAmount, 2 , '.' , ',')}}
 
                         {{-- <input type="text" placeholder=""
                         style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" /> --}}
@@ -407,7 +407,7 @@
                     @php
                         $discountedAmount =  0.05 * $totalAmount
                     @endphp
-                    {{ $discountedAmount }}
+                    {{ number_format($discountedAmount, 2 , '.' , ',') }}
 
                     {{-- <input type="text" placeholder=""
                         style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" /> --}}
@@ -416,7 +416,7 @@
             <div style="font-size: 22px;font-weight:500">
                 <span>Total Amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
 
-                    {{$totalAmount - $discountedAmount }}
+                    {{number_format(($totalAmount - $discountedAmount), 2 , '.' , ',' )}}
 
                     {{-- <input type="text" placeholder=""
                         style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" /> --}}
@@ -431,7 +431,7 @@
                         @php
                             $gstAmount = 0.18 * $totalAmount - $discountedAmount;
                         @endphp
-                            {{ $gstAmount}}
+                            {{ number_format($gstAmount , 2 , '.' , ',')}}
                         {{-- <input type="text" placeholder=""
                             style="border: none;font-size: 16px;border: none;outline: none;background:none;width:40%" /> --}}
                     </span>
@@ -439,7 +439,7 @@
                 <div style="font-size: 24px;font-weight:500">
                     <span>Final Amount&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
 
-                        {{$totalAmount - $discountedAmount + $gstAmount}}
+                        {{number_format(($totalAmount - $discountedAmount + $gstAmount)  , 2 , '.' , ',')}}
                         {{-- <input type="text" placeholder=""
                             style="border: none;font-weight:700;font-size: 28px;border: none;outline: none;background:none;width:50%" /> --}}
                     </span>
@@ -448,7 +448,7 @@
         </div>
     </div>
     <p style="text-align:center;font-size: 22px;font-weight:700;color:#198754;margin:77px 21px;width:32%">You will save
-        &#8377;4,600 on this order</p>
+        &#8377;{{number_format($discountedAmount , 2 , '.' , ',')}} on this order</p>
 </div>
 <script>
     // $(document).ready(function() {
