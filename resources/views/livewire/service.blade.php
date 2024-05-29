@@ -50,23 +50,23 @@
                 <div class="modal-body">
                     <div class="container pop_up_box">
                         <div class="col-md-6 model_pop_up" data-bs-target="#exampleModalToggle2_website"
-                            data-bs-toggle="modal">
+                            data-bs-toggle="modal" style="background: #f2d0b8b8;">
                             <img src="/assets/web_logo.png" alt="My Logo" w="10" h="10" />
                             <h5 style="margin-top: 10px;text-transform: capitalize;">static</h5>
                         </div>
                         <div class="col-md-6 model_pop_up" data-bs-target="#exampleModalToggle2_website"
-                            data-bs-toggle="modal">
-                            <img src="/assets/brochere.jpeg" alt="My Logo" w="10" h="10" />
+                            data-bs-toggle="modal" style="background: #b8f2c582;">
+                            <img src="/assets/brochere.png" alt="My Logo" w="10" h="10" />
                             <h5 style="margin-top: 10px;text-transform: capitalize;">Brochere</h5>
                         </div>
                         <div class="col-md-6 model_pop_up" data-bs-target="#exampleModalToggle2_website"
-                            data-bs-toggle="modal">
-                            <img src="/assets/dynamic.jpeg" alt="My Logo" w="10" h="10" />
+                            data-bs-toggle="modal" style="background: #f5a9ad82;">
+                            <img src="/assets/dynamic.png" alt="My Logo" w="10" h="10" />
                             <h5 style="margin-top: 10px;text-transform: capitalize;">Dynamic</h5>
                         </div>
                         <div class="col-md-6 model_pop_up" data-bs-target="#exampleModalToggle2_website"
-                            data-bs-toggle="modal">
-                            <img src="/assets/e-com.jpeg" alt="My Logo" w="10" h="10" />
+                            data-bs-toggle="modal" style="background: #a7e4eb82;">
+                            <img src="/assets/e-com.png" alt="My Logo" w="10" h="10" />
                             <h5 style="margin-top: 10px;text-transform: capitalize;">E-Commerce</h5>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                        @livewire('website')
+                    @livewire('website')
                 </div>
                 {{-- <div class="modal-footer">
                     <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
@@ -113,14 +113,19 @@
                     <div class="container pop_up_box">
 
                         <div class="col-md-6 pop_up" data-bs-target="#exampleModalToggle2_lead_1"
-                            data-bs-toggle="modal">
+                            data-bs-toggle="modal" style="background:#f2d0b8b8;">
                             <img src="/assets/google_ad.png" alt="My Logo" w="10" h="10" />
                             <h5 style="margin-top: 10px;text-transform: capitalize;">Google</h5>
                         </div>
                         <div class="col-md-6 pop_up" data-bs-target="#exampleModalToggle2_lead_2"
-                            data-bs-toggle="modal">
+                            data-bs-toggle="modal" style="background: #b8f2c582;">
                             <img src="/assets/meta.png" alt="My Logo" w="10" h="10" />
                             <h5 style="margin-top: 10px;text-transform: capitalize;">Meta</h5>
+                        </div>
+                        <div class="col-md-6 pop_up" data-bs-target="#exampleModalToggle2_lead_3"
+                            data-bs-toggle="modal" style="background: #a7e4eb82;">
+                            <img src="/assets/linkdin_ad.png" alt="My Logo" w="10" h="10" />
+                            <h5 style="margin-top: 10px;text-transform: capitalize;">Linkdin</h5>
                         </div>
 
                     </div>

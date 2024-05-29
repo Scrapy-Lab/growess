@@ -715,7 +715,7 @@
             <div class="level_up_container container">
                 <img src="/assets/Group-807.png" w="150" h="150" alt="logo" />
                 <div class="right_container_text">
-                    <div class="level_up_title">Start your journey to <span style="color: #283299;opacity: .7;">digital
+                    <div class="level_up_title">Start your journey to <span style="color: rgb(22, 103, 208);">digital
                             success!<span>
                     </div>
                     <p class="level_up_headlne">Unlock your digital potential today and soar above the competition! Let's
@@ -729,7 +729,7 @@
                 </div>
             </div>
         </div>
-
+<!-- Components for job/internship -->
     <div class="gap" style="background: linear-gradient(to right, #f9f8ef, #faf4ff); !important; padding:60px">
         <div class="container">
 
