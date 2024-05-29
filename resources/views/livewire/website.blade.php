@@ -26,11 +26,11 @@
                 </div>
                 <div class="check_price">&#8377;{{ $website->domain }}/-</div>
                 <div class="total_price">
-                    <span>Total&nbsp;:-&nbsp;&#8377;
+                    {{-- <span>Total&nbsp;:-&nbsp;&#8377;
                         {{ $domain_amount ?? 0 }}
-                        <!-- {{-- <input type="text" placeholder=""
-                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
-                    </span>
+                        <!-- <input type="text" placeholder=""
+                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> -->
+                    </span> --}}
                 </div>
             </div>
             <div class="checkbox_card">
@@ -57,11 +57,11 @@
                 </div>
                 <div class="check_price">&#8377;{{ $website->web_hosting }} /-</div>
                 <div class="total_price">
-                    <span>Total&nbsp;:-&nbsp;&#8377;
+                    {{-- <span>Total&nbsp;:-&nbsp;&#8377;
                         {{ $webHost_amount ?? 0 }}
-                        <!-- {{-- <input type="text" placeholder=""
-                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
-                    </span>
+                        <!-- <input type="text" placeholder=""
+                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> -->
+                    </span> --}}
                 </div>
             </div>
             <div class="checkbox_card">
@@ -87,13 +87,13 @@
                     </form>
                     <div style="font-size:14px;color:#000;text-align: center;">(&#8377;{{ $website->web_page }} p/page)</div>
                 </div>
-                <div class="check_price">&#8377;4000/-</div>
+                <div class="check_price">&#8377;{{ $website->web_page}} /-</div>
                 <div class="total_price">
-                    <span>Total&nbsp;:-&nbsp;&#8377;
+                    {{-- <span>Total&nbsp;:-&nbsp;&#8377;
                         {{ $webPage_amount ?? 0 }}
-                        <!-- {{-- <input type="text" placeholder=""
-                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
-                    </span>
+                        <!-- <input type="text" placeholder=""
+                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> -->
+                    </span> --}}
                 </div>
             </div>
             <div class="checkbox_card">
@@ -117,13 +117,13 @@
                     </form>
                     <div style="font-size:14px;color:#000;text-align: center;">(&#8377;{{ $website->email }}/Email)</div>
                 </div>
-                <div class="check_price">&#8377;4000/-</div>
+                <div class="check_price">&#8377;{{ $website->email }} /-</div>
                 <div class="total_price">
-                    <span>Total&nbsp;:-&nbsp;&#8377;
+                    {{-- <span>Total&nbsp;:-&nbsp;&#8377;
                         {{ $email_amount ?? 0 }}
-                        <!-- {{-- <input type="text" placeholder=""
-                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
-                    </span>
+                        <!-- <input type="text" placeholder=""
+                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> -->
+                    </span> --}}
                 </div>
             </div>
             <div class="checkbox_card">
@@ -136,11 +136,11 @@
                 <div class="checkbox__body" style="margin-right:55px !important">SSL Certificate (1 Yr)</div>
                 <div class="check_price">&#8377;{{ $website->ssl }}/-</div>
                 <div class="total_price">
-                    <span>Total&nbsp;:-&nbsp;&#8377;
+                    {{-- <span>Total&nbsp;:-&nbsp;&#8377;
                         {{$ssl_amount ?? 0}}
-                        <!-- {{-- <input type="text" placeholder=""
-                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
-                    </span>
+                        <!-- <input type="text" placeholder=""
+                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> -->
+                    </span> --}}
                 </div>
             </div>
             <div class="checkbox_card">
@@ -153,11 +153,11 @@
                 <div class="checkbox__body" style="margin-right:125px !important">Inquiry Form</div>
                 <div class="check_price">&#8377;{{ $website->enquiry_form}}/-</div>
                 <div class="total_price">
-                    <span>Total&nbsp;:-&nbsp;&#8377;
+                    {{-- <span>Total&nbsp;:-&nbsp;&#8377;
                         {{$enquiry_form_amount ?? 0}}
-                        <!-- {{-- <input type="text" placeholder=""
-                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
-                    </span>
+                        <!-- <input type="text" placeholder=""
+                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> -->
+                    </span> --}}
                 </div>
             </div>
             <div class="checkbox_card">
@@ -170,11 +170,11 @@
                 <div class="checkbox__body" style="margin-right:105px !important">Security & Backup</div>
                 <div class="check_price">&#8377;{{ $website->security_backup}}/-</div>
                 <div class="total_price">
-                    <span>Total&nbsp;:-&nbsp;&#8377;
+                    {{-- <span>Total&nbsp;:-&nbsp;&#8377;
                         {{$security_backup_amount ?? 0}}
-                        <!-- {{-- <input type="text" placeholder=""
-                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
-                    </span>
+                        <!-- <input type="text" placeholder=""
+                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> -->
+                    </span> --}}
                 </div>
             </div>
             <div class="checkbox_card">
@@ -193,11 +193,11 @@
                 </div>
                 <div class="check_price">&#8377;{{ $website->hd_quality_images}}/-</div>
                 <div class="total_price">
-                    <span>Total&nbsp;:-&nbsp;&#8377;
+                    {{-- <span>Total&nbsp;:-&nbsp;&#8377;
                         {{$image_quality_amount ?? 0}}
-                        <!-- {{-- <input type="text" placeholder=""
-                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
-                    </span>
+                        <!-- <input type="text" placeholder=""
+                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> -->
+                    </span> --}}
                 </div>
             </div>
             <div class="checkbox_card">
@@ -216,11 +216,11 @@
                 </div>
                 <div class="check_price">&#8377;{{ $website->content_writing}}/-</div>
                 <div class="total_price">
-                    <span>Total&nbsp;:-&nbsp;&#8377;
+                    {{-- <span>Total&nbsp;:-&nbsp;&#8377;
                         {{$content_writting_amount ?? 0}}
-                        <!-- {{-- <input type="text" placeholder=""
-                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
-                    </span>
+                        <!-- <input type="text" placeholder=""
+                            style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> -->
+                    </span> --}}
                 </div>
             </div>
         </div>
@@ -230,9 +230,11 @@
                     <div class="checkbox__body">Domain
                     </div>
                     <div class="total_price">
-                        <span>Total&nbsp;:-&nbsp;&#8377;
-                            <input type="text" placeholder=""
-                                style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" /> 
+                        <span>
+                            {{$domain}} x {{$website->domain}} :
+                            &nbsp;&#8377; {{ $domain_amount ?? 0 }}
+                            <!-- {{-- <input type="text" placeholder=""
+                                style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
                         </span>
                     </div>
                 </div>
@@ -241,9 +243,12 @@
                 <div style="display:flex; justify-content: space-between;align-items: center;gap:36px">
                     <div class="checkbox__body" style="width:60%">Web Hosting</div>
                     <div class="total_price">
-                        <span>Total&nbsp;:-&nbsp;&#8377;
-                            <input type="text" placeholder=""
-                                    style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" />
+                        <span>
+                            {{$website->web_hosting }} x {{$webHost}}(M) :
+                            &nbsp;&#8377;
+                            {{ $webHost_amount ?? 0 }}
+                            {{-- <input type="text" placeholder=""
+                                style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" /> --}}
                         </span>
                     </div>
                 </div>
@@ -252,9 +257,12 @@
                 <div style="display:flex; justify-content: space-between;align-items: center;gap:83px">
                     <div class="checkbox__body" style="width:42%">Web Pages</div>
                     <div class="total_price">
-                        <span>Total&nbsp;:-&nbsp;&#8377;
-                            <input type="text" placeholder=""
-                                style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" />
+                        <span>
+                            {{$website->web_page }} x {{$value_webPage}} :
+                            &nbsp;&#8377;
+                            {{ $webPage_amount ?? 0 }}
+                            <!-- {{-- <input type="text" placeholder=""
+                                style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
                         </span>
                     </div>
                 </div>
@@ -263,11 +271,14 @@
                 <div style="display:flex; justify-content: space-between;align-items: center;gap:80px">
                     <div class="checkbox__body" style="width:45%">E-mails</div>
                     <div class="total_price">
-                        <span>Total&nbsp;:-&nbsp;&#8377;
-                            <input type="text" placeholder=""
-                                style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" /> 
+                        <span>
+                            {{$website->email }} x {{$value_email}} :
+                            &nbsp;&#8377;
+                            {{ $email_amount ?? 0 }}
+                            {{-- <input type="text" placeholder=""
+                                style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" /> --}}
                         </span>
-                    </div>    
+                    </div>
                 </div>
             </div>
             <div class="checkbox_card">
@@ -275,8 +286,9 @@
                     <div class="checkbox__body" style="width:58%">SSL Certificate</div>
                     <div class="total_price">
                         <span>Total&nbsp;:-&nbsp;&#8377;
-                            <input type="text" placeholder=""
-                                style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" />
+                            {{$ssl_amount ?? 0}}
+                            <!-- {{-- <input type="text" placeholder=""
+                                style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
                         </span>
                     </div>
                 </div>
@@ -286,8 +298,9 @@
                     <div class="checkbox__body" style="width:50%">Inquiry Form</div>
                     <div class="total_price">
                         <span>Total&nbsp;:-&nbsp;&#8377;
-                            <input type="text" placeholder=""
-                                style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" />
+                            {{$enquiry_form_amount ?? 0}}
+                            <!-- {{-- <input type="text" placeholder=""
+                                style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
                         </span>
                     </div>
                 </div>
@@ -297,8 +310,9 @@
                     <div class="checkbox__body" style="width:70%">Security & Backup</div>
                     <div class="total_price">
                         <span>Total&nbsp;:-&nbsp;&#8377;
-                            <input type="text" placeholder=""
-                                style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" />
+                            {{$security_backup_amount ?? 0}}
+                            <!-- {{-- <input type="text" placeholder=""
+                                style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
                         </span>
                     </div>
                 </div>
@@ -309,8 +323,9 @@
                     </div>
                     <div class="total_price">
                         <span>Total&nbsp;:-&nbsp;&#8377;
-                            <input type="text" placeholder=""
-                                style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" /> 
+                            {{$image_quality_amount ?? 0}}
+                            {{-- <!-- <input type="text" placeholder=""
+                                style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --> --}}
                         </span>
                     </div>
                 </div>
@@ -321,12 +336,13 @@
                     </div>
                     <div class="total_price">
                         <span>Total&nbsp;:-&nbsp;&#8377;
-                            <input type="text" placeholder=""
-                                style="width:60%;border: none;font-size: 20px;border: none;outline: none;background:none" /> 
+                            {{$content_writting_amount ?? 0}}
+                            <!-- {{-- <input type="text" placeholder=""
+                                style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
                         </span>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
     </div>
     <div style="float:right;margin-top:20px">
