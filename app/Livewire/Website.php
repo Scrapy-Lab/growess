@@ -64,6 +64,10 @@ class Website extends Component
     public $value_webPage = 0; // Initial value
     public $value_email = 0; // Initial value
 
+
+    public $itemCount = 0;
+    public $totalPrice = 0;
+
     public function decrement_webPage()
     {
 
@@ -91,6 +95,7 @@ class Website extends Component
             $this->value_webPage++;
 
             $this->webPage_amount = $this->website->web_page * $this->value_webPage;
+
         } else {
 
             $this->select_email = false;
@@ -139,11 +144,11 @@ class Website extends Component
     public function select_domain()
     {
         if ($this->domain_checkbox) {
-
+            $this->itemCount++;
             $this->selectDomain = true;
             $this->domain_amount = $this->website->domain * $this->domain;
         } else {
-
+            $this->itemCount--;
             $this->selectDomain = false;
             $this->domain_amount = 0;
         }
@@ -159,10 +164,11 @@ class Website extends Component
     {
         if ($this->webHost_checkbox) {
 
+            $this->itemCount++;
             $this->select_webHost = true;
             $this->webHost_amount = $this->website->web_hosting * $this->webHost;
         } else {
-
+            $this->itemCount--;
             $this->select_webHost = false;
             $this->webHost_amount = 0;
         }
@@ -180,10 +186,12 @@ class Website extends Component
         // dd($this->webPage);
         if ($this->webPage_checkbox) {
 
+            $this->itemCount++;
             $this->select_webPage = true;
             $this->webPage_amount = $this->website->web_page * $this->value_webPage;
         } else {
 
+            $this->itemCount--;
             $this->select_webPage = false;
             $this->webPage_amount = 0;
             $this->value_webPage = 0;
@@ -197,10 +205,11 @@ class Website extends Component
         // dd($this->webPage);
         if ($this->email_checkbox) {
 
+            $this->itemCount++;
             $this->select_email = true;
             $this->email_amount = $this->website->email * $this->value_email;
         } else {
-
+            $this->itemCount--;
             $this->select_email = false;
             $this->email_amount = 0;
             $this->value_email = 0;
@@ -211,8 +220,10 @@ class Website extends Component
     public function select_ssl_checkbox()
     {
         if ($this->ssl_checkbox) {
+            $this->itemCount++;
             $this->ssl_amount = $this->website->ssl;
         } else {
+            $this->itemCount--;
             $this->ssl_amount = 0;
         }
     }
@@ -220,8 +231,10 @@ class Website extends Component
     public function select_enquiry_form_checkbox()
     {
         if ($this->enquiry_form_checkbox) {
+            $this->itemCount++;
             $this->enquiry_form_amount = $this->website->enquiry_form;
         } else {
+            $this->itemCount--;
             $this->enquiry_form_amount = 0;
         }
     }
@@ -229,8 +242,10 @@ class Website extends Component
     public function select_security_backup_checkbox()
     {
         if ($this->security_backup_checkboxt) {
+            $this->itemCount++;
             $this->security_backup_amount = $this->website->security_backup;
         } else {
+            $this->itemCount--;
             $this->security_backup_amount = 0;
         }
     }
@@ -238,16 +253,20 @@ class Website extends Component
     public function select_hd_quality_images_checkbox()
     {
         if ($this->image_quality_checkbox) {
+            $this->itemCount++;
             $this->image_quality_amount = $this->website->hd_quality_images;
         } else {
+            $this->itemCount--;
             $this->image_quality_amount = 0;
         }
     }
     public function select_content_writing_checkbox()
     {
         if ($this->content_writting_checkbox) {
+            $this->itemCount++;
             $this->content_writting_amount = $this->website->content_writing;
         } else {
+            $this->itemCount--;
             $this->content_writting_amount = 0;
         }
     }
