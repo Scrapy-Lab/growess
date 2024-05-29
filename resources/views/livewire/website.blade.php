@@ -1,6 +1,6 @@
 <div class="container">
     <div style="display:flex;justify-content: space-between;align-items: center;">
-        <div class="container pop_up_box">
+        <div class="container pop_up_box" style="width:52%!important">
             <div class="checkbox_card">
                 <div class="checkboxes__item">
                     <label class="checkbox style-a">
@@ -15,7 +15,7 @@
                         <span class="tooltiptext">Hello Tooltip text </span>
                     </div>
                 </div>
-                <div style="margin-left:48px">
+                <div style="margin-left: 40px;">
                     <select name="Year" id="select_month_website" class="select_month" wire:model="domain"
                         wire:change="domain_func" {{ $selectDomain ? '' : 'disabled' }}>
                         <option value="placeholder" selected>&nbsp;Select</option>
@@ -77,7 +77,7 @@
                         <span class="tooltiptext">Hello Tooltip text </span>
                     </div>
                 </div>
-                <div>
+                <div style="margin-left: 10px;">
                     <form>
                         <div class="value-button" id="decrease" wire:click="decrement_webPage"  value="Decrease Value">-</div>
                         {{-- <input type="number" id="number" value="{{$value}}" wire:model="webPage"
@@ -109,7 +109,7 @@
                         <span class="tooltiptext">Hello Tooltip text </span>
                     </div>
                 </div>
-                <div style="margin-left:26px">
+                <div style="margin-left: 42px;">
                     <form>
                         <div class="value-button" id="decrease" wire:click="decrement_email" value="Decrease Value">-</div>
                         <input type="number" id="number" wire:model="value_email" {{ $email_checkbox ? '' : 'disabled' }} />
@@ -133,7 +133,7 @@
                         <div class="checkbox__checkmark"></div>
                     </label>
                 </div>
-                <div class="checkbox__body" style="margin-right:55px !important">SSL Certificate (1 Yr)</div>
+                <div class="checkbox__body" style="margin-right:90px;">SSL Certificate (1 Yr)</div>
                 <div class="check_price">&#8377;{{ $website->ssl }}/-</div>
                 <div class="total_price">
                     {{-- <span>Total&nbsp;:-&nbsp;&#8377;
@@ -150,7 +150,7 @@
                         <div class="checkbox__checkmark"></div>
                     </label>
                 </div>
-                <div class="checkbox__body" style="margin-right:125px !important">Inquiry Form</div>
+                <div class="checkbox__body" style="margin-right: 156px;">Inquiry Form</div>
                 <div class="check_price">&#8377;{{ $website->enquiry_form}}/-</div>
                 <div class="total_price">
                     {{-- <span>Total&nbsp;:-&nbsp;&#8377;
@@ -167,7 +167,7 @@
                         <div class="checkbox__checkmark"></div>
                     </label>
                 </div>
-                <div class="checkbox__body" style="margin-right:105px !important">Security & Backup</div>
+                <div class="checkbox__body" style="margin-right: 113px;">Security & Backup</div>
                 <div class="check_price">&#8377;{{ $website->security_backup}}/-</div>
                 <div class="total_price">
                     {{-- <span>Total&nbsp;:-&nbsp;&#8377;
@@ -184,7 +184,7 @@
                         <div class="checkbox__checkmark"></div>
                     </label>
                 </div>
-                <div class="checkbox__body" style="margin-right:80px !important">HD Quality Images
+                <div class="checkbox__body" style="margin-right: 86px;">HD Quality Images
                     <div class="tooltip"
                         style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
                             &nbsp;&#9432;
@@ -207,7 +207,7 @@
                         <div class="checkbox__checkmark"></div>
                     </label>
                 </div>
-                <div class="checkbox__body" style="margin-right:100px !important">Content Writing
+                <div class="checkbox__body" style="margin-right: 127px;">Content Writing
                     <div class="tooltip"
                         style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
                             &nbsp;&#9432;
@@ -224,14 +224,14 @@
                 </div>
             </div>
         </div>
-        <div class="container pop_up_box" style="width:85%!important">
+        <div class="container pop_up_box" style="width:44%!important">
             <div class="checkbox_card">
-                <div style="display:flex; justify-content: space-between;align-items: center;gap:119px">
+                <div class="checkbox_card_box" style="gap:188px">
                     <div class="checkbox__body">Domain
                     </div>
                     <div class="total_price">
                         <span>
-                            {{$domain}} x {{$website->domain}} :
+                            0{{$domain}} x {{$website->domain}} :
                             &nbsp;&#8377; {{ $domain_amount ?? 0 }}
                             <!-- {{-- <input type="text" placeholder=""
                                 style="border: none;width: 33%;font-size: 20px;border: none;outline: none;background:none" /> --}} -->
@@ -240,8 +240,8 @@
                 </div>
             </div>
             <div class="checkbox_card">
-                <div style="display:flex; justify-content: space-between;align-items: center;gap:36px">
-                    <div class="checkbox__body" style="width:60%">Web Hosting</div>
+                <div class="checkbox_card_box" style="gap: 134px">
+                    <div class="checkbox__body">Web Hosting</div>
                     <div class="total_price">
                         <span>
                             {{$website->web_hosting }} x {{$webHost}}(M) :
@@ -254,8 +254,8 @@
                 </div>
             </div>
             <div class="checkbox_card">
-                <div style="display:flex; justify-content: space-between;align-items: center;gap:83px">
-                    <div class="checkbox__body" style="width:42%">Web Pages</div>
+                <div class="checkbox_card_box" style="gap:153px">
+                    <div class="checkbox__body">Web Pages</div>
                     <div class="total_price">
                         <span>
                             {{$website->web_page }} x {{$value_webPage}} :
@@ -268,8 +268,8 @@
                 </div>
             </div>
             <div class="checkbox_card">
-                <div style="display:flex; justify-content: space-between;align-items: center;gap:80px">
-                    <div class="checkbox__body" style="width:45%">E-mails</div>
+                <div class="checkbox_card_box" style="gap:189px">
+                    <div class="checkbox__body">E-mails</div>
                     <div class="total_price">
                         <span>
                             {{$website->email }} x {{$value_email}} :
@@ -282,8 +282,8 @@
                 </div>
             </div>
             <div class="checkbox_card">
-                <div style="display:flex; justify-content: space-between;align-items: center;gap:43px">
-                    <div class="checkbox__body" style="width:58%">SSL Certificate</div>
+                <div class="checkbox_card_box" style="gap:123px">
+                    <div class="checkbox__body">SSL Certificate</div>
                     <div class="total_price">
                         <span>Total&nbsp;:-&nbsp;&#8377;
                             {{$ssl_amount ?? 0}}
@@ -294,8 +294,8 @@
                 </div>
             </div>
             <div class="checkbox_card">
-                <div style="display:flex; justify-content: space-between;align-items: center;gap:70px">
-                    <div class="checkbox__body" style="width:50%">Inquiry Form</div>
+                <div class="checkbox_card_box" style="gap:142px">
+                    <div class="checkbox__body">Inquiry Form</div>
                     <div class="total_price">
                         <span>Total&nbsp;:-&nbsp;&#8377;
                             {{$enquiry_form_amount ?? 0}}
@@ -306,8 +306,8 @@
                 </div>
             </div>
             <div class="checkbox_card">
-                <div style="display:flex; justify-content: space-between;align-items: center;gap:30px">
-                    <div class="checkbox__body" style="width:70%">Security & Backup</div>
+                <div class="checkbox_card_box" style="gap:98px">
+                    <div class="checkbox__body">Security & Backup</div>
                     <div class="total_price">
                         <span>Total&nbsp;:-&nbsp;&#8377;
                             {{$security_backup_amount ?? 0}}
@@ -318,8 +318,8 @@
                 </div>
             </div>
             <div class="checkbox_card">
-                <div style="display:flex; justify-content: space-between;align-items: center;gap:5px">
-                    <div class="checkbox__body" style="width:84%">HD Quality Images
+                <div class="checkbox_card_box" style="gap:98px">
+                    <div class="checkbox__body">HD Quality Images
                     </div>
                     <div class="total_price">
                         <span>Total&nbsp;:-&nbsp;&#8377;
@@ -331,8 +331,8 @@
                 </div>
             </div>
             <div class="checkbox_card">
-                <div style="display:flex; justify-content: space-between;align-items: center;gap:60px">
-                    <div class="checkbox__body" style="width:61%">Content Writing
+                <div class="checkbox_card_box" style="gap:123px">
+                    <div class="checkbox__body">Content Writing
                     </div>
                     <div class="total_price">
                         <span>Total&nbsp;:-&nbsp;&#8377;
