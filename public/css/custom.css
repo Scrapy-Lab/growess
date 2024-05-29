@@ -67,32 +67,32 @@ button { cursor: pointer; color: #fff; padding: 4px 8px; font-size: 16px; border
 .checkbox-item { margin-bottom: 10px; }
 .pop_up_box { display: flex; flex-wrap: wrap; gap: 10px; }
 .bg-color { background: linear-gradient(to right,#cbe9f7,#f3caca); }
-.checkboxes__item {width: 167px; }
-.checkbox.style-a { display: inline-block; position: relative;  cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; width: 221px; }
+.checkbox__body { font-size: 28px; margin-left: 87px; width: 46%; }
+.checkbox.style-a { display: inline-block; position: relative; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 .checkbox.style-a input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
 .checkbox.style-a input:checked ~ .checkbox__checkmark { background-color: #fff; }
 .checkbox.style-a input:checked ~ .checkbox__checkmark:after { opacity: 1; }
-.checkbox.style-a .checkbox__checkmark { position: absolute; top: 11px; left: 0; height: 20px; width: 20px; background-color: #fff; transition: background-color 0.25s ease; border-radius: 20px; }
-.checkbox.style-a .checkbox__checkmark:after { content: ""; position: absolute; left: 7px; top: 4px; width: 9px; height: 16px; border: solid #4ba410; border-width: 0 4px 4px 0; transform: rotate(45deg); opacity: 0; transition: opacity 0.25s ease; }
+.checkbox.style-a .checkbox__checkmark { position: absolute; top: -22px; left: 9px; height: 40px; width: 40px; background-color: #fff; transition: background-color 0.25s ease; border-radius: 20px; }
+.checkbox.style-a .checkbox__checkmark:after { content: ""; position: absolute; left: 13px; top: 6px; width: 12px; height: 26px; border: solid #4ba410; border-width: 0 5px 5px 0; transform: rotate(45deg); opacity: 0; transition: opacity 0.25s ease; }
 .checkbox.style-a .checkbox__body { color: #333; line-height: 2.2; font-size: 20px; margin-left: 30px; }
 .checkbox-item input[type="checkbox"] { margin-right: 5px; }
-.checkbox_card { display: flex; align-items: center; justify-content: space-between; background: #ffffff63; border-radius: 10px; width: 100%;  height: 76px; padding: 6px;}
-.check_price { font-size: 20px; margin-left: 25px; }
-form { text-align: center; font-size: 20px;width: 120px; }
-.value-button { display: inline-block; border: 1px solid #e1a1a1; width: 35px; height: 35px; vertical-align: top;cursor: pointer; }
+.checkbox_card { display: flex; align-items: center; justify-content: space-between; background: #ffffff63; border-radius: 10px; width: 100%; height: 76px; padding: 6px; }
+.check_price { font-size: 28px; margin-left: 48px; }
+form { text-align: center; font-size: 20px; width: 120px; }
+.value-button { display: inline-block; border: 1px solid #e1a1a1; width: 35px; height: 35px; vertical-align: top; cursor: pointer; }
 form #decrease { margin-right: -8px; border-radius: 8px 0 0 8px; }
 form #increase { margin-left: -8px; border-radius: 0 8px 8px 0; }
 input#numbers { background: #eba8a8; text-align: center; width: 35px; border: 1px solid #ea5656; height: 35px; }
 input#number { background: #eba8a8; text-align: center; width: 35px; border: 1px solid #ea5656; height: 35px; }
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
 input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
-.select_month { width: 110px;padding: 4px; height: 40px; font-size: 18px; background: none; outline: none; opacity: 1.0; border-radius: 5px; }
+.select_month {cursor: pointer; width: 126px; padding: 4px; height: 40px; font-size: 22px; background: none; outline: none; opacity: 1.0; border-radius: 5px; }
 .model_pop_up:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .model_pop-up:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .model_pop-up { transition: transform 0.8s; box-shadow: 2px 2px 10px 5px rgb(212, 213, 213); display: grid; padding: 12px 0; margin: 15px; width: 28%!important; justify-items: center; cursor: pointer; height: 208px; border-radius: 20px; }
 .model_pop_up { transition: transform 0.8s; box-shadow: 2px 2px 10px 5px rgb(212, 213, 213); display: grid; padding: 12px 0; margin: 15px; width: 42%!important; justify-items: center; cursor: pointer; height: 204px; border-radius: 20px; }
 .model_pop_up img { width: 100px; height: 100px; margin-top: 10px; }
-.pop_up img { width: 176px; height: 100px; margin-top: 10px; }
+.pop_up img { width: 176px; height: 110px; margin-top: 10px; }
 .model_pop-up img { width: 100px; height: 100px; margin-top: 10px; }
 .pop_up:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .pop_up { transition: transform 0.8s; box-shadow: 2px 2px 10px 5px #d4d5d5; padding: 12px 0; margin: 15px; justify-items: center; cursor: pointer; display: flex; cursor: pointer; width: 40%!important; height: 176px; margin-top: 10px; flex-direction: column; align-content: space-around; align-items: center; border-radius: 20px; }
@@ -100,10 +100,10 @@ input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-out
 .modal_title { color: rgb(19, 38, 68); font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 32px; font-weight: 700; text-transform: capitalize; text-decoration-line: none; line-height: 40px; margin: 20px 0; }
 .input-container input[type="date"], .input-container input[type="text"] { -webkit-appearance: none; -moz-appearance: none; appearance: none; background: transparent; border: none; outline: none; box-shadow: none; }
 .input-container { display: flex; cursor: pointer; }
-.input-container input { font-weight: 600; line-height: 30px; color: #000; font-size: 22px; margin: 10px 0; }
+.input-container input { font-weight: 600; line-height: 30px; color: #000; font-size: 22px; padding: 14px; }
 .tooltip:hover .tooltiptext { visibility: visible; }
 .tooltip { position: relative; display: inline-block; border-bottom: 1px dotted #000; }
-.tooltip .tooltiptext { font-size: 16px; visibility: hidden; width: 230px; background-color: #000; color: #fff; text-align: center; border-radius: 6px; padding: 5px 0; position: absolute; z-index: 1; }
+.tooltiptext { font-size: 20px; visibility: hidden; width: 230px; background-color: #000; color: #fff; text-align: center; border-radius: 6px; padding: 5px 0; position: absolute; z-index: 1; }
 /* toggle slider */
 .switches-container { margin-bottom: 3%; margin-top: 3%; width: 360px; position: relative; display: flex; padding: 0; position: relative; background: #2196f3; line-height: 48px; margin-left: auto; margin-right: auto; }
 .switches-container input { visibility: hidden; position: absolute; top: 0; }
@@ -220,20 +220,17 @@ div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .code_assessment_details_box { border: 0.5px solid #dadce0; background-color: #ffff; transition: all 0.6s ease; width: 28%; padding: 12px; border-radius: 0; cursor: pointer; }
 .code_assessment_details_box_description { font-size: 16px; padding: 0 0 20px; }
 .code_assessment_details_box img { width: 75px; height: 75px; padding: 8px; border-radius: 50%; margin-bottom: 20px; }
-.code_assessment_job_details_box-container { width: 65%; font-size: 16px; }
+.code_assessment_job_details_box-container { width: 70%; font-size: 16px; }
 .code_assessment_job { display: flex; justify-content: space-between; align-items: center; }
 .code_assessment_job_details { font-size: 47px; line-height: 67px; font-weight: 600; font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; text-transform: capitalize; }
 .code_assessment_job_details_description { color: #a19f9f; font-size: 16px; padding: 20px 0; }
-.code_assessment_job_details_box { width: 20%; padding: 12px; border-radius: 10px; cursor: pointer; }
-.select_mode { cursor: pointer; margin: 8px; font-size: 16px; font-weight: 400; text-decoration-line: none; line-height: 24px; position: relative; padding: 20px; border-radius: 30px; color: #000; background: #ffffff;; }
+.code_assessment_job_details_box { margin-top: 94px; width: 50%; }
+.select_mode { cursor: pointer; margin: 8px; font-size: 16px; font-weight: 400; text-decoration-line: none; line-height: 24px; position: relative; padding: 20px; border-radius: 30px; color: #000; background: #fff; }
 .select { background: #0862ab; color: #fff; }
-.job_details img {width: 500px;
-    height: 55px;
-    /* border-radius: 20px;  */
-}
-.job_details { display: flex; justify-content: space-between; align-items: center; margin: 20px 0; }
+.job_details img { width: 500px; height: 55px; /* border-radius: 20px;  */ }
+.job_details { display: flex; justify-content: space-around; align-items: center; margin: 22px 13px; }
 .jobs_category_description { color: #a19f9f; font-size: 14px; }
-.jobs_category { border: 1px solid #000; margin: 0 0 10px; text-transform: capitalize; font-size: 16px; background: #ffffff;; border-radius: 50px; padding: 2px 26px; }
+.jobs_category { cursor: pointer; border: 1px solid #000; margin: 0 0 10px; text-transform: capitalize; font-size: 16px; background: #fff; border-radius: 50px; padding: 2px 26px; }
 /* footer */
 .footer_container { display: flex; justify-content: space-evenly; border-bottom: 4px solid; border-image: linear-gradient(to right, #e73d3d,#78e678,#f5b961,#39b2ea); border-image-slice: 3; padding: 0 80px; margin: 20px 0; }
 .footer_contains img { width: 100px; height: 100px; }

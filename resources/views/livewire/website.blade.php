@@ -226,7 +226,36 @@
             </div>
         </div>
     </div>
-
+    {{-- <div style="margin:10px 20px;display:flex;justify-content:space-between;gap:20px;width:100%">
+        <div style="font-size: 40px;font-weight:800;">Price Details :-</div>
+        <div>
+            <div style="font-size: 24px;">
+                <span>Sub Amount.&nbsp;:-&nbsp;
+                    <input type="text" placeholder=""
+                        style="border: none;font-size: 24px;border: none;outline: none;background:none" />
+                </span>
+            </div>
+            <div style=" font-size: 22px">
+                <span>Special Price.&nbsp;&nbsp;&nbsp;:-&nbsp;
+                    <input type="text" placeholder=""
+                        style="border: none;font-size: 22px;border: none;outline: none;background:none" />
+                </span>
+            </div>
+            <div style="font-size: 20px;">
+                <span>Extra Discout.&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;
+                    <input type="text" placeholder=""
+                        style="border: none;font-size: 20px;border: none;outline: none;background:none" />
+                </span>
+            </div>
+            <div style="border:4px solid #000;width:70%"></div>
+            <div style="font-size: 28px;font-weight:700">
+                <span>Final Amount&nbsp;:-&nbsp;
+                    <input type="text" placeholder=""
+                        style="width:30%;border: none;font-weight:700;font-size: 28px;border: none;outline: none;background:none" />
+                </span>
+            </div>
+        </div>
+    </div> --}}
     <script>
         // $(document).ready(function() {
         //     // Add a click event listener to the button

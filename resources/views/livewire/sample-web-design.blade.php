@@ -17,44 +17,43 @@
         </div>
     </div>
 {{-- Static type --}}
-    @if ($static)
-        {{-- <div class="web_type_static"> --}}
-            <div class="code_assessment_job_details_box">
-                <div class="job_details">
-                    <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap,wordpress,django"
+        <div class="code_assessment_job_details_box">
+            <div>
+                <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap,wordpress,django"
                         w="10" h="10" alt="logo">
                     {{-- <h4>jobs</h4> --}}
                     {{-- <img src="{{asset('assets/logo/logo_web_type.png')}}" w="10" h="10" alt="logo"> --}}
-                </div>
-                <div class="jobs_category">
-                    Construction
-                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    Restaurant
-                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    School / College
-                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
-                </div>
             </div>
-            <div class="code_assessment_job_details_box">
-                <div class="job_details">
-                    {{-- <h4>jobs</h4> --}}
-                    {{-- <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap" w="10" h="10" alt="logo"> --}}
+        @if ($static)
+        {{-- <div class="web_type_static"> --}}
+            <div class="job_details">
+                <div class="code_assessment_job_details_box1">
+                    <div class="jobs_category">
+                        Construction
+                        <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                    </div>
+                    <div class="jobs_category">
+                        Restaurant
+                        <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                    </div>
+                    <div class="jobs_category">
+                        School / College
+                        <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                    </div>
                 </div>
-                <div class="jobs_category">
-                    Shop
-                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    Portfolio
-                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    Entartainment
-                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                <div class="code_assessment_job_details_box2">
+                    <div class="jobs_category">
+                        Shop
+                        <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                    </div>
+                    <div class="jobs_category">
+                        Portfolio
+                        <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                    </div>
+                    <div class="jobs_category">
+                        Entartainment
+                        <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                    </div>
                 </div>
             </div>
         {{-- </div> --}}
@@ -63,42 +62,35 @@
     {{-- Dynamic website --}}
     @if ($dynamic)
         {{-- <div class="web_type_dynamic"> --}}
-            <div class="code_assessment_job_details_box">
-                <div class="job_details">
-                    <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap,wordpress,django"
-                        w="10" h="10" alt="logo">
-                    {{-- <h4>jobs</h4> --}}
-                    {{-- <img src="{{asset('assets/logo/logo_web_type.png')}}" w="10" h="10" alt="logo"> --}}
+            <div class="job_details">
+                <div class="code_assessment_job_details_box1">
+                    <div class="jobs_category">
+                        dynamic   Construction
+                        <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                    </div>
+                    <div class="jobs_category">
+                        dynamic Restaurant
+                        <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                    </div>
+                    <div class="jobs_category">
+                        dynamic  School / College
+                        <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                    </div>
                 </div>
-                <div class="jobs_category">
-                    dynamic   Construction
-                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    dynamic Restaurant
-                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    dynamic  School / College
-                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
-                </div>
-            </div>
-            <div class="code_assessment_job_details_box">
-                <div class="job_details">
-                    {{-- <h4>jobs</h4> --}}
-                    {{-- <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap" w="10" h="10" alt="logo"> --}}
-                </div>
-                <div class="jobs_category">
-                    Shop
-                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    Portfolio
-                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
-                </div>
-                <div class="jobs_category">
-                    Entartainment
-                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                <div class="code_assessment_job_details_box2">
+                    
+                    <div class="jobs_category">
+                        Shop
+                        <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                    </div>
+                    <div class="jobs_category">
+                        Portfolio
+                        <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                    </div>
+                    <div class="jobs_category">
+                        Entartainment
+                        <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                    </div>
                 </div>
             </div>
         {{-- </div> --}}
@@ -106,13 +98,8 @@
     {{-- Dynamic website --}}
     @if ($brochure)
         {{-- <div class="web_type_dynamic"> --}}
-            <div class="code_assessment_job_details_box">
-                <div class="job_details">
-                    <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap,wordpress,django"
-                        w="10" h="10" alt="logo">
-                    {{-- <h4>jobs</h4> --}}
-                    {{-- <img src="{{asset('assets/logo/logo_web_type.png')}}" w="10" h="10" alt="logo"> --}}
-                </div>
+        <div class="job_details">
+            <div class="code_assessment_job_details_box1">
                 <div class="jobs_category">
                     brochure   Construction
                     <p class="jobs_category_description">Software development &nbsp;&gt;</p>
@@ -126,11 +113,7 @@
                     <p class="jobs_category_description">marketing &nbsp;&gt;</p>
                 </div>
             </div>
-            <div class="code_assessment_job_details_box">
-                <div class="job_details">
-                    {{-- <h4>jobs</h4> --}}
-                    {{-- <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap" w="10" h="10" alt="logo"> --}}
-                </div>
+            <div class="code_assessment_job_details_box2">
                 <div class="jobs_category">
                     brochure   Shop
                     <p class="jobs_category_description">Software development &nbsp;&gt;</p>
@@ -144,18 +127,12 @@
                     <p class="jobs_category_description">marketing &nbsp;&gt;</p>
                 </div>
             </div>
-        {{-- </div> --}}
+        </div>
     @endif
     {{-- Dynamic website --}}
     @if ($ecom)
-        {{-- <div class="web_type_dynamic"> --}}
-            <div class="code_assessment_job_details_box">
-                <div class="job_details">
-                    <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap,wordpress,django"
-                        w="10" h="10" alt="logo">
-                    {{-- <h4>jobs</h4> --}}
-                    {{-- <img src="{{asset('assets/logo/logo_web_type.png')}}" w="10" h="10" alt="logo"> --}}
-                </div>
+        <div class="job_details">
+            <div class="code_assessment_job_details_box1"> 
                 <div class="jobs_category">
                     ecom    Construction
                     <p class="jobs_category_description">Software development &nbsp;&gt;</p>
@@ -169,11 +146,7 @@
                     <p class="jobs_category_description">marketing &nbsp;&gt;</p>
                 </div>
             </div>
-            <div class="code_assessment_job_details_box">
-                <div class="job_details">
-                    {{-- <h4>jobs</h4> --}}
-                    {{-- <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap" w="10" h="10" alt="logo"> --}}
-                </div>
+            <div class="code_assessment_job_details_box2">
                 <div class="jobs_category">
                     Shop
                     <p class="jobs_category_description">Software development &nbsp;&gt;</p>
@@ -187,7 +160,8 @@
                     <p class="jobs_category_description">marketing &nbsp;&gt;</p>
                 </div>
             </div>
-        {{-- </div> --}}
+        </div>
+        </div>
     @endif
     <script>
         $(document).ready(function() {
