@@ -237,7 +237,80 @@
                 </div>
             </div>
         </div>
-        <div class="container pop_up_box" style="width:44%!important">
+        <div class="container pop_up_box" style="width:44%!important;justify-content: center;">
+            <div class="price_list" >
+                <div style="font-size: 30px;font-weight:800;">Price Details </div>
+                <div style="border:0.2px solid #c4c4c4;"></div>
+                <div>
+                    <div style="font-size: 20px;">
+                        <span>Price -&nbsp;({{$itemCount}} items)&nbsp;<span class="fa fa-shopping-bag"
+                                style="color:green"></span>&nbsp;:&nbsp;&#8377;
+
+                                @php
+                                $totalAmount = $domain_amount + $webHost_amount + $webPage_amount + $email_amount + $ssl_amount + $enquiry_form_amount + $security_backup_amount + $image_quality_amount + $content_writting_amount;
+
+                                @endphp
+                                {{number_format($totalAmount, 2 , '.' , ',')}}
+
+                                {{-- <input type="text" placeholder=""
+                                style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" /> --}}
+                        </span>
+                    </div>
+                    <div style=" font-size: 16px">
+                        <span>Discount&nbsp;(5%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+
+                            @php
+                                $discountedAmount =  0.05 * $totalAmount
+                            @endphp
+                            {{ number_format($discountedAmount, 2 , '.' , ',') }}
+
+                            {{-- <input type="text" placeholder=""
+                                style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" /> --}}
+                        </span>
+                    </div>
+                    <div style="font-size: 22px;font-weight:500">
+                        <span>Total Amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+
+                            {{number_format(($totalAmount - $discountedAmount), 2 , '.' , ',' )}}
+
+                            {{-- <input type="text" placeholder=""
+                                style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" /> --}}
+                        </span>
+                    </div>
+                    <div style="border:2px solid #000;"></div>
+                    <div>
+                        <div style="font-size: 16px;">
+                            <span>with
+                                GST(18%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+
+                                @php
+                                    $gstAmount = 0.18 * $totalAmount - $discountedAmount;
+                                @endphp
+                                    {{ number_format($gstAmount , 2 , '.' , ',')}}
+                                {{-- <input type="text" placeholder=""
+                                    style="border: none;font-size: 16px;border: none;outline: none;background:none;width:40%" /> --}}
+                            </span>
+                        </div>
+                        <div style="font-size: 24px;font-weight:500">
+                            <span>Final Amount&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+
+                                {{number_format(($totalAmount - $discountedAmount + $gstAmount)  , 2 , '.' , ',')}}
+                                {{-- <input type="text" placeholder=""
+                                    style="border: none;font-weight:700;font-size: 28px;border: none;outline: none;background:none;width:50%" /> --}}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align:center;font-size: 22px;font-weight:700;color:#198754;margin:0px 0px;width:100%">You will save
+                &#8377;{{number_format($discountedAmount , 2 , '.' , ',')}} on this order</p>
+            <button class="btn btn-success mt-5 btn-lg">Get Quatation</button>
+            <button class="btn btn-primary mt-5 btn-lg">Get Quatation</button>
+            <div style="display: none">
+
+
+
+
             @if ($domain_checkbox)
                 <div class="checkbox_card">
                     <div class="checkbox_card_box" style="gap:188px">
@@ -382,73 +455,10 @@
             </div>
             @endif
         </div>
-    </div>
-    <div style="float:right;margin-top:20px">
-        <div style="font-size: 30px;font-weight:800;">Price Details </div>
-        <div style="border:0.2px solid #c4c4c4;"></div>
-        <div>
-            <div style="font-size: 20px;">
-                <span>Price -&nbsp;({{$itemCount}} items)&nbsp;<span class="fa fa-shopping-bag"
-                        style="color:red"></span>&nbsp;:&nbsp;&#8377;
-
-                        @php
-                        $totalAmount = $domain_amount + $webHost_amount + $webPage_amount + $email_amount + $ssl_amount + $enquiry_form_amount + $security_backup_amount + $image_quality_amount + $content_writting_amount;
-
-                        @endphp
-                        {{number_format($totalAmount, 2 , '.' , ',')}}
-
-                        {{-- <input type="text" placeholder=""
-                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" /> --}}
-                </span>
-            </div>
-            <div style=" font-size: 16px">
-                <span>Discount&nbsp;(5%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
-
-                    @php
-                        $discountedAmount =  0.05 * $totalAmount
-                    @endphp
-                    {{ number_format($discountedAmount, 2 , '.' , ',') }}
-
-                    {{-- <input type="text" placeholder=""
-                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" /> --}}
-                </span>
-            </div>
-            <div style="font-size: 22px;font-weight:500">
-                <span>Total Amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
-
-                    {{number_format(($totalAmount - $discountedAmount), 2 , '.' , ',' )}}
-
-                    {{-- <input type="text" placeholder=""
-                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" /> --}}
-                </span>
-            </div>
-            <div style="border:2px solid #000;"></div>
-            <div>
-                <div style="font-size: 16px;">
-                    <span>with
-                        GST(18%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
-
-                        @php
-                            $gstAmount = 0.18 * $totalAmount - $discountedAmount;
-                        @endphp
-                            {{ number_format($gstAmount , 2 , '.' , ',')}}
-                        {{-- <input type="text" placeholder=""
-                            style="border: none;font-size: 16px;border: none;outline: none;background:none;width:40%" /> --}}
-                    </span>
-                </div>
-                <div style="font-size: 24px;font-weight:500">
-                    <span>Final Amount&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
-
-                        {{number_format(($totalAmount - $discountedAmount + $gstAmount)  , 2 , '.' , ',')}}
-                        {{-- <input type="text" placeholder=""
-                            style="border: none;font-weight:700;font-size: 28px;border: none;outline: none;background:none;width:50%" /> --}}
-                    </span>
-                </div>
-            </div>
         </div>
     </div>
-    <p style="text-align:center;font-size: 22px;font-weight:700;color:#198754;margin:77px 21px;width:32%">You will save
-        &#8377;{{number_format($discountedAmount , 2 , '.' , ',')}} on this order</p>
+
+
 </div>
 <script>
     // $(document).ready(function() {

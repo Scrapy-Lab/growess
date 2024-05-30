@@ -88,7 +88,7 @@
                     </h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" style="padding: 2rem;">
                     @livewire('website')
                 </div>
                 {{-- <div class="modal-footer">
