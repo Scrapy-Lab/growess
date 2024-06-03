@@ -79,7 +79,7 @@
                         <span class="tooltiptext">Hello Tooltip text </span>
                     </div>
                 </div>
-                <div style="margin-left: 10px;">
+                <div>
                     <form>
                         <div class="value-button" id="decrease" wire:click="decrement_webPage" value="Decrease Value">-
                         </div>
@@ -116,7 +116,7 @@
                         <span class="tooltiptext">Hello Tooltip text </span>
                     </div>
                 </div>
-                <div style="margin-left: 42px;">
+                <div style="margin-left: 29px;">
                     <form>
                         <div class="value-button" id="decrease" wire:click="decrement_email" value="Decrease Value">-
                         </div>
@@ -144,7 +144,7 @@
                         <div class="checkbox__checkmark"></div>
                     </label>
                 </div>
-                <div class="checkbox__body" style="margin-right:90px;">SSL Certificate (1 Yr)</div>
+                <div class="checkbox__body" style="margin-right:82px;">SSL Certificate (1 Yr)</div>
                 <div class="check_price">&#8377;{{ $website->ssl }}/-</div>
                 <div class="total_price">
                     {{-- <span>Total&nbsp;:&nbsp;&#8377;
@@ -162,7 +162,7 @@
                         <div class="checkbox__checkmark"></div>
                     </label>
                 </div>
-                <div class="checkbox__body" style="margin-right: 156px;">Inquiry Form</div>
+                <div class="checkbox__body" style="margin-right: 147px;">Inquiry Form</div>
                 <div class="check_price">&#8377;{{ $website->enquiry_form }}/-</div>
                 <div class="total_price">
                     {{-- <span>Total&nbsp;:&nbsp;&#8377;
@@ -180,7 +180,7 @@
                         <div class="checkbox__checkmark"></div>
                     </label>
                 </div>
-                <div class="checkbox__body" style="margin-right: 113px;">Security & Backup</div>
+                <div class="checkbox__body" style="margin-right: 102px;">Security & Backup</div>
                 <div class="check_price">&#8377;{{ $website->security_backup }}/-</div>
                 <div class="total_price">
                     {{-- <span>Total&nbsp;:&nbsp;&#8377;
@@ -198,7 +198,7 @@
                         <div class="checkbox__checkmark"></div>
                     </label>
                 </div>
-                <div class="checkbox__body" style="margin-right: 86px;">HD Quality Images
+                <div class="checkbox__body" style="margin-right: 73px;">HD Quality Images
                     <div class="tooltip" style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
                         &nbsp;&#9432;
                         <span class="tooltiptext">Hello Tooltip text </span>
@@ -221,7 +221,7 @@
                         <div class="checkbox__checkmark"></div>
                     </label>
                 </div>
-                <div class="checkbox__body" style="margin-right: 127px;">Content Writing
+                <div class="checkbox__body" style="margin-right: 95px;">Content Writing
                     <div class="tooltip" style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
                         &nbsp;&#9432;
                         <span class="tooltiptext">Hello Tooltip text </span>
