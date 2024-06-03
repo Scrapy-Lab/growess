@@ -1,6 +1,6 @@
 <div class="container">
     <div style="display:flex;justify-content: space-between;align-items: center;">
-        <div class="container pop_up_box" style="width:52%!important">
+        <div class="container pop_up_box" style="width:58%!important">
             <div class="checkbox_card">
                 <div class="checkboxes__item">
                     <label class="checkbox style-a">
@@ -292,7 +292,7 @@
                             </span>
                         </div>
                         <div style="font-size: 24px;font-weight:500">
-                            <span>Final Amount&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+                            <span>Final Billing&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
 
                                 {{number_format(($totalAmount - $discountedAmount + $gstAmount)  , 2 , '.' , ',')}}
                                 {{-- <input type="text" placeholder=""

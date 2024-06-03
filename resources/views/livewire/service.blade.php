@@ -83,7 +83,7 @@
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content bg-color">
                 <div class="modal-header text-capitalize">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Select your Static Website Feature
+                    <h1 class="modal-title fs-5" id="#exampleModalToggle2_website">Select your 
                         {{ $modalTitle }} :-
                     </h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
