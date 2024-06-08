@@ -80,7 +80,7 @@ button { cursor: pointer; color: #fff; padding: 4px 8px; font-size: 16px; border
 .check_price { font-size: 18px; width: 120px; }
 .checkbox_card_box { display: flex; justify-content: space-between; align-items: center; }
 .total_price { color: #000; font-size: 18px; }
-form { text-align: center; font-size: 18px; width: 98px; }
+form { text-align: center; font-size: 18px; width: 107px; }
 .value-button { display: inline-block; border: 1px solid #e1a1a1; width: 35px; height: 35px; vertical-align: top; cursor: pointer; }
 form #decrease { margin-right: -8px; border-radius: 8px 0 0 8px; }
 form #increase { margin-left: -8px; border-radius: 0 8px 8px 0; }
@@ -291,6 +291,6 @@ div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .form_control label { position: absolute; top: 15px; left: 0; pointer-events: none; }
 .submit_now { color: rgb(255, 255, 255); font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 19px; font-weight: 700; border: none; text-decoration-line: none; line-height: 22px; text-align: center; cursor: pointer; background-color: rgb(240 99 47); padding: 10px 20px; }
 .form_control { height: 232px; display: block; width: 85%; }
-.price_list { float: right; margin-top: 20px; background-color: #fff; padding: 60px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0; }
+.price_list { float: right; margin-top: 20px; background-color: #fff; padding: 36px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0; }
 
 

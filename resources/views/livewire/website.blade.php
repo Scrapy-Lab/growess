@@ -244,7 +244,7 @@
                 <div>
                     <div style="font-size: 20px;">
                         <span>Price -&nbsp;({{$itemCount}} items)&nbsp;<span class="fa fa-shopping-bag"
-                                style="color:green"></span>&nbsp;:&nbsp;&#8377;
+                                style="color:green"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
 
                                 @php
                                 $totalAmount = $domain_amount + $webHost_amount + $webPage_amount + $email_amount + $ssl_amount + $enquiry_form_amount + $security_backup_amount + $image_quality_amount + $content_writting_amount;
@@ -257,7 +257,7 @@
                         </span>
                     </div>
                     <div style=" font-size: 16px">
-                        <span>Discount&nbsp;(5%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+                        <span>Discount&nbsp;(5%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
 
                             @php
                                 $discountedAmount =  0.05 * $totalAmount
@@ -269,7 +269,7 @@
                         </span>
                     </div>
                     <div style="font-size: 22px;font-weight:500">
-                        <span>Total Amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+                        <span>Total Amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
 
                             {{number_format(($totalAmount - $discountedAmount), 2 , '.' , ',' )}}
 
@@ -281,7 +281,7 @@
                     <div>
                         <div style="font-size: 16px;">
                             <span>with
-                                GST(18%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+                                GST(18%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
 
                                 @php
                                     $gstAmount = 0.18 * $totalAmount - $discountedAmount;
@@ -292,7 +292,7 @@
                             </span>
                         </div>
                         <div style="font-size: 24px;font-weight:500">
-                            <span>Final Billing&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+                            <span>Final Billing Amt.:&nbsp;&#8377;
 
                                 {{number_format(($totalAmount - $discountedAmount + $gstAmount)  , 2 , '.' , ',')}}
                                 {{-- <input type="text" placeholder=""
