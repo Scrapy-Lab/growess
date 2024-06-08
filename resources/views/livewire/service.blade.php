@@ -78,12 +78,12 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" wire:ignore.self id="exampleModalToggle2_website" aria-hidden="true"
-        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" wire:ignore.self
+        id="exampleModalToggle2_website" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content bg-color">
                 <div class="modal-header text-capitalize">
-                    <h1 class="modal-title fs-5" id="#exampleModalToggle2_website">Select your 
+                    <h1 class="modal-title fs-5" id="#exampleModalToggle2_website">Select your
                         {{ $modalTitle }} :-
                     </h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -281,7 +281,8 @@
                                             </div>
                                             <div style="color: #000; font-size: 32px; font-weight: 700;">
                                                 Rs.300 </div>
-                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.9,000 monthly max
+                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.9,000 monthly
+                                                max
                                             </div>
                                         </div>
                                         <div wire:click="fixedAmount(350)"
@@ -330,7 +331,8 @@
                                             </div>
                                             <div style="color: #000; font-size: 32px; font-weight: 700;">
                                                 30 Days </div>
-                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.9,000 monthly max
+                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.9,000 monthly
+                                                max
                                             </div>
                                         </div>
                                         <div wire:click="fixedDays(15)"
@@ -342,7 +344,8 @@
                                             </div>
                                         </div>
                                         <div>
-                                            <div style="font-size: 18px;font-weight: 600;">Choose your custom date</div>
+                                            <div style="font-size: 18px;font-weight: 600;">Choose your custom date
+                                            </div>
                                             <div
                                                 style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 210px; height: 67px;margin-top:5px; ">
                                                 <div class="input-container" id="date-picker-container">
@@ -361,7 +364,7 @@
                                     <div
                                         style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 320px; height: 121px;padding: 28px 10px;text-align: center;">
                                         <div style="color: #000; font-size: 42px; font-weight: 700;text-align:center">
-                                            {{$day}} Days
+                                            {{ $day }} Days
                                         </div>
                                     </div>
                                 </div>
@@ -375,7 +378,7 @@
                                                     style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
 
-                                                {{$amount}}
+                                                {{ $amount }}
                                             </span>
                                         </div>
                                         <div style="color: #000; font-size: 20px; font-weight: 700;">
@@ -385,7 +388,7 @@
                                                     style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
 
-                                                ₹{{$amount}} x {{$day}}D : {{$amount * $day}}
+                                                ₹{{ $amount }} x {{ $day }}D : {{ $amount * $day }}
                                             </span>
                                         </div>
                                         <div style="font-size:18px;color:#000;font-weight:700;">Service
@@ -394,11 +397,9 @@
                                                     style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
                                                 @if ($day)
-                                                    ₹{{$service_charge * $day}}
-
+                                                    ₹{{ $service_charge * $day }}
                                                 @else
-
-                                                    ₹{{$service_charge}}
+                                                    ₹{{ $service_charge }}
                                                 @endif
                                             </span>
 
@@ -415,7 +416,8 @@
                             <div style="margin-bottom:40px">
                                 <div style="color: #000;font-size: 40px;font-weight: 700;text-align:center">Grand
                                     Total<span style="font-size:16px">&nbsp;(Incl.Service charge)&nbsp;</span>:-
-                                    <span>₹ {{$grand_total + ($service_charge * $day)}}<input type="text" placeholder=""
+                                    <span>₹ {{ $grand_total + $service_charge * $day }}<input type="text"
+                                            placeholder=""
                                             style="border: none;width: 30%;font-size: 42px;font-weight: 700;border: none;outline: none;" />
 
                                     </span>
@@ -448,41 +450,60 @@
                 <div class="modal-body">
                     <div class="container">
                         <div class="container pop_up_box">
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal" style=" background:#f2d0b8b8;">
-                                <img src="/assets/gmb.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;text-align:center">GMB
-                                    <br>Optimization
-                                </h5>
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal"  --}}
+                            <div class="col-md-6 model_pop-up" style=" background:#f2d0b8b8;">
+                                <a href="{{ route('gmb-optimization') }}" target="_blank">
+                                    <img src="/assets/gmb.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;text-align:center">GMB
+                                        <br>Optimization
+                                    </h5>
+                                </a>
                             </div>
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal" style=" background: #b8f2c582;">
-                                <img src="/assets/seo.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;">Search Engine
-                                    <br>Optimization
-                                </h5>
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal" --}}
+                            <div class="col-md-6 model_pop-up" style=" background: #b8f2c582;">
+                                <a href="{{ route('seo') }}" target="_blank">
+                                    <img src="/assets/seo.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;">Search Engine
+                                        <br>Optimization
+                                    </h5>
+                                </a>
                             </div>
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal" style="background: #f5a9ad82;">
-                                <img src="/assets/social_media.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;">Social Media <br>Management
-                                </h5>
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal" --}}
+                            <div class="col-md-6 model_pop-up" style="background: #f5a9ad82;">
+                                <a href="{{ route('smm') }}" target="_blank">
+                                    <img src="/assets/social_media.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;">Social Media
+                                        <br>Management
+                                    </h5>
+                                </a>
                             </div>
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal" style=" background: #a7e4eb82;">
-                                <img src="/assets/content.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;">Content Writing</h5>
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal" --}}
+                            <div class="col-md-6 model_pop-up" style=" background: #a7e4eb82;">
+                                <a href="{{ route('content-writting') }}" target="_blank">
+                                    <img src="/assets/content.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;">Content Writing</h5>
+                                </a>
                             </div>
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal" style=" background: #eba7e482;">
-                                <img src="/assets/email_marketing.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;">Email Marketing</h5>
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal" --}}
+                            <div class="col-md-6 model_pop-up" style=" background: #eba7e482;">
+                                <a href="{{ route('email-marketing') }}" target="_blank">
+                                    <img src="/assets/email_marketing.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;">Email Marketing</h5>
+                                </a>
                             </div>
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal"
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal" --}}
+                            <div class="col-md-6 model_pop-up"
                                 style="background: radial-gradient(#f2d0b8b8,#b8f2c582,#f5a9ad82,#eba7e482);">
-                                <img src="/assets/display.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;">Graphics Design</h5>
+                                <a href="{{ route('graphic-design') }}" target="_blank">
+                                    <img src="/assets/display.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;">Graphics Design</h5>
+                                </a>
                             </div>
                         </div>
                     </div>
