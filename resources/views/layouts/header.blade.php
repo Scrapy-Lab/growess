@@ -87,8 +87,43 @@
             <a href="#">Partners</a>
         </div>
         <div class="header_login">
-            <div class="header_log_button">Log In</div>
+            <div class="header_log_button" onclick="document.getElementById('id01').style.display='block'">Log In</div>
+            <div id="id01" class="modal" >
+                <formfield class="modal-content animate" method="post">
+                    <div class="container">
+                        <div class="close"
+                            onclick="document.getElementById('id01').style.display='none'"  title="Close Modal">&times;
+                        </div>
+                        <div class="login_title">
+                            <img src="/assets/create-icon.webp" alt="logo" w="20" h="20"/>
+                            <div><div style="font-size:18px;font-weight:300">Hi..</div>
+                            <p>  Welcome to Razorpay</p></div>
+                        </div>
+                        <label for="uname"><b>Username :</b></label>
+                        <input type="text" placeholder="Enter Username ..." name="uname" required>
+                        <label for="psw"><b>Password :</b></label>
+                        <input type="password" placeholder="Enter Password ..." name="psw" required>
+                        <div class="login_button">Login</div>
+                        <div class="remember">
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                            <div class="psw">Forgot <a href="#">password?</a></div>
+                        </div>
+                    </div>
+                </formfield>
+            </div>
             <div class="header_sign_up">Sign Up &nbsp;&gt;</div>
         </div>
     </div>
+</div>
+<script>
+    var modal = document.getElementById('id01');
 
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
