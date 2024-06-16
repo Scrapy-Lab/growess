@@ -89,7 +89,7 @@
         <div class="header_login">
             <div class="header_log_button" onclick="document.getElementById('id01').style.display='block'">Log In</div>
             <div id="id01" class="modal" >
-                <formfield class="modal-content animate" method="post">
+                <formfield class="modal-content animate" method="post" style="width: 30%!important;">
                     <div class="container">
                         <div class="close"
                             onclick="document.getElementById('id01').style.display='none'"  title="Close Modal">&times;
@@ -100,9 +100,9 @@
                             <p>  Welcome to Razorpay</p></div>
                         </div>
                         <label for="uname"><b>Username :</b></label>
-                        <input type="text" placeholder="Enter Username ..." name="uname" required>
+                        <input type="text" placeholder="Enter Username ..." name="uname" required style="padding:12px 20px;border: 1px solid #ccc;width:100%;display:inline-block">
                         <label for="psw"><b>Password :</b></label>
-                        <input type="password" placeholder="Enter Password ..." name="psw" required>
+                        <input type="password" placeholder="Enter Password ..." name="psw" required style="padding:12px 20px;border: 1px solid #ccc;width:100%;display:inline-block">
                         <div class="login_button">Login</div>
                         <div class="remember">
                             <label>

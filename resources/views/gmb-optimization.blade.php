@@ -21,27 +21,27 @@
                     <input type="category" class="form-control" id="inputCategory">
                 </div>
             </div>
-            <div class="form-group col-md-6 mb-3">
+            <div class="form_gmb col-md-6 mb-3">
                 <label for="inputContact">Buisness Contact No *</label>
                 <input type="text" class="form-control" id="inputContact" placeholder="12345678">
             </div>
-            <div class="form-group col-md-8 mb-3">
+            <div class="form_gmb col-md-8 mb-3">
                 <label for="inputAddress2">Enter Your Street Address *</label>
                 <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
             </div>
             <div class="form-row">
-                <div class="form-group col-md-6">
+                <div class="form_gmb col-md-6">
                     <label for="inputCity">Enter your city *</label>
                     <input type="text" class="form-control" id="inputCity">
                 </div>
-                <div class="form-group col-md-4">
+                <div class="form_gmb col-md-4">
                     <label for="inputState">State</label>
                     <select id="inputState" class="form-control">
                         <option selected>Choose...</option>
                         <option>...</option>
                     </select>
                 </div>
-                <div class="form-group col-md-2">
+                <div class="form_gmb col-md-2">
                     <label for="inputZip">Pincode *</label>
                     <input type="text" class="form-control" id="inputZip">
                 </div>
@@ -89,7 +89,7 @@
         </div>
         <div class="estimate_card">
             <i class='fa fa-check-circle' style='font-size:80px;color:#288d0c'></i>
-            <div class="save_title" style="font-size:40px">
+            <div class="save_title">
                 Thank you !<br>Your request has been sent successfully. </div>
             <div class="estimate_title" style="font-size:40px">Your GMB Estimate</div>
             <div class="estimate_price">Rs.3500/-</div>

@@ -312,7 +312,7 @@ div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .final_button { border: none; font-size: 28px; line-height: 30px; font-weight: 600; padding: 20px 44px; background: #288d0c; margin: 20px 25%; border-radius: 8px; }
 /* login */
 .login_title { color: #383838; font-size: 26px; font-weight: 700; line-height: 140%; margin: 20px 0; display: flex; align-items: center; justify-content: center; }
-input[type=password], input[type=text] { width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; }
+input[type=password], input[type=text] { margin: 8px 0;  box-sizing: border-box; }
 .login_button { background-color: #04aa6d; color: #fff; padding: 14px 10px; margin: 16px 30%; border: none; cursor: pointer; width: 40%; text-align: center; }
 formfield{padding: 20px 60px;}
 .login_button:hover { opacity: 0.8; }
@@ -322,7 +322,7 @@ formfield{padding: 20px 60px;}
 span.psw { float: right; padding-top: 16px; }
 .psw>a{color: #000;text-decoration: none;}
 .modal { display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: #000; background-color: rgba(0,0,0,0.4); padding-top: 60px; }
-.modal-content { background-color: #fefefe; margin: 5% auto 15% auto; border: 1px solid #888; width: 30%!important; }
+.modal-content { background-color: #fefefe; margin: 5% auto 15% auto; border: 1px solid #888;  }
 .close { position: absolute; right: 25px;top: 5px; color: #000; font-size: 35px; font-weight: bold; }
 .close:focus, .close:hover { color: red; cursor: pointer; }
 .animate { -webkit-animation: animatezoom 0.6s; animation: animatezoom 0.6s; }
