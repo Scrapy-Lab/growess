@@ -31,6 +31,13 @@
             <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
                 class="btn btn-success rounded-pill" style="background: #288d0c">Click here</button>
         </div>
+        <div class="box_1" style="background:#e7bdf8ab;">
+            <img src="/assets/giphy.webp" alt="My Logo" w="10" h="10" />
+            <div class="box_title">E-Commerce Solution</div>
+            <p class="box_headline">get instant quote</p>
+            <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
+                class="btn btn-success rounded-pill" style="background: #288d0c">Click here</button>
+        </div>
 
         {{-- <x-modal :sub_services="$sub_services" :modalTitle="$modalTitle" :subModalTitle="$subModalTitle"
             :products="$products">
