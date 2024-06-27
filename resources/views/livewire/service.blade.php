@@ -24,16 +24,16 @@
                 class="btn btn-warning rounded-pill" style="background: #f49317">Click here</button>
 
         </div>
-        <div class="box_1" style="background:#bdebf8ab;">
+        <div class="box_1" style="background:#e7bdf8ab;">
             <img src="/assets/giphy.webp" alt="My Logo" w="10" h="10" />
-            <div class="box_title">Software & Apps</div>
+            <div class="box_title">E-Commerce Solution</div>
             <p class="box_headline">get instant quote</p>
             <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
                 class="btn btn-success rounded-pill" style="background: #288d0c">Click here</button>
         </div>
-        <div class="box_1" style="background:#e7bdf8ab;">
+        <div class="box_1" style="background:#bdebf8ab;">
             <img src="/assets/giphy.webp" alt="My Logo" w="10" h="10" />
-            <div class="box_title">E-Commerce Solution</div>
+            <div class="box_title">Software & Apps</div>
             <p class="box_headline">get instant quote</p>
             <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
                 class="btn btn-success rounded-pill" style="background: #288d0c">Click here</button>
@@ -254,107 +254,96 @@
     </div>
     <div class="modal fade" wire:ignore.self id="exampleModalToggle3_lead" aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header text-capitalize">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">lets plan your ad campaign :
+                    <h1 class="modal-title fs-5 fw-bold" id="exampleModalToggleLabel2">lets plan your ad campaign :
                         {{ $modalTitle }}
                     </h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="container">
-                        <div class="container">
-                            <div style="margin-bottom:40px">
+                            <div style="margin-bottom:20px">
                                 <div class="modal_title">Choose your daily budget</div>
                                 <div>
-                                    <div style="display: flex;justify-content: space-around;gap:12px">
-                                        <div wire:click="fixedAmount(200)"
-                                            style="box-shadow: 3px 5px 0px 7px #d4eefb;border-radius: 12px; width: 210px; height: 98px;padding: 20px 10px;text-align: center;">
-                                            <div
-                                                style="color: #000; font-size: 32px; font-weight: 700;text-align:center">
+                                    <div style="display: flex;justify-content: space-around;gap:20px">
+                                        <div class="recommended_budget" wire:click="fixedAmount(200)">
+                                            <div class="price-title">
                                                 Rs.200 </div>
-                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs,6000 monthly max
+                                            <div class="budget-title">Rs,6000 monthly max
                                             </div>
                                         </div>
-                                        <div wire:click="fixedAmount(300)"
-                                            style="box-shadow: 3px 5px 0px 7px #44c011; border-radius: 12px; width: 210px; height: 98px;text-align: center; ">
-                                            <div style="font-size:16px;color: #0091ff;font-weight:500;">Recommended for
+                                        <div class="recommended_budget" wire:click="fixedAmount(300)">
+                                            <div style="font-size:13px;color: #0091ff;font-weight:500;">Recommended for
                                                 you<div class="tooltip"
-                                                    style="display:contents; color: #e90d12;font-size: 12px;font-weight: 700;">
+                                                    style="display:contents; color: #e90d12;font-size: 8px;font-weight: 700;">
                                                     &nbsp;&#9432;
                                                     <span class="tooltiptext">Hello Tooltip text </span>
                                                 </div>
                                             </div>
-                                            <div style="color: #000; font-size: 32px; font-weight: 700;">
+                                            <div class="price-title">
                                                 Rs.300 </div>
-                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.9,000 monthly
+                                            <div class="budget-title">Rs.9,000 monthly
                                                 max
                                             </div>
                                         </div>
-                                        <div wire:click="fixedAmount(350)"
-                                            style="box-shadow: 3px 5px 0px 7px #d4eefb;border-radius: 12px; width: 210px; height: 98px; padding: 20px 5px;text-align: center; ">
-                                            <div style="color: #000; font-size: 32px; font-weight: 700;">
+                                        <div class="recommended_budget" wire:click="fixedAmount(350)">
+                                            <div class="price-title">
                                                 Rs.350 </div>
-                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.10,500 monthly
+                                            <div class="budget-title">Rs.10,500 monthly
                                                 max
                                             </div>
                                         </div>
                                         <div>
-                                            <div style="font-size: 20px;font-weight: 600;">Enter your budget</div>
-                                            <div
-                                                style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 210px; height: 63px;margin-top:5px">
+                                            <div class="budget-title">Enter your budget</div>
+                                            <div class="recommended_budget">
                                                 <div
-                                                    style="color: #000; font-size: 32px; font-weight: 700;padding: 6px 10px; background: none;">
+                                                    style="color: #000; font-size: 21px; font-weight: 700;padding: 6px 10px; background: none;">
                                                     Rs. <span><input type="text" wire:change="customAmount"
                                                             placeholder="" wire:model="amount"
-                                                            style="border: none;width: 63%;font-size: 32px;font-weight: 700;border: none;outline: none;" />
+                                                            style="border: none;width: 63%;font-size: 21px;font-weight: 700;border: none;outline: none;height:15px" />
                                                     </span></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div style="margin-bottom:40px">
+                            <div style="margin-bottom:20px">
                                 <div class="modal_title">Select your Day</div>
                                 <div>
                                     <div style="display: flex;justify-content: space-around;gap:12px">
-                                        <div wire:click="fixedDays(10)"
-                                            style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 210px; height: 98px;padding: 20px 10px;text-align: center;">
-                                            <div
-                                                style="color: #000; font-size: 32px; font-weight: 700;text-align:center">
+                                        <div class="recommended_budget" wire:click="fixedDays(10)">
+                                            <div class="price-title">
                                                 10 Days </div>
-                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs,6000 monthly max
+                                            <div class="budget-title">Rs,6000 monthly max
                                             </div>
                                         </div>
-                                        <div wire:click="fixedDays(30)"
-                                            style="box-shadow: 3px 5px 0px 7px #44c011; border-radius: 12px; width: 210px; height: 98px;text-align: center; ">
-                                            <div style="font-size:16px;color: #0091ff;font-weight:500;">Recommended for
+                                        <div class="recommended_budget" wire:click="fixedDays(30)">
+                                            <div style="font-size:13px;color: #0091ff;font-weight:500;">Recommended for
                                                 you<div class="tooltip"
-                                                    style="display:contents; color: #e90d12;font-size: 12px;font-weight:700">
+                                                    style="display:contents; color: #e90d12;font-size: 8px;font-weight:700">
                                                     &nbsp;&#9432;
                                                     <span class="tooltiptext">Hello Tooltip text </span>
                                                 </div>
                                             </div>
-                                            <div style="color: #000; font-size: 32px; font-weight: 700;">
+                                            <div class="price-title">
                                                 30 Days </div>
-                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.9,000 monthly
+                                            <div class="budget-title">Rs.9,000 monthly
                                                 max
                                             </div>
                                         </div>
-                                        <div wire:click="fixedDays(15)"
-                                            style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 210px; height: 98px;padding: 20px 5px;text-align: center; ">
-                                            <div style="color: #000; font-size: 32px; font-weight: 700;">
+                                        <div class="recommended_budget" wire:click="fixedDays(15)">
+                                            <div class="price-title">
                                                 15 Days </div>
-                                            <div style="font-size:16px;color:#000;font-weight:500;">Rs.10,500 monthly
+                                            <div class="budget-title">Rs.10,500 monthly
                                                 max
                                             </div>
                                         </div>
                                         <div>
-                                            <div style="font-size: 18px;font-weight: 600;">Choose your custom date
+                                            <div class="budget-title">Choose your custom date
                                             </div>
-                                            <div
-                                                style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 210px; height: 67px;margin-top:5px; ">
+                                            <div class="recommended_budget">
                                                 <div class="input-container" id="date-picker-container">
                                                     <input type="date" id="date-checkin" class="date-field"
                                                         wire:change="customDate" wire:model="custom_date"
@@ -365,43 +354,41 @@
                                     </div>
                                 </div>
                             </div>
-                            <div style="display: flex;justify-content: space-around;gap:12px;margin-bottom:40px">
+                            <div style="display: flex;justify-content: space-around;gap:12px;margin-bottom:20px">
                                 <div>
                                     <div class="modal_title">Total Selected Days</div>
-                                    <div
-                                        style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 320px; height: 121px;padding: 28px 10px;text-align: center;">
-                                        <div style="color: #000; font-size: 42px; font-weight: 700;text-align:center">
+                                    <div class="recommended_selected">
+                                        <div style="color: #000; font-size: 36px; font-weight: 700;text-align:center">
                                             {{ $day }} Days
                                         </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="modal_title">Total Amount</div>
-                                    <div
-                                        style="box-shadow: 3px 5px 0px 7px #d4eefb; border-radius: 12px; width: 370px; height: 121px;padding: 10px 10px;">
-                                        <div style="color: #000; font-size: 32px; font-weight: 700;">
+                                    <div class="recommended_selected">
+                                        <div class="price-title">
                                             <span>Total Amount.&nbsp;:-&nbsp;
                                                 {{-- <input type="text" placeholder=""
-                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
+                                                    style="border: none;width: 48%;font-size: 21px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
 
                                                 {{ $amount }}
                                             </span>
                                         </div>
-                                        <div style="color: #000; font-size: 20px; font-weight: 700;">
+                                        <div style="color: #000; font-size: 16px; font-weight: 700;">
                                             <span>Sub
                                                 Total.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;
                                                 {{-- <input type="text" placeholder=""
-                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
+                                                    style="border: none;width: 48%;font-size: 16px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
 
                                                 ₹{{ $amount }} x {{ $day }}D : {{ $amount * $day }}
                                             </span>
                                         </div>
-                                        <div style="font-size:18px;color:#000;font-weight:700;">Service
+                                        <div style="font-size:16px;color:#000;font-weight:700;">Service
                                             Charge&nbsp;&nbsp;&nbsp;:-&nbsp;<span>
                                                 {{-- <input type="text" placeholder=""
-                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
+                                                    style="border: none;width: 48%;font-size: 16px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
                                                 @if ($day)
                                                     ₹{{ $service_charge * $day }}
@@ -414,23 +401,25 @@
                                     </div>
                                 </div>
                             </div>
-                            <div style="margin-bottom:40px">
+                            <div style="margin-bottom:20px">
                                 <div
-                                    style="background: #aee0f8;color: #fff;padding: 15px;border-radius: 40px;width: 58%;font-size: 28px;font-weight: 700;">
+                                    style="background: #aee0f8;color: #fff;padding: 5px 10px;border-radius: 40px;width: 58%;font-size: 26px;font-weight: 700;height:86px;text-align:center">
                                     Our Service Charge (Rs.135p/day)</div>
                             </div>
                             <div style="width:100%;border:4px solid #000;"></div>
-                            <div style="margin-bottom:40px">
-                                <div style="color: #000;font-size: 40px;font-weight: 700;text-align:center">Grand
-                                    Total<span style="font-size:16px">&nbsp;(Incl.Service charge)&nbsp;</span>:-
-                                    <span>₹ {{ $grand_total + $service_charge * $day }}<input type="text"
-                                            placeholder=""
-                                            style="border: none;width: 30%;font-size: 42px;font-weight: 700;border: none;outline: none;" />
-
-                                    </span>
+                            <div style="margin-bottom:20px;display:flex;justify-content:space-between;align-item:center">
+                                <div style="color: #000;font-size: 36px;font-weight: 700;text-align:center;width:60%">Grand
+                                    Total
+                                    <div style="font-size:16px">&nbsp;(Incl.Service charge)&nbsp;</div>
                                 </div>
+                                <div style="color: #000;font-size: 36px;font-weight: 700;text-align:center;">:-&nbsp;&nbsp;₹ {{ $grand_total + $service_charge * $day }}<input type="text"
+                                        placeholder=""
+                                        style="border: none;width: 30%;border: none;outline: none;" />
+
+                                                </div>
+
                             </div>
-                        </div>
+
                     </div>
                 </div>
                 {{-- <div class="modal-footer">
