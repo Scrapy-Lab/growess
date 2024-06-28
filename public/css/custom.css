@@ -99,17 +99,20 @@ input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-out
 .pop_up:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); box-shadow: 2px 2px 10px 5px #d4d5d5; }
 .pop_up { transition: transform 0.8s; background: #f5d3a830; padding: 12px 0; margin: 15px; justify-items: center; cursor: pointer; display: flex; cursor: pointer; width: 40%!important; height: 176px; margin-top: 10px; flex-direction: column; align-content: space-around; align-items: center; border-radius: 20px; }
 .check_input { display: flex!important; justify-content: space-evenly!important; align-items: center!important; gap: 60px!important; }
-.modal_title { color: rgb(19, 38, 68); font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 26px; font-weight: 700; text-transform: capitalize; text-decoration-line: none; line-height: 40px; margin: 10px 0; }
+.modal_title { color: rgb(19, 38, 68); font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 21px; font-weight: 700; text-transform: capitalize; text-decoration-line: none; line-height: 40px; margin: 10px 0; }
 .input-container input[type="date"], .input-container input[type="text"] { -webkit-appearance: none; -moz-appearance: none; appearance: none; background: transparent; border: none; outline: none; box-shadow: none; }
 .input-container { display: flex; cursor: pointer; }
 .price_list { float: right; margin-top: 20px; background-color: #fff; padding: 36px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0; }
-.input-container input { font-weight: 500; line-height: 35px; color: #c4c4c4; font-size: 19px; padding: 6px 0; text-transform: uppercase; }
+.input-container input { font-weight: 500; line-height: 26px; color: #c4c4c4; font-size: 15px; padding: 6px 15px; text-transform: uppercase; }
 .tooltip:hover .tooltiptext { visibility: visible; }
 .tooltip { position: relative; display: inline-block; border-bottom: 1px dotted #000; }
-.recommended_budget { box-shadow: 1px 1px 11px 6px #d5d9db; border-radius: 12px; width: 162px; padding: 5px 5px; text-align: center; }
-.price-title { color: #000; font-size: 21px; font-weight: 700; }
-.budget-title{font-size:14px;color:#a3a1a1;font-weight:400;margin-bottom: 4px;}
-.recommended_selected { box-shadow: 1px 1px 11px 6px #d5d9db; border-radius: 12px; width: 324px; padding: 6px 14px; height: 89px; }
+.recommended_budget {height: 78px; box-shadow: 1px 1px 11px 6px #d5d9db; border-radius: 12px; width: 162px; padding: 9px 5px; text-align: center;cursor: pointer; }
+.price-title { color: #000; font-size: 17px; font-weight: 700; }
+.budget-title{font-size:12px;color:#a3a1a1;font-weight:400;margin-bottom: 4px;}
+.total_Date .recommended_selected { box-shadow: 1px 1px 11px 6px #d5d9db;
+    border-radius: 12px;
+    width: 182px;
+    padding: 10px; }
 .tooltiptext { font-size: 16px; visibility: hidden; width: 180px;  color: #000;background: #dbdbdb; text-align: center; border-radius: 6px; padding: 5px 0; position: absolute; z-index: 1; }
 /* toggle slider */
 .switches-container { margin-bottom: 3%; margin-top: 3%; width: 360px; position: relative; display: flex; padding: 0; position: relative; background: #2196f3; line-height: 48px; margin-left: auto; margin-right: auto; }
@@ -339,3 +342,40 @@ span.psw { float: right; padding-top: 16px; }
   from { transform: scale(0); }
   to { transform: scale(1); }
 }
+
+.modal{
+
+    padding-top: 0px !important;
+}
+
+.recommended_budget:hover {
+    -ms-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+    /* background-color: #dbdbdb; */
+    box-shadow: 2px 2px 10px 5px #d4d5d5;
+}
+
+/* Remove hover effect for recommended_budget elements inside budget-title */
+.enter_budget .recommended_budget:hover {
+    -ms-transform: none !important;
+    -webkit-transform: none !important ;
+    transform: none!important;
+    background-color: inherit !important;
+
+}
+.enter_budget .recommended_budget {
+
+    height: 55px;
+}
+
+.enter_date .recommended_budget {
+
+    height: 55px;
+}
+
+
+.total_amount .recommended_selected { box-shadow: 1px 1px 11px 6px #d5d9db;
+    border-radius: 12px;
+    width: 234px;
+    padding: 10px; }

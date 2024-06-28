@@ -5,7 +5,7 @@
         </a>
         <div class="nav_bar">
             <div class="drop_down">
-                <button class="dropbtn">Payments</button>
+                <button class="dropbtn">Website</button>
                 <div class="drop_down-content">
                     <div class="drop_down_content_online">
                         <p>Accepts Payments Online

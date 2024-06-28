@@ -295,14 +295,14 @@
                                                 max
                                             </div>
                                         </div>
-                                        <div>
+                                        <div class="enter_budget">
                                             <div class="budget-title">Enter your budget</div>
                                             <div class="recommended_budget">
                                                 <div
-                                                    style="color: #000; font-size: 21px; font-weight: 700;padding: 6px 10px; background: none;">
+                                                    style="color: #000; font-size: 17px; font-weight: 600;padding: 6px 10px; background: none;">
                                                     Rs. <span><input type="text" wire:change="customAmount"
                                                             placeholder="" wire:model="amount"
-                                                            style="border: none;width: 63%;font-size: 21px;font-weight: 700;border: none;outline: none;height:15px" />
+                                                            style="border: none;width: 63%;font-size: 17px;font-weight: 600;border: none;outline: none;height:16px" />
                                                     </span></div>
                                             </div>
                                         </div>
@@ -340,7 +340,7 @@
                                                 max
                                             </div>
                                         </div>
-                                        <div>
+                                        <div class="enter_date">
                                             <div class="budget-title">Choose your custom date
                                             </div>
                                             <div class="recommended_budget">
@@ -355,19 +355,19 @@
                                 </div>
                             </div>
                             <div style="display: flex;justify-content: space-around;gap:12px;margin-bottom:20px">
-                                <div>
-                                    <div class="modal_title">Total Selected Days</div>
+                                <div class="total_Date">
+                                    <div class="modal_title ">Total Selected Days</div>
                                     <div class="recommended_selected">
-                                        <div style="color: #000; font-size: 36px; font-weight: 700;text-align:center">
+                                        <div style="color: #000; font-size: 25px; font-weight: 700;text-align:center">
                                             {{ $day }} Days
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div class="modal_title">Total Amount</div>
+                                <div class="total_amount">
+                                    <div class="modal_title ">Total Amount</div>
                                     <div class="recommended_selected">
                                         <div class="price-title">
-                                            <span>Total Amount.&nbsp;:-&nbsp;
+                                            <span>Total Amount.&nbsp;:&nbsp;
                                                 {{-- <input type="text" placeholder=""
                                                     style="border: none;width: 48%;font-size: 21px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
@@ -377,16 +377,16 @@
                                         </div>
                                         <div style="color: #000; font-size: 16px; font-weight: 700;">
                                             <span>Sub
-                                                Total.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;
+                                                Total. ₹{{ $amount }} x {{ $day }} :
                                                 {{-- <input type="text" placeholder=""
                                                     style="border: none;width: 48%;font-size: 16px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
 
-                                                ₹{{ $amount }} x {{ $day }}D : {{ $amount * $day }}
+                                                 {{ $amount * $day }}
                                             </span>
                                         </div>
                                         <div style="font-size:16px;color:#000;font-weight:700;">Service
-                                            Charge&nbsp;&nbsp;&nbsp;:-&nbsp;<span>
+                                            Charge&nbsp;&nbsp;&nbsp;:&nbsp;<span>
                                                 {{-- <input type="text" placeholder=""
                                                     style="border: none;width: 48%;font-size: 16px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
@@ -403,18 +403,18 @@
                             </div>
                             <div style="margin-bottom:20px">
                                 <div
-                                    style="background: #aee0f8;color: #fff;padding: 5px 10px;border-radius: 40px;width: 58%;font-size: 26px;font-weight: 700;height:86px;text-align:center">
+                                    style="background: #aee0f8;color: #fff;padding: 5px 10px;border-radius: 40px;font-size: 26px;font-weight: 700;text-align:center">
                                     Our Service Charge (Rs.135p/day)</div>
                             </div>
                             <div style="width:100%;border:4px solid #000;"></div>
                             <div style="margin-bottom:20px;display:flex;justify-content:space-between;align-item:center">
-                                <div style="color: #000;font-size: 36px;font-weight: 700;text-align:center;width:60%">Grand
+                                <div style="color: #000;font-size: 30px;font-weight: 600;text-align:center;">Grand
                                     Total
                                     <div style="font-size:16px">&nbsp;(Incl.Service charge)&nbsp;</div>
                                 </div>
-                                <div style="color: #000;font-size: 36px;font-weight: 700;text-align:center;">:-&nbsp;&nbsp;₹ {{ $grand_total + $service_charge * $day }}<input type="text"
+                                <div style="color: #000;font-size: 28px;font-weight: 600;text-align:left;">:-&nbsp;&nbsp;₹ {{ $grand_total + $service_charge * $day }}<input type="text"
                                         placeholder=""
-                                        style="border: none;width: 30%;border: none;outline: none;" />
+                                        style="border: none;border: none;outline: none;" />
 
                                                 </div>
 
