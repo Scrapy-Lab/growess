@@ -106,7 +106,7 @@ input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-out
 .input-container input { font-weight: 500; line-height: 26px; color: #c4c4c4; font-size: 15px; padding: 6px 15px; text-transform: uppercase; }
 .tooltip:hover .tooltiptext { visibility: visible; }
 .tooltip { position: relative; display: inline-block; border-bottom: 1px dotted #000; }
-.recommended_budget {height: 78px; box-shadow: 1px 1px 11px 6px #d5d9db; border-radius: 12px; width: 162px; padding: 9px 5px; text-align: center;cursor: pointer; }
+.recommended_budget {height: 78px;     border: 1px solid #00acff; border-radius: 12px; width: 162px; padding: 9px 5px; text-align: center;cursor: pointer; }
 .price-title { color: #000; font-size: 17px; font-weight: 700; }
 .budget-title{font-size:12px;color:#a3a1a1;font-weight:400;margin-bottom: 4px;}
 .total_Date .recommended_selected { box-shadow: 1px 1px 11px 6px #d5d9db;
