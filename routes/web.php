@@ -29,6 +29,15 @@ Route::get('/smm', function () {
 })->name('smm');
 
 
+Route::get('/website', function () {
+    return view('website');
+})->name('website');
+
+Route::get('/digital-marketing', function () {
+    return view('digital_marketing');
+})->name('digital_marketing');
+
+
 Route::get('/content-writting', function () {
     return view('content-writting');
 })->name('content-writting');
