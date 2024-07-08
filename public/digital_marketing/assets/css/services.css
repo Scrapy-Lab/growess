@@ -29,14 +29,14 @@
     width: 100%;
    max-width: 100%;
    aspect-ratio: 1/1;
-   background-image:
+   /* background-image:
    url(https://biz15.com/images/digital-marketing/services/social-media.svg),
    url(https://biz15.com/images/digital-marketing/services/video-ad.svg),
    url(https://biz15.com/images/digital-marketing/services/seo.svg),
    url(https://biz15.com/images/digital-marketing/services/sem.svg),
    url(https://biz15.com/images/digital-marketing/services/shop-ad.svg),
    url(https://biz15.com/images/digital-marketing/services/bus-list.svg)
-   ;
+   ; */
    background-size: 100% auto , 100% auto , 90% auto , 100% auto ,100% auto , 100% auto;
    background-repeat: no-repeat;
    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1);
@@ -172,7 +172,7 @@
     background-position: left -1000px bottom , left -1000px bottom ,left -1000px bottom, left -1000px bottom ,left -1000px bottom, left 50% bottom;
 }
 #services .service-items:hover , #services .service-items.active{
-    background-color: var(--clr);
+    background-color: var(--clr) !important;
     color: white;
 }
 #services .service-items svg{

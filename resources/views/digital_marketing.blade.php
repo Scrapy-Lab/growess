@@ -431,9 +431,9 @@
 
                     <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
 
-                        <div data-pos="1"  data-aos="fade-up" data-aos-delay="0" class="service-img-items w-100">
+                        <div data-pos="1"  data-aos="fade-up" data-aos-delay="0" class="service-img-items w-100" id="digital_marketing_image_list">
 
-
+                            <img src="{{asset('digital_marketing/assets/images/social-media.svg')}}" alt="Digital Marketing Image" class="w-100">
 
                         </div>
 
@@ -453,7 +453,7 @@
 
                             <div class="col-4 col-md-4 p-lg-3 p-4">
 
-                                <div data-clr="hsl(231, 50%, 50%)" style="--clr:hsl(231, 50%, 50%);"  data-aos="fade-up" data-aos-delay="0" class="service-items active py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
+                                <div id="smm_tab"  data-image-url="{{ asset('digital_marketing/assets/images/social-media.svg') }}"  data-clr="hsl(231, 50%, 50%)" style="--clr:hsl(231, 50%, 50%);"  data-aos="fade-up" data-aos-delay="0" class="service-items active py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M14.5 14.5q.633 0 1.066-.434Q16 13.633 16 13t-.434-1.066q-.433-.434-1.066-.434q-.317 0-.587.128q-.27.128-.488.334l-3.444-1.735q.019-.05.019-.104v-.256q0-.063-.02-.113l3.426-1.716q.217.206.497.334q.28.128.597.128q.633 0 1.066-.434Q16 7.633 16 7t-.434-1.066Q15.133 5.5 14.5 5.5t-1.066.434Q13 6.367 13 7v.123q0 .054.02.123L9.593 8.962q-.217-.206-.497-.334Q8.817 8.5 8.5 8.5q-.633 0-1.066.434Q7 9.367 7 10t.434 1.066q.433.434 1.066.434q.317 0 .597-.137q.28-.138.497-.344l3.425 1.735q-.019.07-.019.123V13q0 .633.434 1.066q.433.434 1.066.434M6.077 17l-1.704 1.704q-.379.379-.876.174Q3 18.673 3 18.133V4.615q0-.69.463-1.152Q3.925 3 4.615 3h14.77q.69 0 1.152.463q.463.462.463 1.152v10.77q0 .69-.462 1.153q-.463.462-1.153.462zm-.427-1h13.735q.23 0 .423-.192q.192-.193.192-.423V4.615q0-.23-.192-.423Q19.615 4 19.385 4H4.615q-.23 0-.423.192Q4 4.385 4 4.615v13.03zM4 16V4z"/></svg>
 
@@ -467,7 +467,7 @@
 
                             <div class="col-4 col-md-4 p-lg-3 p-4">
 
-                                <div data-clr="hsl(118, 42%, 45%)" style="--clr:hsl(118, 42%, 45%);"  data-aos="fade-up" data-aos-delay="0" class="service-items py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
+                                <div id="video_tab" data-image-url="{{ asset('digital_marketing/assets/images/video-ad.svg') }}" data-clr="hsl(118, 42%, 45%)" style="--clr:hsl(118, 42%, 45%);"  data-aos="fade-up" data-aos-delay="0" class="service-items py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m11.03 13.923l3.67-2.361q.315-.204.315-.562t-.315-.562l-3.67-2.361q-.326-.229-.678-.04q-.352.188-.352.596v4.734q0 .408.352.596q.352.189.679-.04M4.615 18q-.69 0-1.152-.462Q3 17.075 3 16.385V5.615q0-.69.463-1.152Q3.925 4 4.615 4h14.77q.69 0 1.152.463q.463.462.463 1.152v10.77q0 .69-.462 1.152q-.463.463-1.153.463H15v1.192q0 .348-.23.578q-.23.23-.578.23H9.808q-.348 0-.578-.23q-.23-.23-.23-.578V18zm0-1h14.77q.23 0 .423-.192q.192-.193.192-.423V5.615q0-.23-.192-.423Q19.615 5 19.385 5H4.615q-.23 0-.423.192Q4 5.385 4 5.615v10.77q0 .23.192.423q.193.192.423.192M4 17V5z"/></svg>
 
@@ -481,7 +481,7 @@
 
                             <div class="col-4 col-md-4 p-lg-3 p-4">
 
-                                <div data-clr="hsl(258, 42%, 45%)" style="--clr:hsl(258, 42%, 45%);"  data-aos="fade-up" data-aos-delay="0" class="service-items py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
+                                <div id="seo_tab" data-image-url="{{ asset('digital_marketing/assets/images/seo.svg') }}" data-image-width="560" data-clr="hsl(258, 42%, 45%)" style="--clr:hsl(258, 42%, 45%);"  data-aos="fade-up" data-aos-delay="0" class="service-items py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M8 3a7 7 0 0 0 0 14h1.07a7.06 7.06 0 0 1 0-2H8A5 5 0 0 1 8 5h8a5 5 0 0 1 4.9 6a7.021 7.021 0 0 1 1.426 2A7 7 0 0 0 16 3zm8 10a3 3 0 1 0 0 6a3 3 0 0 0 0-6m-5 3a5 5 0 1 1 9.172 2.757l2.535 2.536l-1.414 1.414l-2.536-2.535A5 5 0 0 1 11 16"/></svg>
 
@@ -495,7 +495,7 @@
 
                             <div class="col-4 col-md-4 p-lg-3 p-4">
 
-                                <div data-clr="hsl(0, 42%, 45%)" style="--clr:hsl(0, 42%, 45%);"  data-aos="fade-up" data-aos-delay="0" class="service-items py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
+                                <div  id="sem_tab"  data-image-url="{{ asset('digital_marketing/assets/images/sem.svg') }}" data-clr="hsl(0, 42%, 45%)" style="--clr:hsl(0, 42%, 45%);"  data-aos="fade-up" data-aos-delay="0" class="service-items py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M14.25 2.1a1.25 1.25 0 0 0-1.17-.1L6.91 4.43a1.22 1.22 0 0 1-.46.09H2.5a1.25 1.25 0 0 0-1.25 1.25v.1H0v3h1.25V9a1.25 1.25 0 0 0 1.25 1.22L4 13.4a1.26 1.26 0 0 0 1.13.72h.63A1.25 1.25 0 0 0 7 12.87v-2.53l6.08 2.43a1.27 1.27 0 0 0 .47.09a1.29 1.29 0 0 0 .7-.22a1.25 1.25 0 0 0 .55-1V3.13a1.25 1.25 0 0 0-.55-1.03m-8.5 3.67V9H2.5V5.77zm0 7.1h-.63l-1.23-2.65h1.86zm1.62-3.72A2.29 2.29 0 0 0 7 9V5.7a2.26 2.26 0 0 0 .37-.11l6.18-2.46v8.48zm7.46-3.03v2.5a1.25 1.25 0 0 0 0-2.5"/></svg>
 
@@ -509,7 +509,7 @@
 
                             <div class="col-4 col-md-4 p-lg-3 p-4">
 
-                                <div data-clr="hsl(181, 42%, 40%)"  style="--clr:hsl(181, 42%, 40%);"  data-aos="fade-up" data-aos-delay="0" class="service-items py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
+                                <div id="shopping_tab" data-image-url="{{ asset('digital_marketing/assets/images/shop-ad.svg') }}" data-clr="hsl(181, 42%, 40%)"  style="--clr:hsl(181, 42%, 40%);"  data-aos="fade-up" data-aos-delay="0" class="service-items py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3a3 3 0 0 0-3 3h6a3 3 0 0 0-3-3m7 3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.11.89-2 2-2h2a5 5 0 0 1 5-5a5 5 0 0 1 5 5zM9 19l7.5-5L9 10z"/></svg>
 
@@ -523,7 +523,7 @@
 
                             <div class="col-4 col-md-4 p-lg-3 p-4">
 
-                                <div data-clr="hsl(290, 100%, 40%)" style="--clr:hsl(290, 100%, 40%);"  data-aos="fade-up" data-aos-delay="0" class="service-items py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
+                                <div id="busniess_tab" data-image-url="{{ asset('digital_marketing/assets/images/bus-list.svg') }}" data-clr="hsl(290, 100%, 40%)" style="--clr:hsl(290, 100%, 40%);"  data-aos="fade-up" data-aos-delay="0" class="service-items py-1 px-1 py-lg-5 px-lg-3 d-flex flex-column justify-content-center align-items-center gap-3 ">
 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M17.5 21h1v-2.5H21v-1h-2.5V15h-1v2.5H15v1h2.5zm.5 2q-2.075 0-3.537-1.463T13 18q0-2.075 1.463-3.537T18 13q2.075 0 3.538 1.463T23 18q0 2.075-1.463 3.538T18 23M9 7V5h12v2zM5 20q-.825 0-1.412-.587T3 18q0-.825.588-1.412T5 16q.825 0 1.413.588T7 18q0 .825-.587 1.413T5 20m0-6q-.825 0-1.412-.587T3 12q0-.825.588-1.412T5 10q.825 0 1.413.588T7 12q0 .825-.587 1.413T5 14m0-6q-.825 0-1.412-.587T3 6q0-.825.588-1.412T5 4q.825 0 1.413.588T7 6q0 .825-.587 1.413T5 8m4 11v-2h2.075Q11 17.5 11 18t.075 1zm0-6v-2h9q-1.425 0-2.675.538T13.125 13z"/></svg>
 
@@ -1694,12 +1694,57 @@
     </script>
 
     <script src="assets/js/main-js/script.js"></script>
+    <style>
+        .fade-out-left {
+            animation: fadeOutLeft 0.5s forwards;
+        }
 
+        .fade-in {
+            display: none;
+        }
+
+        @keyframes fadeOutLeft {
+            100% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+        }
+    </style>
 
 
     <!-- MSG WHATSAPP CHAT BOX -->
 
+    <script>
+        $(document).ready(function(){
+            function changeImage(newImageUrl, width) {
+                var currentImage = $('#digital_marketing_image_list img');
+                var newImage;
 
+                if (width) {
+                    newImage = $('<img src="' + newImageUrl + '" alt="Digital Marketing Image" style="width: ' + width + 'px !important;" class="w-100 fade-in">');
+                } else {
+                    newImage = $('<img src="' + newImageUrl + '" alt="Digital Marketing Image" class="w-100 fade-in">');
+                }
+
+                currentImage.addClass('fade-out-left');
+
+                currentImage.on('animationend', function() {
+                    $(this).remove();
+                    newImage.removeClass('fade-in').hide().appendTo('#digital_marketing_image_list').fadeIn();
+                });
+            }
+
+            $('#smm_tab, #video_tab, #seo_tab, #sem_tab, #shopping_tab, #busniess_tab').click(function(){
+                var newImageUrl = $(this).data('image-url');
+                var width = $(this).data('image-width') || null;
+                changeImage(newImageUrl, width);
+
+                // Remove active class from all tabs and add to the clicked tab
+                $('#smm_tab, #video_tab, #seo_tab, #sem_tab, #shopping_tab, #busniess_tab').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+    </script>
 
 
 
