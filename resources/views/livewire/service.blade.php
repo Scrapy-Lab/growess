@@ -110,14 +110,14 @@
 
     <div class="modal fade" wire:ignore.self id="modal_sub_services_lead" aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Select your {{ $modalTitle }} :-</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="container pop_up_box">
+                <div class="modal-footer">
+                    <div class="container pop_up_box_card">
 
                         <div class="col-md-6 pop_up" data-bs-target="#exampleModalToggle2_lead_1"
                             data-bs-toggle="modal" style="background:#f2d0b8b8;">
@@ -445,6 +445,8 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        </div>
                             <div class="quatation">
                                 <div class="quatation_button">Download Quatation
                                     <button class="btn btn-primary mt-2 btn-lg">Download Now</button></div>
@@ -462,8 +464,8 @@
                                         style="border: none;border: none;outline: none;" />
                                 </div>
                             </div> -->
-                    </div>
-                </div>
+                    
+                
                 {{-- <div class="modal-footer">
                     <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back
                         to
