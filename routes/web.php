@@ -38,6 +38,15 @@ Route::get('/digital-marketing', function () {
 })->name('digital_marketing');
 
 
+Route::get('/e-commerce-solution', function () {
+    return view('e_commerce_solution');
+})->name('e_commerce_solution');
+
+Route::get('/lead-generation', function () {
+    return view('lead_generation');
+})->name('lead_generation');
+
+
 Route::get('/content-writting', function () {
     return view('content-writting');
 })->name('content-writting');

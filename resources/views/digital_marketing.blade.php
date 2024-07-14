@@ -1261,7 +1261,7 @@
 
                         <div class="d-flex justify-content-center align-items-center w-100">
 
-                            <img  class="w-100" data-image-src="assets/images/digital-marketing/cat.svg" alt="">
+                            <img  class="w-100" data-image-src="lead_generation_images/cat.svg" alt="">
 
                         </div>
 

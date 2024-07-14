@@ -162,7 +162,7 @@
             </div>
 
             <div class="drop_down">
-                <button  class="dropbtn"><a href="">Lead Generation</a> </button>
+                <button  class="dropbtn"><a href="{{route('lead_generation')}}">Lead Generation</a> </button>
                 <div class="drop_down-content">
                     <div class="drop_down_content_online">
                         <p>Accepts Payments Online
