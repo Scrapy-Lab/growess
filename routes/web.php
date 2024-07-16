@@ -65,9 +65,16 @@ Route::get('/user/dashboard', function () {
     return view('user.dashboard');
 })->name('user.dashboard');
 
+
+
 Route::get('/user/projects', function () {
     return view('user.projects');
 })->name('user.projects');
+
+
+Route::get('/admin/dashboard', function () {
+    return view('user.dashboard');
+})->name('user.dashboard');
 
 Route::get('/test', function () {
 
