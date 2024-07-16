@@ -65,6 +65,7 @@ button { cursor: pointer; color: #fff; padding: 4px 8px; font-size: 16px; border
 .close-btn { position: absolute; top: 10px; right: 10px; cursor: pointer; font-size: 20px; }
 .checkbox-container { display: flex; flex-direction: column; align-items: flex-start; padding: 40px 20px; }
 .checkbox-item { margin-bottom: 10px; }
+.pop_up_box_card { display: flex; gap: 10px; justify-content: center; margin: 60px 0 !important; }
 .pop_up_box { display: flex; flex-wrap: wrap; gap: 10px; }
 .bg-color { background: linear-gradient(to right,#cbe9f7ed,#f5dfdff2); }
 .checkbox__body { font-size: 18px; font-weight: 500; }
@@ -97,7 +98,7 @@ input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-out
 .pop_up img { width: 136px; height: 96px; margin-top: 10px; }
 .model_pop-up img { width: 100px; height: 100px; margin-top: 10px; }
 .pop_up:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); box-shadow: 2px 2px 10px 5px #d4d5d5; }
-.pop_up { transition: transform 0.8s; background: #f5d3a830; padding: 12px 0; margin: 15px; justify-items: center; cursor: pointer; display: flex; cursor: pointer; width: 40%!important; height: 176px; margin-top: 10px; flex-direction: column; align-content: space-around; align-items: center; border-radius: 20px; }
+.pop_up { transition: transform 0.8s; background: #f5d3a830; padding: 12px 0; margin: 15px; justify-items: center; cursor: pointer; display: flex; cursor: pointer; width: 28%!important; height: 196px; margin-top: 10px; flex-direction: column; align-content: space-around; align-items: center; border-radius: 20px; }
 .check_input { display: flex!important; justify-content: space-evenly!important; align-items: center!important; gap: 60px!important; }
 .modal_title { color: rgb(19, 38, 68); font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 21px; font-weight: 700; text-transform: capitalize; text-decoration-line: none; line-height: 40px; margin: 10px 0; }
 .input-container input[type="date"], .input-container input[type="text"] { -webkit-appearance: none; -moz-appearance: none; appearance: none; background: transparent; border: none; outline: none; box-shadow: none; }
@@ -106,14 +107,11 @@ input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-out
 .input-container input { font-weight: 500; line-height: 26px; color: #c4c4c4; font-size: 15px; padding: 6px 15px; text-transform: uppercase; }
 .tooltip:hover .tooltiptext { visibility: visible; }
 .tooltip { position: relative; display: inline-block; border-bottom: 1px dotted #000; }
-.recommended_budget {height: 78px;     border: 1px solid #00acff; border-radius: 12px; width: 162px; padding: 9px 5px; text-align: center;cursor: pointer; }
+.recommended_budget { height: 78px; border: 1px solid #00acff; border-radius: 12px; width: 162px; padding: 9px 5px; text-align: center; cursor: pointer; }
 .price-title { color: #000; font-size: 17px; font-weight: 700; }
-.budget-title{font-size:12px;color:#a3a1a1;font-weight:400;margin-bottom: 4px;}
-.total_Date .recommended_selected { box-shadow: 1px 1px 11px 6px #d5d9db;
-    border-radius: 12px;
-    width: 182px;
-    padding: 10px; }
-.tooltiptext { font-size: 16px; visibility: hidden; width: 180px;  color: #000;background: #dbdbdb; text-align: center; border-radius: 6px; padding: 5px 0; position: absolute; z-index: 1; }
+.budget-title { font-size: 12px; color: #a3a1a1; font-weight: 400; margin-bottom: 4px; }
+.total_Date .recommended_selected { box-shadow: 1px 1px 11px 6px #d5d9db; border-radius: 12px; width: 182px; padding: 10px; }
+.tooltiptext { font-size: 16px; visibility: hidden; width: 180px; color: #000; background: #dbdbdb; text-align: center; border-radius: 6px; padding: 5px 0; position: absolute; z-index: 1; }
 /* toggle slider */
 .switches-container { margin-bottom: 3%; margin-top: 3%; width: 360px; position: relative; display: flex; padding: 0; position: relative; background: #2196f3; line-height: 48px; margin-left: auto; margin-right: auto; }
 .switches-container input { visibility: hidden; position: absolute; top: 0; }
@@ -191,6 +189,7 @@ li div { cursor: pointer; padding: 8px 18px; border-radius: 20px; font-family: L
 .content>div { display: none; }
 .contents > div.show { display: block; }
 .content >div.open { display: block; }
+
 /* level-up-container */
 .level_up_container { display: flex; gap: 80px; align-items: center; background: #ffff0033; border-radius: 60px; }
 .level_up_container img { transition: transform .8s; width: 35%; height: 100%; padding: 20px; }
@@ -200,6 +199,7 @@ li div { cursor: pointer; padding: 8px 18px; border-radius: 20px; font-family: L
 .level_up_headlne { font-size: 18px; line-height: 20px; font-weight: 100; color: #747272; font-family: Raleway,sans-serif; }
 .level_up_category { padding-left: 0; color: #5a4b4b; display: flex; font-size: 16px; line-height: 20px; gap: 20px; font-weight: 100; margin: 20px 0; justify-content: space-between; font-weight: 700; }
 .explore_courses { text-decoration: none; font-size: 19px; line-height: 32px; font-weight: 100; color: #fff; background: rgb(22, 103, 208); padding: 10px 20px; border-radius: 20px; font-family: Raleway,sans-serif; }
+
 /* company logo */
 .company_banner { display: flex; align-items: center; justify-content: space-around; }
 .company_title { font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 68px; font-weight: 700; line-height: 78px; }
@@ -243,6 +243,7 @@ div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .jobs_category { cursor: pointer; border: 1px solid #000; margin: 0 0 10px; text-transform: capitalize; font-size: 16px; background: #fff; border-radius: 50px; padding: 2px 19px; text-align: center; }
 .image_logo { width: 356px; }
 .jobs { font-size: 24px; font-weight: 600; text-transform: capitalize; }
+
 /* footer */
 .footer_container { display: flex; justify-content: space-evenly; border-bottom: 4px solid; border-image: linear-gradient(to right, #e73d3d,#78e678,#f5b961,#39b2ea); border-image-slice: 3; padding: 0 80px; margin: 20px 0; }
 .footer_contains img { width: 100px; height: 100px; }
@@ -284,6 +285,7 @@ div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .about_crafting_card { display: flex; justify-content: space-between; align-items: center; gap: 40px; padding: 60px 0; }
 .about_input_box input { width: 30%; padding: 10px 0 10px 36px; border-radius: 5px; border: none; }
 .about_client_stories { display: grid; grid-template-columns: auto auto auto; gap: 28px; align-items: center; padding: 40px 0; }
+
 /* contact-us page */
 .contact_us { text-align: center; color: #fff; font-size: 41px; padding: 106px 0; background-image: url("/assets/images.jpeg"); }
 .box_container { width: 65%; margin-top: 20px; }
@@ -317,6 +319,7 @@ div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .estimate_bottom { background: #dbdbdb3b; padding: 64px 25%; text-align: center; }
 .token { line-height: 48px; font-size: 44px; font-weight: 400; }
 .final_button { border: none; font-size: 28px; line-height: 30px; font-weight: 600; padding: 20px 44px; background: #288d0c; margin: 20px 25%; border-radius: 8px; }
+
 /* login */
 .login_title { color: #383838; font-size: 26px; font-weight: 700; line-height: 140%; margin: 20px 0; display: flex; align-items: center; justify-content: center; }
 input[type=password], input[type=text] { margin: 8px 0; box-sizing: border-box; }
@@ -343,39 +346,14 @@ span.psw { float: right; padding-top: 16px; }
   to { transform: scale(1); }
 }
 
-.modal{
-
-    padding-top: 0px !important;
-}
-
-.recommended_budget:hover {
-    -ms-transform: scale(1.06);
-    -webkit-transform: scale(1.06);
-    transform: scale(1.06);
-    /* background-color: #dbdbdb; */
-    box-shadow: 2px 2px 10px 5px #d4d5d5;
-}
-
+.modal { padding-top: 0!important; }
+.recommended_budget:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); /* background-color: #dbdbdb; */ box-shadow: 2px 2px 10px 5px #d4d5d5; }
 /* Remove hover effect for recommended_budget elements inside budget-title */
-.enter_budget .recommended_budget:hover {
-    -ms-transform: none !important;
-    -webkit-transform: none !important ;
-    transform: none!important;
-    background-color: inherit !important;
-
-}
-.enter_budget .recommended_budget {
-
-    height: 55px;
-}
-
-.enter_date .recommended_budget {
-
-    height: 55px;
-}
-
-
-.total_amount .recommended_selected { box-shadow: 1px 1px 11px 6px #d5d9db;
-    border-radius: 12px;
-    width: 234px;
-    padding: 10px; }
+.enter_budget .recommended_budget:hover { -ms-transform: none!important; -webkit-transform: none!important; transform: none!important; background-color: inherit!important; }
+.enter_budget .recommended_budget { height: 55px; }
+.enter_date .recommended_budget { height: 55px; }
+.service_charge { background: #aee0f8; color: #fff; border-radius: 40px; font-size: 20px; font-weight: 700; text-align: center; width: 360px; padding: 16px 0; }
+.pay_now_button { background: #d3f7f7; padding: 20px 14px; text-align: center; font-size: 20px; width: 50%; font-weight: 700; border-bottom-right-radius: 8px; }
+.quatation_button { padding: 27px 0; background: #bdebbd; text-align: center; font-size: 32px; font-weight: 700; width: 50%; border-bottom-left-radius: 8px; }
+.quatation { display: flex; align-items: center; justify-content: space-around; align-content: center; border-top: 2px solid #000; }
+.total_amount .recommended_selected { box-shadow: 1px 1px 11px 6px #d5d9db; border-radius: 12px; width: 234px; padding: 10px; }

@@ -110,14 +110,14 @@
 
     <div class="modal fade" wire:ignore.self id="modal_sub_services_lead" aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Select your {{ $modalTitle }} :-</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="container pop_up_box">
+                <div class="modal-footer">
+                    <div class="container pop_up_box_card">
 
                         <div class="col-md-6 pop_up" data-bs-target="#exampleModalToggle2_lead_1"
                             data-bs-toggle="modal" style="background:#f2d0b8b8;">
@@ -362,6 +362,51 @@
                                             {{ $day }} Days
                                         </div>
                                     </div>
+                                    <div style="margin:20px 0">
+                                    <div class="service_charge">
+                                        Our Service Charge (Rs.135p/day)</div>
+                                    <div class="price_list" >
+                                        <div style="font-size: 30px;font-weight:800;">Price Details </div>
+                                        <div style="border:0.2px solid #c4c4c4;"></div>
+                                        <div>
+                                            <div style="font-size: 20px;">
+                                                <span>Price -&nbsp;&nbsp;<span class="fa fa-shopping-bag"
+                                                    style="color:green"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+                                                    <input type="text" placeholder=""
+                                                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
+                                                </span>
+                                            </div>
+                                            <div style=" font-size: 16px">
+                                                <span>Discount&nbsp;(5%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+                                                    <input type="text" placeholder=""
+                                                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
+                                                </span>
+                                            </div>
+                                            <div style="font-size: 22px;font-weight:500">
+                                                <span>Total Amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+                                                    <input type="text" placeholder=""
+                                                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
+                                                </span>
+                                            </div>
+                                            <div style="border:2px solid #000;"></div>
+                                                <div>
+                                                    <div style="font-size: 16px;">
+                                                        <span>with
+                                                            GST(18%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+                                                            <input type="text" placeholder=""
+                                                                style="border: none;font-size: 16px;border: none;outline: none;background:none;width:40%" />
+                                                        </span>
+                                                    </div>
+                                                    <div style="font-size: 24px;font-weight:500">
+                                                        <span>Final Billing Amt.:&nbsp;&#8377;
+                                                             <input type="text" placeholder=""
+                                                                style="border: none;font-weight:700;font-size: 28px;border: none;outline: none;background:none;width:50%" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="total_amount">
                                     <div class="modal_title ">Total Amount</div>
@@ -396,17 +441,19 @@
                                                     ₹{{ $service_charge }}
                                                 @endif
                                             </span>
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div style="margin-bottom:20px">
-                                <div
-                                    style="background: #aee0f8;color: #fff;padding: 5px 10px;border-radius: 40px;font-size: 26px;font-weight: 700;text-align:center">
-                                    Our Service Charge (Rs.135p/day)</div>
-                            </div>
-                            <div style="width:100%;border:4px solid #000;"></div>
+                        </div>
+                        </div>
+                            <div class="quatation">
+                                <div class="quatation_button">Download Quatation
+                                    <button class="btn btn-primary mt-2 btn-lg">Download Now</button></div>
+                                <div class="pay_now_button">Pay <span style="color:#0d6efd;">Rs.1000 </span>Token money for start the work
+                                    <br><button class="btn btn-success mt-2 btn-lg">Pay Now</button></div>
+                                </div>
+                            <!-- <div style="width:100%;border:4px solid #000;"></div>
                             <div style="margin-bottom:20px;display:flex;justify-content:space-between;align-item:center">
                                 <div style="color: #000;font-size: 30px;font-weight: 600;text-align:center;">Grand
                                     Total
@@ -415,13 +462,10 @@
                                 <div style="color: #000;font-size: 28px;font-weight: 600;text-align:left;">:-&nbsp;&nbsp;₹ {{ $grand_total + $service_charge * $day }}<input type="text"
                                         placeholder=""
                                         style="border: none;border: none;outline: none;" />
-
-                                                </div>
-
-                            </div>
-
-                    </div>
-                </div>
+                                </div>
+                            </div> -->
+                    
+                
                 {{-- <div class="modal-footer">
                     <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back
                         to
