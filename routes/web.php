@@ -60,6 +60,15 @@ Route::get('/graphic-design', function () {
     return view('graphic-design');
 })->name('graphic-design');
 
+
+Route::get('/user/dashboard', function () {
+    return view('user.dashboard');
+})->name('user.dashboard');
+
+Route::get('/user/projects', function () {
+    return view('user.projects');
+})->name('user.projects');
+
 Route::get('/test', function () {
 
     $getService = Service::with('sub_services')->first();
