@@ -3,6 +3,8 @@
   }
   #tracking {
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
   }
   [class*="tracking-status-"] p {
     margin: 0;
@@ -16,7 +18,7 @@
   }
   .tracking-list {
     border: 1px solid #e5e5e5;
-    padding: 0 30%;
+    
   }
   .tracking-item {
     border-left: 4px solid #00ba0d;

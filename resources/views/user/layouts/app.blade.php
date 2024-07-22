@@ -38,6 +38,7 @@
     <link href="/assets_admin/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
     <link href="/assets_admin/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
     <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
+    
     @livewireStyles
     <script>
         var phoenixIsRTL = window.config.config.phoenixIsRTL;

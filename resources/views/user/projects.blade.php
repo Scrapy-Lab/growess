@@ -6,6 +6,37 @@
     <div class="col-md-12 col-lg-12">
       <div id="tracking-pre"></div>
       <div id="tracking">
+        <h1 class="w-25 fw-bold m-0 mb-3">USER
+          <div class="mb-4 mt-11">Phase-1
+          <div class="shadow p-3 mb-5 bg-white rounded">
+        <hr>
+        <div class="container mt-11">
+          <button type="button" class="btn btn-primary btn-lg">Send</button>
+          <button type="button" class="btn btn-success btn-lg">Transfer</button>
+        </div>
+        </div>
+          </div>
+          <div class="mb-4 mt-11">Phase-2
+          <div class="shadow p-3 mb-5 bg-white rounded">
+        <hr>
+        <div class="container mt-11">
+          <button type="button" class="btn btn-primary btn-lg">Send</button>
+          <button type="button" class="btn btn-success btn-lg">Transfer</button>
+        </div>
+        </div>
+          </div>
+          <div class="mb-4 mt-11">Phase-3
+          <div class="shadow p-3 mb-5 bg-white rounded">
+        <hr>
+        <div class="container mt-11">
+          <button type="button" class="btn btn-primary btn-lg">Send</button>
+          <button type="button" class="btn btn-success btn-lg">Transfer</button>
+        </div>
+        </div>
+          </div>
+         
+          
+        </h1>
         <div class="tracking-list ">
           <div class="tracking-item">
             <div class="tracking-icon status-intransit">
@@ -72,6 +103,12 @@
             <div class="tracking-content">Delivered<span>12 Aug 2021, 09:00pm</span></div>
           </div>
         </div>
+        <h1 class="w-25 fw-bold m-0 mb-3">STATUS
+          <div class="container mt-11">
+          <button type="button" class="btn btn-primary btn-lg">Primary</button>
+          <button type="button" class="btn btn-success btn-lg">Success</button>
+        </div>
+        </h1>
       </div>
     </div>
   </div>
