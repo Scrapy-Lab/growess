@@ -72,6 +72,16 @@ Route::get('/user/projects', function () {
 })->name('user.projects');
 
 
+Route::get('/user/project-list', function () {
+    return view('user.project_list');
+})->name('user.project_list');
+
+
+Route::get('/user/edit-profile', function () {
+    return view('user.edit_profile');
+})->name('user.edit_profile');
+
+
 Route::get('/admin/customer', function () {
     return view('admin.customer');
 })->name('admin.customer');
