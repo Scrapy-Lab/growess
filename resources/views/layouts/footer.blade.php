@@ -64,10 +64,10 @@
                 <p>Complaint</p>
             </div>
             <div class="footer_social_icon">
-                <img src="/assets/facebook.svg" w="20" h="20" alt="logo" >
-                <img src="/assets/instagram.svg" w="20" h="20" alt="logo" >
+                <img src="/assets/facebook.png" w="20" h="20" alt="logo" >
+                <img src="/assets/social.png" w="20" h="20" alt="logo" >
                 <img src="/assets/linkedin.png" w="20" h="20" alt="logo" >
-                <img src="/assets/youtube.svg" w="20" h="20" alt="logo" >
+                <img src="/assets/youtube.png" w="20" h="20" alt="logo" >
             </div>
         </div>
         <div class="footer_information">
