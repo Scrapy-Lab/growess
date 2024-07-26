@@ -29,29 +29,29 @@
                 <div class="code_assessment_job_details_box1">
                     <div class="jobs_category">
                         Construction
-                        <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                        <div class="jobs_category_description">Software development &nbsp;&gt;</div>
                     </div>
                     <div class="jobs_category">
                         Restaurant
-                        <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                        <div class="jobs_category_description">computer science &nbsp;&gt;</div>
                     </div>
                     <div class="jobs_category">
                         School / College
-                        <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                        <div class="jobs_category_description">marketing &nbsp;&gt;</div>
                     </div>
                 </div>
                 <div class="code_assessment_job_details_box2">
                     <div class="jobs_category">
                         Shop
-                        <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                        <div class="jobs_category_description">Software development &nbsp;&gt;</div>
                     </div>
                     <div class="jobs_category">
                         Portfolio
-                        <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                        <div class="jobs_category_description">computer science &nbsp;&gt;</div>
                     </div>
                     <div class="jobs_category">
                         Entartainment
-                        <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                        <div class="jobs_category_description">marketing &nbsp;&gt;</div>
                     </div>
                 </div>
             </div>
@@ -65,30 +65,30 @@
                 <div class="code_assessment_job_details_box1">
                     <div class="jobs_category">
                         dynamic   Construction
-                        <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                        <div class="jobs_category_description">Software development &nbsp;&gt;</div>
                     </div>
                     <div class="jobs_category">
                         dynamic Restaurant
-                        <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                        <div class="jobs_category_description">computer science &nbsp;&gt;</div>
                     </div>
                     <div class="jobs_category">
                         dynamic  School / College
-                        <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                        <div class="jobs_category_description">marketing &nbsp;&gt;</div>
                     </div>
                 </div>
                 <div class="code_assessment_job_details_box2">
                     
                     <div class="jobs_category">
                         Shop
-                        <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                        <div class="jobs_category_description">Software development &nbsp;&gt;</div>
                     </div>
                     <div class="jobs_category">
                         Portfolio
-                        <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                        <div class="jobs_category_description">computer science &nbsp;&gt;</div>
                     </div>
                     <div class="jobs_category">
                         Entartainment
-                        <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                        <div class="jobs_category_description">marketing &nbsp;&gt;</div>
                     </div>
                 </div>
             </div>
@@ -101,29 +101,29 @@
             <div class="code_assessment_job_details_box1">
                 <div class="jobs_category">
                     brochure   Construction
-                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                    <div class="jobs_category_description">Software development &nbsp;&gt;</div>
                 </div>
                 <div class="jobs_category">
                     brochure  Restaurant
-                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                    <div class="jobs_category_description">computer science &nbsp;&gt;</div>
                 </div>
                 <div class="jobs_category">
                     brochure  School / College
-                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                    <div class="jobs_category_description">marketing &nbsp;&gt;</div>
                 </div>
             </div>
             <div class="code_assessment_job_details_box2">
                 <div class="jobs_category">
                     brochure   Shop
-                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                    <div class="jobs_category_description">Software development &nbsp;&gt;</div>
                 </div>
                 <div class="jobs_category">
                     Portfolio
-                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                    <div class="jobs_category_description">computer science &nbsp;&gt;</div>
                 </div>
                 <div class="jobs_category">
                     Entartainment
-                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                    <div class="jobs_category_description">marketing &nbsp;&gt;</div>
                 </div>
             </div>
         </div>
@@ -134,29 +134,29 @@
             <div class="code_assessment_job_details_box1"> 
                 <div class="jobs_category">
                     ecom    Construction
-                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                    <div class="jobs_category_description">Software development &nbsp;&gt;</div>
                 </div>
                 <div class="jobs_category">
                     ecom  Restaurant
-                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                    <div class="jobs_category_description">computer science &nbsp;&gt;</div>
                 </div>
                 <div class="jobs_category">
                     ecom  School / College
-                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                    <div class="jobs_category_description">marketing &nbsp;&gt;</div>
                 </div>
             </div>
             <div class="code_assessment_job_details_box2">
                 <div class="jobs_category">
                     Shop
-                    <p class="jobs_category_description">Software development &nbsp;&gt;</p>
+                    <div class="jobs_category_description">Software development &nbsp;&gt;</div>
                 </div>
                 <div class="jobs_category">
                     Portfolio
-                    <p class="jobs_category_description">computer science &nbsp;&gt;</p>
+                    <div class="jobs_category_description">computer science &nbsp;&gt;</div>
                 </div>
                 <div class="jobs_category">
                     Entartainment
-                    <p class="jobs_category_description">marketing &nbsp;&gt;</p>
+                    <div class="jobs_category_description">marketing &nbsp;&gt;</div>
                 </div>
             </div>
         </div>

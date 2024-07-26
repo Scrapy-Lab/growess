@@ -15,7 +15,7 @@ body { font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helv
 .drop_down { float: left; overflow: hidden; }
 .drop_down-section span { display: none; }
 .drop_down-section:hover span { color: rgb(19, 100, 241); display: block; }
-.drop_down .dropbtn { font-size: 16px; border: none; outline: none; padding: 14px 20px; background-color: inherit; margin: 0; text-decoration: none; color: rgb(129, 133, 151); font-weight: bold; text-transform: capitalize; cursor: pointer; font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
+.drop_down .dropbtn { font-size: 16px; border: none; outline: none; padding: 14px 4px; background-color: inherit; margin: 0; text-decoration: none; color: rgb(129, 133, 151); font-weight: bold; text-transform: capitalize; cursor: pointer; font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
 .drop_down:hover .dropbtn, .nav_bar a:hover { color: rgb(19, 100, 241); text-decoration: underline; }
 .drop_down-content { display: none; position: absolute; background-color: #f9f9f9; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); z-index: 1; left: 30px; height: auto; padding: 0 15px; max-width: 1080px; }
 .drop_down-content a { float: none; color: #000; padding: 12px 16px; text-decoration: none; display: block; text-align: left; }
@@ -133,7 +133,7 @@ input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-out
 .grid img:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .menu_bar { width: 20%; font-size: 16px; font-family: sans-serif; color: #5f6368; }
 .active { border-bottom: none; position: relative; color: #fff; background: #000!important; }
-.menuAds { background: #fff; display: flex; align-items: center; width: 40%; height: 15%; gap: 12px; cursor: pointer; padding: 10px 20px; margin: 20px 0; font-weight: 400; border: 1px solid #e8eaed; border-radius: 20px; box-sizing: content-box; }
+.menuAds { background: #fff; display: flex; align-items: center; width: 39%; height: 14px; /* gap: 43px; */ cursor: pointer; padding: 18px 36px; margin: 22px 0; font-weight: 400; border: 1px solid #e8eaed; border-radius: 20px; box-sizing: content-box; }
 .text-title { width: 30%; }
 .headline { font-size: 38px; line-height: 48px; font-weight: 700; }
 .text_paragraph { color: #645858; font-size: 18px; line-height: 28px; }
@@ -157,7 +157,7 @@ h4 { text-transform: capitalize; }
 .display { content: ""; width: 100%; height: 60%; border-left: 2px solid rgb(19 100 241); padding-left: 20px; background: #e3e0e0; }
 
 /* Basic CSS styles for navigation */
-.payment_card_section { margin: 20px 60px; }
+.payment_card_section { margin: 20px 0; }
 .payment_mode { background-color: rgb(255, 255, 255); opacity: 1; margin: 20px 0; }
 nav { margin: 28px 0; }
 ul { list-style-type: none; margin: 0; padding: 0; }
@@ -191,7 +191,7 @@ li div { cursor: pointer; padding: 8px 18px; border-radius: 20px; font-family: L
 .content >div.open { display: block; }
 
 /* level-up-container */
-.level_up_container { display: flex; gap: 80px; align-items: center; background: #ffff0033; border-radius: 60px; }
+.level_up_container { display: flex; gap: 80px; align-items: center; background: #F4B400; border-radius: 60px; }
 .level_up_container img { transition: transform .8s; width: 35%; height: 100%; padding: 20px; }
 .level_up_container img:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .right_container_text { width: 46%; height: 270px; }
@@ -240,7 +240,7 @@ div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .job_details img { width: 500px; height: 55px; /* border-radius: 20px;  */ }
 .job_details { display: flex; justify-content: space-around; align-items: center; margin: 22px 13px; gap: 12px; }
 .jobs_category_description { color: #a19f9f; font-size: 14px; }
-.jobs_category { cursor: pointer; border: 1px solid #000; margin: 0 0 10px; text-transform: capitalize; font-size: 16px; background: #fff; border-radius: 50px; padding: 2px 19px; text-align: center; }
+.jobs_category { cursor: pointer; border: 1px solid #000; margin: 0 0 10px; text-transform: capitalize; font-size: 16px; background: #fff; border-radius: 12px; padding: 2px 19px; text-align: center; }
 .image_logo { width: 356px; }
 .jobs { font-size: 24px; font-weight: 600; text-transform: capitalize; }
 

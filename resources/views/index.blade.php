@@ -29,20 +29,24 @@
                     <div class="list_card ">
                         <div class="menu_bar">
                             <div class="menuAds tablinks active" onclick="tab(event, 'tab1')">
-                                <span class="fa fa-search" style="font-size:20px">&nbsp;Search</span>
+                                <span class="fa fa-search" style="font-size:20px;">&nbsp;Search</span>
                             </div>
                             <div class="menuAds tablinks" onclick="tab(event, 'tab2')">
-                                <span class=" fa fa-desktop" style="font-size:20px">&nbsp; Display</span>
+                                <span class=" fa fa-phone" style="font-size:20px;">&nbsp; Call</span>
 
                             </div>
                             <div class="menuAds tablinks" onclick="tab(event, 'tab3')">
-                                <span class="fa fa-shopping-cart" style="font-size:20px">&nbsp;Shopping</span>
+                                <span class=" fa fa-desktop" style="font-size:20px">&nbsp; Display</span>
 
                             </div>
                             <div class="menuAds tablinks" onclick="tab(event, 'tab4')">
-                                <span class="fa fa-play-circle-o" style="font-size:20px">&nbsp; Video</span>
+                                <span class="fa fa-shopping-cart" style="font-size:20px">&nbsp;Shopping</span>
+
                             </div>
                             <div class="menuAds tablinks" onclick="tab(event, 'tab5')">
+                                <span class="fa fa-play-circle-o" style="font-size:20px">&nbsp; Video</span>
+                            </div>
+                            <div class="menuAds tablinks" onclick="tab(event, 'tab6')">
                                 <span class="fa fa-qrcode" style="font-size:20px">&nbsp; App</span>
                             </div>
                         </div>
@@ -58,15 +62,20 @@
                         </div>
                         <div class="tab-name" id="tab3" style="display:none">
                             <section class="grid">
-                                <img src="/assets/shopping_1.webp" w="10" h="10" alt="" />
+                            <img src="/assets/display.webp" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab-name" id="tab4" style="display:none">
                             <section class="grid">
-                                <img src="/assets/youtube.webp" w="10" h="10" alt="" />
+                            <img src="/assets/shopping.png" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab-name" id="tab5" style="display:none">
+                            <section class="grid">
+                            <img src="/assets/youtube.webp" w="10" h="10" alt="" />
+                            </section>
+                        </div>
+                        <div class="tab-name" id="tab6" style="display:none">
                             <section class="grid">
                                 <img src="/assets/apps.webp" w="10" h="10" alt="" />
                             </section>
@@ -721,9 +730,9 @@
                     <p class="level_up_headlne">Unlock your digital potential today and soar above the competition! Let's
                         revolutionize your brand together.</p>
                     <ul class="level_up_category">
-                        <ol>&#11088; 50+ Cities</ol>
-                        <ol>&#11088; 5+ Countries</ol>
-                        <ol>&#11088; 3200+ Clients</ol>
+                        <ol><span style="color:rgb(22, 103, 208);">&#9733;</span> 50+ Cities</ol>
+                        <ol><span style="color:rgb(22, 103, 208);">&#9733;</span> 5+ Countries</ol>
+                        <ol><span style="color:rgb(22, 103, 208);">&#9733;</span> 3200+ Clients</ol>
                     </ul>
                     <a href="#" class="explore_courses">Start Digital Journey ↗</a>
                 </div>
