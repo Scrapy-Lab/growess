@@ -6,11 +6,11 @@
         <p class="code_assessment_job_details_description">find a role that fits your carrier aspirators.</p>
         <div class="code_assessment_job_details_box-container">
             <ul class="tab_box">
-                <li class=" btn_color1 select_mode @if ($static) select  @endif  fa fa-search" wire:click="web_type('static')" data-tab="tab01" style=" ;">&nbsp;Static
+                <li class=" btn_color1 select_mode @if ($static) select  @endif  " wire:click="web_type('static')" data-tab="tab01" style=" ;">&nbsp;Static
                     Website</li>
                 <li class="btn_color2 select_mode  @if ($dynamic) select  @endif" wire:click="web_type('dynamic')" data-tab="tab02" style=" ;">&nbsp;Dynamic Website</li>
                 {{-- <li class="select_mode" data-tab="tab03">&nbsp;</li> --}}
-                <li class="btn_color3 select_mode fa fa-home @if ($brochure) select  @endif " wire:click="web_type('brochure')" data-tab="tab04" style=" ">&nbsp;Brochure
+                <li class="btn_color3 select_mode  @if ($brochure) select  @endif " wire:click="web_type('brochure')" data-tab="tab04" style=" ">&nbsp;Brochure
                     Website</li>
             <li class="btn_color4 select_mode @if ($ecom) select  @endif" wire:click="web_type('ecom')" data-tab="tab05" style="  ;">&nbsp;E-Commerece Website</li>
             </ul>

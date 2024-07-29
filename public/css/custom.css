@@ -136,12 +136,14 @@ input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-out
 /* google ads */
 .google_container { margin: 20px 0; }
 .google_headline { font-size: 40px; font-family: sans-serif; font-weight: 700; line-height: 68px; }
-.list_card { display: flex; align-items: center; gap: 40px; padding: 0 24px; }
+.list_card { display: flex; align-items: center; gap: 40px; padding: 0 24px;justify-content: space-between; }
 .grid img { width: 436px; height: 480px; transition: transform 0.8s; }
+.grid1 img { width: 326px; height: 480px; transition: transform 0.8s; }
+.grid1 img:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .grid img:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .menu_bar { width: 20%; font-size: 16px; font-family: sans-serif; color: #5f6368; }
 .active { border-bottom: none; position: relative; color: #fff; background: #000!important; }
-.menuAds { background: #fff; display: flex; align-items: center; width: 39%; height: 14px; /* gap: 43px; */ cursor: pointer; padding: 18px 36px; margin: 22px 0; font-weight: 400; border: 1px solid #e8eaed; border-radius: 20px; box-sizing: content-box; }
+.menuAds { background: #fff; display: flex; align-items: center; width: 40%; height: 14px; /* gap: 43px; */ cursor: pointer; padding: 18px 36px; margin: 22px 0; font-weight: 400; border: 1px solid #e8eaed; border-radius: 20px; box-sizing: content-box; }
 .text-title { width: 30%; }
 .headline { font-size: 38px; line-height: 48px; font-weight: 700; }
 .text_paragraph { color: #645858; font-size: 18px; line-height: 28px; }
@@ -204,7 +206,7 @@ li div { cursor: pointer; padding: 8px 18px; border-radius: 20px; font-family: L
 .level_up_container img:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .right_container_text { width: 46%; height: 270px; }
 .level_up_title { display: flex; flex-wrap: wrap; font-size: 47px; line-height: 67px; font-weight: 600; font-family: Raleway,sans-serif; text-transform: capitalize; }
-.level_up_headlne { font-size: 18px; line-height: 20px; font-weight: 100; color: #747272; font-family: Raleway,sans-serif; }
+.level_up_headlne { font-size: 18px; line-height: 20px; font-weight: 100; color: #fff; font-family: Raleway,sans-serif; }
 .level_up_category { padding-left: 0; color: #5a4b4b; display: flex; font-size: 16px; line-height: 20px; gap: 20px; font-weight: 100; margin: 20px 0; justify-content: space-between; font-weight: 700; }
 .explore_courses { text-decoration: none; font-size: 19px; line-height: 32px; font-weight: 100; color: #fff; background: rgb(22, 103, 208); padding: 10px 20px; border-radius: 20px; font-family: Raleway,sans-serif; }
 
@@ -243,12 +245,12 @@ div#box_4 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 .code_assessment_job_details { font-size: 47px; line-height: 67px; font-weight: 600; font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; text-transform: capitalize; }
 .code_assessment_job_details_description { color: #a19f9f; font-size: 16px; padding: 20px 0; }
 .code_assessment_job_details_box { margin: 14px 30px 0 0; width: 46%; box-shadow: 4px 7px 13px 9px #b9b3b3; background: #e4eaef; padding: 20px 20px; border-radius: 11px; }
-.select_mode { cursor: pointer; margin: 8px; font-size: 16px; font-weight: 400; text-decoration-line: none; line-height: 24px; position: relative; padding: 20px; border-radius: 30px; color: #000; }
-.select { background: #0862ab; color: #fff; }
+.select_mode { cursor: pointer; margin: 8px; font-size: 16px; font-weight: 400; text-decoration-line: none; line-height: 24px; position: relative; padding: 20px; border-radius: 30px; color: #fff; }
+.select { font-size: 20px; color: #fff; font-weight: 900;}
 .job_details img { width: 500px; height: 55px; /* border-radius: 20px;  */ }
 .job_details { display: flex; justify-content: space-around; align-items: center; margin: 22px 13px; gap: 12px; }
 .jobs_category_description { color: #ffffff; font-size: 14px; }
-.jobs_category { cursor: pointer; border: 1px solid #000; margin: 0 0 10px; text-transform: capitalize; font-size: 16px; background: #fff; border-radius: 12px; padding: 2px 19px; text-align: center; }
+.jobs_category { cursor: pointer; margin: 0 0 10px; text-transform: capitalize; font-size: 16px; background: #fff; border-radius: 12px; padding: 2px 19px; text-align: center; }
 .image_logo { width: 356px; }
 .jobs { font-size: 24px; font-weight: 600; text-transform: capitalize; }
 

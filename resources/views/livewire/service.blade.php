@@ -1,7 +1,7 @@
 <div class="container">
     <div class="Button_box">
         <div class="box_1" style="background:#f7d7ae8a;">
-            <img src="/assets/200.webp" alt="My Logo" w="10" h="10" />
+            <img src="/assets/HraTYbtROn.gif" alt="My Logo" w="10" h="10" />
             <div class="box_title">Website</div>
             <p class="box_headline">get instant quote</p>
             {{-- id="openOuterPopupBtn" onclick="openOuterPopup()" --}}

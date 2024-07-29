@@ -57,7 +57,7 @@
                         </div>
                         <div class="tab-name" id="tab2" style="display:none">
                             <section class="grid">
-                                <img src="/assets/display.webp" w="10" h="10" alt="" />
+                                <img src="/assets/call-removebg-preview.png" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab-name" id="tab3" style="display:none">
@@ -104,21 +104,21 @@
                     <div class="list_card ">
                         <div class="menu_bar">
                             <div class="menuAds tab-links active" onclick="tabb(event, 'tab01')">
-                                <span class="fa fa-search" style="font-size:20px">&nbsp;Website</span>
+                                <span class="" style="font-size:20px">&nbsp;About</span>
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab02')">
-                                <span class=" fa fa-desktop" style="font-size:20px">&nbsp; Display</span>
+                                <span class=" " style="font-size:20px">&nbsp; Image</span>
 
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab03')">
-                                <span class="fa fa-shopping-cart" style="font-size:20px">&nbsp;Lead</span>
+                                <span class="" style="font-size:20px">&nbsp;Video</span>
 
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab04')">
-                                <span class="fa fa-play-circle-o" style="font-size:20px">&nbsp; Video</span>
+                                <span class="" style="font-size:20px">&nbsp; Carousel</span>
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab05')">
-                                <span class="fa fa-qrcode" style="font-size:20px">&nbsp; App</span>
+                                <span class="" style="font-size:20px">&nbsp; Collection</span>
                             </div>
                         </div>
                         <div class="tab_name" id="tab01">
@@ -127,23 +127,25 @@
                             </section>
                         </div>
                         <div class="tab_name" id="tab02" style="display:none">
-                            <section class="grid">
-                                <img src="/assets/display.webp" w="10" h="10" alt="" />
+                            <section class="grid1">
+                                <img src="/assets/image.webp" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab_name" id="tab03" style="display:none">
-                            <section class="grid">
-                                <img src="/assets/shopping_1.webp" w="10" h="10" alt="" />
+                            <section class="grid1">
+                            <video width="356" height="480" controls>
+                                <source src="movie.mp4" type="video/mp4">
+                                </video>
                             </section>
                         </div>
                         <div class="tab_name" id="tab04" style="display:none">
-                            <section class="grid">
-                                <img src="/assets/youtube.webp" w="10" h="10" alt="" />
+                            <section class="grid1">
+                                <img src="/assets/Carousel.webp" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab_name" id="tab05" style="display:none">
-                            <section class="grid">
-                                <img src="/assets/apps.webp" w="10" h="10" alt="" />
+                            <section class="grid1">
+                                <img src="/assets/collection.webp" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="text-title">
