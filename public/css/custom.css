@@ -138,7 +138,7 @@ input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-out
 .google_headline { font-size: 40px; font-family: sans-serif; font-weight: 700; line-height: 68px; }
 .list_card { display: flex; align-items: center; gap: 40px; padding: 0 24px;justify-content: space-between; }
 .grid img { width: 436px; height: 480px; transition: transform 0.8s; }
-.grid1 img { width: 356px; height: 480px; transition: transform 0.8s; }
+.grid1 img { width: 360px; height: 480px; transition: transform 0.8s; }
 .grid1 img:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .grid img:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .menu_bar { width: 20%; font-size: 16px; font-family: sans-serif; color: #5f6368; }
