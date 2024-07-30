@@ -128,24 +128,22 @@
                         </div>
                         <div class="tab_name" id="tab02" style="display:none">
                             <section class="grid1">
-                                <img src="/assets/image.webp" w="10" h="10" alt="" />
+                                <img src="/assets/image.png" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab_name" id="tab03" style="display:none">
                             <section class="grid1">
-                            <video width="356" height="480" controls>
-                                <source src="movie.mp4" type="video/mp4">
-                                </video>
+                                <img src="/assets/video.png" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab_name" id="tab04" style="display:none">
                             <section class="grid1">
-                                <img src="/assets/Carousel.webp" w="10" h="10" alt="" />
+                                <img src="/assets/crosel.png" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab_name" id="tab05" style="display:none">
                             <section class="grid1">
-                                <img src="/assets/collection.webp" w="10" h="10" alt="" />
+                                <img src="/assets/collect.png" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="text-title">
