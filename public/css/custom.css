@@ -10,8 +10,8 @@ body { font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helv
 .header_log_button:hover { background-color: rgb(199, 199, 193); }
 
 /* Styles for the navigation bar */
-.nav_bar { overflow: hidden; }
-.nav_bar a { float: left; display: block; text-align: center; padding: 14px 20px; text-decoration: none; color: rgb(129, 133, 151); font-weight: bold; font-size: 14px; text-transform: capitalize; cursor: pointer; font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
+.nav_bar { overflow: hidden;margin-left: 20%; }
+.nav_bar a { float: left; display: block; text-align: center; padding: 14px 12px; text-decoration: none; color: rgb(129, 133, 151); font-weight: bold; font-size: 14px; text-transform: capitalize; cursor: pointer; font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
 .drop_down { float: left; overflow: hidden; }
 .drop_down-section span { display: none; }
 .drop_down-section:hover span { color: rgb(19, 100, 241); display: block; }

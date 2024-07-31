@@ -161,85 +161,7 @@
                 </div>
             </div>
             <div class="drop_down">
-                <button  class="dropbtn"><a href="/contact-us">Contact us</a> </button>
-                <div class="drop_down-content">
-                    <div class="drop_down_content_online">
-                        <p>Accepts Payments Online
-                            <div class="drop_down_list">
-                                <a href="#">
-                                    <img src="/assets/payment-gateway.ae837f84.png" w="5" h="5" alt="logo"/>
-                                    <div class="drop_down-section">
-                                        <div class="payment_title">Payment Gateway  <span>&#x3E;</span></div>
-                                        <div class="payment_headline">Payments on your websites & Apps</div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <img src="/assets/payment-links.a69f2346.png" w="5" h="5" alt="logo"/>
-                                    <div class="drop_down-section">
-                                        <div class="payment_title">Payment links <span>&#x3E;</span></div>
-                                        <div class="payment_headline">Create & send links to collect money</div>
-                                    </div></a>
-                                <a href="#">
-                                    <img src="/assets/payment-pages.eadf7c84.png" w="5" h="5" alt="logo"/>
-                                    <div class="drop_down-section">
-                                        <div class="payment_title">Payment pages <span>&#x3E;</span></div>
-                                        <div class="payment_headline">Get paid with personalized page</div>
-                                    </div></a>
-                                <a href="#">
-                                    <img src="/assets/payment-buttons.74fc1e0f.png" w="5" h="5" alt="logo"/>
-                                    <div class="drop_down-section">
-                                        <div class="payment_title">Payment Buttons <span>&#x3E;</span></div>
-                                        <div class="payment_headline">Create, Copy and Collect in 5 mins</div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <img src="/assets/qr-code.90a31467.png" w="5" h="5" alt="logo"/>
-                                    <div class="drop_down-section">
-                                        <div class="payment_title">QR Codes <span>&#x3E;</span></div>
-                                        <div class="payment_headline">Multi-feature QR for your business</div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <img src="/assets/instant-settlements.b6b6e467.png" w="5" h="5" alt="logo"/>
-                                    <div class="drop_down-section">
-                                        <div class="payment_title">Instant Settlement <span>&#x3E;</span></div>
-                                        <div class="payment_headline">Create & send GST compliant invoices</div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <img src="/assets/invoices.f1e68736.png" w="5" h="5" alt="logo"/>
-                                    <div class="drop_down-section">
-                                        <div class="payment_title">Invoices <span>&#x3E;</span></div>
-                                        <div class="payment_headline">Automate NEFT, RTGS, IMPS payments</div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <img src="/assets/smart-collect.8fc3d60e.png" w="5" h="5" alt="logo"/>
-                                    <div class="drop_down-section">
-                                        <div class="payment_title">Smart Collect <span>&#x3E;</span></div>
-                                        <div class="payment_headline">Create, Copy and Collect in 5 mins</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </p>
-                    </div>
-                    <div class="drop_down_content_offline">
-                        <p>Accepts Payments Offline
-                            <div class="drop_down_list">
-                                <a href="#">
-                                    <img src="/assets/pos-regular.b683b9f8.png" w="5" h="5" alt="logo"/>
-                                    <div class="drop_down-section">
-                                        <div class="payment_title">Razorpay POS <span>&#x3E;</span></div>
-                                        <div class="payment_headline">Accept Payments In-Store</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="drop_down">
-                <button  class="dropbtn"><a href="{{route('website')}}">Website</a> </button>
+                <button  class="dropbtn"><a href="{{route('website')}}">Website Development</a> </button>
                 <div class="drop_down-content">
                     <div class="drop_down_content_online">
                         <p>Accepts Payments Online
@@ -394,9 +316,87 @@
                     </div>
                 </div>
             </div>
-
             <div class="drop_down">
                 <button  class="dropbtn"><a href="{{route('lead_generation')}}">Lead Generation</a> </button>
+                <div class="drop_down-content">
+                    <div class="drop_down_content_online">
+                        <p>Accepts Payments Online
+                            <div class="drop_down_list">
+                                <a href="#">
+                                    <img src="/assets/payment-gateway.ae837f84.png" w="5" h="5" alt="logo"/>
+                                    <div class="drop_down-section">
+                                        <div class="payment_title">Payment Gateway  <span>&#x3E;</span></div>
+                                        <div class="payment_headline">Payments on your websites & Apps</div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <img src="/assets/payment-links.a69f2346.png" w="5" h="5" alt="logo"/>
+                                    <div class="drop_down-section">
+                                        <div class="payment_title">Payment links <span>&#x3E;</span></div>
+                                        <div class="payment_headline">Create & send links to collect money</div>
+                                    </div></a>
+                                <a href="#">
+                                    <img src="/assets/payment-pages.eadf7c84.png" w="5" h="5" alt="logo"/>
+                                    <div class="drop_down-section">
+                                        <div class="payment_title">Payment pages <span>&#x3E;</span></div>
+                                        <div class="payment_headline">Get paid with personalized page</div>
+                                    </div></a>
+                                <a href="#">
+                                    <img src="/assets/payment-buttons.74fc1e0f.png" w="5" h="5" alt="logo"/>
+                                    <div class="drop_down-section">
+                                        <div class="payment_title">Payment Buttons <span>&#x3E;</span></div>
+                                        <div class="payment_headline">Create, Copy and Collect in 5 mins</div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <img src="/assets/qr-code.90a31467.png" w="5" h="5" alt="logo"/>
+                                    <div class="drop_down-section">
+                                        <div class="payment_title">QR Codes <span>&#x3E;</span></div>
+                                        <div class="payment_headline">Multi-feature QR for your business</div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <img src="/assets/instant-settlements.b6b6e467.png" w="5" h="5" alt="logo"/>
+                                    <div class="drop_down-section">
+                                        <div class="payment_title">Instant Settlement <span>&#x3E;</span></div>
+                                        <div class="payment_headline">Create & send GST compliant invoices</div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <img src="/assets/invoices.f1e68736.png" w="5" h="5" alt="logo"/>
+                                    <div class="drop_down-section">
+                                        <div class="payment_title">Invoices <span>&#x3E;</span></div>
+                                        <div class="payment_headline">Automate NEFT, RTGS, IMPS payments</div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <img src="/assets/smart-collect.8fc3d60e.png" w="5" h="5" alt="logo"/>
+                                    <div class="drop_down-section">
+                                        <div class="payment_title">Smart Collect <span>&#x3E;</span></div>
+                                        <div class="payment_headline">Create, Copy and Collect in 5 mins</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="drop_down_content_offline">
+                        <p>Accepts Payments Offline
+                            <div class="drop_down_list">
+                                <a href="#">
+                                    <img src="/assets/pos-regular.b683b9f8.png" w="5" h="5" alt="logo"/>
+                                    <div class="drop_down-section">
+                                        <div class="payment_title">Razorpay POS <span>&#x3E;</span></div>
+                                        <div class="payment_headline">Accept Payments In-Store</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="drop_down">
+                <button  class="dropbtn"><a href="/contact-us">Contact us</a> </button>
                 <div class="drop_down-content">
                     <div class="drop_down_content_online">
                         <p>Accepts Payments Online
