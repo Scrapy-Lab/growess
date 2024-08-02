@@ -193,20 +193,20 @@
                     <ul class="tab_card">
                         <li>We Provide Complete:</li>
                         <li>
-                            <div style="background: #fbd9dc;color: #d44927;"class="open" data-tab="tab01">Digital
+                            <div style="background: #ffe8ea;color: #ef3305;"class="open" data-tab="tab01">Digital
                                 Marketing</div>
                         </li>
                         <li>
-                            <div style="background: #c8edc5;color: #42ab1e;" data-tab="tab02">Web Designs</div>
+                            <div style="background: #eaffe8;color: #1e5c09;" data-tab="tab02">Web Designs</div>
                         </li>
                         <li>
-                            <div style="background: #f6ce9b;color: #e99d47;" data-tab="tab03">Lead Generation</div>
+                            <div style="background: #fff4e5;color: #704b22;" data-tab="tab03">Lead Generation</div>
                         </li>
                         <li>
-                            <div style="background: #b6f9f7;color: #0db8d6;" data-tab="tab04">Graphics Designs</div>
+                            <div style="background: #dafffe;color: #2b6f7a;" data-tab="tab04">Graphics Designs</div>
                         </li>
                         <li>
-                            <div style="background: #dfb0ed;color: #b12de9;" data-tab="tab05">Software & Apps</div>
+                            <div style="background: #f6e7fb;color: #580f76;" data-tab="tab05">Software & Apps</div>
                         </li>
                     </ul>
                 </nav>
@@ -693,7 +693,7 @@
 
     <!-- components for pratice codeing -->
     <div class="gap "
-        style="background-image: url(/assets/backgrounds.jpeg);">
+        style="background-image: url(/assets/backgd.png);">
         <div class="container">
             <div class="code_assessment">
                 <div class="code_assessment_box">
