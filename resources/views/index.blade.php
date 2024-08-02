@@ -229,7 +229,7 @@
                         <div id="tab01" class="show box_tab">
                             <div class="card_box_multiple">
                                 <div class="card_box1">
-                                    <video width="284" height="300" controls>
+                                    <video width="284" height="300" controls autoplay loop muted>
                                         <source src="/assets/seo.mp4" type="video/mp4"></video>
                                     <!-- <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" /> -->
                                     <div class="card_payment-title">payment gateway</div>
@@ -241,7 +241,7 @@
                                     </div>
                                 </div>
                                 <div class="card_box1">
-                                <video width="284" height="300" controls>
+                                <video width="284" height="300" controls autoplay loop muted>
                                      <source src="/assets/smm.mp4" type="video/mp4"></video>
                                     <!-- <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" /> -->
                                     <div class="card_payment-title">payment gateway</div>
