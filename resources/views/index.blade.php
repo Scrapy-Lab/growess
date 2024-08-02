@@ -229,7 +229,9 @@
                         <div id="tab01" class="show box_tab">
                             <div class="card_box_multiple">
                                 <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                    <video width="284" height="300" controls>
+                                        <source src="/assets/seo.mp4" type="video/mp4"></video>
+                                    <!-- <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" /> -->
                                     <div class="card_payment-title">payment gateway</div>
                                     <p class="card_payment-headline">Offer a seamless payment experience on your website or
                                         app</p>
@@ -239,7 +241,9 @@
                                     </div>
                                 </div>
                                 <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                <video width="284" height="300" controls>
+                                     <source src="/assets/smm.mp4" type="video/mp4"></video>
+                                    <!-- <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" /> -->
                                     <div class="card_payment-title">payment gateway</div>
                                     <p class="card_payment-headline">Offer a seamless payment experience on your website or
                                         app</p>
@@ -689,7 +693,7 @@
 
     <!-- components for pratice codeing -->
     <div class="gap "
-        style="background: linear-gradient(86deg, #fff0fa 1.71%, #FFFCEF 99.56%); !important; padding:60px">
+        style="background-image: url(/assets/backgrounds.jpeg);">
         <div class="container">
             <div class="code_assessment">
                 <div class="code_assessment_box">
