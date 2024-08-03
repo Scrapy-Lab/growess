@@ -7,7 +7,7 @@
     <!-- Toggle button -->
     <div class="gap" style="background: linear-gradient(to right, #f9f8ef, #faf4ff); !important">
         <div class="container">
-            <div class="page_title">Get <span style="color:red">100% </span>Qualified Lead through<br>our <span
+            <div class="page_title" style="text-align:center">Get <span style="color:red">100% </span>Qualified Lead through<br>our <span
                     style="color:green">certified partners </span></div>
             <div class="switches-container">
                 <input type="radio" id="switchMonthly" name="switchPlan" value="Google Ad Preview" checked="checked"
@@ -104,21 +104,21 @@
                     <div class="list_card ">
                         <div class="menu_bar">
                             <div class="menuAds tab-links active" onclick="tabb(event, 'tab01')">
-                                <span class="" style="font-size:20px">&nbsp;About</span>
+                                <span class="" style="font-size:20px">&nbsp;Image</span>
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab02')">
-                                <span class=" " style="font-size:20px">&nbsp; Image</span>
+                                <span class=" " style="font-size:20px">&nbsp; Video</span>
 
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab03')">
-                                <span class="" style="font-size:20px">&nbsp;Video</span>
+                                <span class="" style="font-size:20px">&nbsp;Carousel</span>
 
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab04')">
-                                <span class="" style="font-size:20px">&nbsp; Carousel</span>
+                                <span class="" style="font-size:20px">&nbsp; Collection</span>
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab05')">
-                                <span class="" style="font-size:20px">&nbsp; Collection</span>
+                                <span class="" style="font-size:19px">&nbsp; Whatsapp</span>
                             </div>
                         </div>
                         <div class="tab_name" id="tab01">
