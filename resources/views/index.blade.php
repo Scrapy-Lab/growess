@@ -123,7 +123,7 @@
                         </div>
                         <div class="tab_name" id="tab01">
                             <section class="gridcard">
-                                <img src="https://scontent.fpat2-3.fna.fbcdn.net/v/t39.8562-6/84680660_2751573224898381_8553505654352904192_n.png?stp=dst-webp&_nc_cat=107&ccb=1-7&_nc_sid=7785fb&_nc_ohc=y9qmLQhsE7QQ7kNvgEbAY7G&_nc_ht=scontent.fpat2-3.fna&oh=00_AYBfCCFWdshc_tS2SdQg6da5WSxS_nkAv9SACEWis3zKIw&oe=66AE3FD9" w="10" h="10" alt="" />
+                                <img src="{{asset('assets/images/iphone.png')}}" w="10" h="10" alt="" />
                                 <section class="grid1">
                                 <!-- <img src="/assets/google.webp" w="10" h="10" alt="" /> -->
                             </section>
@@ -131,7 +131,7 @@
                         </div>
                         <div class="tab_name" id="tab02" style="display:none">
                         <section class="gridcard">
-                        <img src="https://scontent.fpat2-3.fna.fbcdn.net/v/t39.8562-6/84680660_2751573224898381_8553505654352904192_n.png?stp=dst-webp&_nc_cat=107&ccb=1-7&_nc_sid=7785fb&_nc_ohc=y9qmLQhsE7QQ7kNvgEbAY7G&_nc_ht=scontent.fpat2-3.fna&oh=00_AYBfCCFWdshc_tS2SdQg6da5WSxS_nkAv9SACEWis3zKIw&oe=66AE3FD9" w="10" h="10" alt="" />
+                        <img src="{{asset('assets/images/iphone.png')}}" w="10" h="10" alt="" />
                             <section class="grid1">
                                 <img src="/assets/image.webp" w="320" h="520" alt="" />
                             </section>
@@ -139,7 +139,7 @@
                         </div>
                         <div class="tab_name" id="tab03" style="display:none">
                         <section class="gridcard">
-                        <img src="https://scontent.fpat2-3.fna.fbcdn.net/v/t39.8562-6/84680660_2751573224898381_8553505654352904192_n.png?stp=dst-webp&_nc_cat=107&ccb=1-7&_nc_sid=7785fb&_nc_ohc=y9qmLQhsE7QQ7kNvgEbAY7G&_nc_ht=scontent.fpat2-3.fna&oh=00_AYBfCCFWdshc_tS2SdQg6da5WSxS_nkAv9SACEWis3zKIw&oe=66AE3FD9" w="10" h="10" alt="" />
+                        <img src="{{asset('assets/images/iphone.png')}}" w="10" h="10" alt="" />
                             <section class="grid1">
                                 <!-- <img src="/assets/video.png" w="10" h="10" alt="" /> -->
                             </section>
@@ -147,7 +147,7 @@
                         </div>
                         <div class="tab_name" id="tab04" style="display:none">
                         <section class="gridcard">
-                        <img src="https://scontent.fpat2-3.fna.fbcdn.net/v/t39.8562-6/84680660_2751573224898381_8553505654352904192_n.png?stp=dst-webp&_nc_cat=107&ccb=1-7&_nc_sid=7785fb&_nc_ohc=y9qmLQhsE7QQ7kNvgEbAY7G&_nc_ht=scontent.fpat2-3.fna&oh=00_AYBfCCFWdshc_tS2SdQg6da5WSxS_nkAv9SACEWis3zKIw&oe=66AE3FD9" w="10" h="10" alt="" />
+                        <img src="{{asset('assets/images/iphone.png')}}" w="10" h="10" alt="" />
                             <section class="grid1">
                                 <img src="/assets/Carousel.webp" w="10" h="10" alt="" />
                             </section>
@@ -155,7 +155,7 @@
                         </div>
                         <div class="tab_name" id="tab05" style="display:none">
                         <section class="gridcard">
-                        <img src="https://scontent.fpat2-3.fna.fbcdn.net/v/t39.8562-6/84680660_2751573224898381_8553505654352904192_n.png?stp=dst-webp&_nc_cat=107&ccb=1-7&_nc_sid=7785fb&_nc_ohc=y9qmLQhsE7QQ7kNvgEbAY7G&_nc_ht=scontent.fpat2-3.fna&oh=00_AYBfCCFWdshc_tS2SdQg6da5WSxS_nkAv9SACEWis3zKIw&oe=66AE3FD9" w="10" h="10" alt="" />
+                        <img src="{{asset('assets/images/iphone.png')}}" w="10" h="10" alt="" />
                             <section class="grid1">
                                 <img src="/assets/collection.webp" w="10" h="10" alt="" />
                             </section>
