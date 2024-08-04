@@ -25,33 +25,34 @@
             </div>
         @if ($static)
         {{-- <div class="web_type_static"> --}}
+        <div class="jobs_details_headline">Get your all demos here :</div>
             <div class="job_details">
                 <div class="code_assessment_job_details_box1">
                     <div class="jobs_category btn_color1">
-                        Construction
-                        <div class="jobs_category_description">Software development &nbsp;&gt;</div>
+                        Industries
+                        <!-- <div class="jobs_category_description">Software development &nbsp;&gt;</div> -->
                     </div>
-                    <div class="jobs_category btn_color2">
-                        Restaurant
-                        <div class="jobs_category_description">computer science &nbsp;&gt;</div>
+                    <div class="jobs_category btn_color4">
+                        Showrooms
+                        <!-- <div class="jobs_category_description">computer science &nbsp;&gt;</div> -->
                     </div>
                     <div class="jobs_category btn_color3">
-                        School / College
-                        <div class="jobs_category_description">marketing &nbsp;&gt;</div>
+                        Educational
+                        <!-- <div class="jobs_category_description">marketing &nbsp;&gt;</div> -->
                     </div>
                 </div>
                 <div class="code_assessment_job_details_box2">
-                    <div class="jobs_category btn_color4">
-                        Shop
-                        <div class="jobs_category_description">Software development &nbsp;&gt;</div>
-                    </div>
-                    <div class="jobs_category btn_color1">
-                        Portfolio
-                        <div class="jobs_category_description">computer science &nbsp;&gt;</div>
+                    <div class="jobs_category btn_color3">
+                    Automobiles
+                        <!-- <div class="jobs_category_description">Software development &nbsp;&gt;</div> -->
                     </div>
                     <div class="jobs_category btn_color2">
-                        Entartainment
-                        <div class="jobs_category_description">marketing &nbsp;&gt;</div>
+                        Services
+                        <!-- <div class="jobs_category_description">computer science &nbsp;&gt;</div> -->
+                    </div>
+                    <div class="jobs_category btn_color1">
+                    NGOs
+                        <!-- <div class="jobs_category_description">marketing &nbsp;&gt;</div> -->
                     </div>
                 </div>
             </div>
@@ -61,34 +62,35 @@
     {{-- Dynamic website --}}
     @if ($dynamic)
         {{-- <div class="web_type_dynamic"> --}}
+            <div class="jobs_details_headline">Get your all demos here :</div>
             <div class="job_details">
-                <div class="code_assessment_job_details_box1">
+            <div class="code_assessment_job_details_box1">
+                    
                     <div class="jobs_category btn_color1">
-                        dynamic   Construction
-                        <div class="jobs_category_description">Software development &nbsp;&gt;</div>
+                        Industries
+                        <!-- <div class="jobs_category_description">Software development &nbsp;&gt;</div> -->
                     </div>
-                    <div class="jobs_category btn_color2">
-                        dynamic Restaurant
-                        <div class="jobs_category_description">computer science &nbsp;&gt;</div>
+                    <div class="jobs_category btn_color4">
+                        Showrooms
+                        <!-- <div class="jobs_category_description">computer science &nbsp;&gt;</div> -->
                     </div>
                     <div class="jobs_category btn_color3">
-                        dynamic  School / College
-                        <div class="jobs_category_description">marketing &nbsp;&gt;</div>
+                        Educational
+                        <!-- <div class="jobs_category_description">marketing &nbsp;&gt;</div> -->
                     </div>
                 </div>
                 <div class="code_assessment_job_details_box2">
-
-                    <div class="jobs_category btn_color4">
-                        Shop
-                        <div class="jobs_category_description">Software development &nbsp;&gt;</div>
-                    </div>
-                    <div class="jobs_category btn_color1">
-                        Portfolio
-                        <div class="jobs_category_description">computer science &nbsp;&gt;</div>
+                    <div class="jobs_category btn_color3">
+                    Automobiles
+                        <!-- <div class="jobs_category_description">Software development &nbsp;&gt;</div> -->
                     </div>
                     <div class="jobs_category btn_color2">
-                        Entartainment
-                        <div class="jobs_category_description">marketing &nbsp;&gt;</div>
+                        Services
+                        <!-- <div class="jobs_category_description">computer science &nbsp;&gt;</div> -->
+                    </div>
+                    <div class="jobs_category btn_color1">
+                    NGOs
+                        <!-- <div class="jobs_category_description">marketing &nbsp;&gt;</div> -->
                     </div>
                 </div>
             </div>
@@ -97,68 +99,71 @@
     {{-- Dynamic website --}}
     @if ($brochure)
         {{-- <div class="web_type_dynamic"> --}}
+        <div class="jobs_details_headline">Get your all demos here :</div>
         <div class="job_details">
-            <div class="code_assessment_job_details_box1">
-                <div class="jobs_category btn_color1">
-                    brochure   Construction
-                    <div class="jobs_category_description">Software development &nbsp;&gt;</div>
+        <div class="code_assessment_job_details_box1">
+                    <div class="jobs_category btn_color1">
+                        Industries
+                        <!-- <div class="jobs_category_description">Software development &nbsp;&gt;</div> -->
+                    </div>
+                    <div class="jobs_category btn_color4">
+                        Showrooms
+                        <!-- <div class="jobs_category_description">computer science &nbsp;&gt;</div> -->
+                    </div>
+                    <div class="jobs_category btn_color3">
+                        Educational
+                        <!-- <div class="jobs_category_description">marketing &nbsp;&gt;</div> -->
+                    </div>
                 </div>
-                <div class="jobs_category btn_color2">
-                    brochure  Restaurant
-                    <div class="jobs_category_description">computer science &nbsp;&gt;</div>
+                <div class="code_assessment_job_details_box2">
+                    <div class="jobs_category btn_color3">
+                    Automobiles
+                        <!-- <div class="jobs_category_description">Software development &nbsp;&gt;</div> -->
+                    </div>
+                    <div class="jobs_category btn_color2">
+                        Services
+                        <!-- <div class="jobs_category_description">computer science &nbsp;&gt;</div> -->
+                    </div>
+                    <div class="jobs_category btn_color1">
+                    NGOs
+                        <!-- <div class="jobs_category_description">marketing &nbsp;&gt;</div> -->
+                    </div>
                 </div>
-                <div class="jobs_category btn_color3">
-                    brochure  School / College
-                    <div class="jobs_category_description">marketing &nbsp;&gt;</div>
-                </div>
-            </div>
-            <div class="code_assessment_job_details_box2">
-                <div class="jobs_category btn_color4">
-                    brochure   Shop
-                    <div class="jobs_category_description">Software development &nbsp;&gt;</div>
-                </div>
-                <div class="jobs_category btn_color1">
-                    Portfolio
-                    <div class="jobs_category_description">computer science &nbsp;&gt;</div>
-                </div>
-                <div class="jobs_category btn_color2">
-                    Entartainment
-                    <div class="jobs_category_description">marketing &nbsp;&gt;</div>
-                </div>
-            </div>
         </div>
     @endif
     {{-- Dynamic website --}}
     @if ($ecom)
+    {{-- <div class="web_type_dynamic"> --}}
+    <div class="jobs_details_headline">Get your all demos here :</div>
         <div class="job_details">
-            <div class="code_assessment_job_details_box1">
-                <div class="jobs_category btn_color1">
-                    ecom    Construction
-                    <div class="jobs_category_description">Software development &nbsp;&gt;</div>
+        <div class="code_assessment_job_details_box1">
+                    <div class="jobs_category btn_color1">
+                        Industries
+                        <!-- <div class="jobs_category_description">Software development &nbsp;&gt;</div> -->
+                    </div>
+                    <div class="jobs_category btn_color4">
+                        Showrooms
+                        <!-- <div class="jobs_category_description">computer science &nbsp;&gt;</div> -->
+                    </div>
+                    <div class="jobs_category btn_color3">
+                        Educational
+                        <!-- <div class="jobs_category_description">marketing &nbsp;&gt;</div> -->
+                    </div>
                 </div>
-                <div class="jobs_category btn_color2">
-                    ecom  Restaurant
-                    <div class="jobs_category_description">computer science &nbsp;&gt;</div>
+                <div class="code_assessment_job_details_box2">
+                    <div class="jobs_category btn_color3">
+                    Automobiles
+                        <!-- <div class="jobs_category_description">Software development &nbsp;&gt;</div> -->
+                    </div>
+                    <div class="jobs_category btn_color2">
+                        Services
+                        <!-- <div class="jobs_category_description">computer science &nbsp;&gt;</div> -->
+                    </div>
+                    <div class="jobs_category btn_color1">
+                    NGOs
+                        <!-- <div class="jobs_category_description">marketing &nbsp;&gt;</div> -->
+                    </div>
                 </div>
-                <div class="jobs_category btn_color3">
-                    ecom  School / College
-                    <div class="jobs_category_description">marketing &nbsp;&gt;</div>
-                </div>
-            </div>
-            <div class="code_assessment_job_details_box2">
-                <div class="jobs_category btn_color4">
-                    Shop
-                    <div class="jobs_category_description">Software development &nbsp;&gt;</div>
-                </div>
-                <div class="jobs_category btn_color1">
-                    Portfolio
-                    <div class="jobs_category_description">computer science &nbsp;&gt;</div>
-                </div>
-                <div class="jobs_category btn_color2">
-                    Entartainment
-                    <div class="jobs_category_description">marketing &nbsp;&gt;</div>
-                </div>
-            </div>
         </div>
         </div>
     @endif
