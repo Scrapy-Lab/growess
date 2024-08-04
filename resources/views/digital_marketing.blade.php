@@ -377,7 +377,7 @@
 
     <main>
 
-        <section id="main-banner" class="container-fluid py-5">
+        <section id="main-banner" class="container-fluid py-5" >
 
             <div class="container py-5">
 
@@ -385,11 +385,11 @@
 
                     <div class="col-12 my-auto col-md-10 mx-auto main-title d-flex flex-column justify-content-center align-items-center ">
 
-                        <h1 data-aos="fade-up" data-aos-delay="0" class="text-center text-white">Digital Marketing</h1>
+                        {{-- <h1 data-aos="fade-up" data-aos-delay="0" class="text-center text-white">Digital Marketing</h1> --}}
 
-                        <p data-aos="fade-up" data-aos-delay="50" class="text-center mt-3 text-white ">Biz15 digital marketing service is a great way to reach and engage your business's target audience, generate leads and increase sales.</p>
+                        {{-- <p data-aos="fade-up" data-aos-delay="50" class="text-center mt-3 text-white ">Biz15 digital marketing service is a great way to reach and engage your business's target audience, generate leads and increase sales.</p> --}}
 
-                        <a data-aos="fade-up" data-aos-delay="100" href="#" class="get-started mt-3">Get Started</a>
+                        {{-- <a data-aos="fade-up" data-aos-delay="100" href="#" class="get-started mt-3">Get Started</a> --}}
 
                     </div>
 
@@ -397,7 +397,7 @@
 
             </div>
 
-            <video class="w-100 h-100 vid-background" autoplay loop muted src="digital_marketing/assets/images/video/digital-marketing.mp4"></video>
+            <video class="w-100 h-100 vid-background" autoplay loop muted src="digital_marketing/assets/images/video/digital-marketing.mp4" ></video>
 
         </section>
 
@@ -1261,7 +1261,7 @@
 
                         <div class="d-flex justify-content-center align-items-center w-100">
 
-                            <img  class="w-100" data-image-src="lead_generation_images/cat.svg" alt="">
+                            <img  class="w-100" data-image-src="lead_generation_imagesGet Started/cat.svg" alt="">
 
                         </div>
 
