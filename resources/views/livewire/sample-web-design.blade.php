@@ -65,7 +65,7 @@
             <div class="jobs_details_headline">Get your all demos here :</div>
             <div class="job_details">
             <div class="code_assessment_job_details_box1">
-                    
+
                     <div class="jobs_category btn_color1">
                         Industries
                         <!-- <div class="jobs_category_description">Software development &nbsp;&gt;</div> -->
@@ -178,7 +178,7 @@
                 // Change color to blue on click
 
                 // $('.select_mode').css('background-color', '#ffffff');
-                $('.select_mode').css('color', 'black');
+                // $('.select_mode').css('color', 'black');
                 // $(this).css('background-color', '#0862ab');
                 $(this).css('color', 'white');
                 console.log("fasdasdasda");

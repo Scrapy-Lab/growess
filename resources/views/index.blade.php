@@ -816,7 +816,7 @@
             $(".code_assessment_details_box").hover(function() {
                 // Get the id of the hovered element
                 var id = $(this).attr("id");
-                $('.code_assessment_details_box').css("background-color", "");
+               // $('.code_assessment_details_box').css("background-color", "");
                 $(".code_assessment_details_box").removeClass("code_assessment_details_box_active");
                 $(this).addClass("code_assessment_details_box_active");
 
