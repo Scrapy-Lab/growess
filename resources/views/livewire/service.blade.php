@@ -4,41 +4,40 @@
             <img src="/assets/HraTYbtROn.gif" alt="My Logo" w="10" h="10" />
             <div class="box_title">Website</div> 
             {{-- id="openOuterPopupBtn" onclick="openOuterPopup()" --}}
-            <button class="btn btn-warning rounded-pill" wire:click="sub_service(1)" data-bs-toggle="modal"
-                data-bs-target="#modal_sub_services_website" style="background: #1786f4"><div class="box_headline">get instant quote</div>Click here</button>
+            <p class="box_headline">get instant quote</p>
+            <button class="btn btn-primary rounded-pill" wire:click="sub_service(1)" data-bs-toggle="modal"
+                data-bs-target="#modal_sub_services_website" style="background: #1786f4">Create Quote</button>
         </div>
         <div class="box_1" style="background:#c8f5cdab;">
             <img src="/assets/Animation - 1722842360613.gif" alt="My Logo" w="10" h="10" />
             <div class="box_title">Lead Generation</div>
+            <p class="box_headline">get instant quote</p>
             <button wire:click="sub_service(2)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_lead"
-                class="btn btn-warning rounded-pill" style="background: #e31b09"><div class="box_headline">get instant quote</div>Click here</button>
+                class="btn btn-danger rounded-pill" style="background: #e31b09">Create Quote</button>
         </div>
         <div class="box_1" style="background:#f3c0d3ab;">
             <img src="/assets/Animation - 1722842798836.gif" alt="My Logo" w="10" h="10" />
             <div class="box_title">Digital Marketing</div>
+            <p class="box_headline">get instant quote</p>
             <button wire:click="sub_service(3)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_digital"
-                class="btn btn-warning rounded-pill" style="background: #f49317"><div class="box_headline">get instant quote</div>Click here</button>
+                class="btn btn-warning rounded-pill" style="background: #f49317">Create Quote</button>
 
         </div>
         <div class="box_1" style="background:#e7bdf8ab;">
             <img src="/assets/Animation - 1722843479086.gif" alt="My Logo" w="10" h="10" />
             <div class="box_title">E-Commerce Solution</div>
-            <!-- <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
-                class="btn btn-warning rounded-pill" style="background: #288d0c"><div class="box_headline">get instant quote</div>Click here</button> -->
-                <button wire:click="sub_service(4)"  data-bs-target="#modal_sub_services_soft"
-                class="btn btn-warning rounded-pill" style="background: #288d0c"><div class="box_headline">get instant quote</div>Click here</button>
+            <p class="box_headline">get instant quote</p>
+            <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
+                class="btn btn-success rounded-pill" style="background: #288d0c">Create Quote</button> 
         </div>
         <div class="box_1" style="background:#bdebf8ab;">
             <img src="/assets/animation.gif" alt="My Logo" w="10" h="10" />
             <div class="box_title">Software & Apps</div>
-            <!-- <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
-                class="btn btn-warning rounded-pill" style="background: #288d0c">
-                <div class="box_headline">get instant quote</div>Click here</button> -->
-            <button wire:click="sub_service(4)" data-bs-target="#modal_sub_services_soft"
-                class="btn btn-warning rounded-pill" style="background: #288d0c">
-                <div class="box_headline">get instant quote</div>Click here</button>
+            <p class="box_headline">get instant quote</p>
+            <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
+                class="btn btn-success rounded-pill" style="background: #288d0c">
+               Create Quote</button>
         </div>
-
         {{-- <x-modal :sub_services="$sub_services" :modalTitle="$modalTitle" :subModalTitle="$subModalTitle"
             :products="$products">
         </x-modal> --}}

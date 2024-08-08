@@ -181,7 +181,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
     <!-- Components for payment section -->
     <div class="gap">
         <div class="container">
@@ -192,22 +192,24 @@
                 <nav>
                     <ul class="tab_card">
                         <li>We Provide Complete:</li>
-                        <li>
-                            <div style="background: #ffe8ea;color: #ef3305;"class="open" data-tab="tab01">Digital
-                                Marketing</div>
-                        </li>
-                        <li>
-                            <div style="background: #eaffe8;color: #1e5c09;" data-tab="tab02">Web Designs</div>
-                        </li>
-                        <li>
-                            <div style="background: #fff4e5;color: #704b22;" data-tab="tab03">Lead Generation</div>
-                        </li>
-                        <li>
-                            <div style="background: #dafffe;color: #2b6f7a;" data-tab="tab04">Graphics Designs</div>
-                        </li>
-                        <li>
-                            <div style="background: #f6e7fb;color: #580f76;" data-tab="tab05">Software & Apps</div>
-                        </li>
+                        <span class="mob_view">
+                            <li>
+                                <div style="background: #ffe8ea;color: #ef3305;"class="open" data-tab="tab01">Digital
+                                    Marketing</div>
+                            </li>
+                            <li>
+                                <div style="background: #eaffe8;color: #1e5c09;" data-tab="tab02">Web Designs</div>
+                            </li>
+                            <li>
+                                <div style="background: #fff4e5;color: #704b22;" data-tab="tab03">Lead Generation</div>
+                            </li>
+                            <li>
+                                <div style="background: #dafffe;color: #2b6f7a;" data-tab="tab04">Graphics Designs</div>
+                            </li>
+                            <li>
+                                <div style="background: #f6e7fb;color: #580f76;" data-tab="tab05">Software & Apps</div>
+                            </li>
+                        </span>
                     </ul>
                 </nav>
             </div>
