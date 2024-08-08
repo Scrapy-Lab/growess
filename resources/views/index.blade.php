@@ -693,7 +693,7 @@
 
     <!-- components for pratice codeing -->
     <div class="gap "
-        style="background-image: url(/assets/backgd.png);">
+        style="background-image: url(/assets/backgd.jpg);">
         <div class="container">
             <div class="code_assessment">
                 <div class="code_assessment_box">
