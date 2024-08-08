@@ -1,37 +1,43 @@
 <div class="container">
     <div class="Button_box">
         <div class="box_1" style="background:#f7d7ae8a;">
-            <img src="/assets/200.webp" alt="My Logo" w="10" h="10" />
+            <img src="/assets/HraTYbtROn.gif" alt="My Logo" w="10" h="10" />
             <div class="box_title">Website</div>
-            <p class="box_headline">get instant quote</p>
             {{-- id="openOuterPopupBtn" onclick="openOuterPopup()" --}}
+            <p class="box_headline">get instant quote</p>
             <button class="btn btn-primary rounded-pill" wire:click="sub_service(1)" data-bs-toggle="modal"
-                data-bs-target="#modal_sub_services_website" style="background: #1786f4">Click here</button>
+                data-bs-target="#modal_sub_services_website" style="background: #1786f4">Create Quote</button>
         </div>
         <div class="box_1" style="background:#c8f5cdab;">
-            <img src="/assets/giphy (2).webp" alt="My Logo" w="10" h="10" />
+            <img src="/assets/Animation - 1722842360613.gif" alt="My Logo" w="10" h="10" />
             <div class="box_title">Lead Generation</div>
             <p class="box_headline">get instant quote</p>
             <button wire:click="sub_service(2)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_lead"
-                class="btn btn-danger rounded-pill" style="background: #e31b09">Click here</button>
-
+                class="btn btn-danger rounded-pill" style="background: #e31b09">Create Quote</button>
         </div>
         <div class="box_1" style="background:#f3c0d3ab;">
-            <img src="/assets/giphy (1).webp" alt="My Logo" w="10" h="10" />
+            <img src="/assets/Animation - 1722842798836.gif" alt="My Logo" w="10" h="10" />
             <div class="box_title">Digital Marketing</div>
             <p class="box_headline">get instant quote</p>
             <button wire:click="sub_service(3)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_digital"
-                class="btn btn-warning rounded-pill" style="background: #f49317">Click here</button>
+                class="btn btn-warning rounded-pill" style="background: #f49317">Create Quote</button>
 
         </div>
+        <div class="box_1" style="background:#e7bdf8ab;">
+            <img src="/assets/Animation - 1722843479086.gif" alt="My Logo" w="10" h="10" />
+            <div class="box_title">E-Commerce Solution</div>
+            <p class="box_headline">get instant quote</p>
+            <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
+                class="btn btn-success rounded-pill" style="background: #288d0c">Create Quote</button>
+        </div>
         <div class="box_1" style="background:#bdebf8ab;">
-            <img src="/assets/giphy.webp" alt="My Logo" w="10" h="10" />
+            <img src="/assets/animation.gif" alt="My Logo" w="10" h="10" />
             <div class="box_title">Software & Apps</div>
             <p class="box_headline">get instant quote</p>
             <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
-                class="btn btn-success rounded-pill" style="background: #288d0c">Click here</button>
+                class="btn btn-success rounded-pill" style="background: #288d0c">
+               Create Quote</button>
         </div>
-
         {{-- <x-modal :sub_services="$sub_services" :modalTitle="$modalTitle" :subModalTitle="$subModalTitle"
             :products="$products">
         </x-modal> --}}
@@ -78,17 +84,17 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" wire:ignore.self id="exampleModalToggle2_website" aria-hidden="true"
-        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-lg ">
+    <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" wire:ignore.self
+        id="exampleModalToggle2_website" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content bg-color">
                 <div class="modal-header text-capitalize">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Select your Static Website Feature
+                    <h1 class="modal-title fs-5" id="#exampleModalToggle2_website">Select your
                         {{ $modalTitle }} :-
                     </h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" style="padding: 2rem;">
                     @livewire('website')
                 </div>
                 {{-- <div class="modal-footer">
@@ -103,14 +109,14 @@
 
     <div class="modal fade" wire:ignore.self id="modal_sub_services_lead" aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Select your {{ $modalTitle }} :-</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="container pop_up_box">
+                <div class="modal-footer">
+                    <div class="container pop_up_box_card">
 
                         <div class="col-md-6 pop_up" data-bs-target="#exampleModalToggle2_lead_1"
                             data-bs-toggle="modal" style="background:#f2d0b8b8;">
@@ -228,101 +234,93 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header text-capitalize">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">lets plan your ad campaign :
+                    <h1 class="modal-title fs-5 fw-bold" id="exampleModalToggleLabel2">lets plan your ad campaign :
                         {{ $modalTitle }}
                     </h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="container">
-                        <div class="container lg">
-                            <div style="margin-bottom:40px">
+                            <div style="margin-bottom:20px">
                                 <div class="modal_title">Choose your daily budget</div>
                                 <div>
-                                    <div style="display: flex;justify-content: space-between;gap:12px">
-                                        <div wire:click="fixedAmount(200)"
-                                            style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px;padding: 20px 10px;text-align: center;">
-                                            <div
-                                                style="color: #000; font-size: 26px; font-weight: 700;text-align:center">
+                                    <div style="display: flex;justify-content: space-around;gap:20px">
+                                        <div class="recommended_budget" wire:click="fixedAmount(200)">
+                                            <div class="price-title">
                                                 Rs.200 </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs,6000 monthly max
+                                            <div class="budget-title">Rs,6000 monthly max
                                             </div>
                                         </div>
-                                        <div wire:click="fixedAmount(300)"
-                                            style="border: 4px solid #44c011; border-radius: 12px; width: 179px; height: 88px;text-align: center; ">
-                                            <div style="font-size:14px;color: #0091ff;font-weight:500;">Recommended for
+                                        <div class="recommended_budget" wire:click="fixedAmount(300)">
+                                            <div style="font-size:13px;color: #0091ff;font-weight:500;">Recommended for
                                                 you<div class="tooltip"
-                                                    style="display:contents; color: #e90d12;font-size: 14px;font-weight: 700;">
+                                                    style="display:contents; color: #e90d12;font-size: 8px;font-weight: 700;">
                                                     &nbsp;&#9432;
                                                     <span class="tooltiptext">Hello Tooltip text </span>
                                                 </div>
                                             </div>
-                                            <div style="color: #000; font-size: 26px; font-weight: 700;">
+                                            <div class="price-title">
                                                 Rs.300 </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs.9,000 monthly max
-                                            </div>
-                                        </div>
-                                        <div wire:click="fixedAmount(350)"
-                                            style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px; padding: 20px 5px;text-align: center; ">
-                                            <div style="color: #000; font-size: 26px; font-weight: 700;">
-                                                Rs.350 </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs.10,500 monthly
+                                            <div class="budget-title">Rs.9,000 monthly
                                                 max
                                             </div>
                                         </div>
-                                        <div>
-                                            <div style="font-size: 16px;font-weight: 600;">Enter your budget</div>
-                                            <div
-                                                style="border: 4px solid #10a3ec; border-radius: 12px; width: 155px; height: 63px; ">
+                                        <div class="recommended_budget" wire:click="fixedAmount(350)">
+                                            <div class="price-title">
+                                                Rs.350 </div>
+                                            <div class="budget-title">Rs.10,500 monthly
+                                                max
+                                            </div>
+                                        </div>
+                                        <div class="enter_budget">
+                                            <div class="budget-title">Enter your budget</div>
+                                            <div class="recommended_budget">
                                                 <div
-                                                    style="color: #000; font-size: 26px; font-weight: 700;padding: 6px 10px; background: none;">
+                                                    style="color: #000; font-size: 17px; font-weight: 600;padding: 6px 10px; background: none;">
                                                     Rs. <span><input type="text" wire:change="customAmount"
                                                             placeholder="" wire:model="amount"
-                                                            style="border: none;width: 63%;font-size: 26px;font-weight: 700;border: none;outline: none;" />
+                                                            style="border: none;width: 63%;font-size: 17px;font-weight: 600;border: none;outline: none;height:16px" />
                                                     </span></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div style="margin-bottom:40px">
+                            <div style="margin-bottom:20px">
                                 <div class="modal_title">Select your Day</div>
                                 <div>
-                                    <div style="display: flex;justify-content: space-between;gap:12px">
-                                        <div wire:click="fixedDays(10)"
-                                            style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px;padding: 20px 10px;text-align: center;">
-                                            <div
-                                                style="color: #000; font-size: 26px; font-weight: 700;text-align:center">
+                                    <div style="display: flex;justify-content: space-around;gap:12px">
+                                        <div class="recommended_budget" wire:click="fixedDays(10)">
+                                            <div class="price-title">
                                                 10 Days </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs,6000 monthly max
+                                            <div class="budget-title">Rs,6000 monthly max
                                             </div>
                                         </div>
-                                        <div wire:click="fixedDays(30)"
-                                            style="border: 4px solid #44c011; border-radius: 12px; width: 180px; height: 88px;text-align: center; ">
-                                            <div style="font-size:14px;color: #0091ff;font-weight:500;">Recommended for
+                                        <div class="recommended_budget" wire:click="fixedDays(30)">
+                                            <div style="font-size:13px;color: #0091ff;font-weight:500;">Recommended for
                                                 you<div class="tooltip"
-                                                    style="display:contents; color: #e90d12;font-size: 12px;font-weight:700">
+                                                    style="display:contents; color: #e90d12;font-size: 8px;font-weight:700">
                                                     &nbsp;&#9432;
                                                     <span class="tooltiptext">Hello Tooltip text </span>
                                                 </div>
                                             </div>
-                                            <div style="color: #000; font-size: 26px; font-weight: 700;">
+                                            <div class="price-title">
                                                 30 Days </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs.9,000 monthly max
-                                            </div>
-                                        </div>
-                                        <div wire:click="fixedDays(15)"
-                                            style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 88px;    padding: 20px 5px;text-align: center; ">
-                                            <div style="color: #000; font-size: 26px; font-weight: 700;">
-                                                15 Days </div>
-                                            <div style="font-size:14px;color:#000;font-weight:500;">Rs.10,500 monthly
+                                            <div class="budget-title">Rs.9,000 monthly
                                                 max
                                             </div>
                                         </div>
-                                        <div>
-                                            <div style="font-size: 14px;font-weight: 600;">Choose your custom date</div>
-                                            <div
-                                                style="border: 4px solid #10a3ec; border-radius: 12px; width: 170px; height: 63px; ">
+                                        <div class="recommended_budget" wire:click="fixedDays(15)">
+                                            <div class="price-title">
+                                                15 Days </div>
+                                            <div class="budget-title">Rs.10,500 monthly
+                                                max
+                                            </div>
+                                        </div>
+                                        <div class="enter_date">
+                                            <div class="budget-title">Choose your custom date
+                                            </div>
+                                            <div class="recommended_budget">
                                                 <div class="input-container" id="date-picker-container">
                                                     <input type="date" id="date-checkin" class="date-field"
                                                         wire:change="customDate" wire:model="custom_date"
@@ -333,75 +331,118 @@
                                     </div>
                                 </div>
                             </div>
-                            <div style="display: flex;justify-content: space-between;gap:12px;margin-bottom:40px">
-                                <div>
-                                    <div class="modal_title">Total Selected Days</div>
-                                    <div
-                                        style="border: 4px solid #10a3ec; border-radius: 12px; width: 320px; height: 105px;padding: 12px 10px;text-align: center;">
-                                        <div style="color: #000; font-size: 42px; font-weight: 700;text-align:center">
-                                            {{$day}} Days
+                            <div style="display: flex;justify-content: space-around;gap:12px;margin-bottom:20px">
+                                <div class="total_Date">
+                                    <div class="modal_title ">Total Selected Days</div>
+                                    <div class="recommended_selected">
+                                        <div style="color: #000; font-size: 25px; font-weight: 700;text-align:center">
+                                            {{ $day }} Days
+                                        </div>
+                                    </div>
+                                    <div style="margin:20px 0">
+                                    <div class="service_charge">
+                                        Our Service Charge (Rs.135p/day)</div>
+                                    <div class="price_list" >
+                                        <div style="font-size: 30px;font-weight:800;">Price Details </div>
+                                        <div style="border:0.2px solid #c4c4c4;"></div>
+                                        <div>
+                                            <div style="font-size: 20px;">
+                                                <span>Price -&nbsp;&nbsp;<span class="fa fa-shopping-bag"
+                                                    style="color:green"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+                                                    <input type="text" placeholder=""
+                                                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
+                                                </span>
+                                            </div>
+                                            <div style=" font-size: 16px">
+                                                <span>Discount&nbsp;(5%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+                                                    <input type="text" placeholder=""
+                                                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
+                                                </span>
+                                            </div>
+                                            <div style="font-size: 22px;font-weight:500">
+                                                <span>Total Amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+                                                    <input type="text" placeholder=""
+                                                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
+                                                </span>
+                                            </div>
+                                            <div style="border:2px solid #000;"></div>
+                                                <div>
+                                                    <div style="font-size: 16px;">
+                                                        <span>with
+                                                            GST(18%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+                                                            <input type="text" placeholder=""
+                                                                style="border: none;font-size: 16px;border: none;outline: none;background:none;width:40%" />
+                                                        </span>
+                                                    </div>
+                                                    <div style="font-size: 24px;font-weight:500">
+                                                        <span>Final Billing Amt.:&nbsp;&#8377;
+                                                             <input type="text" placeholder=""
+                                                                style="border: none;font-weight:700;font-size: 28px;border: none;outline: none;background:none;width:50%" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div class="modal_title">Total Amount</div>
-                                    <div
-                                        style="border: 4px solid #10a3ec; border-radius: 12px; width: 370px; height: 105px;padding: 8px 10px;">
-                                        <div style="color: #000; font-size: 22px; font-weight: 700;">
-                                            <span>Total Amount.&nbsp;:-&nbsp;
+                                <div class="total_amount">
+                                    <div class="modal_title ">Total Amount</div>
+                                    <div class="recommended_selected">
+                                        <div class="price-title">
+                                            <span>Total Amount.&nbsp;:&nbsp;
                                                 {{-- <input type="text" placeholder=""
-                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
+                                                    style="border: none;width: 48%;font-size: 21px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
 
-                                                {{$amount}}
+                                                {{ $amount }}
                                             </span>
                                         </div>
-                                        <div style="color: #000; font-size: 18px; font-weight: 700;">
+                                        <div style="color: #000; font-size: 16px; font-weight: 700;">
                                             <span>Sub
-                                                Total.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;
+                                                Total. ₹{{ $amount }} x {{ $day }} :
                                                 {{-- <input type="text" placeholder=""
-                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
+                                                    style="border: none;width: 48%;font-size: 16px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
 
-                                                ₹{{$amount}} x {{$day}}D : {{$amount * $day}}
+                                                 {{ $amount * $day }}
                                             </span>
                                         </div>
                                         <div style="font-size:16px;color:#000;font-weight:700;">Service
-                                            Charge&nbsp;&nbsp;&nbsp;:-&nbsp;<span>
+                                            Charge&nbsp;&nbsp;&nbsp;:&nbsp;<span>
                                                 {{-- <input type="text" placeholder=""
-                                                    style="border: none;width: 48%;font-size: 22px;font-weight: 700;border: none;outline: none;" />
+                                                    style="border: none;width: 48%;font-size: 16px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
                                                 @if ($day)
-                                                    ₹{{$service_charge * $day}}
-
+                                                    ₹{{ $service_charge * $day }}
                                                 @else
-
-                                                    ₹{{$service_charge}}
+                                                    ₹{{ $service_charge }}
                                                 @endif
                                             </span>
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div style="margin-bottom:40px">
-                                <div
-                                    style="background: #10a3ec;color: #fff;padding: 15px;border-radius: 40px;width: 58%;font-size: 23px;font-weight: 700;">
-                                    Our Service Charge (Rs.135p/day)</div>
-                            </div>
-                            <div style="width:100%;border:4px solid #000;"></div>
-                            <div style="margin-bottom:40px">
-                                <div style="color: #000;font-size: 40px;font-weight: 700;text-align:center">Grand
-                                    Total<span style="font-size:16px">&nbsp;(Incl.Service charge)&nbsp;</span>:-
-                                    <span>₹ {{$grand_total + ($service_charge * $day)}}<input type="text" placeholder=""
-                                            style="border: none;width: 30%;font-size: 42px;font-weight: 700;border: none;outline: none;" />
-
-                                    </span>
-                                </div>
-                            </div>
                         </div>
-                    </div>
-                </div>
+                        </div>
+                            <div class="quatation">
+                                <div class="quatation_button">Download Quatation
+                                    <button class="btn btn-primary mt-2 btn-lg">Download Now</button></div>
+                                <div class="pay_now_button">Pay <span style="color:#0d6efd;">Rs.1000 </span>Token money for start the work
+                                    <br><button class="btn btn-success mt-2 btn-lg">Pay Now</button></div>
+                                </div>
+                            <!-- <div style="width:100%;border:4px solid #000;"></div>
+                            <div style="margin-bottom:20px;display:flex;justify-content:space-between;align-item:center">
+                                <div style="color: #000;font-size: 30px;font-weight: 600;text-align:center;">Grand
+                                    Total
+                                    <div style="font-size:16px">&nbsp;(Incl.Service charge)&nbsp;</div>
+                                </div>
+                                <div style="color: #000;font-size: 28px;font-weight: 600;text-align:left;">:-&nbsp;&nbsp;₹ {{ $grand_total + $service_charge * $day }}<input type="text"
+                                        placeholder=""
+                                        style="border: none;border: none;outline: none;" />
+                                </div>
+                            </div> -->
+
+
                 {{-- <div class="modal-footer">
                     <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back
                         to
@@ -426,41 +467,65 @@
                 <div class="modal-body">
                     <div class="container">
                         <div class="container pop_up_box">
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal" style=" background:#f2d0b8b8;">
-                                <img src="/assets/gmb.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;text-align:center">GMB
-                                    <br>Optimization
-                                </h5>
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal"  --}}
+                            <div class="col-md-6 model_pop-up" style=" background:#f2d0b8b8;">
+                                <a href="{{ route('gmb-optimization') }}" target="_blank">
+                                    <img src="/assets/gmb.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;text-align:center">GMB
+                                        <br>Optimization
+                                    </h5>
+                                </a>
                             </div>
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal" style=" background: #b8f2c582;">
-                                <img src="/assets/seo.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;">Search Engine
-                                    <br>Optimization
-                                </h5>
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal" --}}
+                            <div class="col-md-6 model_pop-up" style=" background: #b8f2c582;">
+                                <!-- <a href="{{ route('seo') }}" target="_blank"> -->
+                                    <div>
+                                    <img src="/assets/seo.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;">Search Engine
+                                        <br>Optimization
+                                    </h5>
+                                </div>
                             </div>
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal" style="background: #f5a9ad82;">
-                                <img src="/assets/social_media.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;">Social Media <br>Management
-                                </h5>
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal" --}}
+                            <div class="col-md-6 model_pop-up" style="background: #f5a9ad82;">
+                                <!-- <a href="{{ route('smm') }}" target="_blank"> -->
+                                <div>
+                                    <img src="/assets/social-media-icons.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;">Social Media
+                                        <br>Management
+                                    </h5>
+                                </div>
                             </div>
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal" style=" background: #a7e4eb82;">
-                                <img src="/assets/content.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;">Content Writing</h5>
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal" --}}
+                            <div class="col-md-6 model_pop-up" style=" background: #a7e4eb82;">
+                                <!-- <a href="{{ route('content-writting') }}" target="_blank"> -->
+                                <div>
+                                    <img src="/assets/content.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;">Content Writing</h5>
+                                </div>
                             </div>
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal" style=" background: #eba7e482;">
-                                <img src="/assets/email_marketing.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;">Email Marketing</h5>
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal" --}}
+                            <div class="col-md-6 model_pop-up" style=" background: #eba7e482;">
+                                <!-- <a href="{{ route('email-marketing') }}" target="_blank"> -->
+                                <div>
+                                    <img src="/assets/email_marketing.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;">Email Marketing</h5>
+                                </div>
                             </div>
-                            <div class="col-md-6 model_pop-up" data-bs-target="#exampleModalToggle3_services_digital"
-                                data-bs-toggle="modal"
+                            {{-- data-bs-target="#exampleModalToggle3_services_digital"
+                                data-bs-toggle="modal" --}}
+                            <div class="col-md-6 model_pop-up"
                                 style="background: radial-gradient(#f2d0b8b8,#b8f2c582,#f5a9ad82,#eba7e482);">
-                                <img src="/assets/display.png" alt="My Logo" w="10" h="10" />
-                                <h5 style="margin-top: 10px;text-transform: capitalize;">Graphics Design</h5>
+                                <!-- <a href="{{ route('graphic-design') }}" target="_blank"> -->
+                                <div>
+                                    <img src="/assets/display.png" alt="My Logo" w="10" h="10" />
+                                    <h5 style="margin-top: 10px;text-transform: capitalize;">Graphics Design</h5>
+                                </div>
                             </div>
                         </div>
                     </div>

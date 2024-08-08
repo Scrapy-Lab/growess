@@ -7,7 +7,7 @@
     <!-- Toggle button -->
     <div class="gap" style="background: linear-gradient(to right, #f9f8ef, #faf4ff); !important">
         <div class="container">
-            <div class="page_title">Get <span style="color:red">100% </span>Qualified Lead through<br>our <span
+            <div class="page_title" style="text-align:center">Get <span style="color:red">100% </span>Qualified Lead through<br>our <span
                     style="color:green">certified partners </span></div>
             <div class="switches-container">
                 <input type="radio" id="switchMonthly" name="switchPlan" value="Google Ad Preview" checked="checked"
@@ -29,20 +29,24 @@
                     <div class="list_card ">
                         <div class="menu_bar">
                             <div class="menuAds tablinks active" onclick="tab(event, 'tab1')">
-                                <span class="fa fa-search" style="font-size:20px">&nbsp;Search</span>
+                                <span class="fa fa-search" style="font-size:20px;">&nbsp;Search</span>
                             </div>
                             <div class="menuAds tablinks" onclick="tab(event, 'tab2')">
-                                <span class=" fa fa-desktop" style="font-size:20px">&nbsp; Display</span>
+                                <span class=" fa fa-phone" style="font-size:20px;">&nbsp; Call</span>
 
                             </div>
                             <div class="menuAds tablinks" onclick="tab(event, 'tab3')">
-                                <span class="fa fa-shopping-cart" style="font-size:20px">&nbsp;Shopping</span>
+                                <span class=" fa fa-desktop" style="font-size:20px">&nbsp; Display</span>
 
                             </div>
                             <div class="menuAds tablinks" onclick="tab(event, 'tab4')">
-                                <span class="fa fa-play-circle-o" style="font-size:20px">&nbsp; Video</span>
+                                <span class="fa fa-shopping-cart" style="font-size:20px">&nbsp;Shopping</span>
+
                             </div>
                             <div class="menuAds tablinks" onclick="tab(event, 'tab5')">
+                                <span class="fa fa-play-circle-o" style="font-size:20px">&nbsp; Video</span>
+                            </div>
+                            <div class="menuAds tablinks" onclick="tab(event, 'tab6')">
                                 <span class="fa fa-qrcode" style="font-size:20px">&nbsp; App</span>
                             </div>
                         </div>
@@ -53,20 +57,25 @@
                         </div>
                         <div class="tab-name" id="tab2" style="display:none">
                             <section class="grid">
-                                <img src="/assets/display.webp" w="10" h="10" alt="" />
+                                <img src="/assets/call-removebg-preview.png" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab-name" id="tab3" style="display:none">
                             <section class="grid">
-                                <img src="/assets/shopping_1.webp" w="10" h="10" alt="" />
+                            <img src="/assets/display.webp" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab-name" id="tab4" style="display:none">
                             <section class="grid">
-                                <img src="/assets/youtube.webp" w="10" h="10" alt="" />
+                            <img src="/assets/shopping.png" w="10" h="10" alt="" />
                             </section>
                         </div>
                         <div class="tab-name" id="tab5" style="display:none">
+                            <section class="grid">
+                            <img src="/assets/youtube.webp" w="10" h="10" alt="" />
+                            </section>
+                        </div>
+                        <div class="tab-name" id="tab6" style="display:none">
                             <section class="grid">
                                 <img src="/assets/apps.webp" w="10" h="10" alt="" />
                             </section>
@@ -95,46 +104,61 @@
                     <div class="list_card ">
                         <div class="menu_bar">
                             <div class="menuAds tab-links active" onclick="tabb(event, 'tab01')">
-                                <span class="fa fa-search" style="font-size:20px">&nbsp;Website</span>
+                                <span class="" style="font-size:20px">&nbsp;Image</span>
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab02')">
-                                <span class=" fa fa-desktop" style="font-size:20px">&nbsp; Display</span>
+                                <span class=" " style="font-size:20px">&nbsp; Video</span>
 
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab03')">
-                                <span class="fa fa-shopping-cart" style="font-size:20px">&nbsp;Lead</span>
+                                <span class="" style="font-size:20px">&nbsp;Carousel</span>
 
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab04')">
-                                <span class="fa fa-play-circle-o" style="font-size:20px">&nbsp; Video</span>
+                                <span class="" style="font-size:20px">&nbsp; Collection</span>
                             </div>
                             <div class="menuAds tab-links" onclick="tabb(event, 'tab05')">
-                                <span class="fa fa-qrcode" style="font-size:20px">&nbsp; App</span>
+                                <span class="" style="font-size:19px">&nbsp; Whatsapp</span>
                             </div>
                         </div>
                         <div class="tab_name" id="tab01">
-                            <section class="grid">
-                                <img src="/assets/google.webp" w="10" h="10" alt="" />
+                            <section class="gridcard">
+                                <img src="{{asset('assets/images/iphone.png')}}" w="10" h="10" alt="" />
+                                <section class="grid1">
+                                <!-- <img src="/assets/google.webp" w="10" h="10" alt="" /> -->
+                            </section>
                             </section>
                         </div>
                         <div class="tab_name" id="tab02" style="display:none">
-                            <section class="grid">
-                                <img src="/assets/display.webp" w="10" h="10" alt="" />
+                        <section class="gridcard">
+                        <img src="{{asset('assets/images/iphone.png')}}" w="10" h="10" alt="" />
+                            <section class="grid1">
+                                <img src="/assets/image.webp" w="320" h="520" alt="" />
+                            </section>
                             </section>
                         </div>
                         <div class="tab_name" id="tab03" style="display:none">
-                            <section class="grid">
-                                <img src="/assets/shopping_1.webp" w="10" h="10" alt="" />
+                        <section class="gridcard">
+                        <img src="{{asset('assets/images/iphone.png')}}" w="10" h="10" alt="" />
+                            <section class="grid1">
+                                <!-- <img src="/assets/video.png" w="10" h="10" alt="" /> -->
+                            </section>
                             </section>
                         </div>
                         <div class="tab_name" id="tab04" style="display:none">
-                            <section class="grid">
-                                <img src="/assets/youtube.webp" w="10" h="10" alt="" />
+                        <section class="gridcard">
+                        <img src="{{asset('assets/images/iphone.png')}}" w="10" h="10" alt="" />
+                            <section class="grid1">
+                                <img src="/assets/Carousel.webp" w="10" h="10" alt="" />
+                            </section>
                             </section>
                         </div>
                         <div class="tab_name" id="tab05" style="display:none">
-                            <section class="grid">
-                                <img src="/assets/apps.webp" w="10" h="10" alt="" />
+                        <section class="gridcard">
+                        <img src="{{asset('assets/images/iphone.png')}}" w="10" h="10" alt="" />
+                            <section class="grid1">
+                                <img src="/assets/collection.webp" w="10" h="10" alt="" />
+                            </section>
                             </section>
                         </div>
                         <div class="text-title">
@@ -157,7 +181,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
     <!-- Components for payment section -->
     <div class="gap">
         <div class="container">
@@ -168,22 +192,24 @@
                 <nav>
                     <ul class="tab_card">
                         <li>We Provide Complete:</li>
-                        <li>
-                            <div style="background: #fbd9dc;color: #d44927;"class="open" data-tab="tab01">Digital
-                                Marketing</div>
-                        </li>
-                        <li>
-                            <div style="background: #c8edc5;color: #42ab1e;" data-tab="tab02">Web Designs</div>
-                        </li>
-                        <li>
-                            <div style="background: #f6ce9b;color: #e99d47;" data-tab="tab03">Lead Generation</div>
-                        </li>
-                        <li>
-                            <div style="background: #b6f9f7;color: #0db8d6;" data-tab="tab04">Graphics Designs</div>
-                        </li>
-                        <li>
-                            <div style="background: #dfb0ed;color: #b12de9;" data-tab="tab05">Software & Apps</div>
-                        </li>
+                        <span class="mob_view">
+                            <li>
+                                <div style="background: #ffe8ea;color: #ef3305;"class="open" data-tab="tab01">Digital
+                                    Marketing</div>
+                            </li>
+                            <li>
+                                <div style="background: #eaffe8;color: #1e5c09;" data-tab="tab02">Web Designs</div>
+                            </li>
+                            <li>
+                                <div style="background: #fff4e5;color: #704b22;" data-tab="tab03">Lead Generation</div>
+                            </li>
+                            <li>
+                                <div style="background: #dafffe;color: #2b6f7a;" data-tab="tab04">Graphics Designs</div>
+                            </li>
+                            <li>
+                                <div style="background: #f6e7fb;color: #580f76;" data-tab="tab05">Software & Apps</div>
+                            </li>
+                        </span>
                     </ul>
                 </nav>
             </div>
@@ -205,7 +231,9 @@
                         <div id="tab01" class="show box_tab">
                             <div class="card_box_multiple">
                                 <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                    <video width="284" height="300" controls autoplay loop muted>
+                                        <source src="/assets/seo.mp4" type="video/mp4"></video>
+                                    <!-- <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" /> -->
                                     <div class="card_payment-title">payment gateway</div>
                                     <p class="card_payment-headline">Offer a seamless payment experience on your website or
                                         app</p>
@@ -215,7 +243,9 @@
                                     </div>
                                 </div>
                                 <div class="card_box1">
-                                    <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" />
+                                <video width="284" height="300" controls autoplay loop muted>
+                                     <source src="/assets/smm.mp4" type="video/mp4"></video>
+                                    <!-- <img src="/assets/payment-link-product-img-2x.png" alt="My Logo" w="10" h="10" /> -->
                                     <div class="card_payment-title">payment gateway</div>
                                     <p class="card_payment-headline">Offer a seamless payment experience on your website or
                                         app</p>
@@ -665,7 +695,7 @@
 
     <!-- components for pratice codeing -->
     <div class="gap "
-        style="background: linear-gradient(86deg, #fff0fa 1.71%, #FFFCEF 99.56%); !important; padding:60px">
+        style="background-image: url(/assets/backgd.jpg);">
         <div class="container">
             <div class="code_assessment">
                 <div class="code_assessment_box">
@@ -721,9 +751,9 @@
                     <p class="level_up_headlne">Unlock your digital potential today and soar above the competition! Let's
                         revolutionize your brand together.</p>
                     <ul class="level_up_category">
-                        <ol>&#11088; 50+ Cities</ol>
-                        <ol>&#11088; 5+ Countries</ol>
-                        <ol>&#11088; 3200+ Clients</ol>
+                        <ol><span style="color:rgb(22, 103, 208);">&#9733;</span> 50+ Cities</ol>
+                        <ol><span style="color:rgb(22, 103, 208);">&#9733;</span> 5+ Countries</ol>
+                        <ol><span style="color:rgb(22, 103, 208);">&#9733;</span> 3200+ Clients</ol>
                     </ul>
                     <a href="#" class="explore_courses">Start Digital Journey ↗</a>
                 </div>
@@ -776,6 +806,7 @@
             </div>
         </div>
     </div>
+</div>
     <script>
         $(document).ready(function() {
 
@@ -787,7 +818,7 @@
             $(".code_assessment_details_box").hover(function() {
                 // Get the id of the hovered element
                 var id = $(this).attr("id");
-                $('.code_assessment_details_box').css("background-color", "");
+               // $('.code_assessment_details_box').css("background-color", "");
                 $(".code_assessment_details_box").removeClass("code_assessment_details_box_active");
                 $(this).addClass("code_assessment_details_box_active");
 

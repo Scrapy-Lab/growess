@@ -1,0 +1,197 @@
+#services{
+    background-color: hsl(208, 100%, 99%);
+}
+#services .service-items{
+    background-color: hsl(0, 0%, 99%);
+    outline: 1px solid var(--clr);
+    outline-offset: 0.5rem;
+    border-radius: 2rem;
+    transition: 0.5s;
+    box-shadow: 2px 2px 3px hsl(0, 0%, 70% , 30%);
+    cursor: pointer;
+    min-width: 150px;
+    height: 100%;
+}
+#services .service-content{
+   min-height: 150px;
+}
+#services .service-title{
+   color: var(--clr);
+}
+#services .service-para{
+    font-size: 12px;
+    border-left: 1px solid var(--clr);
+}
+#services .service-items.active{
+    background-color:  var(--clr);
+}
+#services .service-img-items{
+    width: 100%;
+   max-width: 100%;
+   aspect-ratio: 1/1;
+   /* background-image:
+   url(https://biz15.com/images/digital-marketing/services/social-media.svg),
+   url(https://biz15.com/images/digital-marketing/services/video-ad.svg),
+   url(https://biz15.com/images/digital-marketing/services/seo.svg),
+   url(https://biz15.com/images/digital-marketing/services/sem.svg),
+   url(https://biz15.com/images/digital-marketing/services/shop-ad.svg),
+   url(https://biz15.com/images/digital-marketing/services/bus-list.svg)
+   ; */
+   background-size: 100% auto , 100% auto , 90% auto , 100% auto ,100% auto , 100% auto;
+   background-repeat: no-repeat;
+   transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1);
+
+}
+#services.smm .service-img-items{
+   width: 90%;
+   aspect-ratio: 1;
+   background-image:
+   url(https://biz15.com/images/digital-marketing/smm/img-ad.svg),
+   url(https://biz15.com/images/digital-marketing/smm/vid-ad.svg),
+   url(https://biz15.com/images/digital-marketing/smm/carosoul-ad.svg),
+   url(https://biz15.com/images/digital-marketing/smm/stories-ad.svg),
+   url(https://biz15.com/images/digital-marketing/smm/msg-ad.svg),
+   url(https://biz15.com/images/digital-marketing/smm/linkedin-ad.svg)
+   ;
+   background-size:90% auto , 100% auto , 100% auto , 100% auto ,100% auto , 100% auto;
+   background-repeat: no-repeat;
+}
+#services.seo .service-img-items{
+   width: 90%;
+   aspect-ratio: 1;
+   background-image:
+   url(../../images/digital-marketing/seo/on-page.svg),
+   url(../../images/digital-marketing/seo/off-page.svg),
+   url(../../images/digital-marketing/seo/tech-seo.svg),
+   url(../../images/digital-marketing/seo/local-seo.svg),
+   url(../../images/digital-marketing/seo/content-seo.svg)
+   ;
+   background-size:100% auto;
+   background-repeat: no-repeat;
+}
+#services.vid-ad .service-img-items{
+   width: 90%;
+   aspect-ratio: 1;
+   background-image:
+   url(/digital_marketing/assets/images/vid-ad/skip-ad.svg),
+   url(/digital_marketing/assets/images/vid-ad/no-skip-ad.svg),
+   url(/digital_marketing/assets/images/vid-ad/feed-ad.svg),
+   url(/digital_marketing/assets/images/vid-ad/bumper-ad.svg)
+   ;
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+}
+#services.shop-ad .service-img-items{
+   width: 90%;
+   aspect-ratio: 1;
+   background-image:
+   url(../../images/digital-marketing/shop-ad/search-ad.svg),
+   url(../../images/digital-marketing/shop-ad/map-ad.svg),
+   url(../../images/digital-marketing/shop-ad/call-ad.svg),
+   url(../../images/digital-marketing/shop-ad/img-ad.svg)
+   ;
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+}
+#services.biz-list .service-img-items{
+   width: 90%;
+   aspect-ratio: 1;
+   background-image:
+   url(../../images/digital-marketing/biz-list/biz-list.svg),
+   url(../../images/digital-marketing/biz-list/biz15-listing-portal.svg)
+   ;
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+}
+#services.sem .service-img-items{
+   width: 90%;
+   aspect-ratio: 1;
+   background-image:
+   url(../../images/digital-marketing/sem/ppc.svg),
+   url(../../images/digital-marketing/sem/target.svg),
+   url(../../images/digital-marketing/sem/geo-target.svg),
+   url(../../images/digital-marketing/sem/mob-search-ad.svg),
+   url(../../images/digital-marketing/sem/product-listing-ad.svg)
+   ;
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+}
+#services.display-ads .service-img-items{
+   width: 90%;
+   aspect-ratio: 1;
+   background-image:
+   url(../../images/digital-marketing/display-ads/banner-ads.svg),
+   url(../../images/digital-marketing/display-ads/native-ads.svg),
+   url(../../images/digital-marketing/display-ads/ani-ads.svg),
+   url(../../images/digital-marketing/display-ads/interactive-ads.svg),
+   url(../../images/digital-marketing/display-ads/pop-ads.svg)
+   ;
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+}
+#services.local-seo .service-img-items{
+   width: 90%;
+   aspect-ratio: 1;
+   background-image:
+   url(../../images/digital-marketing/local-seo/map-ad.svg),
+   url(../../images/digital-marketing/local-seo/service-ads.svg),
+   url(../../images/digital-marketing/local-seo/display-ads.svg)
+   ;
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+}
+#services.biz-email .service-img-items{
+    width: 90%;
+    aspect-ratio: 1;
+    background-image:
+    url(../../images/webs/business-email/biz-mail/res-email.svg),
+    url(../../images/webs/business-email/biz-mail/virus-protecion.svg),
+    url(../../images/webs/business-email/biz-mail/cloud-5gb.svg),
+    url(../../images/webs/business-email/biz-mail/secrity.svg),
+    url(../../images/webs/business-email/biz-mail/cal-contacts.svg)
+    ;
+    background-size:100% auto , 90% auto , 100% auto , 100% auto ,100% auto ;
+    background-repeat: no-repeat;
+ }
+#services .service-img-items[data-pos="1"]{
+    background-position: left 50% bottom , left 1000px bottom , left 1000px bottom , left 1000px bottom , left 1000px bottom ,left 1000px bottom;
+}
+#services .service-img-items[data-pos="2"]{
+    background-position: left -1000px bottom , left 50% bottom , left 1000px bottom , left 1000px bottom ,left 1000px bottom ,left 1000px bottom;
+}
+#services .service-img-items[data-pos="3"]{
+    background-position: left -1000px bottom , left -1000px bottom , left 50% bottom , left 1000px bottom , left 1000px bottom , left 1000px bottom;
+}
+#services .service-img-items[data-pos="4"]{
+    background-position: left -1000px bottom , left -1000px bottom ,left -1000px bottom, left 50% bottom , left 1000px bottom , left 1000px bottom;
+}
+#services .service-img-items[data-pos="5"]{
+    background-position: left -1000px bottom , left -1000px bottom ,left -1000px bottom, left -1000px bottom , left 50% bottom , left 1000px bottom;
+}
+#services .service-img-items[data-pos="6"]{
+    background-position: left -1000px bottom , left -1000px bottom ,left -1000px bottom, left -1000px bottom ,left -1000px bottom, left 50% bottom;
+}
+#services .service-items:hover , #services .service-items.active{
+    background-color: var(--clr) !important;
+    color: white;
+}
+#services .service-items svg{
+    color: var(--clr);
+    transition: .5s;
+    font-size: 2.5rem;
+}
+#services.vid-ad .service-items svg{
+    color: var(--clr);
+    transition: .5s;
+    font-size: 2.5rem;
+}
+#services .service-items:hover svg , #services .service-items.active svg{
+    color: white;
+}
+@media (width < 900px) {
+    #services .service-items{
+        min-width: auto;
+        height: auto;
+        aspect-ratio: 1;
+    }
+}

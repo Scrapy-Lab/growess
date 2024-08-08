@@ -1,0 +1,84 @@
+#faq-section{
+    counter-reset: faq;
+}
+#faq-section .faq-items{
+    outline: 1px solid var(--clr);
+    outline-offset: 0.5rem;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px hsl(0, 0%, 70% , 30%);
+    margin-bottom: 2.2rem;
+    position: relative;
+}
+#faq-section .faq-items{
+
+}
+#faq-section .faq-items .faq-ques{
+    position: relative;
+    cursor: pointer;
+}
+#faq-section .faq-items .faq-ques h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    counter-increment: faq;
+    text-wrap: wrap;
+    position: relative;
+    margin-right: 3rem;
+    transition: .5s;
+    color: var(--clr);
+    min-height: 3.3rem;
+    display: flex;
+    align-items: center;
+}
+#faq-section .faq-items .faq-ques h4::after{
+   content: "";
+   position: absolute;
+   bottom: -10px;
+   left: 0;
+   width: 0%;
+   height: 2px;
+   border-radius: 100vw;
+   background-color: var(--clr);
+   transition: .5s;
+}
+#faq-section .faq-items.active .faq-ques h4::after{
+    width: 100%; 
+}
+#faq-section .faq-items .faq-ques .faq-tog{
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--clr);
+    mask-image:
+    radial-gradient(transparent 1.1rem, black 1.1rem),
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE0LjYgOC4wNzVxMC0xLjA3NS0uNzEyLTEuNzI1VDEyIDUuN3EtLjcyNSAwLTEuMzEyLjMxM3QtMS4wMTMuOTEycS0uNC41NzUtMS4wODguNjYzVDcuNCA3LjIyNXEtLjM1LS4zMjUtLjM4Ny0uOHQuMjM3LS45cS44LTEuMiAyLjAzOC0xLjg2MlQxMiAzcTIuNDI1IDAgMy45MzggMS4zNzV0MS41MTIgMy42cTAgMS4xMjUtLjQ3NSAyLjAyNXQtMS43NSAyLjEyNXEtLjkyNS44NzUtMS4yNSAxLjM2M1QxMy41NSAxNC42cS0uMS42LS41MTMgMXQtLjk4Ny40cS0uNTc1IDAtLjk4Ny0uMzg3dC0uNDEzLS45NjNxMC0uOTc1LjQyNS0xLjc4N1QxMi41IDExLjE1cTEuMjc1LTEuMTI1IDEuNjg4LTEuNzM3dC40MTItMS4zMzhNMTIgMjJxLS44MjUgMC0xLjQxMi0uNTg3VDEwIDIwcTAtLjgyNS41ODgtMS40MTJUMTIgMThxLjgyNSAwIDEuNDEzLjU4OFQxNCAyMHEwIC44MjUtLjU4NyAxLjQxM1QxMiAyMiIvPjwvc3ZnPg==),
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTEyIDEzLjRsLTQuOSA0LjlxLS4yNzUuMjc1LS43LjI3NXQtLjctLjI3NXEtLjI3NS0uMjc1LS4yNzUtLjd0LjI3NS0uN2w0LjktNC45bC00LjktNC45cS0uMjc1LS4yNzUtLjI3NS0uN3QuMjc1LS43cS4yNzUtLjI3NS43LS4yNzV0LjcuMjc1bDQuOSA0LjlsNC45LTQuOXEuMjc1LS4yNzUuNy0uMjc1dC43LjI3NXEuMjc1LjI3NS4yNzUuN3QtLjI3NS43TDEzLjQgMTJsNC45IDQuOXEuMjc1LjI3NS4yNzUuN3QtLjI3NS43cS0uMjc1LjI3NS0uNy4yNzV0LS43LS4yNzV6Ii8+PC9zdmc+);
+    /* -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE0LjYgOC4wNzVxMC0xLjA3NS0uNzEyLTEuNzI1VDEyIDUuN3EtLjcyNSAwLTEuMzEyLjMxM3QtMS4wMTMuOTEycS0uNC41NzUtMS4wODguNjYzVDcuNCA3LjIyNXEtLjM1LS4zMjUtLjM4Ny0uOHQuMjM3LS45cS44LTEuMiAyLjAzOC0xLjg2MlQxMiAzcTIuNDI1IDAgMy45MzggMS4zNzV0MS41MTIgMy42cTAgMS4xMjUtLjQ3NSAyLjAyNXQtMS43NSAyLjEyNXEtLjkyNS44NzUtMS4yNSAxLjM2M1QxMy41NSAxNC42cS0uMS42LS41MTMgMXQtLjk4Ny40cS0uNTc1IDAtLjk4Ny0uMzg3dC0uNDEzLS45NjNxMC0uOTc1LjQyNS0xLjc4N1QxMi41IDExLjE1cTEuMjc1LTEuMTI1IDEuNjg4LTEuNzM3dC40MTItMS4zMzhNMTIgMjJxLS44MjUgMC0xLjQxMi0uNTg3VDEwIDIwcTAtLjgyNS41ODgtMS40MTJUMTIgMThxLjgyNSAwIDEuNDEzLjU4OFQxNCAyMHEwIC44MjUtLjU4NyAxLjQxM1QxMiAyMiIvPjwvc3ZnPg==); */
+    mask-size: 100% , 60% , 80%;
+    mask-position: center ,center 50% ,center 3rem;
+    mask-repeat: no-repeat;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 100vw;
+    transition: .3s;
+}
+#faq-section .faq-items.active .faq-ques .faq-tog{
+    mask-position: center ,center -3rem ,center 50%;
+}
+#faq-section .faq-items .faq-ans{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0fr;
+  transition: .5s;
+}
+#faq-section .faq-items.active .faq-ans{
+  grid-template-rows: 1fr;
+  padding-top: 1.2rem;
+}
+#faq-section .faq-items .faq-ans .answer-items{
+    overflow: hidden;
+}
+#faq-section .faq-items .faq-ans p{
+  text-wrap: wrap;
+}

@@ -1,0 +1,141 @@
+#cta {
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+#template-section {
+    width: 80%;
+    height: 550px;
+    /* border: 1px solid black;     */
+    position: relative;
+}
+
+@media (width < 600px) {
+    #template-section {
+        width: 50%;
+        height: 500px;
+        margin-top: 100px;
+        /* border: 1px solid black;     */
+    }
+}
+
+#template-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    isolation: isolate;
+    scale: 0.7;
+}
+
+#template-box::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    min-width: 500px;
+    max-width: 100vw;
+    aspect-ratio: 1;
+    background: url(../images/cta/cta-bg-shape.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -9;
+    transform: translateX(-50%) translateY(-40%);
+
+}
+
+.templates {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transition: all .5s;
+    border: 0px solid black;
+    border-radius: 0px;
+    width: 240px;
+    aspect-ratio: 600/1202.67;
+}
+
+[data-theme-style="dark"] .templates::after {
+    background-image: url(../images/cta/mobile-frame-dark.svg);
+}
+
+.templates::before {
+    content: "";
+    position: absolute;
+    top: 2%;
+    left: 7%;
+    width: 87%;
+    height: 95%;
+    z-index: -1;
+    border-radius: 30px 30px 20px 20px;
+    background-image: var(--bg-img);
+    background-size: 100% auto;
+    background-position-y: var(--pos, initial);
+    transition: var(--tans, 1s);
+}
+
+.templates::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/cta/mobile-frame.svg);
+    background-size: 100% auto;
+}
+
+.templates:nth-child(1) {
+    bottom: 10%;
+    left: 10%;
+    transform: translateX(-50%) scale(1);
+    --bg-img: url(../images/cta/photographer.jpg);
+    z-index: -1;
+}
+
+.templates:nth-child(2) {
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%) scale(1.1);
+    --bg-img: url(../images/cta/visual-designer.jpg);
+    z-index: 2;
+}
+
+.templates:nth-child(3) {
+    bottom: 10%;
+    left: 90%;
+    transform: translateX(-50%) scale(1);
+    --bg-img: url(../images/cta/senior-designer.jpg);
+    z-index: -1;
+}
+
+
+
+/* CSS */
+.custom-btn-2 {
+    background-color: #1e293b;
+    color: white;
+    transition: .5s;
+    padding: 6px 30px;
+    border-radius: 1.5rem;
+}
+
+.custom-btn-2:hover {
+    background-color: white;
+    text-decoration: none;
+    color: #0d172a;
+}
+
+.custom-btn {
+    outline: 2px solid #1e293b;
+    border-radius: 1.5rem;
+    padding: 3px 30px;
+    transition: .5s;
+}
+
+.custom-btn:hover {
+    background-color: #1e293b;
+    color: white;
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+}

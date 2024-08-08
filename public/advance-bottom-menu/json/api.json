@@ -1,0 +1,583 @@
+[
+    {
+        "id": "biz15",
+        "style": "circle",
+        "add_custom_css" : [
+            {
+                "name" : "Advance Bottom Menu",
+                "src" : "../advance-bottom-menu/css/style.css"
+            },
+            {
+                "name" : "Font Awesome",
+                "src" : "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            },
+            {
+                "name" : "Bootstrap",
+                "src" : "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+            }
+        ],
+        "add_custom_script" : [],
+        "main_icon_position": {
+            "left": "30px",
+            "right": "auto",
+            "top": "auto",
+            "bottom": "30px",
+            "rotate": "0deg"
+        },
+        "main_icon_animation": {
+            "animation_name" : "bounce",
+            "animation_color" : "hsl(10, 98%, 50%)",
+            "animation_range" : 3,
+            "animation_speed" : 1000
+        },
+        "icon_style": {
+            "width": "50px",
+            "height": "50px",
+            "mini_icons_width": "45px",
+            "mini_icons_height": "45px",
+            "main_icons_offset_x": "40px",
+            "main_icons_offset_y": "-40px",
+            "main_icons_on_open_font" : false,
+            "main_icons_on_close_font" : false,
+            "main_color": "white",
+            "main_background": "url('../images/onclick-icon.png') hsl(10, 98%, 50%)",
+            "main_border": "0px solid white",
+            "mini_border": "0px solid white",
+            "main_border_radius": "50%",
+            "mini_border_radius": "50%",
+            "transition_speed": 500,
+            "transition_style": "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+            "mini_icons_offset": "70px",
+            "mini_tooltip_bg": "black",
+            "mini_tooltip_color": "white",
+            "mini_tooltip_font_size": "14px",
+            "set_attribute": [
+                {
+                    "name": "data-option",
+                    "value": "option"
+                }
+            ]
+        },
+        "icons_order": [
+            {
+                "order": 1,
+                "name": "Call",
+                "bg": "blue",
+                "font_icon_class": "bi bi-headset",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#call-link"
+                    }
+                ]
+            },
+            {
+                "order": 2,
+                "name": "Whatsapp",
+                "bg": "green",
+                "font_icon_class": "fa-brands fa-whatsapp",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "onclick",
+                        "value": "msgBox()"
+                    }
+                ]
+            },
+            {
+                "order": 3,
+                "name": "Form",
+                "bg": "red",
+                "font_icon_class": "fa-solid fa-pen-clip",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#form"
+                    },
+                    {
+                        "name": "id",
+                        "value": "form_id"
+                    },
+                    {
+                        "name": "data-form-open",
+                        "value": "https://biz15.com/myweb/forms/wtl/9e2a64ce2c650c736074b611d2f73886"
+                    }
+                ]
+            },
+            {
+                "order": 4,
+                "name": "V-Card",
+                "bg": "orange",
+                "font_icon_class": "fa-solid fa-address-card",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#v_card"
+                    }
+                ]
+            },
+            {
+                "order": 5,
+                "name": "QR Code",
+                "bg": "black",
+                "font_icon_class": "fa-solid fa-qrcode",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "border_radius": "20%",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#qr_code"
+                    },
+                    {
+                        "name": "data-open-qr-code",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "id_two",
+        "style": "circle",
+        "add_custom_css" : [
+            {
+                "name" : "Advance Bottom Menu",
+                "src" : "./css/style.css"
+            },
+            {
+                "name" : "Font Awesome",
+                "src" : "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            },
+            {
+                "name" : "Bootstrap",
+                "src" : "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+            }
+        ],
+        "add_custom_script" : [],
+        "main_icon_position": {
+            "left": "calc(50% - 25px)",
+            "right": "auto",
+            "top": "auto",
+            "bottom": "30px",
+            "rotate": "40deg"
+        },
+        "main_icon_animation": {
+            "animation_name" : "bounce",
+            "animation_color" : "hsl(10, 98%, 50%)",
+            "animation_range" : 2,
+            "animation_speed" : 1000
+        },
+        "icon_style": {
+            "width": "50px",
+            "height": "50px",
+            "mini_icons_width": "45px",
+            "mini_icons_height": "45px",
+            "main_icons_offset_x": "0px",
+            "main_icons_offset_y": "-40px",
+            "main_icons_on_open_font" : false,
+            "main_icons_on_close_font" : false,
+            "main_color": "white",
+            "main_background": "url('../images/onclick-icon.png') hsl(10, 98%, 50%)",
+            "main_background_close": "url('../images/onclose-icon.png') hsl(10, 98%, 50%)",
+            "main_border": "0px solid white",
+            "mini_border": "0px solid white",
+            "main_border_radius": "50%",
+            "mini_border_radius": "50%",
+            "transition_speed": 500,
+            "transition_style": "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+            "mini_icons_offset": "70px",
+            "mini_tooltip_bg": "black",
+            "mini_tooltip_color": "white",
+            "mini_tooltip_font_size": "14px",
+            "set_attribute": [
+                {
+                    "name": "data-option",
+                    "value": "option"
+                }
+            ]
+        },
+        "icons_order": [
+            {
+                "order": 5,
+                "name": "Call",
+                "bg": "blue",
+                "font_icon_class": "bi bi-headset",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#call-link"
+                    }
+                ]
+            },
+            {
+                "order": 4,
+                "name": "Whatsapp",
+                "bg": "green",
+                "font_icon_class": "fa-brands fa-whatsapp",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#whatsapp-link"
+                    }
+                ]
+            },
+            {
+                "order": 3,
+                "name": "Form",
+                "bg": "red",
+                "font_icon_class": "fa-solid fa-pen-clip",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#form"
+                    },
+                    {
+                        "name": "id",
+                        "value": "form_id"
+                    },
+                    {
+                        "name": "data-form-open",
+                        "value": "https://biz15.com/myweb/forms/wtl/9e2a64ce2c650c736074b611d2f73886"
+                    }
+                ]
+            },
+            {
+                "order": 2,
+                "name": "V-Card",
+                "bg": "orange",
+                "font_icon_class": "fa-solid fa-address-card",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#v_card"
+                    }
+                ]
+            },
+            {
+                "order": 1,
+                "name": "QR Code",
+                "bg": "black",
+                "font_icon_class": "fa-solid fa-qrcode",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#qr_code"
+                    },
+                    {
+                        "name": "data-open-qr-code",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "id_three",
+        "style": "line",
+        "add_custom_css" : [
+            {
+                "name" : "Advance Bottom Menu",
+                "src" : "/advance-bottom-menu/css/style.css"
+            }
+        ],
+        "add_custom_script" : [],
+        "main_icon_position": {
+            "left": "15px",
+            "right": "auto",
+            "top": "auto",
+            "bottom": "30px",
+            "rotate": "0deg"
+        },
+        "main_icon_animation": {
+            "animation_name" : "bounce",
+            "animation_color" : "hsl(0, 75%, 45%)",
+            "animation_range" : 2,
+            "animation_speed" : 1000
+        },
+        "icon_style": {
+            "width": "50px",
+            "height": "50px",
+            "mini_icons_width": "45px",
+            "mini_icons_height": "45px",
+            "main_icons_offset_x": "0px",
+            "main_icons_offset_y": "0px",
+            "font_family" : "",
+            "main_icons_on_open_font" : "white",
+            "main_icons_on_close_font" : "white",
+            "mask_svg_on" : "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMTQgMTQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik0zIDdWNC4zN0EzLjkzIDMuOTMgMCAwIDEgNyAuNWgwYTMuOTMgMy45MyAwIDAgMSA0IDMuODdWN00xLjUgNS41aDFBLjUuNSAwIDAgMSAzIDZ2M2EuNS41IDAgMCAxLS41LjVoLTFhMSAxIDAgMCAxLTEtMXYtMmExIDEgMCAwIDEgMS0xWm0xMSA0aC0xQS41LjUgMCAwIDEgMTEgOVY2YS41LjUgMCAwIDEgLjUtLjVoMWExIDEgMCAwIDEgMSAxdjJhMSAxIDAgMCAxLTEgMVpNOSAxMi4yNWEyIDIgMCAwIDAgMi0yaDBWOG0tMiA0LjI1YTEuMjUgMS4yNSAwIDAgMS0xLjI1IDEuMjVoLTEuNWExLjI1IDEuMjUgMCAwIDEgMC0yLjVoMS41QTEuMjUgMS4yNSAwIDAgMSA5IDEyLjI1WiIvPjwvc3ZnPg==)",
+            "mask_svg_close" : "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTEyIDEzLjRsLTQuOSA0LjlxLS4yNzUuMjc1LS43LjI3NXQtLjctLjI3NXEtLjI3NS0uMjc1LS4yNzUtLjd0LjI3NS0uN2w0LjktNC45bC00LjktNC45cS0uMjc1LS4yNzUtLjI3NS0uN3QuMjc1LS43cS4yNzUtLjI3NS43LS4yNzV0LjcuMjc1bDQuOSA0LjlsNC45LTQuOXEuMjc1LS4yNzUuNy0uMjc1dC43LjI3NXEuMjc1LjI3NS4yNzUuN3QtLjI3NS43TDEzLjQgMTJsNC45IDQuOXEuMjc1LjI3NS4yNzUuN3QtLjI3NS43cS0uMjc1LjI3NS0uNy4yNzV0LS43LS4yNzV6Ii8+PC9zdmc+)",
+            "main_color": "white",
+            "main_background": "hsl(0, 75%, 45%)",
+            "main_border": "0px solid white",
+            "main_border_radius": "50%",
+            "mini_border_radius": "50%",
+            "transition_speed": 500,
+            "transition_style": "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+            "mini_icons_offset": "-60px",
+            "mini_tooltip_bg": "black",
+            "mini_tooltip_color": "white",
+            "mini_tooltip_font_size": "14px",
+            "set_attribute": [
+                {
+                    "name": "data-option",
+                    "value": "option"
+                }
+            ]
+        },
+        "icons_order": [
+            {
+                "order": 1,
+                "name": "Call",
+                "bg": "hsl(200, 75%, 40%)",
+                "mask_svg" : "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggc3Ryb2tlLWRhc2hhcnJheT0iNjQiIHN0cm9rZS1kYXNob2Zmc2V0PSI2NCIgZD0iTTggM0M4LjUgMyAxMC41IDcuNSAxMC41IDhDMTAuNSA5IDkgMTAgOC41IDExQzggMTIgOSAxMyAxMCAxNEMxMC4zOTQzIDE0LjM5NDMgMTIgMTYgMTMgMTUuNUMxNCAxNSAxNSAxMy41IDE2IDEzLjVDMTYuNSAxMy41IDIxIDE1LjUgMjEgMTZDMjEgMTggMTkuNSAxOS41IDE4IDIwQzE2LjUgMjAuNSAxNS41IDIwLjUgMTMuNSAyMEMxMS41IDE5LjUgMTAgMTkgNy41IDE2LjVDNSAxNCA0LjUgMTIuNSA0IDEwLjVDMy41IDguNSAzLjUgNy41IDQgNkM0LjUgNC41IDYgMyA4IDNaIj48YW5pbWF0ZSBmaWxsPSJmcmVlemUiIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS1kYXNob2Zmc2V0IiBkdXI9IjAuNnMiIHZhbHVlcz0iNjQ7MCIvPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgYmVnaW49IjAuNnM7bGluZU1kUGhvbmVDYWxsTG9vcDAuYmVnaW4rMi42cyIgZHVyPSIwLjVzIiB0eXBlPSJyb3RhdGUiIHZhbHVlcz0iMCAxMiAxMjsxNSAxMiAxMjswIDEyIDEyOy0xMiAxMiAxMjswIDEyIDEyOzEyIDEyIDEyOzAgMTIgMTI7LTE1IDEyIDEyOzAgMTIgMTIiLz48L3BhdGg+PHBhdGggc3Ryb2tlLWRhc2hhcnJheT0iNCIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjQiIGQ9Ik0xNCA3LjA0NDA0QzE0LjY2MDggNy4zNDczNCAxNS4yNTcxIDcuNzY3MTggMTUuNzYyNCA4LjI3NzIzTTE2Ljk1NiAxMEMxNi42NjA2IDkuMzU2MzYgMTYuMjU0NiA4Ljc3NDAxIDE1Ljc2MjQgOC4yNzcyMyIgb3BhY2l0eT0iMCI+PHNldCBpZD0ibGluZU1kUGhvbmVDYWxsTG9vcDAiIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIGJlZ2luPSIwLjdzO2xpbmVNZFBob25lQ2FsbExvb3AwLmJlZ2luKzIuN3MiIHRvPSIxIi8+PGFuaW1hdGUgZmlsbD0iZnJlZXplIiBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaG9mZnNldCIgYmVnaW49IjAuN3M7bGluZU1kUGhvbmVDYWxsTG9vcDAuYmVnaW4rMi43cyIgZHVyPSIwLjJzIiB2YWx1ZXM9IjQ7OCIvPjxhbmltYXRlIGZpbGw9ImZyZWV6ZSIgYXR0cmlidXRlTmFtZT0ic3Ryb2tlLWRhc2hvZmZzZXQiIGJlZ2luPSIxLjNzO2xpbmVNZFBob25lQ2FsbExvb3AwLmJlZ2luKzMuM3MiIGR1cj0iMC4zcyIgdmFsdWVzPSIwOzQiLz48c2V0IGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIGJlZ2luPSIxLjZzO2xpbmVNZFBob25lQ2FsbExvb3AwLmJlZ2luKzMuNnMiIHRvPSIwIi8+PC9wYXRoPjxwYXRoIHN0cm9rZS1kYXNoYXJyYXk9IjEwIiBzdHJva2UtZGFzaG9mZnNldD0iMTAiIGQ9Ik0yMC43NDggOUMyMC4zODc0IDcuNTk5MjYgMTkuNjU3MSA2LjM0NyAxOC42NjcyIDUuMzUzNU0xNSAzLjI1MjAzQzE2LjQxMDUgMy42MTUwNyAxNy42NzA0IDQuMzUzMSAxOC42NjcyIDUuMzUzNSIgb3BhY2l0eT0iMCI+PHNldCBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiBiZWdpbj0iMXM7bGluZU1kUGhvbmVDYWxsTG9vcDAuYmVnaW4rM3MiIHRvPSIxIi8+PGFuaW1hdGUgZmlsbD0iZnJlZXplIiBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaG9mZnNldCIgYmVnaW49IjFzO2xpbmVNZFBob25lQ2FsbExvb3AwLmJlZ2luKzNzIiBkdXI9IjAuMnMiIHZhbHVlcz0iMTA7MjAiLz48YW5pbWF0ZSBmaWxsPSJmcmVlemUiIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS1kYXNob2Zmc2V0IiBiZWdpbj0iMS41cztsaW5lTWRQaG9uZUNhbGxMb29wMC5iZWdpbiszLjVzIiBkdXI9IjAuM3MiIHZhbHVlcz0iMDsxMCIvPjxzZXQgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgYmVnaW49IjEuOHM7bGluZU1kUGhvbmVDYWxsTG9vcDAuYmVnaW4rMy44cyIgdG89IjAiLz48L3BhdGg+PC9nPjwvc3ZnPg==)",
+                "font_icon_class": "",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "https://biz15.co/call"
+                    }
+                ]
+            },
+            {
+                "order": 2,
+                "name": "Whatsapp",
+                "bg": "green",
+                "font_icon_class": "",
+                "mask_svg" : "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE5LjA1IDQuOTFBOS44MTYgOS44MTYgMCAwIDAgMTIuMDQgMmMtNS40NiAwLTkuOTEgNC40NS05LjkxIDkuOTFjMCAxLjc1LjQ2IDMuNDUgMS4zMiA0Ljk1TDIuMDUgMjJsNS4yNS0xLjM4YzEuNDUuNzkgMy4wOCAxLjIxIDQuNzQgMS4yMWM1LjQ2IDAgOS45MS00LjQ1IDkuOTEtOS45MWMwLTIuNjUtMS4wMy01LjE0LTIuOS03LjAxbS03LjAxIDE1LjI0Yy0xLjQ4IDAtMi45My0uNC00LjItMS4xNWwtLjMtLjE4bC0zLjEyLjgybC44My0zLjA0bC0uMi0uMzFhOC4yNjQgOC4yNjQgMCAwIDEtMS4yNi00LjM4YzAtNC41NCAzLjctOC4yNCA4LjI0LTguMjRjMi4yIDAgNC4yNy44NiA1LjgyIDIuNDJhOC4xODMgOC4xODMgMCAwIDEgMi40MSA1LjgzYy4wMiA0LjU0LTMuNjggOC4yMy04LjIyIDguMjNtNC41Mi02LjE2Yy0uMjUtLjEyLTEuNDctLjcyLTEuNjktLjgxYy0uMjMtLjA4LS4zOS0uMTItLjU2LjEyYy0uMTcuMjUtLjY0LjgxLS43OC45N2MtLjE0LjE3LS4yOS4xOS0uNTQuMDZjLS4yNS0uMTItMS4wNS0uMzktMS45OS0xLjIzYy0uNzQtLjY2LTEuMjMtMS40Ny0xLjM4LTEuNzJjLS4xNC0uMjUtLjAyLS4zOC4xMS0uNTFjLjExLS4xMS4yNS0uMjkuMzctLjQzcy4xNy0uMjUuMjUtLjQxYy4wOC0uMTcuMDQtLjMxLS4wMi0uNDNzLS41Ni0xLjM0LS43Ni0xLjg0Yy0uMi0uNDgtLjQxLS40Mi0uNTYtLjQzaC0uNDhjLS4xNyAwLS40My4wNi0uNjYuMzFjLS4yMi4yNS0uODYuODUtLjg2IDIuMDdjMCAxLjIyLjg5IDIuNCAxLjAxIDIuNTZjLjEyLjE3IDEuNzUgMi42NyA0LjIzIDMuNzRjLjU5LjI2IDEuMDUuNDEgMS40MS41MmMuNTkuMTkgMS4xMy4xNiAxLjU2LjFjLjQ4LS4wNyAxLjQ3LS42IDEuNjctMS4xOGMuMjEtLjU4LjIxLTEuMDcuMTQtMS4xOHMtLjIyLS4xNi0uNDctLjI4Ii8+PC9zdmc+)",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "onclick",
+                        "value": "msgBox()"
+                    },
+                    {
+                        "name": "href",
+                        "value": "#whatsapp-chat"
+                    }
+                ]
+            },
+            {
+                "order": 3,
+                "name": "Form",
+                "bg": "red",
+                "font_icon_class": "",
+                "mask_svg" : "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggc3Ryb2tlLWRhc2hhcnJheT0iNTYiIHN0cm9rZS1kYXNob2Zmc2V0PSI1NiIgZD0iTTMgMjFMNC45OTk5OCAxNUwxNiA0QzE3IDMgMTkgMyAyMCA0QzIxIDUgMjEgNyAyMCA4TDguOTk5OTggMTlMMyAyMSI+PGFuaW1hdGUgZmlsbD0iZnJlZXplIiBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaG9mZnNldCIgZHVyPSIwLjZzIiB2YWx1ZXM9IjU2OzAiLz48L3BhdGg+PGcgc3Ryb2tlLWRhc2hhcnJheT0iNiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjYiPjxwYXRoIGQ9Ik0xNSA1TDE5IDkiPjxhbmltYXRlIGZpbGw9ImZyZWV6ZSIgYXR0cmlidXRlTmFtZT0ic3Ryb2tlLWRhc2hvZmZzZXQiIGJlZ2luPSIwLjZzIiBkdXI9IjAuMnMiIHZhbHVlcz0iNjswIi8+PC9wYXRoPjxwYXRoIHN0cm9rZS13aWR0aD0iMSIgZD0iTTYgMTVMOSAxOCI+PGFuaW1hdGUgZmlsbD0iZnJlZXplIiBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaG9mZnNldCIgYmVnaW49IjAuNnMiIGR1cj0iMC4ycyIgdmFsdWVzPSI2OzAiLz48L3BhdGg+PC9nPjwvZz48L3N2Zz4=)",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#form"
+                    },
+                    {
+                        "name": "id",
+                        "value": "form_id"
+                    },
+                    {
+                        "name": "onclick",
+                        "value": "togglePopUpForm()"
+                    }
+                ]
+            },
+            {
+                "order": 4,
+                "name": "V-Card",
+                "bg": "orange",
+                "font_icon_class": "",
+                "mask_svg" : "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIyIDNIMmMtMS4wOS4wNC0xLjk2LjkxLTIgMnYxNGMuMDQgMS4wOS45MSAxLjk2IDIgMmgyMGMxLjA5LS4wNCAxLjk2LS45MSAyLTJWNWEyLjA3NCAyLjA3NCAwIDAgMC0yLTJtMCAxNkgyVjVoMjB6bS04LTJ2LTEuMjVjMC0xLjY2LTMuMzQtMi41LTUtMi41Yy0xLjY2IDAtNSAuODQtNSAyLjVWMTd6TTkgN2EyLjUgMi41IDAgMCAwLTIuNSAyLjVBMi41IDIuNSAwIDAgMCA5IDEyYTIuNSAyLjUgMCAwIDAgMi41LTIuNUEyLjUgMi41IDAgMCAwIDkgN201IDB2MWg2Vjd6bTAgMnYxaDZWOXptMCAydjFoNHYtMXoiLz48L3N2Zz4=)",
+                "icon_font_color": "white",
+                "icon_font_size": "30px",
+                "border": "0px solid black",
+                "box_shadow" : "",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "https://biz15.co/v-card-m"
+                    }
+                ]
+            },
+            {
+                "order": 5,
+                "name": "Scan and Pay",
+                "bg": "black",
+                "font_icon_class": "",
+                "mask_svg" : "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxLjI1ZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgNjQwIDUxMiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTA1LjcyIDIxNXY0MS4yNWg1Ny4xYTQ5LjY2IDQ5LjY2IDAgMCAxLTIxLjE0IDMyLjZjLTkuNTQgNi41NS0yMS43MiAxMC4yOC0zNiAxMC4yOGMtMjcuNiAwLTUwLjkzLTE4LjkxLTU5LjMtNDQuMjJhNjUuNjEgNjUuNjEgMCAwIDEgMC00MWM4LjM3LTI1LjQ2IDMxLjctNDQuMzcgNTkuMy00NC4zN2E1Ni40MyA1Ni40MyAwIDAgMSA0MC41MSAxNi4wOEwxNzYuNDcgMTU1YTEwMS4yNCAxMDEuMjQgMCAwIDAtNzAuNzUtMjcuODRhMTA1LjU1IDEwNS41NSAwIDAgMC05NC4zOCA1OS4xMWExMDcuNjQgMTA3LjY0IDAgMCAwIDAgOTYuMTh2LjE1YTEwNS40MSAxMDUuNDEgMCAwIDAgOTQuMzggNTljMjguNDcgMCA1Mi41NS05LjUzIDcwLTI1LjkxYzIwLTE4LjYxIDMxLjQxLTQ2LjE1IDMxLjQxLTc4LjkxYTEzMy43NiAxMzMuNzYgMCAwIDAtMS43NS0yMS43OFptMzg5LjQxLTRjLTEwLjEzLTkuMzgtMjMuOTMtMTQuMTQtNDEuMzktMTQuMTRjLTIyLjQ2IDAtMzkuMzQgOC4zNC01MC41IDI0Ljg2bDIwLjg1IDEzLjI2cTExLjQ1LTE3IDMxLjI2LTE3YTM0LjA1IDM0LjA1IDAgMCAxIDIyLjc1IDguNzlhMjguMTQgMjguMTQgMCAwIDEgOS42OSAyMS4yM3Y1LjUxYy05LjEtNS4wNy0yMC41NS03Ljc1LTM0LjY0LTcuNzVjLTE2LjQ0IDAtMjkuNjUgMy44OC0zOS40OSAxMS43N3MtMTQuODIgMTguMzEtMTQuODIgMzEuNTZhMzkuNzQgMzkuNzQgMCAwIDAgMTMuOTQgMzEuMjdjOS4yNSA4LjM0IDIxIDEyLjUxIDM0Ljc5IDEyLjUxYzE2LjI5IDAgMjkuMjEtNy4zIDM5LTIxLjg5aDF2MTcuNzJoMjIuNjFWMjUwYy4wNy0xNi41NS00LjkyLTI5LjY2LTE1LjA1LTM5bS0xOS4yMyA4OS4zYTM3LjMyIDM3LjMyIDAgMCAxLTI2LjU3IDExLjE2YTI4LjYxIDI4LjYxIDAgMCAxLTE4LjMzLTYuMjVhMTkuNDEgMTkuNDEgMCAwIDEtNy43Ny0xNS42M2MwLTcgMy4yMi0xMi44MSA5LjU0LTE3LjQyczE0LjUzLTcgMjQuMDctN2MxMy4xNi0uMTYgMjMuNDYgMi44NCAzMC44IDguNzhjMCAxMC4xMy0zLjk2IDE4LjkxLTExLjc0IDI2LjM2bS05My42NS0xNDJhNTUuNzEgNTUuNzEgMCAwIDAtNDAuNTEtMTYuM2gtNjIuNjd2MTg2Ljc0aDIzLjYzVjI1My4xaDM5YzE2IDAgMjkuNS01LjM2IDQwLjUxLTE1LjkzYy44OC0uODkgMS43Ni0xLjc5IDIuNjUtMi42OGE1NC40NSA1NC40NSAwIDAgMC0yLjYxLTc2LjIzWm0tMTYuNTggNjIuMjNhMzAuNjUgMzAuNjUgMCAwIDEtMjMuMzQgOS42OEgzMDIuN1YxNjVoMzkuNjNhMzIgMzIgMCAwIDEgMjIuNiA5LjIzYTMzLjE4IDMzLjE4IDAgMCAxIC43NCA0Ni4yNlpNNjE0LjMxIDIwMWwtMzYuNTQgOTEuN2gtLjQ1TDUzOS45IDIwMWgtMjUuNjlMNTY2IDMyMC41NWwtMjkuMzUgNjQuMzJINTYxTDY0MCAyMDFaIi8+PC9zdmc+)",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#qr_code"
+                    },
+                    {
+                        "name": "data-open-qr-code",
+                        "value": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "id_four",
+        "style": "line",
+        "add_custom_css" : [
+            {
+                "name" : "Advance Bottom Menu",
+                "src" : "./css/style.css"
+            },
+            {
+                "name" : "bootstrap",
+                "src" : "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+            }
+        ],
+        "add_custom_script" : [],
+        "main_icon_position": {
+            "left": "auto",
+            "right": "30px",
+            "top": "50px",
+            "bottom": "auto",
+            "rotate": "0deg"
+        },
+        "main_icon_animation": {
+            "animation_name" : "bounce",
+            "animation_color" : "hsl(10, 98%, 50%)",
+            "animation_range" : 2,
+            "animation_speed" : 1000
+        },
+        "icon_style": {
+            "width": "50px",
+            "height": "50px",
+            "mini_icons_width": "45px",
+            "mini_icons_height": "45px",
+            "main_icons_offset_x": "0px",
+            "main_icons_offset_y": "0px",
+            "font_family" : "bootstrap-icons",
+            "main_icons_on_open_font" : "F414",
+            "main_icons_on_close_font" : "F62A",
+            "main_color": "white",
+            "main_background": "hsl(10, 98%, 50%)",
+            "main_border": "0px solid white",
+            "main_border_radius": "50%",
+            "mini_border_radius": "50%",
+            "transition_speed": 500,
+            "transition_style": "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+            "mini_icons_offset": "60px",
+            "mini_tooltip_bg": "black",
+            "mini_tooltip_color": "white",
+            "mini_tooltip_font_size": "14px",
+            "set_attribute": [
+                {
+                    "name": "data-option",
+                    "value": "option"
+                }
+            ]
+        },
+        "icons_order": [
+            {
+                "order": 1,
+                "name": "Call",
+                "bg": "hsl(207, 100%, 95%)",
+                "font_icon_class": "bi bi-telephone-fill",
+                "icon_font_color": "blue",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#call-link"
+                    }
+                ]
+            },
+            {
+                "order": 2,
+                "name": "Whatsapp",
+                "bg": "green",
+                "font_icon_class": "bi bi-whatsapp",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#whatsapp-link"
+                    }
+                ]
+            },
+            {
+                "order": 3,
+                "name": "Form",
+                "bg": "red",
+                "font_icon_class": "bi bi-pen-fill",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#form"
+                    },
+                    {
+                        "name": "id",
+                        "value": "form_id"
+                    },
+                    {
+                        "name": "data-form-open",
+                        "value": "https://biz15.com/myweb/forms/wtl/9e2a64ce2c650c736074b611d2f73886"
+                    }
+                ]
+            },
+            {
+                "order": 4,
+                "name": "V-Card",
+                "bg": "white",
+                "font_icon_class": "bi bi-person-vcard-fill",
+                "icon_font_color": "orange",
+                "icon_font_size": "30px",
+                "border": "0px solid black",
+                "box_shadow" : "0 0 10px hsla(0, 0%, 0%, .2)",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#v_card"
+                    }
+                ]
+            },
+            {
+                "order": 5,
+                "name": "QR Code",
+                "bg": "black",
+                "font_icon_class": "bi bi-qr-code-scan",
+                "icon_font_color": "white",
+                "icon_font_size": "20px",
+                "set_attribute": [
+                    {
+                        "name": "href",
+                        "value": "#qr_code"
+                    },
+                    {
+                        "name": "data-open-qr-code",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png"
+                    }
+                ]
+            }
+        ]
+    }
+]
