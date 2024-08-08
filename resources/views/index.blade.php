@@ -192,22 +192,24 @@
                 <nav>
                     <ul class="tab_card">
                         <li>We Provide Complete:</li>
-                        <li>
-                            <div style="background: #ffe8ea;color: #ef3305;"class="open" data-tab="tab01">Digital
-                                Marketing</div>
-                        </li>
-                        <li>
-                            <div style="background: #eaffe8;color: #1e5c09;" data-tab="tab02">Web Designs</div>
-                        </li>
-                        <li>
-                            <div style="background: #fff4e5;color: #704b22;" data-tab="tab03">Lead Generation</div>
-                        </li>
-                        <li>
-                            <div style="background: #dafffe;color: #2b6f7a;" data-tab="tab04">Graphics Designs</div>
-                        </li>
-                        <li>
-                            <div style="background: #f6e7fb;color: #580f76;" data-tab="tab05">Software & Apps</div>
-                        </li>
+                        <span class="mob_view">
+                            <li>
+                                <div style="background: #ffe8ea;color: #ef3305;"class="open" data-tab="tab01">Digital
+                                    Marketing</div>
+                            </li>
+                            <li>
+                                <div style="background: #eaffe8;color: #1e5c09;" data-tab="tab02">Web Designs</div>
+                            </li>
+                            <li>
+                                <div style="background: #fff4e5;color: #704b22;" data-tab="tab03">Lead Generation</div>
+                            </li>
+                            <li>
+                                <div style="background: #dafffe;color: #2b6f7a;" data-tab="tab04">Graphics Designs</div>
+                            </li>
+                            <li>
+                                <div style="background: #f6e7fb;color: #580f76;" data-tab="tab05">Software & Apps</div>
+                            </li>
+                        </span>
                     </ul>
                 </nav>
             </div>
@@ -693,7 +695,7 @@
 
     <!-- components for pratice codeing -->
     <div class="gap "
-        style="background-image: url(/assets/backgd.png);">
+        style="background-image: url(/assets/backgd.jpg);">
         <div class="container">
             <div class="code_assessment">
                 <div class="code_assessment_box">
@@ -816,7 +818,7 @@
             $(".code_assessment_details_box").hover(function() {
                 // Get the id of the hovered element
                 var id = $(this).attr("id");
-               // $('.code_assessment_details_box').css("background-color", "");
+               $('.code_assessment_details_box').css("background-color", "");
                 $(".code_assessment_details_box").removeClass("code_assessment_details_box_active");
                 $(this).addClass("code_assessment_details_box_active");
 
