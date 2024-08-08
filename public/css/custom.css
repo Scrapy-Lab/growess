@@ -2,10 +2,10 @@ body { font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helv
 .page_layout { position: relative; margin: 0 auto; /*max-width: 1184px; */ width: 100%; }
 .gap { margin-top: 120px; padding: 5px 0; }
 /* Styles for the login &sign up button */
-.header { padding: 0 20px; background: rgb(19 100 241 / 82%); padding: 0 20px; display: flex; align-items: center; justify-content: space-between; position: sticky; z-index: 4; top: 0; }
+.header { padding: 0 20px; background: rgb(19 100 241 / 38%); padding: 0 20px; display: flex; align-items: center; justify-content: space-between; position: sticky; z-index: 4; top: 0; }
 .rozarpay_logo { width: 220px; height: 80px; margin: 20px; }
 .header_login { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
-.header_log_button { color: #fff; min-height: 36px; font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 14px; font-weight: 700; text-decoration-line: none; line-height: 20px; cursor: pointer; padding: 0 20px; align-items: center; display: inline-flex; }
+.header_log_button { color: rgb(19, 100, 241); min-height: 36px; font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 14px; font-weight: 700; text-decoration-line: none; line-height: 20px; cursor: pointer; padding: 0 20px; align-items: center; display: inline-flex; }
 .header_sign_up { color: rgb(255, 255, 255); font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 16px; font-weight: 700; text-decoration-line: none; line-height: 20px; text-align: center; cursor: pointer; background-color: rgb(19, 100, 241); padding: 10px 20px; }
 .header_log_button:hover { background-color: rgb(199, 199, 193); }
 
@@ -203,7 +203,7 @@ li div { cursor: pointer; padding: 8px 18px; border-radius: 20px; font-family: L
 .right_container_text { width: 46%; height: 270px; }
 .level_up_title { display: flex; flex-wrap: wrap; font-size: 47px; line-height: 67px; font-weight: 600; font-family: Raleway,sans-serif; text-transform: capitalize; }
 .level_up_headlne { font-size: 18px; line-height: 20px; font-weight: 100; color: #fff; font-family: Raleway,sans-serif; }
-.level_up_category { padding-left: 0; color: #5a4b4b; display: flex; font-size: 16px; line-height: 20px; gap: 20px; font-weight: 100; margin: 20px 0; justify-content: space-between; font-weight: 700; }
+.level_up_category { padding-left: 0; color: #5a4b4b; display: flex; font-size: 16px; line-height: 20px; gap: 20px; font-weight: 100; margin: 20px 0; justify-content: space-between; font-weight: 700; white-space: nowrap; }
 .explore_courses { text-decoration: none; font-size: 19px; line-height: 32px; font-weight: 100; color: #fff; background: rgb(22, 103, 208); padding: 10px 20px; border-radius: 20px; font-family: Raleway,sans-serif; }
 
 /* company logo */
@@ -372,7 +372,7 @@ span.psw { float: right; padding-top: 16px; }
 
 .btn_color4 { background-color: rgb(199, 36, 29); }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   .footer_contains,   .footer_information,   .left_banner_text,   .menu_bar, .text-title { width: 100%; }
   .wrapper { position: relative; top: 0; }
   #image-container { width: 100%; margin: 40px 0; }
@@ -382,15 +382,36 @@ span.psw { float: right; padding-top: 16px; }
   .box_1 { margin: 20px 0; width: 100%; }
   .Button_box,   .code_assessment,   .code_assessment_details,   .company_banner,   .footer_container,   .level_up_container,   .list_card,   .mid_banner, .pop_up_box_card { display: block; }
   .about_client_stories_box_active, .code_assessment_details_box { width: 100%!important; margin: 20px 0; }
-  .explore_courses { text-align: center; margin: 20%; }
+  .explore_courses { text-align: center; margin: 0 20%; padding: 10px 12px; font-size: 17px; }
   .right_container_text { width: 100%; height: 100%; }
   .level_up_container>img { width: 100%; height: 100%; }
   .code_assessment_details_box { border-radius: 10px; }
-  .tab_nav { overflow: scroll; }
-  .footer_contains { margin: 40px 0; }
+  .tab_nav { overflow: scroll; white-space: nowrap; }
+  .footer_contains, .text-title { margin: 40px 0; }
   .model_pop-up,   .model_pop_up, .pop_up { width: 100%!important; }
   .footer_social_icon { text-align: center; }
   .footer_social_icon>img { margin: 0 10px; }
+  .menu_bar { width: 100%; display: flex; align-items: center; justify-content: space-between; align-content: center; gap: 10px; overflow: scroll; }
+  .menu_bar::-webkit-scrollbar { display: none; }
+  .tab_nav::-webkit-scrollbar { display: none; }
+  .mob_view::-webkit-scrollbar { display: none; }
+  .menuAds { white-space: nowrap; }
+  .list_card { padding: 0 12px; }
+  /* .level_up_category{    white-space: nowrap;} */
+  .gap { margin-top: 0; }
+  .card_title { margin: 20px 20px; }
+  nav>ul { padding-left: 0; }
+  li>div { margin-right: 0; }
+  .switches-container { width: 100%; }
+  .page_title { font-size: 42px; line-height: 52px; }
+  li { left: 0; }
+  .tab_card { display: flex; align-items: center; white-space: nowrap; }
+  .card_mode>ul { padding-left: 1rem; }
+  .level_up_category>ol { padding-left: 0; }
+  .level_up_category { font-size: 14px; gap: 30px; justify-content: space-around; }
+  .level_up_title { font-size: 34px; line-height: 44px; }
+  .mob_view { display: flex; align-items: center; align-content: center; overflow: scroll; white-space: nowrap; }
+  .grid>img { display: inline-block; height: auto; max-width: 100%; vertical-align: middle; }
 }
 
 
