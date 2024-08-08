@@ -181,7 +181,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
     <!-- Components for payment section -->
     <div class="gap">
         <div class="container">
