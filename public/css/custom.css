@@ -1,3 +1,53 @@
+.sliderMainContent .card img {
+    max-width: 100%;
+    max-height: 296px !important;
+    object-fit: cover;
+}
+.card_title h3 {
+    color: rgb(19, 38, 68);
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration-line: none;
+    line-height: 40px;
+}
+.card_title p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.sliderMainContent .cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .sliderMainContent .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .sliderMainContent  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .sliderMainContent  .carousel-inner {
+    padding: 1em;
+  }
+  .sliderMainContent .carousel-control-prev,
+  .sliderMainContent .carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.card.col-md-3 {
+    max-width: 23% !important;
+    width: 100%;
+}
+
+
 body { font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
 .page_layout { position: relative; margin: 0 auto; /*max-width: 1184px; */ width: 100%; }
 .gap { margin-top: 120px; padding: 5px 0; }
@@ -99,13 +149,25 @@ input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-out
 .model_pop_up img { width: 100px; height: 100px; margin-top: 10px; }
 .pop_up img { width: 136px; height: 96px; margin-top: 10px; }
 .model_pop-up img { width: 100px; height: 100px; margin-top: 10px; }
+.modal-body {
+    padding-top: 0;
+}
+.modal-lg, .modal-xl {
+    max-width: 60% !important;
+}
+.modal-content {
+    margin: 0% auto 0% auto !important;
+}
+.price_list input {
+    margin : 0 !important;
+}
 .pop_up:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); box-shadow: 2px 2px 10px 5px #d4d5d5; }
 .pop_up { transition: transform 0.8s; background: #f5d3a830; padding: 12px 0; margin: 15px; justify-items: center; cursor: pointer; display: flex; cursor: pointer; width: 28%!important; height: 196px; margin-top: 10px; flex-direction: column; align-content: space-around; align-items: center; border-radius: 20px; }
 .check_input { display: flex!important; justify-content: space-evenly!important; align-items: center!important; gap: 60px!important; }
 .modal_title { color: rgb(19, 38, 68); font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 21px; font-weight: 700; text-transform: capitalize; text-decoration-line: none; line-height: 40px; margin: 10px 0; }
 .input-container input[type="date"], .input-container input[type="text"] { -webkit-appearance: none; -moz-appearance: none; appearance: none; background: transparent; border: none; outline: none; box-shadow: none; }
 .input-container { display: flex; cursor: pointer; }
-.price_list { float: right; margin-top: 20px; background-color: #fff; padding: 36px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0; }
+.price_list { float: right; margin-top: 20px; background-color: #fff; padding: 7px 36px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0; }
 .input-container input { font-weight: 500; line-height: 26px; color: #c4c4c4; font-size: 15px; padding: 6px 15px; text-transform: uppercase; }
 .tooltip:hover .tooltiptext { visibility: visible; }
 .tooltip { position: relative; display: inline-block; border-bottom: 1px dotted #000; }
@@ -138,7 +200,7 @@ input[type=numbers]::-webkit-inner-spin-button, input[type=numbers]::-webkit-out
 .gridcard img { width: 360px; height: 630px; }
 .grid img:hover { -ms-transform: scale(1.06); -webkit-transform: scale(1.06); transform: scale(1.06); }
 .menu_bar { width: 20%; font-size: 16px; font-family: sans-serif; color: #5f6368; }
-.active { border-bottom: none; position: relative; color: #fff; background: #000!important; }
+.active { border-bottom: none; position: relative; color: #fff;  }
 .menuAds { background: #fff; display: flex; align-items: center; width: 40%; height: 14px; /* gap: 43px; */ cursor: pointer; padding: 18px 36px; margin: 22px 0; font-weight: 400; border: 1px solid #e8eaed; border-radius: 20px; box-sizing: content-box; }
 .text-title { width: 30%; }
 .headline { font-size: 38px; line-height: 48px; font-weight: 700; }
@@ -187,8 +249,14 @@ li div { cursor: pointer; padding: 8px 18px; border-radius: 20px; font-family: L
 .card_box_multiple { display: flex; align-items: center; justify-content: space-between; align-content: center; gap: 20px; overflow-x: scroll; overflow: scroll; }
 .card_box_multiple::-webkit-scrollbar { display: none; }
 .card_box1 { width: 288px; height: auto; position: relative; }
-.tab_nav { display: flex; align-items: center; }
-.tab_nav li { margin: 10px 20px; text-align: center; cursor: pointer; }
+.tab_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+}
+.tab_nav li { margin: 10px 0; text-align: center; cursor: pointer; }
 .tab_nav li.show { color: rgb(19, 100, 241); border-bottom: 2px solid rgb(19, 100, 241); font-weight: 600; }
 .contents { margin: 10px 10px; }
 .contents > div { display: none; transition: display 1s; }
@@ -364,13 +432,85 @@ span.psw { float: right; padding-top: 16px; }
 .quatation { display: flex; align-items: center; justify-content: space-around; align-content: center; border-top: 2px solid #000; }
 .total_amount .recommended_selected { box-shadow: 1px 1px 11px 6px #d5d9db; border-radius: 12px; width: 234px; padding: 10px; }
 
-.btn_color1 { background-color: rgb(242, 153, 0); }
+.btn_color1 {
+    background-color: rgb(242, 153, 0);
+    transition: .3s;
+}
+.btn_color1:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
 
-.btn_color2 { background-color: rgb(30, 142, 62); }
+.btn_color2 {
+    background-color: rgb(30, 142, 62);
+    transition: .3s;
+}
+.btn_color2:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
 
-.btn_color3 { background-color: rgb(22, 103, 208); }
+.btn_color3 {
+    background-color: rgb(22, 103, 208);
+    transition: .3s;
+}
+.btn_color3:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
 
-.btn_color4 { background-color: rgb(199, 36, 29); }
+.btn_color4 {
+    background-color: rgb(199, 36, 29);
+    transition: .3s;
+}
+.btn_color4:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
 
 @media only screen and (max-width: 576px) {
   .footer_contains,   .footer_information,   .left_banner_text,   .menu_bar, .text-title { width: 100%; }

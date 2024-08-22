@@ -233,6 +233,9 @@ p {
     /* scale: 1; */
 }
 
+
+
+
 @media (max-width : 800px) {
     #shape_shifting_shapes>div {
         scale: 1.4 !important;

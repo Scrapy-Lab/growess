@@ -2,7 +2,7 @@
     <div class="Button_box">
         <div class="box_1" style="background:#f7d7ae8a;">
             <img src="/assets/HraTYbtROn.gif" alt="My Logo" w="10" h="10" />
-            <div class="box_title">Website</div> 
+            <div class="box_title">Website</div>
             {{-- id="openOuterPopupBtn" onclick="openOuterPopup()" --}}
             <p class="box_headline">get instant quote</p>
             <button class="btn btn-primary rounded-pill" wire:click="sub_service(1)" data-bs-toggle="modal"
@@ -28,7 +28,7 @@
             <div class="box_title">E-Commerce Solution</div>
             <p class="box_headline">get instant quote</p>
             <button wire:click="sub_service(4)" data-bs-toggle="modal" data-bs-target="#modal_sub_services_soft"
-                class="btn btn-success rounded-pill" style="background: #288d0c">Create Quote</button> 
+                class="btn btn-success rounded-pill" style="background: #288d0c">Create Quote</button>
         </div>
         <div class="box_1" style="background:#bdebf8ab;">
             <img src="/assets/animation.gif" alt="My Logo" w="10" h="10" />
@@ -364,82 +364,82 @@
                                     <div style="margin:20px 0">
                                     <div class="service_charge">
                                         Our Service Charge (Rs.135p/day)</div>
-                                    <div class="price_list" >
-                                        <div style="font-size: 30px;font-weight:800;">Price Details </div>
-                                        <div style="border:0.2px solid #c4c4c4;"></div>
-                                        <div>
-                                            <div style="font-size: 20px;">
-                                                <span>Price -&nbsp;&nbsp;<span class="fa fa-shopping-bag"
-                                                    style="color:green"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
-                                                    <input type="text" placeholder=""
-                                                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
-                                                </span>
-                                            </div>
-                                            <div style=" font-size: 16px">
-                                                <span>Discount&nbsp;(5%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
-                                                    <input type="text" placeholder=""
-                                                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
-                                                </span>
-                                            </div>
-                                            <div style="font-size: 22px;font-weight:500">
-                                                <span>Total Amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
-                                                    <input type="text" placeholder=""
-                                                        style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
-                                                </span>
-                                            </div>
-                                            <div style="border:2px solid #000;"></div>
-                                                <div>
-                                                    <div style="font-size: 16px;">
-                                                        <span>with
-                                                            GST(18%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
-                                                            <input type="text" placeholder=""
-                                                                style="border: none;font-size: 16px;border: none;outline: none;background:none;width:40%" />
-                                                        </span>
-                                                    </div>
-                                                    <div style="font-size: 24px;font-weight:500">
-                                                        <span>Final Billing Amt.:&nbsp;&#8377;
-                                                             <input type="text" placeholder=""
-                                                                style="border: none;font-weight:700;font-size: 28px;border: none;outline: none;background:none;width:50%" />
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
-                                <div class="total_amount">
+                                {{-- <div class="total_amount">
                                     <div class="modal_title ">Total Amount</div>
                                     <div class="recommended_selected">
                                         <div class="price-title">
-                                            <span>Total Amount.&nbsp;:&nbsp;
+                                            <span>Total Amount.&nbsp;:&nbsp; --}}
                                                 {{-- <input type="text" placeholder=""
                                                     style="border: none;width: 48%;font-size: 21px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
 
-                                                {{ $amount }}
+                                                {{-- {{ $amount }}
                                             </span>
                                         </div>
                                         <div style="color: #000; font-size: 16px; font-weight: 700;">
                                             <span>Sub
-                                                Total. ₹{{ $amount }} x {{ $day }} :
+                                                Total. ₹{{ $amount }} x {{ $day }} : --}}
                                                 {{-- <input type="text" placeholder=""
                                                     style="border: none;width: 48%;font-size: 16px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
 
-                                                 {{ $amount * $day }}
+                                                 {{-- {{ $amount * $day }}
                                             </span>
                                         </div>
                                         <div style="font-size:16px;color:#000;font-weight:700;">Service
-                                            Charge&nbsp;&nbsp;&nbsp;:&nbsp;<span>
+                                            Charge&nbsp;&nbsp;&nbsp;:&nbsp;<span> --}}
                                                 {{-- <input type="text" placeholder=""
                                                     style="border: none;width: 48%;font-size: 16px;font-weight: 700;border: none;outline: none;" />
                                                 --}}
-                                                @if ($day)
+                                                {{-- @if ($day)
                                                     ₹{{ $service_charge * $day }}
                                                 @else
                                                     ₹{{ $service_charge }}
                                                 @endif
                                             </span>
+                                        </div>
+                                    </div>
+                                </div> --}}
+                            </div>
+                            <div class="price_list" >
+                                <div style="font-size: 23px;font-weight:800;">Price Details </div>
+                                <div style="border:0.2px solid #c4c4c4;"></div>
+                                <div>
+                                    <div style="font-size: 20px;">
+                                        <span>Price -&nbsp;&nbsp;<span class="fa fa-shopping-bag"
+                                            style="color:green"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+                                            <input type="text" placeholder=""
+                                                style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
+                                        </span>
+                                    </div>
+                                    <div style=" font-size: 16px ">
+                                        <span class="d-flex align-items-center">Discount&nbsp;(5%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+                                            <input type="text" placeholder=""
+                                                style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
+                                        </span>
+                                    </div>
+                                    <div style="font-size: 16px;font-weight:500">
+                                        <span class="d-flex align-items-center">Total Amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&#8377;
+                                            <input type="text" placeholder=""
+                                                style="border: none;font-size: 20px;border: none;outline: none;background:none;width:40%" />
+                                        </span>
+                                    </div>
+                                    <div style="border:2px solid #000;"></div>
+                                        <div>
+                                            <div style="font-size: 13px;">
+                                                <span class="d-flex align-items-center">with
+                                                    GST(18%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+                                                    <input type="text" placeholder=""
+                                                        style="border: none;font-size: 16px;border: none;outline: none;background:none;width:40%" />
+                                                </span>
+                                            </div>
+                                            <div style="font-size: 16px;font-weight:500">
+                                                <span class="d-flex align-items-center">Final Billing Amt.:&nbsp;&#8377;
+                                                     <input type="text" placeholder=""
+                                                        style="border: none;font-weight:700;font-size: 28px;border: none;outline: none;background:none;width:50%" />
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -463,8 +463,8 @@
                                         style="border: none;border: none;outline: none;" />
                                 </div>
                             </div> -->
-                    
-                
+
+
                 {{-- <div class="modal-footer">
                     <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back
                         to
