@@ -304,7 +304,7 @@
             </div>
             <p style="text-align:center;font-size: 22px;font-weight:700;color:#198754;margin:0px 0px;width:100%">You will save
                 &#8377;{{number_format($discountedAmount , 2 , '.' , ',')}} on this order</p>
-            <button class="btn btn-success mt-5 btn-lg">Get Quatation</button>
+            <button class="btn btn-success mt-5 btn-lg">Pay Now</button>
             <button class="btn btn-primary mt-5 btn-lg">Get Quatation</button>
             <div style="display: none">
 
