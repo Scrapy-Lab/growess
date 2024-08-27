@@ -68,6 +68,12 @@ class Website extends Component
     public $itemCount = 0;
     public $totalPrice = 0;
 
+
+    // User Details
+    public $name;
+    public $user_email;
+    public $phone;
+
     public function decrement_webPage()
     {
 
