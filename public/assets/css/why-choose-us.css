@@ -1,0 +1,111 @@
+#why-choose-us .fb-content {
+    column-gap: 2rem;
+    row-gap: 4rem;
+    /* flex-wrap: wrap; */
+}
+
+#why-choose-us .fb-content>div {
+    flex-grow: 0;
+    isolation: isolate;
+}
+
+#why-choose-us .fb-content .fb-items {
+    --clr: hsl(300, 76%, 50%);
+    border-radius: 100vw;
+    outline: 1px solid var(--clr);
+    outline-offset: 0.5rem;
+    position: relative;
+    gap: 0.75rem;
+    min-width: 150px;
+    min-height: 200px;
+    transition: .5s ease-in-out;
+}
+
+#why-choose-us .fb-content .fb-items::after,
+.fb-items::before {
+    content: "";
+    width: 50%;
+    border-radius: 100vw;
+    background-color: var(--clr);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(0%);
+    transition: .5s;
+}
+
+#why-choose-us .fb-content .fb-items::after {
+    bottom: calc(100% + 1.5rem);
+}
+
+#why-choose-us .fb-content .fb-items:hover:after {
+    transform: translateX(-100%) translateY(0%);
+}
+
+#why-choose-us .fb-content .fb-items::before {
+    top: calc(100% + 1.5rem);
+}
+
+#why-choose-us .fb-content .fb-items:hover::before {
+    transform: translateX(-0%) translateY(0%);
+}
+
+#why-choose-us .fb-content .fb-items .icon-box .icon {
+    font-size: 2.5em;
+    margin: 0;
+    color: white;
+    transition: .5s;
+}
+
+#why-choose-us .fb-content .fb-items .icon-box {
+    background-color: var(--clr);
+    border-radius: 100vw;
+    aspect-ratio: 1/1;
+    transition: .5s;
+}
+
+#why-choose-us .fb-content .fb-items .title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#why-choose-us .fb-content .fb-items .para {
+    font-size: 10px;
+    margin: 0;
+    color: hsl(0, 0%, 40%);
+}
+
+#why-choose-us .fb-items:hover {
+    background-color: var(--clr);
+}
+
+#why-choose-us .fb-items p {
+    transition: .5s;
+}
+
+#why-choose-us .fb-items h3 {
+    transition: .5s;
+}
+
+#why-choose-us .fb-items:hover p {
+    color: rgb(234, 234, 234) !important;
+}
+
+#why-choose-us .fb-items:hover h3 {
+    color: white !important;
+}
+
+#why-choose-us .fb-items:hover .icon-box {
+    background-color: white;
+}
+
+#why-choose-us .fb-items:hover .icon-box .icon {
+    color: var(--clr);
+}
+
+@media (width < 600px) {
+    #why-choose-us .fb-content .fb-items {
+        min-width: 90px;
+    }
+}

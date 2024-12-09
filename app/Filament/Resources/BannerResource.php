@@ -31,6 +31,8 @@ class BannerResource extends Resource
                     ->maxLength(255),
                 Forms\Components\FileUpload::make('image')
                     ->image()
+                    ->imageEditor()
+                    ->directory('banners')
                     ->required(),
                 Forms\Components\TextInput::make('highlight_text')
                     ->required()

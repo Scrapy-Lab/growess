@@ -1,0 +1,232 @@
+
+#main-banner{
+    width: 100%;
+    /* height: 100vh; */
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    background-image: url(../images/banner-only/background-svg) , linear-gradient(180deg, hsl(207, 90%, 50%) 3rem, hsl(208, 100%, 97%) 40%);
+    background-size: 700px auto ,cover;
+    background-position: left bottom , center;
+    background-repeat: no-repeat , repeat;
+    background-color: aliceblue;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    max-height: 900px;
+    perspective: 1000px;
+    --between-gap:50%;
+
+    /* radom colors */
+    --radom-clr-1:hsl(286, 99%, 50%);
+    --radom-clr-2:hsl(0, 100%, 60%);
+    --radom-clr-3:hsl(133, 100%, 40%);
+    --radom-clr-4:hsl(214, 100%, 50%);
+    --radom-clr-5:hsl(61, 100%, 40%);
+
+    --search-clr:hsl(237, 61%, 50%);
+
+    --grid-clr-items:hsl(286, 99%, 40%);
+    --grid-clr:hsl(286, 99%, 99%);
+    --grid-clr-2:hsl(286, 99%, 40%);
+    --grid-clr-3:hsl(286, 99%, 70%);
+    --grid-clr-4:hsl(286, 99%, 70%);
+
+
+    --card-clr:hsl(337, 100%, 40%);
+    --card-clr-2:hsl(337, 100%, 30%);
+
+    --svg-review-clr:hsl(0, 0%, 0%);
+    --svg-review-clr-2:hsl(214, 100%, 50%);
+    --svg-review-clr-3:whitesmoke;
+    
+}
+#main-banner .cos-svg {
+    height: max-content;
+    aspect-ratio: 900/621;
+    --svg-mob-clr-1:hsl(286, 99%, 45%);
+    --svg-mob-clr-2:hsl(286, 99%, 75%);
+}
+#main-banner .svg-text {
+    font-family: "Poppins", sans-serif;
+    fill: transparent;
+    font-size: 7rem;
+    stroke: hsl(237, 61%, 55%);
+    stroke-width: 2px;
+}
+/* COS ANIMATION */
+#svg-mob-platform{
+    transform: translateY(50px);
+    animation: svg-mob-platform 0.5s forwards ease-out;
+}
+@keyframes svg-mob-platform {
+    from{
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+#svg-mobile{
+    transform: translateY(700px);
+    animation: svg-mobile 0.5s forwards cubic-bezier(0.175, 0.885, 0.32, 1);
+}
+@keyframes svg-mobile {
+    from{
+        transform: translateY(700px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+#svg-search{
+    transform: scale(0) translateX(0px) translateY(400px);
+    animation: svg-search 1s forwards cubic-bezier(0.175, 0.885, 0.32, 1); 
+    animation-delay: 0.75s;
+    opacity: 0;
+}
+@keyframes svg-search {
+    0%{
+        opacity: 0;
+        transform: scale(0) translateX(0px) translateY(400px);
+    }
+    70%{
+       opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.3) translateX(-120px) translateY(0px);
+    }
+}
+#svg-grids{
+    transform: translateX(-500px) translateY(0px);
+    animation: svg-grids 0.5s forwards cubic-bezier(0.175, 0.885, 0.32, 1); 
+    animation-delay: 1.2s;
+}
+@keyframes svg-grids {
+    from{
+        transform: translateX(-500px) translateY(0px);
+    }
+    to{
+        transform: translateX(-25px) translateY(0px);
+    }
+}
+#svg-grid-boxes{
+    filter: drop-shadow(0 0 5px hsl(0, 0%, 0% , 0.1));
+}
+#svg-cards{
+    transform:translateX(200px) translateY(500px);
+    animation: svg-cards 0.5s forwards cubic-bezier(0.175, 0.885, 0.32, 1); 
+    animation-delay: 1.4s;
+    opacity: 0;
+}
+@keyframes svg-cards {
+    from{
+        transform:translateX(200px) translateY(500px);
+        opacity: 0;
+    }
+    to{
+        transform:translateX(0px) translateY(0px);
+        opacity: 1;
+    }
+}
+
+#svg-reviews{
+    transform: scale(0.4) translateX(200px) translateY(350px);
+    animation: svg-reviews 0.5s forwards cubic-bezier(0.175, 0.885, 0.32, 1); 
+    animation-delay: 1.7s;
+    opacity: 0;
+}
+@keyframes svg-reviews {
+    from{
+        transform: scale(0.4) translateX(200px) translateY(350px);transform:translateX(200px) translateY(500px);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1) translateX(0px) translateY(0px);
+        opacity: 1;
+    }
+}
+#svg-products path{
+    fill: var(--clr);
+    stroke: black;
+    stroke-width: 1px;
+}
+#svg-products path:nth-child(1){
+    --clr: var(--radom-clr-1);
+    animation: switch-colors-1 10s linear infinite;
+}
+#svg-products path:nth-child(2){
+    --clr: var(--radom-clr-2);
+    animation: switch-colors-2 10s linear infinite;
+}
+#svg-products path:nth-child(3){
+    --clr: var(--radom-clr-3);
+    animation: switch-colors-3 10s linear infinite;
+}
+#svg-products path:nth-child(4){
+    --clr: var(--radom-clr-4);
+    animation: switch-colors-4 10s linear infinite;
+}
+#svg-products path:nth-child(5){
+    --clr: var(--radom-clr-5);
+    animation: switch-colors-5 10s linear infinite;
+}
+@keyframes switch-colors-1 {
+    0% , 20%{  stroke: black;  opacity: 1;}
+    21% , 100%{  stroke: transparent; opacity: 0.3;}
+}
+@keyframes switch-colors-2 {
+    0% , 20%{  stroke: transparent; opacity: 0.3;}
+    21% , 40%{  stroke: black;  opacity: 1;}
+    41% , 100%{  stroke: transparent; opacity: 0.3;}
+}
+@keyframes switch-colors-3 {
+    0% , 40%{  stroke: transparent; opacity: 0.3;}
+    41% , 60%{  stroke: black;  opacity: 1;}
+    61% , 100%{  stroke: transparent; opacity: 0.3;}
+}
+@keyframes switch-colors-4 {
+    0% , 60%{  stroke: transparent; opacity: 0.3;}
+    61% , 80%{  stroke: black;  opacity: 1;}
+    81% , 100%{  stroke: transparent; opacity: 0.3;}
+}
+@keyframes switch-colors-5 {
+    0% , 80%{  stroke: transparent; opacity: 0.3;}
+    81% , 100%{  stroke: black;  opacity: 1;}
+}
+#products-clr{
+    --svg-mob-clr-1:hsl(286, 99%, 45%);
+    --svg-mob-clr-2:hsl(286, 99%, 75%);
+    animation: switch-all-clr 10s infinite linear;
+}
+@keyframes switch-all-clr {
+    0% , 20%{--svg-mob-clr-1:var(--radom-clr-1);}
+    21% , 40%{--svg-mob-clr-1:var(--radom-clr-2);}
+    41% , 60%{--svg-mob-clr-1:var(--radom-clr-3);}
+    61% , 80%{--svg-mob-clr-1:var(--radom-clr-4);}
+    81% , 100%{--svg-mob-clr-1:var(--radom-clr-5);}
+}
+
+
+#main-banner .main-title h1{
+    font-size:4rem;
+}
+@media (width < 700px) {
+    #main-banner .main-title h1{
+        font-size:3rem;
+    }
+}
+#main-banner .svg-text {
+    font-family: "Poppins", sans-serif;
+    fill: transparent;
+    font-size: 7rem;
+    stroke: black;
+    stroke-width: 2px;
+    stroke-dasharray: 400px;
+    stroke-dashoffset:400px;
+    animation: write-text 3s 2s ease-in forwards;
+}
+@keyframes write-text {
+    80%{stroke-dashoffset: 0px;}
+    100%{stroke-dashoffset: 0px; fill: black;}
+}
